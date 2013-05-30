@@ -1,0 +1,8 @@
+RewriteEngine on
+RewriteBase /ZuiBo/
+RewriteRule !\.(js|ico|gif|GIF|jpg|png|css|xml|htm|html|swf|rar|zip|txt|msi|exe|sql|gz)$ index.php
+RewriteRule detail/(.+).html$ /ZuiBo/detail?tid=$1
+RewriteRule introduce/(.+)/(.+).html$  /ZuiBo/introduce?kind=$1&kind3=$2
+RewriteRule introduce/k(.+).html$  /ZuiBo/introduce?kind=$1
+RewriteRule info/(.+)/(.+).html$  /ZuiBo/info?kind3=$1&no=$2
+RewriteRule article/ar(.+).html$  /ZuiBo/article?no=$1

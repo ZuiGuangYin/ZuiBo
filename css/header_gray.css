@@ -1,0 +1,280 @@
+@charset "utf-8";
+	
+/*---- globalNavigation ----*/
+#headerArea div.globalNavigation p.home a{
+background:url(images/globalnavigation_home001.gif) no-repeat 0 0;
+}
+
+#headerArea div.globalNavigation p.home a:hover{
+background-position:0 100%;
+}
+
+#headerArea ul.globalNavigationList li a{
+background:url(images/globalnavigation_002.gif) no-repeat 0 0;
+}
+
+#headerArea ul.globalNavigationList li.search a{background-position:0 0;}
+#headerArea ul.globalNavigationList li.search a:hover{background-position:0 100%;}
+
+#headerArea ul.globalNavigationList li.school a{background-position:-96px 0;}
+#headerArea ul.globalNavigationList li.school a:hover{background-position:-96px 100%;}
+
+#headerArea ul.globalNavigationList li.company a{background-position:-129px 0;}
+#headerArea ul.globalNavigationList li.company a:hover{background-position:-129px 100%;}
+
+#headerArea ul.globalNavigationList li.invite a{background-position:-162px 0;}
+#headerArea ul.globalNavigationList li.invite a:hover{background-position:-162px 100%;}
+
+#headerArea ul.globalNavigationList li.appli a{background-position:-259px 0;}
+#headerArea ul.globalNavigationList li.appli a:hover{background-position:-259px 100%;}
+
+#headerArea ul.globalNavigationList li.community a{background-position:-329px 0;}
+#headerArea ul.globalNavigationList li.community a:hover{background-position:-329px 100%;}
+
+
+/*---- personalNavigation ----*/
+#headerArea div.personalNavigation ul li ul.pulldown{
+border:1px solid #ccc;
+border-top:none;
+background:url(images/personalnavi_pulldown_bg001.png) repeat 0 0;
+*background:#F9F9F9;
+}
+
+#headerArea div.personalNavigation ul li ul.pulldown li a{
+background:none;
+}
+
+
+/*---- personalNaviHome ----*/
+#headerArea ul.personalNaviHome li a{
+background:url(images/personalnavi_home003.gif) no-repeat 0 0;
+}
+
+#headerArea ul.personalNaviHome li.profile a{background-position:0 0;}
+#headerArea ul.personalNaviHome li.profile a:hover{background-position:0 50%;}
+#headerArea ul.personalNaviHome li.profile a.current{background-position:0 100%;}
+
+#headerArea ul.personalNaviHome li.myMixi a{background-position:-96px 0;}
+#headerArea ul.personalNaviHome li.myMixi a:hover{background-position:-96px 50%;}
+#headerArea ul.personalNaviHome li.myMixi a.current{background-position:-96px 100%;}
+
+#headerArea ul.personalNaviHome li.schedule a{background-position:-190px 0;}
+#headerArea ul.personalNaviHome li.schedule a:hover{background-position:-190px 50%;}
+#headerArea ul.personalNaviHome li.schedule a.current{background-position:-190px 100%;}
+
+#headerArea ul.personalNaviHome li.check a{background-position:-284px 0;}
+#headerArea ul.personalNaviHome li.check a:hover{background-position:-284px 50%;}
+#headerArea ul.personalNaviHome li.check a.current{background-position:-284px 100%;}
+
+#headerArea ul.personalNaviHome li.diary a{background-position:-378px 0;}
+#headerArea ul.personalNaviHome li.diary a:hover{background-position:-378px 50%;}
+#headerArea ul.personalNaviHome li.diary a.current{background-position:-378px 100%;}
+
+#headerArea ul.personalNaviHome li.photo a{background-position:-472px 0;}
+#headerArea ul.personalNaviHome li.photo a:hover{background-position:-472px 50%;}
+#headerArea ul.personalNaviHome li.photo a.current{background-position:-472px 100%;}
+
+#headerArea ul.personalNaviHome li.contents a{background-position:-566px 0;}
+#headerArea ul.personalNaviHome li.contents a:hover{background-position:-566px 50%;}
+#headerArea ul.personalNaviHome li.contents a.current{background-position:-566px 100%;}
+
+#headerArea ul.personalNaviHome li.message a{background-position:-661px 0;}
+#headerArea ul.personalNaviHome li.message a:hover{background-position:-661px 50%;}
+#headerArea ul.personalNaviHome li.message a.current{background-position:-661px 100%;}
+
+#headerArea ul.personalNaviHome li.log a{background-position:-755px 0;}
+#headerArea ul.personalNaviHome li.log a:hover{background-position:-755px 50%;}
+#headerArea ul.personalNaviHome li.log a.current{background-position:-755px 100%;}
+
+#headerArea ul.personalNaviHome li.account a{background-position:-849px 0;}
+#headerArea ul.personalNaviHome li.account a:hover{background-position:-849px 50%;}
+#headerArea ul.personalNaviHome li.account a.current{background-position:-849px 100%;}
+
+
+/*---- personalNaviFriend ----*/
+#headerArea ul.personalNaviFriend li a{
+background:url(images/personalnavi_friend003.gif) no-repeat 0 0;
+}
+
+#headerArea ul.personalNaviFriend li.profile a{background-position:0 0;}
+#headerArea ul.personalNaviFriend li.profile a:hover{background-position:0 50%;}
+#headerArea ul.personalNaviFriend li.profile a.current{background-position:0 100%;}
+
+#headerArea ul.personalNaviFriend li.myMixi a{background-position:-111px 0;}
+#headerArea ul.personalNaviFriend li.myMixi a:hover{background-position:-111px 50%;}
+#headerArea ul.personalNaviFriend li.myMixi a.current{background-position:-111px 100%;}
+
+#headerArea ul.personalNaviFriend li.check a{background-position:-221px 0;}
+#headerArea ul.personalNaviFriend li.check a:hover{background-position:-221px 50%;}
+#headerArea ul.personalNaviFriend li.check a.current{background-position:-221px 100%;}
+
+#headerArea ul.personalNaviFriend li.diary a{background-position:-331px 0;}
+#headerArea ul.personalNaviFriend li.diary a:hover{background-position:-331px 50%;}
+#headerArea ul.personalNaviFriend li.diary a.current{background-position:-331px 100%;}
+
+#headerArea ul.personalNaviFriend li.photo a{background-position:-441px 0;}
+#headerArea ul.personalNaviFriend li.photo a:hover{background-position:-441px 50%;}
+#headerArea ul.personalNaviFriend li.photo a.current{background-position:-441px 100%;}
+
+#headerArea ul.personalNaviFriend li.contents a{background-position:-551px 0;}
+#headerArea ul.personalNaviFriend li.contents a:hover{background-position:-551px 50%;}
+#headerArea ul.personalNaviFriend li.contents a.current{background-position:-551px 100%;}
+
+#headerArea ul.personalNaviFriend li.message a{background-position:-682px 0;}
+#headerArea ul.personalNaviFriend li.message a:hover{background-position:-682px 50%;}
+#headerArea ul.personalNaviFriend li.message a.current{background-position:-682px 100%;}
+
+#headerArea ul.personalNaviFriend li.add a{background-position:-813px 0;}
+#headerArea ul.personalNaviFriend li.add a:hover{background-position:-813px 50%;}
+#headerArea ul.personalNaviFriend li.add a.current{background-position:-813px 100%;}
+
+#headerArea ul.personalNaviFriend li.manage a{background-position:-945px 0;}
+#headerArea ul.personalNaviFriend li.manage a:hover{background-position:-945px 50%;}
+#headerArea ul.personalNaviFriend li.manage a.current{background-position:-945px 100%;}
+
+
+/*---- personalNaviCommunity ----*/
+#headerArea ul.personalNaviCommunity li a{
+background:url(images/personalnavi_community002.gif) no-repeat 0 0;
+}
+
+#headerArea ul.personalNaviCommunity li.topic01 ul.pulldown li a:link,
+#headerArea ul.personalNaviCommunity li.topic01 ul.pulldown li a:visited,
+#headerArea ul.personalNaviCommunity li.topic01 ul.pulldown li a:hover,
+#headerArea ul.personalNaviCommunity li.topic01 ul.pulldown li a:active,
+#headerArea ul.personalNaviCommunity li.topic01 ul.pulldown li a:focus{
+background:url(images/community_topic001.gif) no-repeat 5px 45%;
+}
+
+#headerArea ul.personalNaviCommunity li.event01 ul.pulldown li a:link,
+#headerArea ul.personalNaviCommunity li.event01 ul.pulldown li a:visited,
+#headerArea ul.personalNaviCommunity li.event01 ul.pulldown li a:hover,
+#headerArea ul.personalNaviCommunity li.event01 ul.pulldown li a:active,
+#headerArea ul.personalNaviCommunity li.event01 ul.pulldown li a:focus{
+background:url(images/community_event001.gif) no-repeat 5px 45%;
+}
+
+#headerArea ul.personalNaviCommunity li.enquete01 ul.pulldown li a:link,
+#headerArea ul.personalNaviCommunity li.enquete01 ul.pulldown li a:visited,
+#headerArea ul.personalNaviCommunity li.enquete01 ul.pulldown li a:hover,
+#headerArea ul.personalNaviCommunity li.enquete01 ul.pulldown li a:active,
+#headerArea ul.personalNaviCommunity li.enquete01 ul.pulldown li a:focus{
+background:url(images/community_enquete001.gif) no-repeat 5px 50%;
+}
+
+#headerArea ul.personalNaviCommunity li.review01 ul.pulldown li a:link,
+#headerArea ul.personalNaviCommunity li.review01 ul.pulldown li a:visited,
+#headerArea ul.personalNaviCommunity li.review01 ul.pulldown li a:hover,
+#headerArea ul.personalNaviCommunity li.review01 ul.pulldown li a:active,
+#headerArea ul.personalNaviCommunity li.review01 ul.pulldown li a:focus{
+background:url(images/review002.gif) no-repeat 5px 45%;
+}
+
+#headerArea ul.personalNaviCommunity li.top a{background-position:0 0;}
+#headerArea ul.personalNaviCommunity li.top a:hover{background-position:0 50%;}
+#headerArea ul.personalNaviCommunity li.top a.current{background-position:0 100%;}
+
+#headerArea ul.personalNaviCommunity li.topic01 a{background-position:-98px 0;}
+#headerArea ul.personalNaviCommunity li.topic01 a:hover{background-position:-98px 50%;}
+#headerArea ul.personalNaviCommunity li.topic01 a.current{background-position:-98px 100%;}
+
+#headerArea ul.personalNaviCommunity li.topic02 a{background-position:-402px 0;}
+#headerArea ul.personalNaviCommunity li.topic02 a:hover{background-position:-402px 50%;}
+#headerArea ul.personalNaviCommunity li.topic02 a.current{background-position:-402px 100%;}
+
+#headerArea ul.personalNaviCommunity li.event01 a{background-position:-174px 0;}
+#headerArea ul.personalNaviCommunity li.event01 a:hover{background-position:-174px 50%;}
+#headerArea ul.personalNaviCommunity li.event01 a.current{background-position:-174px 100%;}
+
+#headerArea ul.personalNaviCommunity li.event02 a{background-position:-499px 0;}
+#headerArea ul.personalNaviCommunity li.event02 a:hover{background-position:-499px 50%;}
+#headerArea ul.personalNaviCommunity li.event02 a.current{background-position:-499px 100%;}
+
+#headerArea ul.personalNaviCommunity li.enquete01 a{background-position:-250px 0;}
+#headerArea ul.personalNaviCommunity li.enquete01 a:hover{background-position:-250px 50%;}
+#headerArea ul.personalNaviCommunity li.enquete01 a.current{background-position:-250px 100%;}
+
+#headerArea ul.personalNaviCommunity li.enquete02 a{background-position:-596px 0;}
+#headerArea ul.personalNaviCommunity li.enquete02 a:hover{background-position:-596px 50%;}
+#headerArea ul.personalNaviCommunity li.enquete02 a.current{background-position:-596px 100%;}
+
+#headerArea ul.personalNaviCommunity li.review01 a{background-position:-326px 0;}
+#headerArea ul.personalNaviCommunity li.review01 a:hover{background-position:-326px 50%;}
+#headerArea ul.personalNaviCommunity li.review01 a.current{background-position:-326px 100%;}
+
+#headerArea ul.personalNaviCommunity li.review02 a{background-position:-693px 0;}
+#headerArea ul.personalNaviCommunity li.review02 a:hover{background-position:-693px 50%;}
+#headerArea ul.personalNaviCommunity li.review02 a.current{background-position:-693px 100%;}
+
+#headerArea ul.personalNaviCommunity li.leave a{background-position:-790px 0;}
+#headerArea ul.personalNaviCommunity li.leave a:hover{background-position:-790px 50%;}
+#headerArea ul.personalNaviCommunity li.leave a.current{background-position:-790px 100%;}
+
+#headerArea ul.personalNaviCommunity li.join a{background-position:-951px 0;}
+#headerArea ul.personalNaviCommunity li.join a:hover{background-position:-951px 50%;}
+#headerArea ul.personalNaviCommunity li.join a.current{background-position:-951px 100%;}
+
+#headerArea ul.personalNaviCommunity li.bookmark a{background-position:-1112px 0;}
+#headerArea ul.personalNaviCommunity li.bookmark a:hover{background-position:-1112px 50%;}
+#headerArea ul.personalNaviCommunity li.bookmark a.current{background-position:-1112px 100%;}
+
+#headerArea ul.personalNaviCommunity li.invite a{background-position:-1261px 0;}
+#headerArea ul.personalNaviCommunity li.invite a:hover{background-position:-1261px 50%;}
+#headerArea ul.personalNaviCommunity li.invite a.current{background-position:-1261px 100%;}
+
+#headerArea ul.personalNaviCommunity li a.action{background-position:right 0;}
+#headerArea ul.personalNaviCommunity li a.action:hover{background-position:right 50%;}
+
+
+/*---- personalNaviNews ----*/
+#headerArea ul.personalNaviNews li a{
+background:url(images/personalnavi_news001.gif) no-repeat 0 0;
+}
+
+#headerArea ul.personalNaviNews li.top a{background-position:0 0;}
+#headerArea ul.personalNaviNews li.top a:hover{background-position:0 50%;}
+#headerArea ul.personalNaviNews li.top a.current{background-position:0 100%;}
+
+#headerArea ul.personalNaviNews li.domestic a{background-position:-108px 0;}
+#headerArea ul.personalNaviNews li.domestic a:hover{background-position:-108px 50%;}
+#headerArea ul.personalNaviNews li.domestic a.current{background-position:-108px 100%;}
+
+#headerArea ul.personalNaviNews li.politics a{background-position:-173px 0;}
+#headerArea ul.personalNaviNews li.politics a:hover{background-position:-173px 50%;}
+#headerArea ul.personalNaviNews li.politics a.current{background-position:-173px 100%;}
+
+#headerArea ul.personalNaviNews li.economy a{background-position:-237px 0;}
+#headerArea ul.personalNaviNews li.economy a:hover{background-position:-237px 50%;}
+#headerArea ul.personalNaviNews li.economy a.current{background-position:-237px 100%;}
+
+#headerArea ul.personalNaviNews li.local a{background-position:-302px 0;}
+#headerArea ul.personalNaviNews li.local a:hover{background-position:-302px 50%;}
+#headerArea ul.personalNaviNews li.local a.current{background-position:-302px 100%;}
+
+#headerArea ul.personalNaviNews li.foreign a{background-position:-367px 0;}
+#headerArea ul.personalNaviNews li.foreign a:hover{background-position:-367px 50%;}
+#headerArea ul.personalNaviNews li.foreign a.current{background-position:-367px 100%;}
+
+#headerArea ul.personalNaviNews li.sports a{background-position:-432px 0;}
+#headerArea ul.personalNaviNews li.sports a:hover{background-position:-432px 50%;}
+#headerArea ul.personalNaviNews li.sports a.current{background-position:-432px 100%;}
+
+#headerArea ul.personalNaviNews li.entertainment a{background-position:-506px 0;}
+#headerArea ul.personalNaviNews li.entertainment a:hover{background-position:-506px 50%;}
+#headerArea ul.personalNaviNews li.entertainment a.current{background-position:-506px 100%;}
+
+#headerArea ul.personalNaviNews li.entertainment a{background-position:-506px 0;}
+#headerArea ul.personalNaviNews li.entertainment a:hover{background-position:-506px 50%;}
+#headerArea ul.personalNaviNews li.entertainment a.current{background-position:-506px 100%;}
+
+#headerArea ul.personalNaviNews li.technology a{background-position:-647px 0;}
+#headerArea ul.personalNaviNews li.technology a:hover{background-position:-647px 50%;}
+#headerArea ul.personalNaviNews li.technology a.current{background-position:-647px 100%;}
+
+#headerArea ul.personalNaviNews li.game a{background-position:-768px 0;}
+#headerArea ul.personalNaviNews li.game a:hover{background-position:-768px 50%;}
+#headerArea ul.personalNaviNews li.game a.current{background-position:-768px 100%;}
+
+#headerArea ul.personalNaviNews li.column a{background-position:-879px 0;}
+#headerArea ul.personalNaviNews li.column a:hover{background-position:-879px 50%;}
+#headerArea ul.personalNaviNews li.column a.current{background-position:-879px 100%;}

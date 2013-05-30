@@ -1,0 +1,26 @@
+.highlight
+{
+    background-image: none !important;
+    background-color: #fffacd !important;
+	color: Black;
+}
+
+.alertbox
+{
+    position: absolute;
+    padding-left: 45px;
+    width: 216;
+    background: url(aarow.png) no-repeat left top;
+    color: Black;
+}
+
+.alertbox div
+{
+    min-height: 34px;
+    width: 200px;
+    padding: 8px;
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    background-color: #FFEB8C;
+}

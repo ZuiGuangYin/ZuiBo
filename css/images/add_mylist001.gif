@@ -1,0 +1,145 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=euc-jp" />
+<meta http-equiv="Content-Style-Type" content="text/css" />
+<meta http-equiv="Content-Script-Type" content="text/javascript" />
+<meta name="robots" content="nofollow,noindex" />
+<title>[mixi]</title>
+<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
+<meta name="Slurp" content="NOYDIR" />
+<meta name="robots" content="noodp" />
+<meta name="description" lang="ja" content="株式会社ミクシィが運営するSNS。mixi(ミクシィ)は、これまでの友人関係を更に素敵なものへと導き、新しい交流も生み出す日本初のコミュニティエンターテイメント・ソーシャルネットワーキングサイトです。" />
+
+<style type="text/css">
+<!--
+html{
+overflow-y:scroll;
+}
+
+body{
+line-height:1.5;
+background:#FFF;
+color:#333;
+font-size:12px;
+*font-size:78%;
+letter-spacing:0.05em;
+}
+
+body,div,h1,p{
+margin:0;
+padding:0;
+}
+
+a:link{color:#258fb8;}
+a:visited{color:#258fb8;}
+a:hover{color:#996600;}
+a:active{color:#996600;}
+a:focus{color:#996600;}
+
+#page{
+width:955px;
+margin:0 auto;
+}
+
+#wrapper{
+width:945px;
+margin:0 5px;
+}
+
+#headerArea{
+width:945px;
+background:url(/maintenance_img/devide001.gif) no-repeat 0 100%;
+}
+
+#headerArea h1{
+padding:20px 15px;
+}
+
+#headerArea h1 a img{
+border:none;
+}
+
+#bodyArea .messageArea{
+width:674px;
+margin:80px auto 60px;
+padding:10px 20px;
+border:1px solid #DEDEDE;
+background:#F8F8F8;
+}
+
+#bodyArea .messageArea .contents{
+padding:23px 70px 34px;
+border:1px solid #DEDEDE;
+background:url(/maintenance_img/bg_stripe001.gif) repeat 0 0;
+}
+
+#bodyArea .messageArea .contents p.messageAlert{
+width:302px;
+height:24px;
+margin-bottom:1em;
+padding-top:6px;
+background:url(/maintenance_img/message_area002.gif) no-repeat 0 0;
+}
+
+#bodyArea .messageArea .contents p{
+padding-left:41px;
+}
+
+#bodyArea .utilityLinks03{
+margin-bottom:100px;
+text-align:center;
+}
+
+#bodyArea .utilityLinks03 li{
+padding:0 5px 5px;
+list-style:none;
+}
+
+#footerArea{
+width:945px;
+padding:12px 0;
+background:url(/maintenance_img/border_dot_horizontal001.gif) repeat-x 0 0;
+text-align:center;
+}
+-->
+</style>
+
+<link href="/maintenance_img/favicon.ico"  type="image/vnd.microsoft.icon"  rel="icon" /> 
+<link href="/maintenance_img/favicon.ico"  type="image/vnd.microsoft.icon"  rel="shortcut icon" /> 
+
+</head>
+
+<body>
+
+<div id="page">
+<div id="wrapper">
+
+<div id="headerArea">
+<h1><a href="http://mixi.jp/home.pl"><img src="/maintenance_img/mixi_logo_pc_large001.gif" alt="mixi" width="150" height="45" /></a></h1>
+<!--/headerArea--></div>
+
+<div id="bodyArea">
+<div class="messageArea">
+<div class="contents">
+<p class="messageAlert"><strong>このURLのページは存在しません。</strong></p>
+<p>アドレスが間違っている可能性がございます。<br />いま一度、ページのURLをご確認ください。</p>
+</div>
+<!--/messageArea--></div>
+<ul class="utilityLinks03">
+<script type="text/javascript"><!--//<![CDATA[
+(function() {if(history.length > 1){document.write('<li><a href="javascript:history.back()">前の画面へ</a></li>');}})();
+//]]>--></script>
+<li><a href="http://mixi.jp/home.pl">ホームへ</a></li>
+</ul>
+<!--/bodyArea--></div>
+
+<div id="footerArea">
+<p>Copyright (C) mixi, Inc. All rights reserved.</p>
+<!--/footerArea--></div>
+
+<!--/wrapper--></div>
+<!--/page--></div>
+
+</body>
+</html>

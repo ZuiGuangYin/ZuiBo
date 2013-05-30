@@ -1,0 +1,14 @@
+2011-04-09T13:20:04+00:00 DEBUG (7): true
+2011-04-09T13:21:00+00:00 DEBUG (7): true
+2011-04-10T09:02:50+00:00 DEBUG (7): SELECT f.fuid as uid,if(u.img is null,'images/noimage_member76.gif',u.img) as img,u.nick_name as nick_name,u.lastlogin FROM friend AS f INNER JOIN user AS u ON u.uid=f.fuid WHERE f.uid = :uid  ORDER BY u.cdate   LIMIT 0, 50
+2011-04-10T09:05:16+00:00 DEBUG (7): SELECT f.fuid as uid,if(u.img is null,'images/noimage_member76.gif',u.img) as img,u.nick_name as nick_name,u.lastlogin FROM friend AS f INNER JOIN user AS u ON u.uid=f.fuid WHERE f.uid = :uid  ORDER BY u.cdate   LIMIT 0, 50
+2011-04-10T09:05:16+00:00 DEBUG (7): uid.2
+2011-04-10T09:06:43+00:00 DEBUG (7): SELECT f.fuid as uid,if(u.img is null,'images/noimage_member76.gif',u.img) as img,u.nick_name as nick_name,u.lastlogin FROM friend AS f INNER JOIN user AS u ON u.uid=f.fuid WHERE f.uid = :uid  ORDER BY u.cdate   LIMIT 0, 50
+2011-04-10T09:06:43+00:00 DEBUG (7): uid=2
+2011-04-10T09:06:43+00:00 DEBUG (7): truecnt=1
+2011-04-10T09:07:13+00:00 DEBUG (7): SELECT f.fuid as uid,if(u.img is null,'images/noimage_member76.gif',u.img) as img,u.nick_name as nick_name,u.lastlogin FROM friend AS f INNER JOIN user AS u ON u.uid=f.fuid WHERE f.uid = :uid  ORDER BY u.cdate   LIMIT 0, 50
+2011-04-10T09:07:13+00:00 DEBUG (7): uid=3
+2011-04-10T09:07:13+00:00 DEBUG (7): truecnt=0
+2011-04-10T09:07:18+00:00 DEBUG (7): SELECT f.fuid as uid,if(u.img is null,'images/noimage_member76.gif',u.img) as img,u.nick_name as nick_name,u.lastlogin FROM friend AS f INNER JOIN user AS u ON u.uid=f.fuid WHERE f.uid = :uid  ORDER BY u.cdate   LIMIT 0, 50
+2011-04-10T09:07:18+00:00 DEBUG (7): uid=5
+2011-04-10T09:07:18+00:00 DEBUG (7): truecnt=0

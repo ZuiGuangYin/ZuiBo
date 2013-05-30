@@ -1,0 +1,1461 @@
+@charset "euc-jp";
+
+/*---- common  ----*/
+.inputAlert01{
+margin:2px 0;
+padding-left:20px !important;
+background:url(images/simplealert_alert001.gif) no-repeat 0 0;
+color:#f00;
+text-align:left !important;
+font-weight:bold;
+font-size:83%;
+}
+
+
+/*---- utilityWindow01:レイヤー（300） ----*/
+/* used at message, school, show_log, appli, add_friend, simpleProfile, error, mylist, common_friend, photo */
+div.utilityWindow01{
+display: none;
+position: absolute;
+clear:both;
+width:290px;
+padding:5px;
+background:#fcc47a;
+}
+
+div.utilityWindow01 div.contentStage{
+background:#FFF;
+}
+
+div.utilityWindow01 div.layerHeading01{
+line-height:22px;
+padding:2px 4px 0 12px;
+background:url(images/layer_titile001.gif) no-repeat 0 0;
+}
+
+div.utilityWindow01 div.layerHeading01 h2{
+float:left;
+font-weight:bold;
+}
+
+div.utilityWindow01 div.layerHeading01 a{
+float:right;
+padding:6px 5px;
+}
+
+div.utilityWindow01 div.contents{
+clear:both;
+padding:8px 13px;
+border:1px solid #FFC356;
+border-top:none;
+background:#FFF;
+}
+
+div.utilityWindow01 div.contents p.noContents{
+padding:10px 0;
+text-align:center;
+}
+
+div.utilityWindow01 ul.checkList01{
+padding-top:5px;
+}
+
+div.utilityWindow01 ul.checkList01 li input{
+vertical-align:middle;
+margin-right:5px;
+*margin-right:0;
+*border:none;
+*background:none;
+}
+
+div.utilityWindow01 p.notes01{
+line-height:1.3;
+margin-bottom:7px;
+}
+
+div.utilityWindow01 p.notes02{
+line-height:1.3;
+}
+
+div.utilityWindow01 p.alert{
+line-height:1.3;
+padding-left:20px;
+color:#C00;
+font-weight:bold;
+background:url(images/music_alert01.gif) no-repeat;
+}
+
+div.utilityWindow01 textarea{
+width:97%;
+height:6em;
+margin:3px 0;
+}
+
+div.utilityWindow01 p.confirmNotes{
+background:#FFFAF2;
+padding:5px;
+line-height:1.3;
+height:8em;
+overflow:auto;
+word-break:break-all;
+}
+
+div.utilityWindow01 ul.commonFriendList{
+word-break:break-all;
+}
+
+div.utilityWindow01 div.confirm01{
+border:1px solid #FFC356;
+border-bottom:none;
+}
+
+div.utilityWindow01 div.confirm01 span.confirmNote01{
+display:block;
+padding-top:1px;
+font-weight:normal;
+font-size:83%;
+}
+
+div.utilityWindow01 div.confirm01 span.inputAlert01{ 
+display:block; 
+padding-top:1px; 
+padding-bottom:1px; 
+} 
+
+div.utilityWindow01 div.utilityWindowList01 div.formButtons01{ 
+padding-top:10px !important; 
+} 
+
+div.utilityWindow01 div.messageArea{
+background:transparent url(images/bg_stripe001.gif) repeat scroll 0 0;
+border:1px solid #FFC356;
+border-top:none;
+padding:20px 20px 30px 30px;
+margin:0;
+}
+
+div.utilityWindow01 div.messageArea p{
+padding:7px 0 0 40px;
+}
+
+div.utilityWindow01 div.messageArea p.messageAlert{
+background:transparent url(images/message_area002.gif) no-repeat 0 0;
+min-height:30px;
+_height:30px;
+}
+
+div.utilityWindow01 p.loading01{
+padding:15px 0;
+text-align:center;
+background:#FFF;
+}
+
+div.utilityWindow01 .utilityLinks03{
+margin-top:10px;
+}
+
+div.utilityWindow01 strong{
+font-weight:bold;
+}
+
+div.utilityWindow01 div.editListPopup01 ul.formButtons01,
+div.utilityWindow01 div.editListPopup01 ul.formButtons01 li{
+zoom:1;
+}
+
+div.utilityWindow01 div.editListPopup01 .formButtons01,
+div.utilityWindow02 div.editListPopup01 .formButtons01{
+border:1px solid #FFC356;
+border-top:none;
+text-align:center;
+}
+
+div.utilityWindow01 div.editListPopup01 ul.formButtons01,
+div.utilityWindow02 div.editListPopup01 ul.formButtons01{
+padding-bottom:10px;
+}
+
+
+/* myList, used at mylist, school */
+div.utilityWindow01 ul.myMixiOk{
+margin:10px 0;
+}
+
+div.utilityWindow01 ul.myMixiOk input{
+vertical-align:middle;
+margin-right:5px;
+}
+
+div.utilityWindow01 .editList01 div.diarySet{
+margin:15px 0 0;
+}
+
+div.utilityWindow01 .editList01 div.diarySet p.utilityLinks03{
+margin-top:3px;
+}
+
+div.utilityWindow01 .editList01 .formButtons01{
+border:1px solid #FFC356;
+border-top:none;
+text-align:center;
+}
+
+
+/* buddy(nakayoshi) */
+div.utilityWindow01 div.editList01 p.buddy{
+margin:7px 0 0;
+}
+
+div.utilityWindow01 div.editList01 p.buddy input{
+margin-right:3px;
+vertical-align:middle;
+}
+
+div.utilityWindow01 div.editList01 p.buddy span{
+display:block;
+}
+
+div.utilityWindow01 div.editList01 ul.formButtons01{
+padding-bottom:10px;
+}
+
+div.utilityWindow01 .inputAlert01,
+div.utilityWindow01 .inputAlert02{
+font-size:83%;
+font-weight:bold;
+color:#F00;
+background:url(images/simplealert_alert002.gif) no-repeat;
+padding-left:22px;
+margin:3px 0 0;
+}
+
+div.utilityWindow01 .inputAlert02{
+background-position:left center;
+}
+
+/* home(feedback) */
+div.utilityWindow01 div.iineHistory{
+border:1px solid #ffc356;
+border-top:none;
+background:#fff;
+}
+
+
+/*---- companyDB ----*/
+div.utilityWindow01 ul.showList01{
+margin:5px 0;
+}
+
+div.utilityWindow01 div.iineHistory ul.iineList li{
+padding:7px 10px 7px 7px;
+background:url(images/border_dot_horizontal001.gif) repeat-x left bottom;
+}
+
+div.utilityWindow01 ul.showList01 li{
+list-style:inside disc;
+}
+
+
+
+div.utilityWindow01 div.iineHistory ul.iineList li.unread{
+background-color:#fffaf2;
+}
+
+div.utilityWindow01 div.iineHistory ul.iineList li.unread a{
+font-weight:bold;
+}
+
+div.utilityWindow01 div.iineHistory ul.iineList li.listItemBottom{
+background-image:none;
+}
+
+div.utilityWindow01 div.iineHistory ul.iineList li div{
+padding-left:26px;
+letter-spacing:0;
+word-break:break-all;
+}
+
+
+div.utilityWindow01 div.iineHistory ul.iineList li.easyshare div{
+background:url(images/mixicheck002.gif) no-repeat left top;
+}
+div.utilityWindow01 div.iineHistory ul.iineList li.diary div{
+background:url(images/diary002.gif) no-repeat 2px top;
+}
+div.utilityWindow01 div.iineHistory ul.iineList li.photo div{
+background:url(images/photo003.gif) no-repeat 3px top;
+}
+div.utilityWindow01 div.iineHistory ul.iineList li.voice div{
+background:url(images/echo_list001.gif) no-repeat 2px top;
+}
+div.utilityWindow01 div.iineHistory ul.iineList li.schedule div{
+background:url(images/schedule001.gif) no-repeat 2px 0;
+}
+
+
+div.utilityWindow01 div.iineHistory ul.iineList li span.date{
+color:#999;
+font-size:83%;
+}
+
+div.utilityWindow01 div.iineHistory ul.pageList{
+width:288px;
+border-top:1px solid #ffb526;
+}
+
+div.utilityWindow01 div.iineHistory ul.pageList:after{
+content:".";
+display:block;
+clear:both;
+height:0;
+visibility:hidden;
+}
+
+div.utilityWindow01 div.iineHistory ul.pageList li{
+float:left;
+width:124px;
+padding:3px 10px 8px;
+}
+
+div.utilityWindow01 div.iineHistory ul.pageList li.next{
+text-align:right;
+}
+
+
+/*---- likeList:イイネ一覧 ----*/
+div.utilityWindow01 ul.likeList{
+line-height:1.6;
+overflow:hidden;
+}
+
+div.utilityWindow01 ul.likeList img{
+_margin:7px 0 6px 3px;
+margin-left:3px;
+vertical-align:middle;
+}
+
+div.utilityWindow01 div.pageArea{
+padding:5px 10px;
+border:1px solid #ffc356;
+border-top:none;
+background:#FFF;
+}
+
+div.utilityWindow01 div.pageArea p.pre{
+float:left;
+width:50%;
+}
+
+div.utilityWindow01 div.pageArea p.next{
+float:right;
+width:50%;
+text-align:right;
+}
+
+
+
+
+/*---- utilityWindow02:レイヤー（600） ----*/
+/* used at message, school, list_friend, invite, appli */
+div.utilityWindow02{
+clear:both;
+width:590px;
+padding:5px;
+background:#fcc47a;
+position: absolute;
+}
+
+div.utilityWindow02 div.layerHeading02{
+background:url(images/layer_titile002.gif) no-repeat 0 0;
+margin-bottom:0;
+height:24px;
+line-height:24px;
+}
+
+div.utilityWindow02 div.layerHeading02 h2{
+font-weight:bold;
+margin-left:20px;
+}
+
+div.utilityWindow02 div.layerHeading02 h2 em{
+font-size:84%;
+font-style:normal;
+font-weight:normal;
+}
+
+div.utilityWindow02 div.contents{
+clear:both;
+background:#FFF;
+border:1px solid #FFC356;
+border-top:none;
+}
+
+div.utilityWindow02 div.groupList{
+background:url(images/group_transparent001.gif) no-repeat 10px 8px #f8f8f8;
+padding:7px 10px 6px 32px;
+color:#d6d6d6;
+border-bottom:1px solid #d6d6d6;
+}
+
+div.utilityWindow02 div.groupList a.on {
+background:#60AAC7;
+border:1px solid #258FB8;
+color:#FFF;
+padding:2px 4px;
+text-decoration:none;
+}
+
+div.utilityWindow02 div.groupList p.naviBtn{
+float:right;
+text-align:left;
+padding:0 0 0 10px;
+}
+
+div.utilityWindow02 div.groupList p.naviBtn a.btn_selectAllFriends{
+display:block;
+width:180px;
+height:30px;
+text-indent:-9999px;
+background:url(images/btn_select_all_friends001.gif) no-repeat left top;
+outline:0;
+}
+
+div.utilityWindow02 div.pageNavigation01{
+border:none;
+width:588px;
+}
+
+div.utilityWindow02 div.pageList01{
+position:relative;
+background:#ebebeb;
+}
+
+div.utilityWindow02 div.pageList01 div.pageList03{
+background:none;
+padding:0 5px;
+position:absolute;
+top:2px;
+right:0;
+}
+
+div.utilityWindow02 div.pageList01 div.pageList03 p{
+color:#FFC356;
+text-align:right;
+}
+
+div.utilityWindow02 div.generalInfo01{
+background:url(images/dotline_horizontal002.gif) left bottom repeat-x #f8f8f8;
+font-weight:bold;
+padding:7px 10px;
+}
+
+div.utilityWindow02 div.generalInfo01 p{
+color:#666;
+}
+
+div.utilityWindow02 div.generalInfo01 p.red{
+color:#F00;
+}
+
+div.utilityWindow02 div.generalInfo01 p.stateInfo{
+float:right;
+text-align:right;
+font-size:83%;
+font-weight:bold;
+line-height:1.0;
+}
+
+div.utilityWindow02 div.generalInfo01 p.stateInfo .param{
+font-size:160%;
+}
+
+div.utilityWindow02 div.confirm01 {
+border-right:none;
+border-left:none;
+border-color:#ffc356;
+}
+
+div.utilityWindow02 ul.entryList01 {
+border:none;
+}
+
+div.utilityWindow02 div.contents ul.editContents {
+border:none;
+}
+
+
+/*---- friendList ----*/
+div.utilityWindow02  #friendList{
+border:1px solid #FFC356;
+width:588px;
+_position:relative;
+}
+
+div.utilityWindow02 #friendList table{
+width:100%;
+border-spacing:0;
+border-collapse:collapse;
+table-layout:fixed;
+}
+
+div.utilityWindow02 #friendList td,
+div.utilityWindow02 #friendList th{
+word-break:break-all;
+}
+
+div.utilityWindow02  div.empty{
+border-color:#ccc !important;
+}
+
+div.utilityWindow02 #friendList .messageArea{
+margin-bottom:0;
+_position:relative;
+}
+
+div.utilityWindow02 #friendList .messageArea .contents{
+border:none;
+background:#F8F8F8;
+padding:10px 20px;
+_position:relative;
+}
+
+div.utilityWindow02 .empty .messageArea .contents{
+background:#F8F8F8 !important;
+border-color:#DFDFDF !important;
+}
+
+div.utilityWindow02 #friendList.adminView .messageArea .contents{
+border-right:none;
+border-bottom:none;
+}
+
+div.utilityWindow02 #friendList .messageArea .contents div{
+padding-left:0;
+padding-right:0;
+}
+
+div.utilityWindow02 .empty .messageArea .contents div{
+border-color:#DFDFDF !important;
+}
+
+div.utilityWindow02 .empty .messageArea .contents div p.supplement01{
+margin-top:14px;
+}
+
+div.utilityWindow02 .messageArea .contents p span.note{
+color:red;
+}
+
+div.utilityWindow02 .addMemberTag #friendList .nothing,
+div.utilityWindow02 .editMemberTag #friendList .nothing{
+padding-top:135px;
+padding-bottom:145px;
+}
+
+div.utilityWindow02 .addMemberTag .expand .nothing,
+div.utilityWindow02 .editMemberTag .expand .nothing{
+padding-bottom:144px !important;
+border-bottom:1px solid #ccc;
+}
+
+div.utilityWindow02 #friendList .wrapper{
+position:relative;
+_width:100%;
+}
+
+div.utilityWindow02 #friendList .officialIcon{
+position:absolute;
+left:1px;
+top:1px;
+}
+
+div.utilityWindow02 .thumbnail{
+display:block;
+width:76px;
+height:76px;
+margin-left:auto;
+margin-right:auto;
+margin-bottom:5px;
+background-repeat:no-repeat;
+background-position:center center;
+text-indent:-9999px;
+outline:none;
+}
+
+
+/*---- friendList - selectionView ----*/
+div.utilityWindow02 .editMemberTag div#friendListArea,
+div.utilityWindow02 .addMemberTag div#friendListArea {
+background-position:left top;
+}
+
+
+/*---- selectionView ----*/
+div.utilityWindow02 .selectionView{
+border:none !important;
+background:#fff;
+}
+
+div.utilityWindow02 .selectionView.expand{
+height:auto;
+overflow-y:auto;
+border-right:1px solid #ccc !important;
+border-bottom:none !important;
+}
+
+div.utilityWindow02 .selectionView table{
+*width:auto !important;
+}
+
+div.utilityWindow02 div.selectionView div.thumbnail{
+float:left;
+width:40px;
+height:40px;
+margin:0 4px 0 0;
+background:no-repeat center center;
+text-indent:-9999px;
+}
+
+div.utilityWindow02 .selectionView th{
+vertical-align:top;
+text-align:left;
+padding:5px 5px 0 5px;
+border-right:1px solid #ccc;
+background:#fff;
+}
+
+div.utilityWindow02 .selectionView td{
+vertical-align:top;
+text-align:right;
+padding:0 5px 5px 5px;
+border-bottom:1px solid #ccc;
+border-right:1px solid #ccc;
+background:#fff;
+}
+
+div.utilityWindow02 .selectionView td.last{
+border-bottom:none;
+}
+
+div.utilityWindow02 .selectionView .selected{
+background:#d2ebf5 url(images/selected_bg001.gif) no-repeat right top;
+}
+
+div.utilityWindow02 .selectionView td.rightmost,
+div.utilityWindow02 .selectionView th.rightmost{
+border-right:none;
+}
+
+div.utilityWindow02 .selectionView .nickname{
+padding-right:15px;
+}
+
+div.utilityWindow02 div.loading{
+text-align:center;
+padding:25px 0;
+background:#FFF;
+}
+
+div.utilityWindow02 .selectionView .exclusion{
+background:#f2f2f2;
+color:#999;
+}
+
+div.utilityWindow02 .selectionView .exclusion a{
+cursor:default;
+}
+
+
+/*---- editList01 ----*/
+div.utilityWindow02 div.editList01 .formButtons01{
+border:1px solid #FFC356;
+border-top:none;
+text-align:center;
+}
+
+
+/*---- utilityWindow02 (slideList01)  ----*/
+div.utilityWindow02 div.layerHeading02{
+position:relative;
+}
+
+div.utilityWindow02 div.layerHeading02 span.close{
+position:absolute;
+top:4px;
+right:5px;
+}
+
+div.utilityWindow02 div.category01{
+line-height:32px;
+border-bottom:1px solid #CCC;
+background:#EEE;
+*layout-grid-line:1%;
+text-align:right;
+}
+
+div.utilityWindow02 div.category01 p{
+display:inline;
+margin-right:5px;
+}
+
+div.utilityWindow02 div.category01 select{
+vertical-align:middle;
+margin-right:20px;
+}
+
+div.utilityWindow02 div.slideList01{
+position: relative;
+width: 558px;
+height: 180px;
+overflow: hidden;
+margin:12px 15px 0;
+padding-bottom:15px;
+}
+       
+div.utilityWindow02 div.slideList01 ul{
+position: absolute;
+top:0;
+left:0;
+white-space: nowrap;
+}
+        
+div.utilityWindow02 div.slideList01 ul li{
+display:table-cell;
+display:inline-block;
+*display:inline;
+*zoom:1;
+padding-right:10px;
+*padding-right:15px;
+text-align:center;
+}
+
+div.utilityWindow02 div.slideList01 ul li span.thumb{
+display: table-cell;
+*display: inline;
+*zoom:1;
+width:120px;
+min-width:120px;
+padding-bottom:12px;
+}
+
+*:first-child+html div.utilityWindow02 div.slideList01 ul li span.thumb{
+width:auto;
+}
+
+div.utilityWindow02 div.slideList01 ul li span.thumb img{
+vertical-align:bottom;
+}
+
+div.utilityWindow02 div.slideList01 ul li span.btn{
+display:block;
+}
+
+div.utilityWindow02 div.slider{
+position:relative;
+top:160px;
+width:400px;
+height:15px;
+margin:0 auto;
+background:url(images/slider_base001.gif) no-repeat;
+}
+        
+div.utilityWindow02 div.handle{
+position:absolute;
+top:0;
+width:110px;
+height:15px;
+background:url(images/slider_handle001.gif) no-repeat;
+z-index:10;
+cursor:pointer;
+}  
+
+div.utilityWindow02 div.up{
+position:absolute;
+top:1px;
+left:-20px;
+width:11px;
+height:13px;
+background:url(images/slider_up001.gif) no-repeat;
+cursor:pointer;
+}  
+
+div.utilityWindow02 div.down{
+position:absolute;
+top:1px;
+right:-20px;
+width:11px;
+height:13px;
+background:url(images/slider_down001.gif) no-repeat;
+cursor:pointer;
+} 
+
+div.utilityWindow02 div.decomessageAlert{
+position:relative;
+height:210px;
+padding:15px;
+background:url(images/decomessage_alert.gif) no-repeat 15px 15px;
+}
+
+div.utilityWindow02 div.decomessageAlert p{
+position:absolute;
+left:23px;
+bottom:20px;
+text-indent:-9999px;
+}
+
+div.utilityWindow02 div.decomessageAlert p a{
+display:block;
+width:324px;
+height:45px;
+overflow:hidden;
+background:url(images/decomessage_btn.gif) no-repeat;
+}
+
+
+/*---- utilityWindow02 (tab01)  ----*/
+div.utilityWindow02 div.tab01{
+background:url(images/tab_base001.gif) left bottom repeat-x #f8f8f8;
+height:38px;
+}
+
+div.utilityWindow02 div.tab01 ul{
+margin-left:10px;
+padding-top:7px;
+}
+
+div.utilityWindow02 div.tab01 li{
+display:inline;
+}
+
+div.utilityWindow02 div.tab01 li a,
+div.utilityWindow02 div.tab01 li span.disabled{
+background:url(images/tab_left001.gif) left top no-repeat;
+display:table-cell;
+display:inline-block;
+padding-left:4px;
+height:26px;
+border-bottom:1px solid #FFC356;
+color:#333;
+}
+
+div.utilityWindow02 div.tab01 li span.disabled{
+color:#999;
+}
+
+div.utilityWindow02 div.tab01 li a.on{
+background:url(images/tab_left_on001.gif) left top no-repeat;
+height:27px;
+border-bottom:none;
+}
+
+div.utilityWindow02 div.tab01 li a span,
+div.utilityWindow02 div.tab01 li span.disabled span{
+background:url(images/tab_right001.gif) right top no-repeat;
+display:block;
+*display:inline;
+*zoom:1;
+height:21px;
+padding:5px 10px 0;
+}
+
+div.utilityWindow02 div.tab01 li a.on span{
+background:url(images/tab_right_on001.gif) right top no-repeat;
+height:22px;
+padding:5px 10px 0;
+}
+
+
+/*---- utilityWindow02 (sortArea01)  ----*/
+div.utilityWindow02 div.sortArea01{
+background:#f8f8f8;
+padding:5px 10px 4px;
+border-bottom:1px solid #d6d6d6;
+}
+
+div.utilityWindow02 div.sortArea01 input{
+width:200px;
+background:url(images/searchform002.gif) no-repeat 5px 50% #FFF;
+border:1px solid #FFC356;
+padding:2px 0 1px 20px;
+margin:0 5px;
+}
+
+div.utilityWindow02 div.sortArea01 input.example{
+color:#999;
+}
+
+
+/*---- utilityWindow02 (selectOptions01)  ----*/
+div.utilityWindow02 div.selectOptions01{
+height:20px;
+color:#FFC356;
+text-align:right;
+padding:4px 7px 4px;
+border-top:solid 1px #d6d6d6;
+background:#f8f8f8;
+}
+
+div.utilityWindow02 div.selectOptions01 p.iconInfo {
+float:left;
+width:192px;
+height:16px;
+text-indent:-9999px;
+text-align:left;
+background:url(images/profile_info001.gif) no-repeat 5px 2px;
+}
+
+
+/*---- utilityWindow02 - messageArea  ----*/
+div.utilityWindow02 .messageArea{
+margin-bottom:0;
+}
+
+div.utilityWindow02 .messageArea .heading{
+background:url(images/layer_titile002.gif) no-repeat 0px 0px;
+padding-left:20px;
+height:24px;
+line-height:24px;
+}
+
+div.utilityWindow02 .messageArea .heading h3{
+font-weight:bold;
+}
+
+div.utilityWindow02 .messageArea .contents{
+border:1px solid #ffc356;
+border-top:none;
+background:#F8F8F8;
+}
+
+div.utilityWindow02 .messageArea .contents div{
+border-color:#DFDFDF;
+}
+
+div.utilityWindow02 .messageArea .contents div p.messageAlert{
+background:url(images/message_area002.gif) no-repeat 0 0;
+}
+
+div.utilityWindow02 .messageArea ul.formButtons01{
+margin-top:10px;
+}
+
+
+/*---- utilityWindow02 - formButtons01  ----*/
+div.utilityWindow02 .formButtons01 .inputArea{
+padding:0 30px 10px;
+text-align:left;
+}
+
+div.utilityWindow02 .formButtons01 .inputArea p{
+padding:0 0 10px;
+}
+
+div.utilityWindow02 .formButtons01 .inputArea textarea{
+width:502px;
+height:35px;
+overflow:auto;
+margin:2px 0;
+}
+
+div.utilityWindow02 .formButtons01 .longLine{
+text-align:left;
+}
+
+
+/*---- utilityWindow02 (mymixiSelector)  ----*/
+div#mymixiSelector.utilityWindow02 div.messageArea .contents {
+height:380px;
+*height:381px!important;
+_height:386px!important;
+}
+
+div#mymixiSelector.utilityWindow02 div.sortArea01{
+height:23px;
+}
+
+div#mymixiSelector.utilityWindow02 div.selectionView{
+height:344px;
+}
+
+div#mymixiSelector.utilityWindow02 div.messageArea .contents div{
+padding:0 70px;
+height:377px;
+}
+
+div#mymixiSelector.utilityWindow02 div.messageArea .contents div p.nothing{
+padding:170px 40px 10px;
+background-position:0 133px;
+}
+
+div#mymixiSelector.utilityWindow02 div.messageArea .contents div p.messageAlert{
+padding:162px 40px 10px;
+background-position:0 155px;
+}
+
+div#mymixiSelector.utilityWindow02 div.selectionView table t {
+height:40px;
+overflow:hidden;
+}
+
+div#mymixiSelector.utilityWindow02 div.selectionView table td{
+height:16px;
+overflow:hidden;
+*padding:0 5px 4px 5px;
+}
+
+div#mymixiSelector.utilityWindow02 div.selectionView table td a.profileIcon{
+float:left;
+width:16px;
+height:15px;
+text-align:center;
+margin:3px 12px 0;
+padding:0;
+}
+
+div#mymixiSelector.utilityWindow02 div.selectionView .nickname{
+width:130px;
+height:36px;
+overflow:hidden;
+padding-right:5px;
+}
+
+div#mymixiSelector.utilityWindow02 div.loading{
+height:260px;
+text-align:center;
+padding:243px 0 0;
+background:#FFF;
+}
+
+/*---- utilityWindow02 (photoList)  ----*/
+div.utilityWindow02 #photoList{
+border:1px solid #fbb14e;
+width:588px;
+height:auto !important;
+_position:relative;
+}
+
+div.utilityWindow02 #photoList div.contents{
+
+}
+
+div.utilityWindow02 #photoList table{
+width:100%;
+border-spacing:0;
+border-collapse:collapse;
+table-layout:fixed;
+}
+
+div.utilityWindow02 #photoList td,
+div.utilityWindow02 #photoList th{
+word-break:break-all;
+text-align:center;
+}
+
+div.utilityWindow02 #photoList th.selectPhoto{
+padding:10px 5px 4px;
+}
+
+div.utilityWindow02 #photoList td.albumTitle{
+padding-top:3px !important;
+}
+
+div.utilityWindow02 #photoList td.selectButton{
+padding-bottom:9px;
+}
+
+div.utilityWindow02 #photoList th.selected{
+background-image:none;
+}
+
+div.utilityWindow02 #photoList td.selected{
+background-position:75px -3px;
+}
+
+div.utilityWindow02 #photoList p.nothing{
+padding:170px 0 181px;
+text-align:center;
+}
+
+div.utilityWindow02 #photoList ul.quotePhotoSelect{
+padding:101px 40px 124px 48px;
+}
+
+div.utilityWindow02 #photoList ul.quotePhotoSelect li{
+display:inline;
+padding:0 4px 0 0;
+}
+
+div.utilityWindow02 #photoList ul.quotePhotoSelect li img{
+vertical-align:bottom;
+}
+
+div.utilityWindow02 div.photoUtilityList01{
+border-top:1px solid #FBB14E;
+}
+
+div.utilityWindowList01 ul.editContents ul.radioButtonList01 li{
+display:inline;
+margin-right:10px;
+}
+
+div.utilityWindowList01 ul.editContents ul.radioButtonList01 li input{
+margin-top:2px;
+*margin-top:0;
+margin-right:3px;
+vertical-align:top;
+*vertical-align:middle;
+}
+
+
+/*---- utilityWindow02(profilePhotoSetting) ----*/
+#profilePhotoSetting.utilityWindow02 .editContents li dd{
+width:446px;
+padding:0;
+}
+
+#profilePhotoSetting.utilityWindow02 .editContents li dd p{
+padding:7px 10px;
+background:url(images/dotline_horizontal001.gif) repeat-x 0 100%;
+}
+
+#profilePhotoSetting.utilityWindow02 .editContents li dd p.last{
+background:none;
+}
+
+#profilePhotoSetting.utilityWindow02 .editContents li dd p input{
+margin-right:3px;
+}
+
+#profilePhotoSetting.utilityWindow02 .formButtons01 p{
+width:100%;
+padding:0 0 5px;
+text-align:left;
+}
+
+
+/*---- utilityWindow03:レイヤー（682） ----*/
+/* used at photo voice */
+div.utilityWindow03{
+clear:both;
+padding:5px;
+background:#fcc47a;
+position: absolute;
+}
+
+div.utilityWindow03 div.contents{
+clear:both;
+background:#ffffff;
+border:1px solid #fbb14e;
+}
+
+div.utilityWindow03 div.selectionView{
+min-width:160px;
+_width:160px;
+min-height:120px;
+_height:120px;
+padding:15px 15px 0;
+text-align:center;
+}
+
+div.utilityWindow03 div.formButtons01{
+border:none;
+background:none;
+text-align:center;
+}
+
+
+
+/*---- ErrorWindow ----*/
+#JS_errorWindow{
+position:absolute;
+top:0;
+left:0;
+z-index:100;
+width:100%;
+background-color:#fff;
+}
+
+#JS_errorWindowBody{
+display:block;
+position:absolute;
+top:0;
+z-index:101;
+}
+
+#JS_errorWindowBody div.contentStage{
+background:#fff;
+border:1px solid #FFC356;
+}
+
+#JS_errorWindowBody #errorArea{
+border:none;
+width:auto;
+padding:20px 0 23px;
+margin:0;
+background:#eee;
+}
+
+#JS_errorWindowBody #errorArea div.contents{
+border:none;
+width:auto;
+margin:0;
+padding:24px 40px 21px 171px;
+background-position:110px 50%;
+}
+
+#JS_errorWindowBody #errorArea .formButtons01{
+background:#eee;
+text-align:center;
+padding-top:18px;
+}
+
+#JS_errorWindowBody.utilityWindow01 div.contents p {
+margin-bottom:10px;
+}
+
+
+/*---- simpleprofile ----*/
+#simpleprofile{
+display:block;
+position:absolute;
+width:195px;
+z-index:51;
+top:0;
+left:0;
+padding-bottom:6px;
+background:url(images/simpleprofile_bottom002.gif) no-repeat left bottom;
+}
+
+.simpleprofileWithoutHige{
+background:none!important;
+}
+
+#simpleprofile .utilityWindow01{
+display:block!important;
+width:auto;
+padding:5px;
+background:#fcc47a;
+position:static;
+}
+
+#simpleprofile div.loading{
+text-align:center;
+padding:25px 0;
+}
+
+#simpleprofile div.contentStage{
+background:#FFF;
+border-top:1px solid #FFC356;
+border-bottom:1px solid #FFC356;
+}
+
+#simpleprofile dt{width:41px;}
+#simpleprofile dd{width:100px;}
+
+#simpleprofile ul.editContents{
+background-position:-80px 0px;
+}
+
+#simpleprofile .moreLink01{
+background:#fff;
+padding:5px;
+}
+
+#simpleprofile .moreLink01 a{
+background-image:url(images/arrow001.gif);
+}
+
+#simpleprofile .editListPopup01 ul.editContents{
+*zoom:1;
+}
+
+#simpleprofile .editListPopup01 ul.editContents li{
+width:183px;
+*float:left;
+}
+
+#simpleprofile .editListPopup01 ul.editContents li.moreLink{
+border-bottom:none;
+}
+
+#simpleprofile .editListPopup01 ul.formButtons01{
+padding-bottom:10px;
+}
+
+
+/*---- editListPopup01:設定入力系 ----*/
+.editListPopup01 ul.editContents {
+border-right:1px solid #FFC356;
+border-left:1px solid #FFC356;
+background:url(images/bg_edit_list001.gif) repeat-y 0 0 #FFF;
+}
+
+.editListPopup01 ul.editContents li{
+clear:both;
+border-bottom:1px solid #FFC356;
+}
+
+.editListPopup01 ul.editContents li dl dt,
+.editListPopup01 ul.editContents li dl dd{
+padding:5px 10px;
+}
+
+.editListPopup01 ul.editContents li dl dt{
+float:left;
+width:120px;
+}
+
+.editListPopup01 ul.editContents li dl dd{
+float:left;
+width:426px;
+word-break:break-all;
+overflow:hidden;
+}
+
+.editListPopup01 ul.editContents li dl dd input,
+.editListPopup01 ul.editContents li dl dd select{
+vertical-align:middle;
+}
+
+.editListPopup01 ul.editContents li dl dd select{
+margin-right:3px;
+}
+
+.editListPopup01 ul.editContents li dl dd textarea{
+margin-top:5px;
+}
+
+.editListPopup01 ul.editContents li dl dd ul li{
+border:none;
+}
+
+.editListPopup01 ul.editContents li dl dd ul.checkList01 li{
+display:inline;
+margin-right:5px;
+}
+
+.editListPopup01 ul.editContents li dl dd ul.checkList01 li input{
+margin-right:3px;
+}
+
+.editListPopup01 ul.editContents li dl dd ul.checkList02{
+display:inline-block;
+}
+
+.editListPopup01 ul.editContents li dl dd ul.checkList02 li{
+clear:none;
+float:left;
+width:30%;
+padding-bottom:3px;
+}
+
+.editListPopup01 ul.editContents li dl dd ul.checkList02 li input,
+.editListPopup01 ul.editContents li dl dd ul.checkboxList01 li input{
+margin-right:3px;
+}
+
+.editListPopup01 .formButtons01{
+border-top:none;
+text-align:center;
+border:1px solid #FFC356;
+border-top:none;
+}
+
+.editListPopup01 div.formButtons01 p.supplement01{
+width:630px;
+margin:0 auto 5px;
+padding:10px 0;
+text-align:center;
+}
+
+.editListPopup01 div.formButtons01 p.supplement01.longLine{
+text-align:left;
+padding:10px 33px;
+width:597px;
+}
+
+.editListPopup01 div.formButtons01 p.formNote01{
+padding-bottom:8px;
+color:#666;
+font-size:83%;
+}
+
+.editListPopup01 em{
+font-style:normal;
+font-weight:normal;
+}
+
+
+/*---- clearfix ----*/
+.layerHeading01,
+.editListPopup01 ul.editContents li dl{
+zoom:1;
+}
+
+.layerHeading01:after,
+.editListPopup01 ul.editContents li dl:after,
+.editListPopup01 ul.editContents li dl dd ul.checkList02:after{
+content:".";
+display:block;
+clear:both;
+height:0;
+visibility:hidden;
+}
+
+
+/*---- ConfirmWindow(confirm.js) used at home, list_firend, school----*/
+#JS_confirmWindow {
+position:absolute;
+top:0;
+left:0;
+z-index:100;
+width:100%;
+background-color:#FFF;
+}
+
+#JS_confirmWindowBody {
+position:absolute;
+top:0;
+left:60px;
+z-index:101;
+width:590px;
+}
+
+
+/*---- School Invite Popup used at run_appli ----*/
+#JS_schoolInvite ul.entryList01 li{
+padding:8px 16px;
+}
+
+#JS_schoolInvite ul.entryList01 li p{
+padding-left:42px;
+background-image:url(images/school_division001.gif);
+background-repeat:no-repeat;
+}
+
+#JS_schoolInvite p.cl01{ background-position:0 0; }
+#JS_schoolInvite p.cl02{ background-position:0 -50px; }
+#JS_schoolInvite p.cl03{ background-position:0 -150px; }
+#JS_schoolInvite p.cl04{ background-position:0 -250px; }
+#JS_schoolInvite p.cl05{ background-position:0 -300px; }
+#JS_schoolInvite p.cl06{ background-position:0 -350px; }
+#JS_schoolInvite p.cl07{ background-position:0 -400px; }
+#JS_schoolInvite p.cl08{ background-position:0 -200px; }
+#JS_schoolInvite p.cl09{ background-position:0 -100px; }
+#JS_schoolInvite p.cl10{ background-position:0 100%; }
+
+#JS_schoolInvite ul.entryList01 li a{
+padding-right:1px;
+}
+
+#JS_schoolInvite ul.editContents li dl dl dt{
+padding-left:0;
+padding-right:0;
+width:86px;
+}
+
+#JS_schoolInvite ul.editContents li dl dl dd{
+padding-left:0;
+padding-right:0;
+width:340px;
+}

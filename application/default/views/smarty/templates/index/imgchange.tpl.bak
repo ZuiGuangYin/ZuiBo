@@ -1,0 +1,7 @@
+{literal}
+<script language="javascript" type="text/javascript">
+{/literal}
+alert('{$img}');
+window.top.window.stopUpload('{$result}','{$img}');
+{literal}</script> 
+{/literal}

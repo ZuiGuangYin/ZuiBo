@@ -1,0 +1,1870 @@
+@charset "utf-8";
+
+/*---- profilePhoto:プロフ画像 ----*/
+#profilePhoto div.heading02 p{
+background:url(images/checkmobile_bg001.gif) no-repeat 100% 0;
+}
+
+#profilePhoto .heading02 p a{
+background:url(images/profile001.gif) no-repeat 0 0;
+}
+
+#profilePhoto .contents{
+border:1px solid #D0D0D1;
+border-top:none;
+}
+
+#profilePhoto ul.showPhotoList li div{
+border:1px solid #DDD;
+background:no-repeat 50% 50%;
+}
+
+
+/*---- photoUploadForm:プロフ画像アップ ----*/
+#photoUploadForm{
+border:1px solid #D6D6D6;
+background:#FAF9F5;
+}
+
+#photoUploadForm li.photo a{
+background:url(images/photo003.gif) no-repeat 0 0;
+}
+
+#photoUploadForm li.mobile a{
+background:url(images/mobile001.gif) no-repeat 0 0;
+}
+
+#photoUploadForm p.formArea textarea.defaultText{
+color:#999;
+}
+
+#photoUploadForm p.formArea span.error{
+background:url(images/simplealert_alert001.gif) no-repeat 0 0;
+color:#F00;
+}
+
+
+/*---- profilePhotoFeed:プロフ画像更新情報 ----*/
+#profilePhotoFeed{
+border:1px solid #D6D6D6;
+}
+
+#profilePhotoFeed li{
+background:url(images/profile001.gif) no-repeat 0 1px;
+}
+
+
+/*---- profilePhotoList:プロフ画像リスト ----*/
+#profilePhotoList div.messageArea div.contents{
+border-top:1px solid #DEDEDE;
+}
+
+#profilePhotoList .confirm01{
+border-bottom:none;
+}
+
+#profilePhotoList .pageNavigation01.top{
+border-top:1px solid #D6D6D6;
+}
+
+#profilePhotoList .photoList{
+border:1px solid #D0D0D1;
+}
+
+#profilePhotoList li.unit div.photo{
+border:1px solid #DDD;
+background:no-repeat 50% 50%;
+}
+
+#profilePhotoList li.notset div.photo{
+background-color:#F0F0F0;
+}
+
+#profilePhotoList li.main div.photo{
+background-color:#FFD8A7;
+}
+
+#profilePhotoList li.unit p.from a{
+background:url(images/link_arrow_down001.gif) no-repeat 0 5px;
+}
+
+#profilePhotoList li.unit p.from a.close{
+background-image:url(images/pagetop002.gif);
+}
+
+#profilePhotoList li.unit div.messageArea{
+background:#F6F6F6 url(images/bg_photo_message_top001.gif) no-repeat 0 0;
+}
+
+#profilePhotoList li.unit div.messageArea ul.action{
+background:#F6F6F6 url(images/bg_photo_message_bottom001.gif) no-repeat 0 100%;
+}
+
+#profilePhotoList .unit div.messageArea ul.action a{
+background:url(images/arrow001.gif) no-repeat 0 3px;
+}
+
+
+/*---- photoConfirm:フォトから追加確認 ----*/
+#photoConfirm .contents{
+border:1px solid #D0D0D1;
+border-top:none;
+}
+
+#photoConfirm .addConfirm{
+border-bottom:1px solid #D0D0D1;
+}
+
+
+/*---- mobileUpload:携帯プロフ写真追加 ----*/
+body.mobileUploadPopup{
+background:#FFF;
+}
+
+#mobileUpload div.confirm{
+background:#F6F6F6 url(images/popup_message_top001.gif) no-repeat 0 0;
+}
+
+#mobileUpload div.confirm p{
+background:url(images/popup_message_bottom001.gif) no-repeat 0 100%;
+}
+
+#mobileUpload div.qrCode img{
+border:1px solid #DDD;
+}
+
+
+/*---- editList01:設定入力系画面 ----*/
+#editList01 ul.editContents{
+border-right:1px solid #D0D0D1;
+border-left:1px solid #D0D0D1;
+background:#fff url(images/bg_edit_list001.gif) repeat-y 0 0;
+}
+
+#editList01 ul.editContents li{
+border-bottom:1px solid #D0D0D1;
+}
+
+#editList01 ul.editContents li dl dd dl.inputList01 dd span.inputDisabled{
+color:#999;
+}
+
+#editList01 ul.editContents li dl dd.mailaddressList div.mobileAddress {
+background:url(images/dotline_horizontal001.gif) repeat-x 0 0;
+}
+
+#editList01 ul.editContents li dl dd table.loginMailAddress01 td input.changeAddress{
+border:none;
+background:none;
+}
+
+#editList01 ul.editContents li dl dd ul li{
+border:none;
+}
+
+.editNote{
+color:#666;
+}
+
+
+/*---- editGroup01 ----*/
+#editList01 ul.editContents dd.editGroup01 dd ul li{
+border-left:1px solid #D0D0D1;
+}
+
+#editList01 ul.editContents dd.editGroup01 dd ul li.leftside{
+border-left:none;
+}
+
+
+/*---- confirmation ----*/
+#editList01 p.confirmation{
+border-right:1px solid #D6D6D6;
+border-bottom:1px solid #D0D0D1;
+border-left:1px solid #D6D6D6;
+background:#F8F8F8;
+color:#666;
+}
+
+
+/*---- memoList01:メモ情報 ----*/
+div.memoList01{
+border:1px solid #D0D0D1;
+border-top:none;
+}
+
+div.memoList01 ul.memoListContent{
+background:url(images/bg_memo_list001.gif) repeat-y 0 0;
+}
+
+div.memoList01 ul.memoListContent li dl{
+border-top:1px solid #D0D0D1;
+}
+
+div.memoList01 ul.memoListContent li dl.memoListTop,
+div.memoList01 ul.memoListContent li dl dd dl{
+border-top:none;
+}
+
+
+/*---- groupList01: コミュニティ一覧----*/
+div.groupList01{
+border-bottom:none;
+background:url(images/bg_vertical_line001.gif) repeat-y 0 0;
+}
+
+div.groupList01 div.groupListTitle{
+background:url(images/dotline_horizontal002.gif) repeat-x 0 100%;
+}
+
+div.groupList01 div.groupListTitle p a{
+background:url(images/change001.gif) no-repeat 0 50%;
+}
+
+div.groupList01 dl dt{
+background:url(images/group001.gif) no-repeat 0 50%;
+}
+
+div.groupList01 dl dd{
+background:url(images/bg_group_list001.gif) no-repeat 6px 6px;
+}
+
+div.groupList01 dl dd ul li{
+background:transparent url(images/group002.gif) no-repeat scroll 0;
+}
+
+div.groupList01 dl dd ul li.selected{
+background:url(images/group001.gif) no-repeat 0 0;
+color:#333333;
+}
+
+div.groupList01 p.utilityLinks04{
+background:url(images/link001.gif) no-repeat 5px 50%;
+}
+
+
+/*---- introList01:紹介文一覧 ----*/
+div.introList01 ul.introListContents{
+border:1px solid #D0D0D1;
+}
+
+div.introList01 ul.confirmContents02{
+border-top:none;
+}
+
+div.introList01 ul.introListContents li dl dd{
+background:url(/img/basic/home/introlist01_top.gif) no-repeat 100% 0;
+}
+
+div.introList01 ul.introListContents li dl dd div{
+background:#fff3e2 url(/img/basic/home/introlist01_bottom.gif) no-repeat 100% 100%;
+}
+
+div.introList01 ul.introListContents li dl dd p.relation{
+background-image:none;
+}
+
+div.introList01 ul.introListContents li dl dd div ul li.leftside{
+border-right:1px solid #CCC;
+}
+
+div.introList01 ul.confirmContents01{
+border-top:none !important;
+}
+
+div.introList01 .formButtons01{
+border:1px solid #D0D0D1;
+border-top:none;
+}
+
+
+/*---- friendList01:マイミク一覧 ----*/
+ul.friendBlock{
+background:url(images/leftimage_dot_vertical.gif) repeat-y 0 0;
+border:1px solid #D0D0D1;
+border-top:none;
+}
+
+ul.friendBlock li{
+border-top:1px solid #D0D0D1;
+}
+
+dl.friendList01 dt.friendName{
+border-bottom:1px solid #D0D0D1;
+background:#EDECEC;
+}
+
+dl.friendList01 dd.friendProfile p{
+border:none;
+}
+
+div.friendListForm01 ul.formButtons01 {
+border:1px #D0D0D1;
+border-style:none solid solid;
+}
+
+div.confirm01 p.bottomBorder01 {
+background-image:none;
+}
+
+div.friendListTab{
+background-color:#fff;
+}
+
+
+/*---- common_component:ホーム共通 ----*/
+ul.list{
+border:1px solid #D0D0D1;
+}
+
+ul.list li{
+border-bottom:1px solid #D0D0D1;
+background:url(images/dotline_horizontal003.gif) repeat-y 116px 0;
+}
+
+ul.list li.last{
+border-bottom:none;
+}
+
+ul.list div.heading{
+background-color:#EDECEC;
+border-bottom:1px solid #D0D0D1;
+}
+
+ul.list div.listContents p.userInfo{
+background:url(images/dotline_horizontal001.gif) repeat-x 0 100%;
+}
+
+
+/*---- search:友人検索 ----*/
+div.search #editList01 ul.editContents{
+background:#fff url(images/bg_edit_list002.gif) repeat-y -520px 0;
+}
+
+div.search #searchCategoryArea ul.categoryListu18 li{
+background:url(images/search_menu004.gif) no-repeat;
+}
+
+div.search #searchCategoryArea ul.categoryListo18 li{
+background:url(images/search_menu_006.gif) no-repeat;
+}
+
+div.search #searchCategoryArea ul.categoryListu18 li.emailRequest{background-position:0 0;}
+div.search #searchCategoryArea ul.categoryListu18 li.schoolSearch{background-position:100% 0;}
+div.search #searchCategoryArea ul.categoryListu18 li.keywordSearch{background-position:0 100%;}
+div.search #searchCategoryArea ul.categoryListu18 li.addressSearch{background-position:100% 100%;}
+
+div.search #searchCategoryArea ul.categoryListo18 li.emailRequest{background-position:0 0;}
+div.search #searchCategoryArea ul.categoryListo18 li.schoolSearch{background-position:50% 0;}
+div.search #searchCategoryArea ul.categoryListo18 li.companySearch{background-position:100% 0;}
+div.search #searchCategoryArea ul.categoryListo18 li.profileSearch{background-position:0 100%;}
+div.search #searchCategoryArea ul.categoryListo18 li.addressSearch{background-position:50% 100%;}
+div.search #searchCategoryArea ul.categoryListo18 li.keywordSearch{background-position:100% 100%;}
+
+
+/*---- recommend:あなたの友人かも ----*/
+div.recommend{
+border-left:1px solid #D0D0D1;
+border-right:1px solid #D0D0D1;
+}
+
+div.recommend div.contentBox{
+border-bottom:1px solid #D0D0D1;
+background:url(images/bg_recommend_list001.gif) repeat-y 0 0;
+}
+
+div.recommend div.contentBox.last{
+background:url(images/bg_recommend_list002.gif) repeat-y 0 0;
+}
+
+div.recommend div.contentBox div.heading{
+border-bottom:1px solid #D0D0D1;
+background:#F9F8F8;
+}
+
+div.recommend div.contentBox div.heading p.function a.tooltip01:hover{
+background:#EDECEC;
+}
+
+div.recommend div.contentBox div.heading p.function a.tooltip01:hover span{
+border:1px solid #CCC; 
+background:#f8f8f8; 
+color:#666;
+}
+
+div.recommend div.contentBox div.contentList ul li.addMyList{ 
+background:url(images/add_myList001.gif) no-repeat 11px 0; 
+} 
+ 	 
+div.bottomUtility01{
+border:1px solid #D6D6D6;
+background:url(images/bg_page_list02.gif) repeat-x 0 100%;
+}
+
+div.bottomUtility01 p.extraLink{
+background:url(images/return001.gif) no-repeat 0 50%;
+}
+
+
+/*---- recommendFriend:マイミク申請完了 ----*/
+#recommendFriend{
+background:url(images/bg_recommend_friend_bottom001.gif) no-repeat left bottom;
+}
+
+#recommendFriend h3.heading{
+background:url(images/bg_recommend_friend_top001.gif) no-repeat left top;
+}
+
+#recommendFriend div.recommend{
+border-top:1px solid #D0D0D1;
+background:#fff;
+}
+
+#recommendFriend div.recommend div.contentBox{
+background:url(images/bg_recommend_list003.gif) repeat-y 0 0;
+}
+
+
+/*---- show_log:足あと ----*/
+div.show_log .extraWrap02 .selectTab01 li a{
+background:url(images/log_tab003.gif) no-repeat;
+}
+
+div.show_log .extraWrap02 .selectTab01 li.in a{background-position:0 100%;}
+div.show_log .extraWrap02 .selectTab01 li.in a:hover{background-position:0 -32px;}
+div.show_log .extraWrap02 .selectTab01 li.in a.on,
+div.show_log .extraWrap02 .selectTab01 li.in a.on:hover{background-position:0 0;}
+
+div.show_log .extraWrap02 .selectTab01 li.out a{background-position:100% 100%;}
+div.show_log .extraWrap02 .selectTab01 li.out a:hover{background-position:100% -32px;}
+div.show_log .extraWrap02 .selectTab01 li.out a.on,
+div.show_log .extraWrap02 .selectTab01 li.out a.on:hover{background-position:100% 0;}
+
+div.show_log div.confirm{
+color:#666;
+}
+
+div.show_log div.pageNavigation01.top{
+border-bottom:none;
+border-top:1px solid #d6d6d6;
+}
+
+div.show_log div.pageNavigation01.bottom{
+border-top:none;
+border-bottom:1px solid #d6d6d6;
+}
+
+div.show_log div.logListArea{
+border:1px solid #D0D0D1;
+background-color:#EDECEC;
+}
+
+div.show_log div.logListArea div.logContents{
+border:1px solid #D0D0D1;
+background:url(images/bg_stripe001.gif) repeat 0 0;
+}
+
+div.show_log div.logListCenter em{
+color:#f00;
+}
+
+div.show_log div.logListCenter li.on{
+background:url(images/log_delete_focus.gif) no-repeat 6px 1px;
+}
+
+div.show_log div.iconInfo{
+background:url(images/log_iconinfo002.gif) no-repeat 3px 10px;
+}
+
+
+/*---- search_diary:日記検索 ----*/
+div.search_diary ul.list{
+border-bottom:none;
+border-top:none;
+}
+
+div.search_diary.result ul.list{
+border-bottom:1px solid #D0D0D1;
+border-top:1px solid #D0D0D1;
+}
+
+
+/*---- list_friend/edit_friend_group/list_community/	edit_community_group ----*/
+div.manage_friend div.pageNavigation01.top,
+div.manage_community div.pageNavigation01.top,
+div.edit_community_group div.pageNavigation01.top,
+div.edit_friend_group div.pageNavigation01.top{
+border-bottom:1px solid #d6d6d6;
+}
+
+
+/*---- list_community:コミュニティ一覧 ----*/
+div.list_community_main div.pageNavigation01.top{
+border-top:1px solid #d6d6d6;
+}
+
+div.list_community_main div.pageNavigation01.top div.pageList02{
+border-bottom:1px solid #d6d6d6;
+}
+
+
+/*---- edit_community_group/edit_friend_group ----*/
+div.edit_community_group div.pageNavigation01.top,
+div.edit_friend_group div.pageNavigation01.top{
+border-top:1px solid #d6d6d6;
+}
+
+
+/*---- invite:友人を招待 ----*/
+div.invite div.messageArea,
+div.invite #editList01 div.contents{
+margin-bottom:15px;
+}
+
+div.invite div.confirm02{
+border-bottom:1px solid #D0D0D1;
+}
+
+div.invite #editList01 ul.editContents{
+background:#fff url(images/bg_edit_list002.gif) repeat-y -520px 0;
+}
+
+div.invite #editList01 ul.editContents span.alert{
+color:#f00;
+}
+
+div#addInviteFriend p.extraLink{
+border:1px solid #CCC; 
+border-bottom:none;
+}
+
+div.invite #editList01 ul.editContents div.selectLinkArea{
+background:url(images/bg_editlist_top.gif) no-repeat 0 0;
+}
+
+div.invite #editList01 ul.editContents div.selectLinkArea div{
+background:url(images/bg_editlist_bottom.gif) no-repeat 0 100%;
+}
+
+div.invite #editList01 ul.editContents div.selectLinkArea p.notice{
+background:url(images/simplealert_alert002.gif) no-repeat;
+}
+
+div.invite #editList01 ul.editContents ul.friendList01 p.limitInfo{
+background:url(images/simplealert_alert002.gif) no-repeat;
+color:#f00;
+}
+
+div.invite #editList01 ul.editContents ul.friendList01 textarea.example{
+color:#999;
+}
+
+
+/*---- importContacts:アドレス帳友人招待 ----*/
+.importContacts .contents{
+border:1px solid #D0D0D1;
+border-top:none;
+}
+
+.importContacts .contents p{
+background:url(images/bg_btn_area001.gif) no-repeat 0 0;
+}
+
+
+/*---- serviceListArea:サービス一覧 ----*/
+#serviceListArea ul.serviceList01 li div.contents{
+background:#FFF url(images/bg_servicelist005.gif) no-repeat;
+}
+
+#serviceListArea ul.serviceList01 li div.contents p.moreLinkBt a{
+background:url(images/bt_servicelist005.gif) no-repeat;
+}
+
+
+/*---- serviceList:サービス一覧 ----*/
+#serviceListArea ul.serviceList01 li.diary div.contents,
+#serviceListArea ul.serviceList01 li.diary div.contents p.moreLinkBt a{background-position:0 0;}
+#serviceListArea ul.serviceList01 li.diary div.contents p.moreLinkBt a:hover{background-position:100% 0;}
+
+#serviceListArea ul.serviceList01 li.community div.contents{background-position:center 0;}
+#serviceListArea ul.serviceList01 li.community div.contents p.moreLinkBt a{background-position:0 -32px;}
+#serviceListArea ul.serviceList01 li.community div.contents p.moreLinkBt a:hover{background-position:100% -32px;}
+
+#serviceListArea ul.serviceList01 li.mobile div.contents{background-position:100% 0;}
+#serviceListArea ul.serviceList01 li.mobile div.contents p.moreLinkBt a{background-position:0 -64px;}
+#serviceListArea ul.serviceList01 li.mobile div.contents p.moreLinkBt a:hover{background-position:100% -64px;}
+
+#serviceListArea ul.serviceList01 li.photo div.contents{background-position:0 -190px;}
+#serviceListArea ul.serviceList01 li.photo div.contents p.moreLinkBt a{background-position:0 -96px;}
+#serviceListArea ul.serviceList01 li.photo div.contents p.moreLinkBt a:hover{background-position:100% -96px;}
+
+#serviceListArea ul.serviceList01 li.video div.contents{background-position:center -190px;}
+#serviceListArea ul.serviceList01 li.video div.contents p.moreLinkBt a{background-position:0 -128px;}
+#serviceListArea ul.serviceList01 li.video div.contents p.moreLinkBt a:hover{background-position:100% -128px;}
+
+#serviceListArea ul.serviceList01 li.review div.contents{background-position:100% -190px;}
+#serviceListArea ul.serviceList01 li.review div.contents p.moreLinkBt a{background-position:0 -160px;}
+#serviceListArea ul.serviceList01 li.review div.contents p.moreLinkBt a:hover{background-position:100% -160px;}
+
+#serviceListArea ul.serviceList01 li.school div.contents{background-position:0 -380px;}
+#serviceListArea ul.serviceList01 li.school div.contents p.moreLinkBt a{background-position:0 -192px;}
+#serviceListArea ul.serviceList01 li.school div.contents p.moreLinkBt a:hover{background-position:100% -192px;}
+
+#serviceListArea ul.serviceList01 li.news div.contents{background-position:center -380px;}
+#serviceListArea ul.serviceList01 li.news div.contents p.moreLinkBt a{background-position:0 -224px;}
+#serviceListArea ul.serviceList01 li.news div.contents p.moreLinkBt a:hover{background-position:100% -224px;}
+
+#serviceListArea ul.serviceList01 li.openID div.contents{background-position:100% -380px;}
+#serviceListArea ul.serviceList01 li.openID div.contents p.moreLinkBt a{background-position:0 -256px;}
+#serviceListArea ul.serviceList01 li.openID div.contents p.moreLinkBt a:hover{background-position:100% -256px;}
+
+/*---- serviceList02:サービス一覧サブ ----*/
+#serviceListArea div.serviceList02{
+background:url(images/dotline_horizontal002.gif) repeat-x 0 0;
+}
+
+#serviceListArea div.serviceList02 div.contents{
+background:url(images/dotline_vertical002.gif) repeat-y 0 0;
+}
+
+#serviceListArea div.serviceList02 table td{
+background:url(images/bg_service_list_cell001.gif) no-repeat 100% 100%;
+}
+
+#serviceListArea div.serviceList02 table td.empty{
+background:none;
+}
+
+#serviceListArea div.serviceList02 table td h3 a{
+background:url(images/arrow004.gif) no-repeat 0 3px;
+}
+
+#serviceListArea div.serviceList02 table td h3.end{
+background:url(images/arrow004.gif) no-repeat 0 5px;
+}
+
+
+/*---- settingListArea:設定変更 ----*/
+#settingListArea .section h2{
+background:url(images/body_setting_area001.gif) no-repeat 0 0;
+color:#333;
+}
+
+#settingListArea .section li{
+background:url(images/list001.gif) no-repeat 6px 50%;
+}
+
+
+/*---- add_friend/list_request/reply_request：マイミク追加リクエスト ----*/
+div.request div.pageNavigation01.top{
+border-bottom:1px solid #D0D0D1;
+}
+
+div.detailList01{
+border:1px solid #D0D0D1;
+border-top:none;
+background:url(images/bg_edit_list003.gif) repeat-y 96px 0;
+}
+
+div.detailList01 ul.detailListContent li{
+border-bottom:1px solid #D0D0D1;
+border-left:1px solid #D0D0D1;
+}
+
+div.detailList01 ul.detailListContent li.last{
+border-bottom:none !important;
+}
+
+div.detailList01 ul.detailListContent li p.moreLink01{
+background:#FFF;
+}
+
+div.detailList01 ul.detailListContent li.information01{
+background:#F9F8F8;
+}
+
+div.detailList01 ul.detailListContent li.information01 span{
+color:#f00;
+}
+
+div.detailList01 ul.detailListContent li.information02{
+color:#f00;
+background:#FFF;
+}
+
+div.detailList01 ul.detailListContent .formButtons01 li{
+border:none;
+}
+
+
+/*---- mixiKeyword:mixiキーワード ----*/
+div.myKeyword div#editList01 dl dd.inputMyKeyword p.noChange span{
+color:#f00;
+}
+
+div.myKeyword div.editConfirm01 p.formButtons01{
+border:1px solid #D0D0D1;
+border-top:none;
+}
+
+div.myKeyword div.detailList01 ul.detailListContent li.addFriend{
+border-bottom:none;
+background:#FFF;
+}
+
+div.myKeyword div.detailList01 ul.detailListContent li.addFriend dl dd span.addmylist a{
+background:url(images/add_myList002.gif) no-repeat 0 50%;
+}
+
+
+/*---- マイミク追加 友人紹介 ----*/
+#addMyMixi,
+#friends{
+background:url(images/addmymixi_bg001.gif) no-repeat 0 0;
+}
+
+
+/*---- profileEdit:プロフ編集 ----*/
+#profileEdit{
+background:url(images/profileedit_bg_bottom001.gif) no-repeat 0 100%;
+}
+
+#profileEdit div.contents{
+background:url(images/profileedit_bg_top001.gif) no-repeat 0 0;
+}
+
+#profileEdit div.contents dl dd a{
+background:url(images/link_arrow001.gif) no-repeat 0 center;
+}
+
+#profileEdit div.contents ul.formButtons01{
+background:none;
+}
+
+
+/*---- myArea ----*/
+#myArea{
+border:1px solid #D0D0D1;
+background:#EDECEC;
+}
+
+
+/*---- profilePhoto ----*/
+#myArea div.profilePhoto{
+background:url(images/profilephoto_bg_bottom001.gif) no-repeat 0 100%;
+}
+
+#myArea div.profilePhoto h2{
+background:url(images/profilephoto_bg_top001.gif) no-repeat 0 0;
+}
+
+#myArea div.profilePhoto div.contents{
+border-right:1px solid #D0D0D1;
+border-left:1px solid #D0D0D1;
+background:#F9F8F8;
+}
+
+#myArea div.profilePhoto div.contents p.photo{
+background:#fff;
+}
+
+
+/*---- bodySideSection01 ----*/
+div.bodySideSection01 div.sectionBody div.utility02{
+background:#F9F8F8;
+}
+
+
+/*---- mutualMyMixi:共通マイミク ----*/
+div.bodySideSection01 div.mutualMyMixi{
+background:url(images/mutualmymixi_bg_bottom001.gif) no-repeat 0 100%;
+}
+
+div.bodySideSection01 div.mutualMyMixi h3{
+background:url(images/mutualmymixi_bg_top001.gif) no-repeat 0 7px;
+}
+
+div.bodySideSection01 div.mutualMyMixi ul{
+border-right:1px solid #D0D0D1;
+border-left:1px solid #D0D0D1;
+background:#F9F8F8;
+}
+
+
+/*---- friendUtilityLink ----*/
+ul.friendUtilityLink{
+background:#FFF;
+}
+
+ul.friendUtilityLink li a{
+background:url(images/link_arrow001.gif) no-repeat 0 center;
+}
+
+ul.friendUtilityLink li a.myListIcon{
+background:url(images/add_myList002.gif) no-repeat 0 center;
+}
+
+
+/*---- personalInfo:友人更新情報 ----*/
+#personalInfo{
+border:1px solid #D0D0D1;
+background:#F9F8F8;
+}
+
+#personalInfo dl dt.birthday{
+background:url(images/i_bd.gif) no-repeat 0 0;
+}
+
+#personalInfo dl dt.mikukore{
+background:url(images/mikukore001.gif) no-repeat 0 2px;
+}
+
+#personalInfo dl dt.profile{
+background:url(images/profile001.gif) no-repeat 2px 2px;
+}
+
+#personalInfo dl dd{
+background:url(images/leader002.gif) no-repeat 0 0.7em;
+}
+
+
+/*---- diaryFeed:日記Feed ----*/
+#diaryFeed dl.contentsFeedList01 dt{
+background:url(images/diary002.gif) no-repeat 0 2px;
+}
+
+
+/*---- photoFeed:フォトFeed ----*/
+div.section01 ul.photoLinkList li a{
+background:url(images/photo003.gif) no-repeat 0 0;
+}
+
+
+/*---- profile ----*/
+#profile div.sectionBody{
+border:1px solid #D0D0D1;
+border-top:none;
+background:#F9F8F8;
+}
+
+#profile div.profileListTable{
+background:#fff url(images/profilelist_bg_bottom001.gif) no-repeat 0 100%;
+}
+
+#profile div.profileListTable div{
+background:url(images/profilelist_bg_top001.gif) no-repeat 0 0;
+}
+
+#profile div.profileListTable table{
+background:url(images/border_dot_vertical001.gif) repeat-y 94px 0;
+}
+
+#profile div.profileListTable table tr{
+background:url(images/border_dot_horizontal001.gif) repeat-x 0 100%;
+}
+
+#profile div.profileListTable table tr.listBottom{
+background-image:none;
+}
+
+#profile p.moreLink01 a.open{
+background-image:url(images/link_arrow_down001.gif);
+}
+
+#profile p.moreLink01 a.close{
+background-image:url(images/pagetop002.gif);
+}
+
+
+/*---- intro ----*/
+#intro div.sectionBody dl dd{
+background:url(images/intro_bg_bottom001.gif) no-repeat 100% 100%;
+}
+
+#intro div.sectionBody dl dd div{
+background:url(images/intro_bg_middle001.gif) repeat-y 100% 0;
+}
+
+#intro div.sectionBody dl dd div p{
+background:url(images/intro_bg_top001.gif) no-repeat 100% 0;
+}
+
+
+/*---- profilePhoto:home写真 ----*/
+#bodySide02 #myArea div.profilePhoto{
+background:none;
+}
+
+#bodySide02 #myArea div.profilePhoto h2{
+background:url(images/profilephoto_bg_home001.gif) no-repeat 0 0;
+}
+
+#bodySide02 #myArea div.profilePhoto p.photo{
+background:none;
+}
+
+
+/*---- voice:ボイス ----*/
+#bodySide02 #myArea div.voice{
+background:url(images/echo_bg_bottom001.gif) no-repeat 0 100%;
+}
+
+#bodySide02 #myArea div.voice div.contents{
+background:url(images/echo_bg_top001.gif) no-repeat 0 0;
+}
+
+#bodySide02 #myArea div.voice div.vForm p.error{
+background:url(images/simplealert_alert001.gif) no-repeat 0 0;
+color:#f00;
+}
+
+#bodySide02 #myArea div.voice div.vForm p.input textarea{
+border:1px solid #CCC;
+background-color:#FFF;
+}
+
+#bodySide02 #myArea div.voice div.vForm p.input textarea.defaultText{
+background:url(images/echo_list001.gif) no-repeat 4px 2px;
+color:#999;
+}
+
+#bodySide02 #myArea div.voice div.vForm p.selectPhoto input{
+background:#FFF;
+}
+
+#bodySide02 #myArea div.voice div.vForm div.option p.addPhoto a{
+background:url(images/photo_upload001.gif) no-repeat 0 0;
+}
+
+#bodySide02 #myArea div.voice div.vForm div.option ul.transmit input{
+background:none;
+}
+
+#bodySide02 #myArea div.voice div.vForm p.submit input{
+border:none;
+}
+
+
+/*---- newFeedList:フィード共通 ----*/
+.newFeedList li.hrule{
+background:url(images/dotline_horizontal001.gif) repeat-x 0 100%;
+}
+
+.newFeedList li .feedContents p.name,
+.newFeedList li .feedContents div.utility{
+color:#999;
+}
+
+.newFeedList li .feedContents div.utility ul li a.likeIcon{
+background:url(images/like001.gif) no-repeat 0 0;
+}
+
+.newFeedList li .feedContents div.utility ul li a.commIcon{
+background:url(images/voice_reply001.gif) no-repeat 0 0;
+}
+
+.newFeedList li .feedContents div.utility ul li span.likedIcon{
+background:url(images/like_done001.gif) no-repeat 0 0;
+}
+
+.newFeedList li .feedContents div.thumbnail p{
+border:1px solid #DDD;
+}
+
+.newFeedList li .feedContents .title01 a.diary{background:url(images/diary002.gif) no-repeat 2px 2px;}
+.newFeedList li .feedContents .title01 a.schedule{background:url(images/schedule001.gif) no-repeat 0 0;}
+.newFeedList li .feedContents .title02 a.photo{background:url(images/photo003.gif) no-repeat 0 2px;}
+.newFeedList li .feedContents .title02 a.video{background:url(images/video002.gif) no-repeat 1px 1px;}
+.newFeedList li .feedContents .title02 a.review{background:url(images/icon_star01.gif) no-repeat 0 1px;}
+.newFeedList li .feedContents p.friend{background:url(images/friend001.gif) no-repeat 2px 0;}
+.newFeedList li .feedContents p.community{background:url(images/community001.gif) no-repeat 1px 1px;}
+.newFeedList li .feedContents .title01 a.appli{background:no-repeat 0 0;}
+
+.newFeedList li .feedContents p.checked{
+background-repeat:no-repeat;
+background-position:0 0;
+}
+
+.newFeedList li .feedContents .itemData,
+.newFeedList li .feedContents p.checked .mobile{
+color:#999;
+}
+
+.newFeedList li .feedContents .itemData .iine,
+.newFeedList li .feedContents .itemData .comment{
+color:#333;
+}
+
+.newFeedList li .feedContents .itemData .more a{
+background:url(images/arrow001.gif) no-repeat 0 50%;
+}
+
+.newFeedList .resArea{
+background:#EEE url(images/voice_res_btm001.gif) no-repeat 0 100%;
+}
+
+.newFeedList .resArea .inputArea{
+background:url(images/voice_res_top001.gif) no-repeat 0 0;
+}
+
+.newFeedList .resArea .inputArea textarea{
+border-color:#CCC;
+background:#FFF;
+}
+
+.newFeedList .resArea .inputArea p.control input{
+border:none;
+background:none;
+}
+
+.newFeedList .resArea .inputArea p.control span.error{
+background:url(images/simplealert_alert001.gif) no-repeat 0 0;
+color:#f00;
+}
+
+.newFeedList .resArea .officialNotify{
+color:#666;
+}
+
+#bodyContents01 #voiceFeed li .feedContents .voicePhoto{
+border:1px solid #DDD;
+}
+
+
+/*---- noticeIcon:home通知 ----*/
+#bodySide02 #myArea div.noticeIcon ul.noticeList li a{
+background-image:url(images/home_notice003.gif);
+}
+
+#bodySide02 #myArea div.noticeIcon ul.noticeList li.iine a{
+background-position:0 -35px;
+}
+#bodySide02 #myArea div.noticeIcon ul.noticeList li.iine a.new{
+background-position:0 0;
+}
+#bodySide02 #myArea div.noticeIcon ul.noticeList li.iine a.none{
+background-position:0 -70px;
+}
+
+#bodySide02 #myArea div.noticeIcon ul.noticeList li.voiceComment a{
+background-position:-53px -35px;
+}
+#bodySide02 #myArea div.noticeIcon ul.noticeList li.voiceComment a.new{
+background-position:-53px 0;
+}
+#bodySide02 #myArea div.noticeIcon ul.noticeList li.voiceComment a.none{
+background-position:-53px -70px;
+}
+
+#bodySide02 #myArea div.noticeIcon ul.noticeList li.checkComment a{
+background-position:-104px -35px;
+}
+#bodySide02 #myArea div.noticeIcon ul.noticeList li.checkComment a.new{
+background-position:-104px 0;
+}
+#bodySide02 #myArea div.noticeIcon ul.noticeList li.checkComment a.none{
+background-position:-104px -70px;
+}
+
+#bodySide02 #myArea div.noticeIcon ul.noticeList li.appliRequest a{
+background-position:-155px -35px;
+}
+#bodySide02 #myArea div.noticeIcon ul.noticeList li.appliRequest a.new{
+background-position:-155px 0;
+}
+#bodySide02 #myArea div.noticeIcon ul.noticeList li.appliRequest a.none{
+background-position:-155px -70px;
+}
+
+
+/*---- myAppli ----*/
+#bodySide02 #myArea div.myAppli{
+background:url(images/myappli_bg_top001.gif) no-repeat 0 0;
+}
+
+#bodySide02 #myArea div.myAppli div.contents{
+border-right:1px solid #D0D0D1;
+border-left:1px solid #D0D0D1;
+background:#fff;
+}
+
+#bodySide02 #myArea div.myAppli div.nomore{
+border:none;
+background:url(images/myappli_bg_bottom001.gif) no-repeat 0 100%;
+}
+
+#bodySide02 #myArea div.myAppli ul.actionList li.diary{
+border-right:1px solid #D0D0D1;
+}
+
+#bodySide02 #myArea div.myAppli ul.actionList li.diary a{
+background:url(images/diary002.gif) no-repeat 0 0;
+}
+
+#bodySide02 #myArea div.myAppli ul.actionList li.photo a{
+background:url(images/photo003.gif) no-repeat 0 0;
+}
+
+#bodySide02 #myArea div.myAppli h2{
+border-top:1px solid #D0D0D1;
+}
+
+#bodySide02 #myArea div.myAppli ul.myAppliList li{
+background-repeat:no-repeat;
+background-position:0 0;
+}
+
+#bodySide02 p.myAppliOpen{
+background:url(images/myappli_open001.gif) no-repeat 0 0;
+}
+
+#bodySide02 p.myAppliClose{
+background:url(images/myappli_close001.gif) no-repeat 0 0;
+}
+
+
+/*---- myCommentHistory ----*/
+#bodySide02 #myArea div.myCommentHistory{
+background:url(images/mycommenthistory_bg_bottom001.gif) no-repeat 0 100%;
+}
+
+#bodySide02 #myArea div.myCommentHistory h2{
+background:url(images/mycommenthistory_title001.gif) no-repeat 0 0;
+}
+
+#bodySide02 #myArea div.myCommentHistory div.contents{
+border-right:1px solid #D0D0D1;
+border-left:1px solid #D0D0D1;
+background:#fff;
+}
+
+#bodySide02 #myArea div.myCommentHistory ul.myCommentList li{
+background-repeat:no-repeat;
+}
+
+#bodySide02 #myArea div.myCommentHistory ul.myCommentList li.diary{
+background:url(images/comment001.gif) no-repeat 0 3px;
+}
+
+#bodySide02 #myArea div.myCommentHistory ul.myCommentList li.voice {
+background:url(images/voice001.gif) no-repeat 0 0;
+}
+
+#bodySide02 #myArea div.myCommentHistory ul.myCommentList li.bbs{
+background:url(images/community_topic001.gif) no-repeat 0 0;
+}
+
+#bodySide02 #myArea div.myCommentHistory ul.myCommentList li.event{
+background:url(images/community_event001.gif) no-repeat 0 0;
+}
+
+#bodySide02 #myArea div.myCommentHistory ul.myCommentList li.enquete{
+background:url(images/community_enquete001.gif) no-repeat 0 0;
+}
+
+#bodySide02 #myArea div.myCommentHistory ul.myCommentList li.schedule{
+background:url(images/schedule_comment001.gif) no-repeat 0 1px;
+}
+
+#bodySide02 #myArea div.myCommentHistory ul.myCommentList li.photo{
+background:url(images/photo_comment001.gif) no-repeat 0 0;
+}
+
+#bodySide02 #myArea div.myCommentHistory ul.myCommentList li.like,
+#bodySide02 #myArea div.myCommentHistory ul.myCommentList li.check{
+background:url(images/mixicheck002.gif) no-repeat 0 1px;
+}
+
+#bodySide02 #myArea div.myCommentHistory ul.myCommentList li.checkin{
+background:url(images/checkin001.gif) no-repeat 0 0;
+}
+
+
+/*---- bodySide02 ----*/
+#bodySide02 div.bodySideSection01 div.sectionHead h2{
+background:url(images/bodysidesection_head002.gif) no-repeat 0 0;
+color:#333;
+}
+
+#bodySide02 div.bodySideSection01 div.sectionBody{
+background:#fff;
+}
+
+
+/*---- iconListTable01:ホーム ----*/
+#bodySide02 table.iconListTable01{
+background:url(images/border_dot_vertical001.gif) repeat-y center 0;
+}
+
+#bodySide02 div.bodySideSection01 div.utility02{
+border-top:1px solid #D0D0D1;
+background:#F9F8F8;
+}
+
+#bodySide02 div.bodySideSection01 div.utility02 p.myListLink01 a{
+background:url(images/add_myList002.gif) no-repeat 0 0;
+}
+
+#bodySide02 div.bodySideSection01 div.utility02 p.favLink01 a{
+background:url(images/bookmark002.gif) no-repeat 0 0;
+}
+
+
+/*---- utility03:home系左カラム ----*/
+div.bodySideSection01 div.utility03{
+background:#F9F8F8;
+border-top:1px solid #D0D0D1;
+}
+
+div.bodySideSection01 div.utility03 p.friends a{
+background:url(images/friends001.gif) no-repeat 0 1px;
+}
+
+
+/*---- mixiInfo ----*/
+#bodyContents02 #mixiInfo{
+border:1px solid #D0D0D1;
+background:#F9F8F8 url(images/mixiinfo_bg001.gif) no-repeat 24px 50%;
+}
+
+#bodyContents02 #mixiInfo ul li a{
+background:transparent url(images/list003.gif) no-repeat scroll 0 0.4em;
+}
+
+#bodyContents02 #mixiInfo ul li.redTxt a:link,
+#bodyContents02 #mixiInfo ul li.redTxt a:visited{
+color:#F00;
+}
+
+#bodyContents02 #mixiInfo ul li.redTxt a:hover,
+#bodyContents02 #mixiInfo ul li.redTxt a:active{
+color:#960;
+}
+
+
+/*---- contentsSort:homeタブ ----*/
+#bodyContents02 ul.contentsSort{
+background:url(images/bg_cccccc001.gif) repeat-x 0 100%;
+}
+
+#bodyContents02 ul.contentsSort li a{
+background:url(images/contents_sort_tab001.gif) no-repeat 0 0;
+}
+
+#bodyContents02 ul.contentsSort li a.contents{
+background-position:0 100%;
+}
+
+#bodyContents02 ul.contentsSort li.on a.contents{
+background-position:0 0;
+}
+
+#bodyContents02 ul.contentsSort li a.recent{
+background-position:-110px 100%;
+}
+
+#bodyContents02 ul.contentsSort li.on a.recent{
+background-position:-110px 0;
+}
+
+#bodyContents02 ul.contentsSort li a.myMixi{
+background-position:-220px 100%;
+}
+
+#bodyContents02 ul.contentsSort li.on a.myMixi{
+background-position:-220px 0;
+}
+
+
+/*---- section01 ----*/
+#bodyContents02 div.section01{
+background:url(images/homemainsection_bg_bottom001.gif) no-repeat 0 100%;
+}
+
+#bodyContents02 div.section01 div.sectionHead{
+background:url(images/homemainsection_head002.gif) no-repeat 0 0;
+}
+
+#bodyContents02 div.section01 ul.sectionUtility li a{
+background:url(images/section_utility001.gif) no-repeat 0 0;
+}
+
+#bodyContents02 div.section01 ul.sectionUtility li.up a{
+background-position:0 0;
+}
+
+#bodyContents02 div.section01 ul.sectionUtility li.down a{
+background-position:-15px 0;
+}
+
+#bodyContents02 div.section01 ul.sectionUtility li.close a{
+background-position:-30px 0;
+}
+
+#bodyContents02 div.section01 ul.sectionUtility li.open a{
+background-position:-45px 0;
+}
+
+#bodyContents02 div.section01 ul.sectionUtility li.delete a{
+background-position:-60px 0;
+}
+
+
+/*---- sortFeedList:フィードソート ----*/
+#bodyContents02 dl.sortFeedList{
+border-top:1px solid #D0D0D1;
+background:#F9F8F8;
+}
+
+#bodyContents02 dl.sortFeedList dt{
+color:#666;
+}
+
+#bodyContents02 dl.sortFeedList dd{
+background:url(images/list002.gif) no-repeat 0 50%;
+}
+
+#bodyContents02 dl.sortFeedList dd.first{
+background:none;
+}
+
+
+/*---- beginnersHome:初心者UI ----*/
+#beginnersHome .sectionBody{
+border:1px solid #D0D0D1;
+border-top:none;
+}
+
+#beginnersHome #firstStep01 li a{
+background:url(images/find_friend_006.gif) no-repeat;
+}
+
+#beginnersHome #firstStep01 li.mymixi a{ background-position:0 0;}
+#beginnersHome #firstStep01 li.email a{ background-position:0 -62px;}
+#beginnersHome #firstStep01 li.school a{ background-position:0 -124px;}
+#beginnersHome #firstStep01 li.company a{ background-position:0 -186px;} 
+#beginnersHome #firstStep01 li.profile a{ background-position:0 -248px;}
+#beginnersHome #firstStep01 li.invite a{ background-position:0 -310px;}
+#beginnersHome #firstStep01 li.keyword a{ background-position:0 100%;}
+
+#beginnersHome #firstStep01 li.mymixi a:hover{ background-position:100% 0;}
+#beginnersHome #firstStep01 li.email a:hover{ background-position:100% -62px;}
+#beginnersHome #firstStep01 li.school a:hover{ background-position:100% -124px;}
+#beginnersHome #firstStep01 li.company a:hover{ background-position:100% -186px;} 
+#beginnersHome #firstStep01 li.profile a:hover{ background-position:100% -248px;}
+#beginnersHome #firstStep01 li.invite a:hover{ background-position:100% -310px;}
+#beginnersHome #firstStep01 li.keyword a:hover{ background-position:100% 100%;}
+
+#beginnersHome #funMixi01 li p{
+background:url(images/service_image002.gif) no-repeat;
+}
+
+#beginnersHome #funMixi01 li.diary p{ background-position:0 0;}
+#beginnersHome #funMixi01 li.voice p{ background-position:0 -160px;}
+#beginnersHome #funMixi01 li.photo p{ background-position:0 -320px;}
+#beginnersHome #funMixi01 li.schedule p{ background-position:0 -480px;}
+#beginnersHome #funMixi01 li.appli p{ background-position:0 -640px;}
+#beginnersHome #funMixi01 li.profile p{ background-position:0 -800px;}
+
+#beginnersHome #funMixi01 li p.btn{
+background:none;
+}
+
+#beginnersHome .guideLink{
+border-bottom:1px solid #D0D0D1;
+}
+
+#beginnersHome .guideLink span a{
+background:url(images/mixi_guide_Link001.gif) no-repeat 0 0;
+}
+
+#beginnersHome .guideLink span a:hover{
+background-position:0 100%;
+}
+
+#beginnersHome #firstStep01 p.guideArea01{
+background:url(images/beginnerHomeInfo001.gif) no-repeat 17px 0;
+}
+
+#beginnersHome #funMixi01 p.guideArea02{
+background:url(images/beginnerHomeInfo003.gif) no-repeat 17px 0;
+}
+
+#beginnersHome #funMixi01 p.guideArea03{
+background:url(images/beginnerHomeInfo002.gif) no-repeat 17px 0;
+}
+
+#beginnersHome .simpleUiInfo{
+background:#FFF url(images/wakaba001.gif) no-repeat 10px 5px;
+}
+
+#beginnersHome div.noMymixiNotice{
+border:1px solid #DEDEDE;
+background:#f8f8f8 url(images/message_area002.gif) no-repeat 25px 15px;
+}
+
+#bodySide02 table.iconListTable01 tr.last{
+background:none;
+}
+
+
+/*---- sideList:左メニュー ----*/
+.sideList div.contents ul li.voice a{
+background:url(images/voice001.gif) no-repeat 9px 7px;
+}
+
+.sideList div.contents ul li.check a{
+background:url(images/mixicheck002.gif) no-repeat 8px 7px;
+}
+
+.sideList div.contents ul li.diary a{
+background:url(images/diary002.gif) no-repeat 10px 8px;
+}
+
+.sideList div.contents ul li.photo a{
+background:url(images/photo003.gif) no-repeat 10px 8px;
+}
+
+.sideList div.contents ul li.schedule a{
+background:url(images/schedule001.gif) no-repeat 10px 6px;
+}
+
+.sideList div.contents ul li.community a{
+background:url(images/community_topic001.gif) no-repeat 9px 9px;
+}
+
+.sideList div.contents ul li.appli a{
+background:url(images/icon_appli002.gif) no-repeat 8px 7px;
+}
+
+.sideList div.contents ul li.video a{
+background:url(images/video002.gif) no-repeat 9px 9px;
+}
+
+.sideList div.contents ul li.review a{
+background:url(images/icon_star01.gif) no-repeat 8px 8px;
+}
+
+.sideList div.contents ul li.activity a{
+background:url(images/profile001.gif) no-repeat 11px 8px;
+}
+
+
+/*---- newList:更新情報 ----*/
+.newList #bodyMainAreaMain div.contents{
+border:1px solid #D0D0D1;
+border-top:none;
+}
+
+.newList div.newFriendDiary dt{
+background:url(images/diary002.gif) no-repeat 2px 2px;
+}
+
+.newList div.newCommentSchedule dl.feedList01 dt{
+background:url(images/schedule_comment001.gif) no-repeat 1px 0;
+}
+
+.newList div.newFriendSchedule ul.entryList01 dt,
+.newScheduleArea ul.entryList01 dt{
+background:url(images/schedule001.gif) no-repeat 1px 0;
+}
+
+.newList div.newCommentDiary dt{
+background:url(images/comment002.gif) no-repeat 1px 2px;
+}
+
+.newList div.newCommentVoice dt {
+background:url(images/voice001.gif) no-repeat 0 0;
+}
+
+.newList div.newCommentCheck dt.like,
+.newList div.newCommentCheck dt.check{
+background:url(images/mixicheck002.gif) no-repeat 0 1px;
+}
+
+.newList div.newCommentCheck dt.checkin{
+background:url(images/checkin001.gif) no-repeat 0 0;
+}
+
+.newList div.newCommentPhoto dt{
+background:url(images/photo_comment001.gif) no-repeat 0 0;
+}
+
+.newBbsArea ul.entryList01 dt.iconTopic,
+.newList div.newCommentCommunity dt.iconTopic{
+background:url(images/community_topic001.gif) no-repeat 0 2px;
+}
+
+.newBbsArea ul.entryList01 dt.iconEnquete,
+.newList div.newCommentCommunity dt.iconEnquete{
+background:url(images/community_enquete001.gif) no-repeat 1px 1px;
+}
+
+.newBbsArea ul.entryList01 dt.iconEvent,
+.newList div.newCommentCommunity dt.iconEvent{
+background:url(images/community_event001.gif) no-repeat 1px 0;
+}
+
+.newList div.newFriendPhoto dt{
+background:url(images/photo003.gif) no-repeat 1px 2px;
+}
+
+.newList div.newFriendVideo dt{
+background:url(images/video002.gif) no-repeat 1px 1px;
+}
+
+.newList div.newFriendReview dt{
+background:url(images/icon_star01.gif) no-repeat 0 0;
+}
+
+.newList div.scheduleAction dt{
+background:url(images/schedule_comment001.gif) no-repeat 0 0;
+}
+
+.newList div.newFriendSchedule ul.entryList01{
+border-top:none;
+border-bottom:none;
+}
+
+.newList div.newFriendSchedule div.newFriendScheduleBottom{
+border:1px solid #D0D0D1;
+border-top:none;
+}
+
+.newList div.newFriendSchedule div.newFriendScheduleBottom p.viewCalendar{
+background:url(images/border_dot_horizontal001.gif) repeat-x left top;
+}
+
+
+/*---- newPhotoList01:更新情報:マイミク最新フォト ----*/ 
+.newFriendPhoto div.newPhotoList01{ 
+border:1px solid #D0D0D1;
+border-top:none;
+} 
+
+.newFriendPhoto div.newPhotoList01 ul.thumbnailList3col li div.thumbnail{ 
+background:url(images/bg_thumbnail001.gif) no-repeat 0 0; 
+} 
+
+.newFriendPhoto div.newPhotoList01 ul.thumbnailList3col li div.thumbnail a{ 
+background-position:center center; 
+background-repeat:no-repeat; 
+} 
+
+.newFriendPhoto div.newPhotoList01 ul.thumbnailList3col li p.photoName a.photo{ 
+background:url(images/photo003.gif) no-repeat 0 0; 
+} 
+
+.newFriendPhoto div.newPhotoList01 ul.thumbnailList3col li p.date, 
+.newFriendPhoto div.newPhotoList01 ul.thumbnailList3col li ul.reactions{ 
+color:#999; 
+}
+
+
+/*---- ListSkin:ミクコレ一覧 ----*/
+div.listSkin div.currentSkin div.contents{
+border:1px solid #D0D0D1;
+border-top:none;
+background:#F2F2F2 url(images/inner_round_top001.gif) no-repeat 6px 5px;
+}
+
+div.listSkin div.currentSkin div.contents dl.currentSkin{
+background:url(images/inner_round_bottom001.gif) no-repeat 0 100%;
+}
+
+div.listSkin div.currentSkin dt{
+background:url(images/dotline_vertical002.gif) repeat-y 100% 0;
+}
+
+div.listSkin div.currentSkin dt img{
+border:1px solid #D0D0D0;
+}
+
+div.listSkin ul.listCategory{
+border:1px solid #D6D6D6;
+border-top:none;
+background:#F8F8F8;
+}
+
+div.listSkin ul.listCategory li{
+background:url(images/arrow008.gif) no-repeat 0 50%;
+}
+
+div.listSkin ul.listCategory li a.selected{
+border:1px solid #258fb8;
+background-color:#66b0cd;
+color:#FFF;
+}
+
+div.listSkin div.skinArea div.skinList{
+border:1px solid #D0D0D1;
+}
+
+div.listSkin div.skinList ul{
+background:url(images/dotline_horizontal001.gif) repeat-x 0 0;
+}
+
+div.listSkin div.skinList ul.top{
+background:none;
+}
+
+div.listSkin div.skinList li p.thumb img{
+border:1px solid #D0D0D0;
+}
+
+
+/*---- bookmark:お気に入りコミュ ----*/
+div.bookmarkList div.confirmation{
+border:1px solid #D6D6D6;
+border-top:none;
+background:#F8F8F8;
+color:#666;
+}
+
+div.bookmarkList ul.list div.listContents div.heading p.fncBtn a{
+background:url(images/section_utility001.gif) no-repeat 100% 0;
+}
+
+
+/*---- accessBlock:アクセスブロック ----*/
+div.accessBlockList ul.list div.listContents p.delete{
+background:url(images/dotline_horizontal001.gif) repeat-x 0 0;
+}
+
+
+/*---- myList:myリスト ----*/
+div.myList div.showMyList div.confirm01{
+border-bottom:1px solid #D6D6D6;
+}
+
+div.myList div.showMyList div.pageNavigation01 div.pageList02 p{
+background:url(images/myList_info001.gif) no-repeat 0 4px;
+}
+
+div.myList div.showMyList table{
+border:1px solid #D0D0D1;
+border-bottom:none;
+}
+
+div.myList div.showMyList table tr.last{
+background:none;
+}
+
+div.myList div.showMyList table th{
+background-color:#EDECEC !important;
+}
+
+div.myList div.showMyList table td{
+border-bottom:1px solid #D0D0D1;
+}
+
+div.myList div.showMyList table td.name span{
+color:#666;
+}
+
+div.myList div.showMyList table .admit,
+div.myList div.showMyList table .diary,
+div.myList div.showMyList table .date{
+background:url(images/dotline_vertical001.gif) repeat-y 0 0;
+}
+
+div.myList div.showMyList table td.admit a.ok{
+background:url(images/myList_mymixi_ok001.gif) no-repeat 0 0;
+}
+
+div.myList div.showMyList table td.admit a.ok:hover{
+background-position:0 -16px;
+}
+
+div.myList div.showMyList table td.admit a.later{
+background:url(images/myList_mymixi_later001.gif) no-repeat 0 0;
+}
+
+div.myList div.showMyList table td.admit a.later:hover{
+background-position:0 -16px;
+}
+
+div.myList div.iconInfo{
+background:url(images/log_iconinfo002.gif) no-repeat 0 10px;
+}
+
+div.myList div.myListNomatch{
+border:1px solid #D0D0D1;
+background:url(images/bg_stripe001.gif);
+}
+
+div.myList div.showMyList .formButtons02{
+border:1px solid #D0D0D1;
+border-top:none;
+background:#FFF;
+}
+
+
+/*---- myList:myリスト登録0件 ----*/
+#myListInfoArea{
+background:url(images/box_bottom001.gif) no-repeat 0 bottom;
+}
+
+#mylistGuideArea{
+background:url(images/box_top001.gif) no-repeat 0 0;
+}
+
+#mylistGuideArea div.contents{
+border-left:1px solid #CCC;
+border-right:1px solid #CCC;
+}
+
+#mylistGuideArea h3.title01{
+background:url(images/title001.gif) no-repeat center 10px;
+}
+
+#mylistGuideArea h4.subTitle01{
+background:url(images/title002.gif) no-repeat center 0;
+}
+
+#mylistGuideArea h4.subTitle02{
+background:url(images/title003.gif) no-repeat center 0;
+}
+
+#mylistGuideArea h3.title02{
+background:url(images/title004.gif) no-repeat center 0;
+}
+
+#mylistGuideArea h4.subTitle03{
+background:url(images/title005.gif) no-repeat center 0;
+}
+
+#mylistGuideArea p.infoMylist01{
+background:url(images/info001.gif) no-repeat center 10px;
+}
+
+
+/*---- newAppli:最新アプリ情報 ----*/
+.newAppli .selectTab02{
+border-right:1px solid #D6D6D6;
+border-left:1px solid #D6D6D6;
+background:#F8F8F8 url(images/tab_base001.gif) repeat-x 0 100%;
+}
+
+.newAppli ul.entryList01 li dl dd .appliPix li{
+border:1px solid #DDD;
+background:#FFF;
+}
+
+.newAppli ul.entryList01 li dl dd .appliFeed span{
+color:#999;
+}
+
+
+/*---- listAppli:アプリ一覧/管理 ----*/
+.listAppli .extraWrap02 .selectTab01 li a{
+background:url(images/tab.gif) no-repeat;
+}
+
+.listAppli .extraWrap02 .selectTab01 li.listOfAll a{background-position:0 100%;}
+.listAppli .extraWrap02 .selectTab01 li.listOfAll a:hover{background-position:0 -32px;}
+.listAppli .extraWrap02 .selectTab01 li.listOfAll a.selected,
+.listAppli .extraWrap02 .selectTab01 li.listOfAll a.selected:hover{background-position:0 0;}
+
+.listAppli .extraWrap02 .selectTab01 li.manageMenu a{background-position:100% 100%;}
+.listAppli .extraWrap02 .selectTab01 li.manageMenu a:hover{background-position:100% -32px;}
+.listAppli .extraWrap02 .selectTab01 li.manageMenu a.selected,
+.listAppli .extraWrap02 .selectTab01 li.manageMenu a.selected:hover{background-position:100% 0;}
+
+.listAppli .pageNavigation01.top{
+border-top:1px solid #d6d6d6;
+}
+
+.listAppli table.listMain,
+.appliSimpleList01 table.listMain{
+border-top:1px solid #D0D0D1;
+border-left:1px solid #D0D0D1;
+background:#FFF;
+}
+
+.appliSimpleList01 table.listMain tr td{
+border-right:1px solid #D0D0D1;
+border-bottom:1px solid #D0D0D1;
+}
+
+.appliSimpleList01 table.listMain tr td.iconState03{
+background:#FFD8A7;
+}
+
+.appliSimpleList01 table.listMain tr td p.appCategory{
+color:#999;
+}
+
+.appliCtrlPanel01 table.listMain tr th{
+border-bottom:1px solid #D0D0D1;
+background-color:#EDECEC !important;
+}
+
+.appliCtrlPanel01 table.listMain tr td{
+border-bottom:1px solid #D0D0D1;
+background-color:#fff;
+}
+
+.appliCtrlPanel01 table.listMain tr .nameInfo{
+background:url(images/dotline_vertical001.gif) repeat-y 100% 0;
+}
+
+.appliCtrlPanel01 table.listMain tr .settings{
+background:url(images/bg_edit_list001.gif) repeat-y -41px 0;
+}
+
+.appliCtrlPanel01 table.listMain tr th.settings{
+background-image:none;
+}
+
+.appliCtrlPanel01 table.listMain tr .settings dl{
+background:url(images/dotline_horizontal001.gif) repeat-x 0 0;
+}
+
+.appliCtrlPanel01 table.listMain tr .settings dl.forDisplay{
+background:none;
+}
+
+.appliCtrlPanel01 table.listMain tr .leaveOut{
+border-right:1px solid #D0D0D1;
+background:url(images/dotline_vertical001.gif) repeat-y 0 0;
+}
+
+
+/*---- simpleprofile.guideArea:ガイドレイヤー ----*/
+#simpleprofile.guideArea .contentStage p.guide strong{
+color:#F00;
+}
+
+
+/*---- appList01:招待アプリ一覧 ----*/
+.appList01 div.confirm01{
+border-bottom:1px solid #D6D6D6;
+}
+
+.appList01 ul.itemList01{
+background-position:115px 0;
+*background-position:116px 0;
+}
+
+.appList01 ul.itemList01 .listItem .itemInfo p{
+background:url(images/dotline_horizontal001.gif) repeat-x 0 100%;
+}
+
+.appList01 ul.itemList01 .listItem .itemInfo p.appliName{
+border-bottom:1px solid #D0D0D1;
+background:#EDECEC;
+}
+
+.appList01 ul.itemList01 .listItem .itemInfo .tempItems{
+background:url(images/dotline_horizontal001.gif) repeat-x 1px bottom;
+}
+
+.appList01 ul.itemList01 .listItem .itemInfo ul li.leftside{
+border-right:1px solid #ccc;
+}
+
+.appList01 ul.itemList01 .listItem .itemInfo .tempItems ul li{
+border:1px solid #ddd;
+background-color:#fff;
+}

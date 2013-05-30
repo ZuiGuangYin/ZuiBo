@@ -1,0 +1,181 @@
+@charset "euc-jp";
+
+/*--- message:メッセージ ---*/
+div.message div.messageListArea .formButtons02{
+border:1px solid #D0D0D1;
+border-top:none;
+background:#FFF;
+}
+
+div.message div#messageList{
+background:#FFF;
+}
+
+div.message div#messageList div.messageListHead{
+border:1px solid #d6d6d6;
+border-bottom:none;
+}
+
+div.message div#messageList div.messageListHead table th{
+color:#666;
+background:url(images/message_head_line.gif) repeat-y #e6e6e6;
+}
+
+div.message div#messageList div.messageListHead table th.status{
+background-image:none;
+}
+
+div.message div#messageList div.messageListBody{
+border:1px solid #D0D0D1;
+}
+
+div.message div#messageList div.messageListBody table tr{
+background:url(images/dotline_horizontal003.gif) repeat-x 0 0;
+}
+
+div.message div#messageList div.messageListBody table tr.snippet{
+background:none;
+}
+
+div.message div#messageList div.messageListBody table tr.top{
+background:none;
+}
+
+div.message div#messageList div.messageListBody table tr.select{
+background-color:#D2EBF5;
+}
+
+div.message div#messageList div.messageListBody table tr.notOpened{
+background-color:#FFF8E9;
+}
+
+div.message div#messageList div.messageListBody table tr.snippet td{
+color:#999;
+}
+
+div.message div#messageList div.messageListBody table tr.snippet td strong{
+color:#666;
+}
+
+div#messageDetail{
+border:1px solid #D0D0D1;
+background:#FFF;
+}
+
+div#messageDetail div.messageDetailHead{
+background:url(images/dotline_vertical001.gif) repeat-y 0 0;
+}
+
+div#messageDetail div.messageDetailHead h3{
+background:#EDECEC;
+}
+
+/* for Mac IE5x \*//*/
+div#messageDetail{
+border:1px solid #D0D0D1;
+}
+/* */
+
+div#messageDetail div.messageDetailHead dl{
+background:#F9F8F8;
+color:#666;
+}
+
+div#messageDetail div.messageDetailHead dd{
+border-top:1px solid #D0D0D1;
+}
+
+div#messageDetail div.messageDetailBody{
+border-bottom:1px solid #D0D0D1;
+border-top:1px solid #D0D0D1;
+}
+
+div.message div#subArea div#subMenu li a.inbox{
+background:url(images/message_inbox.gif) no-repeat 7px 14px;
+}
+div.message div#subArea div#subMenu li a.mixiInbox{
+background:url(images/inner001.gif) no-repeat 7px 50%;
+}
+div.message div#subArea div#subMenu li a.sent{
+background:url(images/message_sent.gif) no-repeat 7px 50%;
+}
+div.message div#subArea div#subMenu li a.draft{
+background:url(images/message_draft.gif) no-repeat 7px 50%;
+}
+div.message div#subArea div#subMenu li a.trash{
+background:url(images/message_trash001.gif) no-repeat 7px 8px;
+}
+
+div.message div#subArea div#function p a{
+background:url(images/change001.gif) no-repeat 7px 50%;
+}
+
+div.message div#mainArea div.heading h3.inbox{
+background:url(images/message_inbox.gif) no-repeat;
+}
+div.message div#mainArea div.heading h3.sent{
+background:url(images/message_sent.gif) no-repeat;
+}
+div.message div#mainArea div.heading h3.draft{
+background:url(images/message_draft.gif) no-repeat;
+}
+div.message div#mainArea div.heading h3.trash{ 
+background:url(images/message_trash001.gif) no-repeat;
+}
+
+div.message div.messageListArea div.pageNavigation01.top{
+border-top:1px solid #D6D6D6;
+}
+
+
+/*---- historyMemberPop:差出人検索 ----*/
+div#historyMemberPop{
+border:1px solid #D0D0D1;
+background-color:#F9F8F8;
+filter: alpha(opacity=90);
+-moz-opacity:0.90;
+opacity:0.90;
+}
+
+div#historyMemberPop p.index{
+background:url(images/message_new.gif) no-repeat 10px 0;
+border-bottom:1px dotted #D0D0D1;
+}
+
+div.historyMemberBody ul.memberList{
+border-bottom:1px dotted #D0D0D1;
+}
+
+
+/*---- spam:メッセージ通報 ----*/
+div.spam div.confirm01 span.notice01{
+color:#f00;
+}
+
+
+/*---- albumMessage:アルバムのお知らせ ----*/
+div.albumMessage{
+background:url(images/bg_album_message_bottom001.gif) no-repeat right bottom;
+}
+
+div.albumMessage h4.albumMessageTitle{
+background:url(images/album_message_title001.gif) no-repeat left top;
+}
+
+div.albumMessage div.contents{
+border-right:1px solid #dfdfdf;
+border-left:1px solid #dfdfdf;
+}
+
+div.albumMessage div.contents div.cover{
+background:url(images/bg_album002.gif) no-repeat 10px top;
+}
+
+div.albumMessage div.contents div.cover a.image{
+background-repeat:no-repeat;
+background-position:center;
+}
+
+div.albumMessage div.contents div.albumInfo p.note{
+color:#666;
+}

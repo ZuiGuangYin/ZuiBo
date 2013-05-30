@@ -1,0 +1,326 @@
+@charset "euc-jp";
+
+.emoji_palette {
+display:none;
+position:absolute;
+width:364px;
+line-height:18px;
+overflow:hidden;
+margin:0;
+padding:0;
+border:solid 1px #FFC356;
+background-color:#FFF;
+}
+
+.emoji_palette table{
+border-collapse:separate;
+border-spacing:2px;
+}
+
+.emoji_palette_title {
+width:364px;
+line-height:16px;
+margin:0;
+padding:0;
+background-color:#FFC356;
+color:#333;
+font-size:12px;
+overflow:hidden;
+}
+
+.emoji_palette_title_left {
+float:left;
+width:344px;
+height:16px;
+}
+
+.emoji_palette_title_right {
+float:left;
+width:20px;
+height:16px;
+position:relative;
+}
+
+.emoji_palette_image_close {
+display:block;
+position:absolute;
+left:2px;
+padding:2px;
+width:12px;
+height:11px;
+}
+
+.emoji_palette_image_close img {
+display:block;
+padding:0;
+}
+
+a.emoji_palette_image_close:hover {
+background-color:transparent;
+}
+
+.emoji_palette_body {
+clear:both;
+margin-bottom:0;
+background-color:#FFF;
+text-align:left;
+word-break:break-all;
+}
+
+.emoji_palette_body td {
+width:16px;
+height:16px;
+background-repeat:no-repeat;
+}
+
+.emoji_palette_body td img{
+margin-bottom:0;
+}
+
+.sprite-1  {background:url(/img/emoji/group2-50-50_003.gif) 0 0;}
+.sprite-106{background:url(/img/emoji/group2-50-50_003.gif) 0 -16px;}
+.sprite-107{background:url(/img/emoji/group2-50-50_003.gif) 0 -32px;}
+.sprite-108{background:url(/img/emoji/group2-50-50_003.gif) 0 -48px;}
+.sprite-110{background:url(/img/emoji/group2-50-50_003.gif) 0 -64px;}
+.sprite-112{background:url(/img/emoji/group2-50-50_003.gif) 0 -80px;}
+.sprite-135{background:url(/img/emoji/group2-50-50_003.gif) 0 -96px;}
+.sprite-179{background:url(/img/emoji/group2-50-50_003.gif) 0 -112px;}
+.sprite-194{background:url(/img/emoji/group2-50-50_003.gif) 0 -128px;}
+.sprite-2  {background:url(/img/emoji/group2-50-50_003.gif) 0 -144px;}
+.sprite-202{background:url(/img/emoji/group2-50-50_003.gif) 0 -160px;}
+.sprite-204{background:url(/img/emoji/group2-50-50_003.gif) 0 -176px;}
+.sprite-205{background:url(/img/emoji/group2-50-50_003.gif) 0 -192px;}
+.sprite-206{background:url(/img/emoji/group2-50-50_003.gif) 0 -208px;}
+.sprite-207{background:url(/img/emoji/group2-50-50_003.gif) 0 -224px;}
+.sprite-208{background:url(/img/emoji/group2-50-50_003.gif) 0 -240px;}
+.sprite-209{background:url(/img/emoji/group2-50-50_003.gif) 0 -256px;}
+.sprite-210{background:url(/img/emoji/group2-50-50_003.gif) 0 -272px;}
+.sprite-238{background:url(/img/emoji/group2-50-50_003.gif) 0 -288px;}
+.sprite-239{background:url(/img/emoji/group2-50-50_003.gif) 0 -304px;}
+.sprite-241{background:url(/img/emoji/group2-50-50_003.gif) 0 -320px;}
+.sprite-242{background:url(/img/emoji/group2-50-50_003.gif) 0 -336px;}
+.sprite-243{background:url(/img/emoji/group2-50-50_003.gif) 0 -352px;}
+.sprite-3  {background:url(/img/emoji/group2-50-50_003.gif) 0 -368px;}
+.sprite-47 {background:url(/img/emoji/group2-50-50_003.gif) 0 -384px;}
+.sprite-49 {background:url(/img/emoji/group2-50-50_003.gif) 0 -400px;}
+.sprite-5  {background:url(/img/emoji/group2-50-50_003.gif) 0 -416px;}
+.sprite-50 {background:url(/img/emoji/group2-50-50_003.gif) 0 -432px;}
+.sprite-51 {background:url(/img/emoji/group2-50-50_003.gif) 0 -448px;}
+.sprite-52 {background:url(/img/emoji/group2-50-50_003.gif) 0 -464px;}
+.sprite-53 {background:url(/img/emoji/group2-50-50_003.gif) 0 -480px;}
+.sprite-54 {background:url(/img/emoji/group2-50-50_003.gif) 0 -496px;}
+.sprite-55 {background:url(/img/emoji/group2-50-50_003.gif) 0 -512px;}
+.sprite-56 {background:url(/img/emoji/group2-50-50_003.gif) 0 -528px;}
+.sprite-57 {background:url(/img/emoji/group2-50-50_003.gif) 0 -544px;}
+.sprite-58 {background:url(/img/emoji/group2-50-50_003.gif) 0 -560px;}
+.sprite-59 {background:url(/img/emoji/group2-50-50_003.gif) 0 -576px;}
+.sprite-60 {background:url(/img/emoji/group2-50-50_003.gif) 0 -592px;}
+.sprite-61 {background:url(/img/emoji/group2-50-50_003.gif) 0 -608px;}
+.sprite-68 {background:url(/img/emoji/group2-50-50_003.gif) 0 -624px;}
+.sprite-78 {background:url(/img/emoji/group2-50-50_003.gif) 0 -640px;}
+.sprite-10 {background:url(/img/emoji/group1_003.gif) 0 0;}
+.sprite-100{background:url(/img/emoji/group1_003.gif) 0 -16px;}
+.sprite-102{background:url(/img/emoji/group1_003.gif) 0 -32px;}
+.sprite-11 {background:url(/img/emoji/group1_003.gif) 0 -48px;}
+.sprite-115{background:url(/img/emoji/group1_003.gif) 0 -64px;}
+.sprite-116{background:url(/img/emoji/group1_003.gif) 0 -80px;}
+.sprite-117{background:url(/img/emoji/group1_003.gif) 0 -96px;}
+.sprite-118{background:url(/img/emoji/group1_003.gif) 0 -112px;}
+.sprite-119{background:url(/img/emoji/group1_003.gif) 0 -128px;}
+.sprite-12 {background:url(/img/emoji/group1_003.gif) 0 -144px;}
+.sprite-120{background:url(/img/emoji/group1_003.gif) 0 -160px;}
+.sprite-121{background:url(/img/emoji/group1_003.gif) 0 -176px;}
+.sprite-122{background:url(/img/emoji/group1_003.gif) 0 -192px;}
+.sprite-123{background:url(/img/emoji/group1_003.gif) 0 -208px;}
+.sprite-124{background:url(/img/emoji/group1_003.gif) 0 -224px;}
+.sprite-125{background:url(/img/emoji/group1_003.gif) 0 -240px;}
+.sprite-126{background:url(/img/emoji/group1_003.gif) 0 -256px;}
+.sprite-127{background:url(/img/emoji/group1_003.gif) 0 -272px;}
+.sprite-128{background:url(/img/emoji/group1_003.gif) 0 -288px;}
+.sprite-129{background:url(/img/emoji/group1_003.gif) 0 -304px;}
+.sprite-13 {background:url(/img/emoji/group1_003.gif) 0 -320px;}
+.sprite-130{background:url(/img/emoji/group1_003.gif) 0 -336px;}
+.sprite-131{background:url(/img/emoji/group1_003.gif) 0 -352px;}
+.sprite-132{background:url(/img/emoji/group1_003.gif) 0 -368px;}
+.sprite-133{background:url(/img/emoji/group1_003.gif) 0 -384px;}
+.sprite-134{background:url(/img/emoji/group1_003.gif) 0 -400px;}
+.sprite-136{background:url(/img/emoji/group1_003.gif) 0 -416px;}
+.sprite-137{background:url(/img/emoji/group1_003.gif) 0 -432px;}
+.sprite-138{background:url(/img/emoji/group1_003.gif) 0 -448px;}
+.sprite-139{background:url(/img/emoji/group1_003.gif) 0 -464px;}
+.sprite-14 {background:url(/img/emoji/group1_003.gif) 0 -480px;}
+.sprite-140{background:url(/img/emoji/group1_003.gif) 0 -496px;}
+.sprite-141{background:url(/img/emoji/group1_003.gif) 0 -512px;}
+.sprite-142{background:url(/img/emoji/group1_003.gif) 0 -528px;}
+.sprite-143{background:url(/img/emoji/group1_003.gif) 0 -544px;}
+.sprite-144{background:url(/img/emoji/group1_003.gif) 0 -560px;}
+.sprite-145{background:url(/img/emoji/group1_003.gif) 0 -576px;}
+.sprite-146{background:url(/img/emoji/group1_003.gif) 0 -592px;}
+.sprite-147{background:url(/img/emoji/group1_003.gif) 0 -608px;}
+.sprite-148{background:url(/img/emoji/group1_003.gif) 0 -624px;}
+.sprite-149{background:url(/img/emoji/group1_003.gif) 0 -640px;}
+.sprite-15 {background:url(/img/emoji/group1_003.gif) 0 -656px;}
+.sprite-150{background:url(/img/emoji/group1_003.gif) 0 -672px;}
+.sprite-151{background:url(/img/emoji/group1_003.gif) 0 -688px;}
+.sprite-155{background:url(/img/emoji/group1_003.gif) 0 -704px;}
+.sprite-156{background:url(/img/emoji/group1_003.gif) 0 -720px;}
+.sprite-157{background:url(/img/emoji/group1_003.gif) 0 -736px;}
+.sprite-158{background:url(/img/emoji/group1_003.gif) 0 -752px;}
+.sprite-159{background:url(/img/emoji/group1_003.gif) 0 -768px;}
+.sprite-16 {background:url(/img/emoji/group1_003.gif) 0 -784px;}
+.sprite-160{background:url(/img/emoji/group1_003.gif) 0 -800px;}
+.sprite-161{background:url(/img/emoji/group1_003.gif) 0 -816px;}
+.sprite-162{background:url(/img/emoji/group1_003.gif) 0 -832px;}
+.sprite-163{background:url(/img/emoji/group1_003.gif) 0 -848px;}
+.sprite-164{background:url(/img/emoji/group1_003.gif) 0 -864px;}
+.sprite-165{background:url(/img/emoji/group1_003.gif) 0 -880px;}
+.sprite-166{background:url(/img/emoji/group1_003.gif) 0 -896px;}
+.sprite-167{background:url(/img/emoji/group1_003.gif) 0 -912px;}
+.sprite-168{background:url(/img/emoji/group1_003.gif) 0 -928px;}
+.sprite-169{background:url(/img/emoji/group1_003.gif) 0 -944px;}
+.sprite-17 {background:url(/img/emoji/group1_003.gif) 0 -960px;}
+.sprite-170{background:url(/img/emoji/group1_003.gif) 0 -976px;}
+.sprite-171{background:url(/img/emoji/group1_003.gif) 0 -992px;}
+.sprite-172{background:url(/img/emoji/group1_003.gif) 0 -1008px;}
+.sprite-173{background:url(/img/emoji/group1_003.gif) 0 -1024px;}
+.sprite-174{background:url(/img/emoji/group1_003.gif) 0 -1040px;}
+.sprite-175{background:url(/img/emoji/group1_003.gif) 0 -1056px;}
+.sprite-176{background:url(/img/emoji/group1_003.gif) 0 -1072px;}
+.sprite-177{background:url(/img/emoji/group1_003.gif) 0 -1088px;}
+.sprite-178{background:url(/img/emoji/group1_003.gif) 0 -1104px;}
+.sprite-18 {background:url(/img/emoji/group1_003.gif) 0 -1120px;}
+.sprite-180{background:url(/img/emoji/group1_003.gif) 0 -1136px;}
+.sprite-181{background:url(/img/emoji/group1_003.gif) 0 -1152px;}
+.sprite-182{background:url(/img/emoji/group1_003.gif) 0 -1168px;}
+.sprite-183{background:url(/img/emoji/group1_003.gif) 0 -1184px;}
+.sprite-184{background:url(/img/emoji/group1_003.gif) 0 -1200px;}
+.sprite-185{background:url(/img/emoji/group1_003.gif) 0 -1216px;}
+.sprite-186{background:url(/img/emoji/group1_003.gif) 0 -1232px;}
+.sprite-187{background:url(/img/emoji/group1_003.gif) 0 -1248px;}
+.sprite-188{background:url(/img/emoji/group1_003.gif) 0 -1264px;}
+.sprite-189{background:url(/img/emoji/group1_003.gif) 0 -1280px;}
+.sprite-19 {background:url(/img/emoji/group1_003.gif) 0 -1296px;}
+.sprite-190{background:url(/img/emoji/group1_003.gif) 0 -1312px;}
+.sprite-191{background:url(/img/emoji/group1_003.gif) 0 -1328px;}
+.sprite-192{background:url(/img/emoji/group1_003.gif) 0 -1344px;}
+.sprite-193{background:url(/img/emoji/group1_003.gif) 0 -1360px;}
+.sprite-195{background:url(/img/emoji/group1_003.gif) 0 -1376px;}
+.sprite-196{background:url(/img/emoji/group1_003.gif) 0 -1392px;}
+.sprite-197{background:url(/img/emoji/group1_003.gif) 0 -1408px;}
+.sprite-198{background:url(/img/emoji/group1_003.gif) 0 -1424px;}
+.sprite-199{background:url(/img/emoji/group1_003.gif) 0 -1440px;}
+.sprite-20 {background:url(/img/emoji/group1_003.gif) 0 -1456px;}
+.sprite-200{background:url(/img/emoji/group1_003.gif) 0 -1472px;}
+.sprite-201{background:url(/img/emoji/group1_003.gif) 0 -1488px;}
+.sprite-203{background:url(/img/emoji/group1_003.gif) 0 -1504px;}
+.sprite-21 {background:url(/img/emoji/group1_003.gif) 0 -1520px;}
+.sprite-211{background:url(/img/emoji/group1_003.gif) 0 -1536px;}
+.sprite-212{background:url(/img/emoji/group1_003.gif) 0 -1552px;}
+.sprite-213{background:url(/img/emoji/group1_003.gif) 0 -1568px;}
+.sprite-214{background:url(/img/emoji/group1_003.gif) 0 -1584px;}
+.sprite-216{background:url(/img/emoji/group1_003.gif) 0 -1600px;}
+.sprite-217{background:url(/img/emoji/group1_003.gif) 0 -1616px;}
+.sprite-218{background:url(/img/emoji/group1_003.gif) 0 -1632px;}
+.sprite-219{background:url(/img/emoji/group1_003.gif) 0 -1648px;}
+.sprite-22 {background:url(/img/emoji/group1_003.gif) 0 -1664px;}
+.sprite-220{background:url(/img/emoji/group1_003.gif) 0 -1680px;}
+.sprite-221{background:url(/img/emoji/group1_003.gif) 0 -1696px;}
+.sprite-222{background:url(/img/emoji/group1_003.gif) 0 -1712px;}
+.sprite-223{background:url(/img/emoji/group1_003.gif) 0 -1728px;}
+.sprite-224{background:url(/img/emoji/group1_003.gif) 0 -1744px;}
+.sprite-225{background:url(/img/emoji/group1_003.gif) 0 -1760px;}
+.sprite-228{background:url(/img/emoji/group1_003.gif) 0 -1776px;}
+.sprite-229{background:url(/img/emoji/group1_003.gif) 0 -1792px;}
+.sprite-23 {background:url(/img/emoji/group1_003.gif) 0 -1808px;}
+.sprite-230{background:url(/img/emoji/group1_003.gif) 0 -1824px;}
+.sprite-231{background:url(/img/emoji/group1_003.gif) 0 -1840px;}
+.sprite-232{background:url(/img/emoji/group1_003.gif) 0 -1856px;}
+.sprite-233{background:url(/img/emoji/group1_003.gif) 0 -1872px;}
+.sprite-235{background:url(/img/emoji/group1_003.gif) 0 -1888px;}
+.sprite-236{background:url(/img/emoji/group1_003.gif) 0 -1904px;}
+.sprite-237{background:url(/img/emoji/group1_003.gif) 0 -1920px;}
+.sprite-24 {background:url(/img/emoji/group1_003.gif) 0 -1936px;}
+.sprite-245{background:url(/img/emoji/group1_003.gif) 0 -1952px;}
+.sprite-25 {background:url(/img/emoji/group1_003.gif) 0 -1968px;}
+.sprite-26 {background:url(/img/emoji/group1_003.gif) 0 -1984px;}
+.sprite-27 {background:url(/img/emoji/group1_003.gif) 0 -2000px;}
+.sprite-28 {background:url(/img/emoji/group1_003.gif) 0 -2016px;}
+.sprite-29 {background:url(/img/emoji/group1_003.gif) 0 -2032px;}
+.sprite-30 {background:url(/img/emoji/group1_003.gif) 0 -2048px;}
+.sprite-31 {background:url(/img/emoji/group1_003.gif) 0 -2064px;}
+.sprite-32 {background:url(/img/emoji/group1_003.gif) 0 -2080px;}
+.sprite-33 {background:url(/img/emoji/group1_003.gif) 0 -2096px;}
+.sprite-34 {background:url(/img/emoji/group1_003.gif) 0 -2112px;}
+.sprite-35 {background:url(/img/emoji/group1_003.gif) 0 -2128px;}
+.sprite-36 {background:url(/img/emoji/group1_003.gif) 0 -2144px;}
+.sprite-37 {background:url(/img/emoji/group1_003.gif) 0 -2160px;}
+.sprite-38 {background:url(/img/emoji/group1_003.gif) 0 -2176px;}
+.sprite-39 {background:url(/img/emoji/group1_003.gif) 0 -2192px;}
+.sprite-40 {background:url(/img/emoji/group1_003.gif) 0 -2208px;}
+.sprite-41 {background:url(/img/emoji/group1_003.gif) 0 -2224px;}
+.sprite-42 {background:url(/img/emoji/group1_003.gif) 0 -2240px;}
+.sprite-43 {background:url(/img/emoji/group1_003.gif) 0 -2256px;}
+.sprite-44 {background:url(/img/emoji/group1_003.gif) 0 -2272px;}
+.sprite-45 {background:url(/img/emoji/group1_003.gif) 0 -2288px;}
+.sprite-46 {background:url(/img/emoji/group1_003.gif) 0 -2304px;}
+.sprite-6  {background:url(/img/emoji/group1_003.gif) 0 -2320px;}
+.sprite-62 {background:url(/img/emoji/group1_003.gif) 0 -2336px;}
+.sprite-63 {background:url(/img/emoji/group1_003.gif) 0 -2352px;}
+.sprite-64 {background:url(/img/emoji/group1_003.gif) 0 -2368px;}
+.sprite-65 {background:url(/img/emoji/group1_003.gif) 0 -2384px;}
+.sprite-69 {background:url(/img/emoji/group1_003.gif) 0 -2400px;}
+.sprite-7  {background:url(/img/emoji/group1_003.gif) 0 -2416px;}
+.sprite-70 {background:url(/img/emoji/group1_003.gif) 0 -2432px;}
+.sprite-71 {background:url(/img/emoji/group1_003.gif) 0 -2448px;}
+.sprite-72 {background:url(/img/emoji/group1_003.gif) 0 -2464px;}
+.sprite-74 {background:url(/img/emoji/group1_003.gif) 0 -2480px;}
+.sprite-75 {background:url(/img/emoji/group1_003.gif) 0 -2496px;}
+.sprite-76 {background:url(/img/emoji/group1_003.gif) 0 -2512px;}
+.sprite-77 {background:url(/img/emoji/group1_003.gif) 0 -2528px;}
+.sprite-79 {background:url(/img/emoji/group1_003.gif) 0 -2544px;}
+.sprite-8  {background:url(/img/emoji/group1_003.gif) 0 -2560px;}
+.sprite-80 {background:url(/img/emoji/group1_003.gif) 0 -2576px;}
+.sprite-81 {background:url(/img/emoji/group1_003.gif) 0 -2592px;}
+.sprite-82 {background:url(/img/emoji/group1_003.gif) 0 -2608px;}
+.sprite-83 {background:url(/img/emoji/group1_003.gif) 0 -2624px;}
+.sprite-84 {background:url(/img/emoji/group1_003.gif) 0 -2640px;}
+.sprite-85 {background:url(/img/emoji/group1_003.gif) 0 -2656px;}
+.sprite-86 {background:url(/img/emoji/group1_003.gif) 0 -2672px;}
+.sprite-87 {background:url(/img/emoji/group1_003.gif) 0 -2688px;}
+.sprite-88 {background:url(/img/emoji/group1_003.gif) 0 -2704px;}
+.sprite-89 {background:url(/img/emoji/group1_003.gif) 0 -2720px;}
+.sprite-9  {background:url(/img/emoji/group1_003.gif) 0 -2736px;}
+.sprite-90 {background:url(/img/emoji/group1_003.gif) 0 -2752px;}
+.sprite-91 {background:url(/img/emoji/group1_003.gif) 0 -2768px;}
+.sprite-92 {background:url(/img/emoji/group1_003.gif) 0 -2784px;}
+.sprite-93 {background:url(/img/emoji/group1_003.gif) 0 -2800px;}
+.sprite-94 {background:url(/img/emoji/group1_003.gif) 0 -2816px;}
+.sprite-95 {background:url(/img/emoji/group1_003.gif) 0 -2832px;}
+.sprite-96 {background:url(/img/emoji/group1_003.gif) 0 -2848px;}
+.sprite-97 {background:url(/img/emoji/group1_003.gif) 0 -2864px;}
+.sprite-98 {background:url(/img/emoji/group1_003.gif) 0 -2880px;}
+.sprite-99 {background:url(/img/emoji/group1_003.gif) 0 -2896px;}
+.sprite-215{background:url(/img/emoji/group4-30-20-30-20_003.gif) 0 0;}
+.sprite-103{background:url(/img/emoji/group2-100-100_003.gif) 0 0;}
+.sprite-105{background:url(/img/emoji/group2-100-100_003.gif) 0 -16px;}
+.sprite-114{background:url(/img/emoji/group2-100-100_003.gif) 0 -32px;}
+.sprite-226{background:url(/img/emoji/group6-50-50-50-50-50-50_003.gif) 0 0;}
+.sprite-101{background:url(/img/emoji/group4-50-50-50-50_003.gif) 0 0;}
+.sprite-109{background:url(/img/emoji/group4-50-50-50-50_003.gif) 0 -16px;}
+.sprite-113{background:url(/img/emoji/group4-50-50-50-50_003.gif) 0 -32px;}
+.sprite-154{background:url(/img/emoji/group4-50-50-50-50_003.gif) 0 -48px;}
+.sprite-66 {background:url(/img/emoji/group4-50-50-50-50_003.gif) 0 -64px;}
+.sprite-227{background:url(/img/emoji/group5-50-50-50-50-50_003.gif) 0 0;}
+.sprite-240{background:url(/img/emoji/group5-50-50-50-50-50_003.gif) 0 -16px;}
+.sprite-111{background:url(/img/emoji/group3-100-10-50_003.gif) 0 0;}
+.sprite-104{background:url(/img/emoji/group3-50-50-50_003.gif) 0 0;}
+.sprite-152{background:url(/img/emoji/group3-50-50-50_003.gif) 0 -16px;}
+.sprite-153{background:url(/img/emoji/group3-50-50-50_003.gif) 0 -32px;}
+.sprite-234{background:url(/img/emoji/group3-50-50-50_003.gif) 0 -48px;}
+.sprite-244{background:url(/img/emoji/group3-50-50-50_003.gif) 0 -64px;}
+.sprite-246{background:url(/img/emoji/group3-50-50-50_003.gif) 0 -80px;}
+.sprite-4  {background:url(/img/emoji/group3-50-50-50_003.gif) 0 -96px;}
+.sprite-48 {background:url(/img/emoji/group3-50-50-50_003.gif) 0 -112px;}
+.sprite-67 {background:url(/img/emoji/group3-50-50-50_003.gif) 0 -128px;}
+.sprite-73 {background:url(/img/emoji/group3-50-50-50_003.gif) 0 -144px;}
+

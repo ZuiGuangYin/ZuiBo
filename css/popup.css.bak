@@ -1,0 +1,455 @@
+@charset "euc-jp";
+
+/* -------------------------------------------------------
+popup.css
+
+THIS IS DEPRECATED CSS SET. THE USE IS NOT RECOMMENDED.
+PLEASE CONTACT DESIGN-DEV FIRST BEFORE NEWLY DEPLOYING THIS.
+
+- tagEmojiPallete
+- emojiSelector
+
+- FriendSetting
+- SimpleProfile
+
+- ErrorWindow
+
+- editList01(for simpleProfile) CLASS VERSION 
+---------------------------------------------------------- */
+
+/*---- tagEmojiPallete ----*/
+#tag_emoji_palette{
+width: 202px;
+}
+#tag_emoji_palette img{
+margin: 0px;
+padding: 0px;
+}
+.tag_emoji_palette table{
+border-collapse: separate;
+border-spacing: 2px;
+}
+.tag_emoji_palette_title {
+width: 202px;
+margin: 0px;
+margin-left: 0px;
+margin-right: 0px;
+padding:3px 0;
+background-color:#FFC356;
+color: #333;
+font-size: 12px;
+line-height: 14px;
+vertical-align: middle;
+}
+.tag_emoji_palette_title_left {
+float: left;
+width: 182px;
+height: 16px;
+vertical-align: middle;
+background-color: #FFC356;
+}
+.tag_emoji_palette_title_right {
+float: left;
+width: 20px;
+height: 16px;
+text-align: right;
+vertical-align: middle;
+background-color:#FFC356;
+}
+.tag_emoji_palette_image_close {
+margin: 2px;
+}
+a.tag_emoji_palette_image_close:hover {
+background-color: transparent;
+}
+.tag_emoji_palette_body {
+clear: both;
+text-align: left;
+background-color: #FFF;
+word-break: break-all;
+margin-bottom: 0px;
+}
+
+
+/*---- EmojiSelector ----*/
+#createGroupSection .emojiSelector{
+display:block;
+float:left;
+width:16px;
+height:16px;
+padding:4px;
+background:transparent url(images/iconseat_001.gif) no-repeat left top;
+}
+#createGroupSection .emojiSelector img{
+display:block;
+margin:0;
+}
+
+/*---- FriendSetting ----*/
+#friendsetting{
+
+width:590px;
+
+*background:#fcc47a;
+}
+#friendsetting .heading10 {
+background:url(images/layer_titile002.gif) no-repeat -1px -1px;
+margin-bottom:0;
+height:24px;
+line-height:24px;
+color:#333;
+}
+#friendsetting div.contentStage{
+background:#fff;
+border:1px solid #FFC356;
+}
+#friendsetting div.state .messageArea{
+border-top:none;
+}
+#friendsetting div.state .messageArea .contents{
+background:#F8F8F8!important;
+border:none!important;
+}
+#friendsetting .messageArea .contents div {
+border-color:#DFDFDF !important;
+}
+#friendsetting .state .formButtons01{
+padding-top:18px;
+}
+#friendsetting div.finish .contents{
+border-bottom:none;
+}
+#friendsetting div.finish .contents div{
+padding-bottom:97px;
+}
+#friendsetting div.loading {
+text-align:center;
+padding:100px 0;
+}
+#friendsetting textarea{
+width:97%;
+}
+#friendsetting table{
+width:100%;
+table-layout:fixed;
+}
+#friendsetting th,
+#friendsetting td{
+/*border:1px solid #FFC356;*/
+padding:5px 8px;
+vertical-align:top;
+text-align:left;
+}
+#friendsetting th{
+background:#FFFAF2 url(images/bg_edit_list001.gif) repeat-y right top;
+/*border-right:1px solid #FFC356;*/
+border-bottom:1px solid #FFC356;
+width:115px;
+}
+#friendsetting td{
+border-bottom:1px solid #FFC356;
+}
+#friendsetting th.thumbName{
+padding:10px;
+width:110px;
+text-align:center;
+background:#fff;
+border-right:1px solid #FFC356;
+}
+#friendsetting td.nakayoshi input{
+margin-right:3px;
+vertical-align:middle;
+}
+#friendsetting td.tagManagement input{
+margin-left:8px;
+}
+#friendsetting td .formBt01,
+#friendsetting td .formBt02{
+*overflow:visible;
+padding-left:5px;
+padding-right:5px;
+font-size:12px;
+}
+#friendsetting #selectedTagList{
+margin-bottom:10px;
+}
+#friendsetting #selectedTagList li{
+line-height:1.5em;
+}
+#friendsetting #selectedTagList img{
+margin-right:3px;
+vertical-align:middle;
+}
+#friendsetting #selectedTagList a.displace{
+margin-left:10px;
+}
+#friendsetting #unselectedTagList{
+margin:10px 0;
+}
+#friendsetting input.tagname{
+width:130px;
+}
+#friendsetting input.relationname{
+width:149px;
+}
+#friendsetting td.checkList input{
+margin-right:3px;
+}
+#friendsetting td.introductionManagement textarea,
+#friendsetting td.memoManagement textarea{
+width:304px;
+height:auto;
+}
+#friendsetting td.introductionManagement #introduction{
+word-break:break-all;
+overflow:hidden;
+}
+#friendsetting td.introductionManagement .buttons,
+#friendsetting td.memoManagement .buttons{
+margin-top:3px;
+/*float:right;*/
+}
+#friendsetting td.introductionManagement input,
+#friendsetting td.memoManagement input,
+#friendsetting td.introductionManagement select{
+margin-right:8px;
+}
+#friendsetting td.introductionManagement #createRelationSection{
+margin-top:10px;
+}
+#friendsetting ul.supplement01 li{
+list-style:disc;
+margin-left:1.5em;
+}
+#friendsetting .formButtons01 .supplement01{
+margin-bottom:10px;
+}
+#friendsetting .thumbnail{
+display:block;
+width:76px;
+height:76px;
+margin-left:auto;
+margin-right:auto;
+margin-bottom:5px;
+background-repeat:no-repeat;
+background-position:center center;
+text-indent:-9999px;
+}
+#friendSetting div.editList01 .formButtons01{
+border:1px solid #FFC356;
+border-top:none;
+text-align:center;
+}
+#friendSetting div.editList01 ul.formButtons01{
+padding-bottom:10px;
+}
+
+
+/*---- ErrorWindow ----*/
+#errorWindow {
+position:absolute;
+top:0;
+left:0;
+z-index:100;
+width:100%;
+background-color:#fff;
+}
+#errorWindowBody {
+display:block;
+position:absolute;
+top:0;
+left:75px;
+z-index:101;
+width:550px;
+*background:#fcc47a;
+}
+#errorWindowBody div.contentStage{
+background:#fff;
+border:1px solid #FFC356;
+}
+#errorWindowBody #errorArea{
+border:none;
+width:auto;
+padding:20px 0 23px;
+margin:0;
+background:#eee;
+}
+#errorWindowBody #errorArea div.contents{
+border:none;
+width:auto;
+margin:0;
+padding:24px 40px 21px 171px;
+}
+#errorWindowBody #errorArea .formButtons01{
+background:#eee;
+text-align:center;
+padding-top:18px;
+}
+#errorWindowBody #errorArea div.contents{
+background-position:110px 50%;
+}
+
+
+
+
+
+
+/*---- SimpleProfile ----*/
+#simpleprofile{
+display:block;
+position:absolute;
+width:195px;
+z-index:51;
+top:0;
+left:0;
+padding-bottom:6px;
+background:url(images/simpleprofile_bottom002.gif) no-repeat left bottom;
+text-align:left;
+}
+.simpleprofileWithoutHige{
+background:none!important;
+}
+#simpleprofile .utilityWindow01{
+display:block!important;
+width:auto;
+padding:5px;
+background:url(images/bg_utility_window002.gif);
+position:static;
+}
+#simpleprofile div.loading{
+text-align:center;
+padding:25px 0;
+border:1px solid #FFC356;
+border-top:none;
+border-bottom:none;
+}
+#simpleprofile div.contentStage{
+background:#fff;
+border-top:1px solid #FFC356;
+border-bottom:1px solid #FFC356;
+}
+#simpleprofile dt{
+width:41px;
+}
+#simpleprofile dd{
+width:100px;
+}
+#simpleprofile ul.editContents{
+background-position:-80px 0px;
+}
+#simpleprofile .moreLink01{
+background:#fff;
+padding:5px;
+}
+#simpleprofile .editList01 ul.editContents{
+*zoom:1;
+}
+#simpleprofile .editList01 ul.editContents li{
+width:183px;
+*float:left;
+}
+#simpleprofile .editList01 ul.editContents li.moreLink{
+border-bottom:none;
+}
+
+
+/*--- editList01(for simpleProfile) CLASS VERSION ---*/
+/*--- we can omit this when component.css takes care. */
+.editList01 ul.formButtons01{
+padding-bottom:10px;
+}
+.editList01 ul.editContents {
+border-right:1px solid #FFC356;
+border-left:1px solid #FFC356;
+background:#fff url(images/bg_edit_list001.gif) repeat-y 0 0;
+}
+.editList01 ul.editContents li{
+clear:both;
+border-bottom:1px solid #FFC356;
+}
+.editList01 ul.editContents li dl{
+zoom:1;
+}
+.editList01 ul.editContents li dl:after{
+content:".";
+display:block;
+height:0;
+clear:both;
+visibility:hidden;
+}
+.editList01 ul.editContents li dl dt,
+.editList01 ul.editContents li dl dd{
+padding:5px 10px;
+}
+.editList01 ul.editContents li dl dt{
+float:left;
+width:120px;
+}
+.editList01 ul.editContents li dl dd{
+float:left;
+width:554px;
+word-break:break-all;
+_overflow:hidden;
+}
+.editList01 ul.editContents li dl dd input,
+.editList01 ul.editContents li dl dd select{
+vertical-align:middle;
+}
+.editList01 ul.editContents li dl dd select{
+margin-right:3px;
+}
+.editList01 ul.editContents li dl dd textarea{
+margin-top:5px;
+}
+.editList01 ul.editContents li dl dd ul li{
+border:none;
+}
+.editList01 ul.editContents li dl dd ul.checkList01 li{
+display:inline;
+margin-right:5px;
+}
+.editList01 ul.editContents li dl dd ul.checkList01 li input{
+margin-right:3px;
+}
+.editList01 ul.editContents li dl dd ul.checkList02{
+display:inline-block;
+}
+.editList01 ul.editContents li dl dd ul.checkList02:after{
+content:".";
+display:block;
+height:0;
+clear:both;
+visibility:hidden;
+}
+.editList01 ul.editContents li dl dd ul.checkList02 li{
+clear:none;
+float:left;
+width:30%;
+padding-bottom:3px;
+}
+.editList01 ul.editContents li dl dd ul.checkList02 li input{
+margin-right:3px;
+}
+.editList01 .formButtons01{
+border-top:none;
+text-align:center;
+border-left:1px solid #FFC356;
+border-right:1px solid #FFC356;
+border-bottom:1px solid #FFC356;
+}
+.editList01 div.formButtons01 p.supplement01{
+width:630px;
+margin:0 auto 5px;
+padding:10px 0;
+text-align:center;
+}
+.editList01 div.formButtons01 p.supplement01.longLine{
+text-align:left;
+padding:10px 33px;
+width:597px;
+}
+.editList01 em{
+font-style:normal;
+font-weight:normal;
+}
+ 

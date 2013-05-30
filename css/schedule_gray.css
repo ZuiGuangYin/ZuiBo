@@ -1,0 +1,656 @@
+@charset "euc-jp";
+
+/*---- calendar:カレンダー ----*/
+div.show_calendar p.addSchedule a{
+background:url(images/calendar_schedule003.gif) no-repeat 0 0;
+}
+
+div.show_calendar div.calendarNavi{
+background:#fff url(images/bg_page_list02.gif) repeat-x 0 100%;
+border:1px solid #d6d6d6;
+border-top:none;
+}
+
+div.show_calendar dl.weatherSelect dt{
+background:url(images/i_w291.gif) no-repeat 0 50%;
+color:#666;
+}
+
+div.show_calendar ul.monthNavi li.lastMonth,
+div.show_calendar ul.monthNavi li.thisMonth{
+border-right:1px solid #D0D0D1;
+}
+
+div.show_calendar div.iconDescription{
+background:#f8f8f8;
+border-left:1px solid #d6d6d6;
+border-right:1px solid #d6d6d6;
+color:#666;
+}
+
+div.show_calendar div.calendarTable{
+border:1px solid #D0D0D1;
+}
+
+div.show_calendar table.calendar th,
+div.show_calendar table.calendar td{
+border-right:1px solid #D0D0D1;
+border-bottom:1px solid #D0D0D1;
+}
+
+div.show_calendar table.calendar th{
+background-color:#EDECEC;
+}
+
+div.show_calendar table.calendar tr.last td{
+border-bottom:none;
+background-position:100% 0;
+}
+
+div.show_calendar table.calendar td.sun,
+div.show_calendar table.calendar td.holiday{
+background-color:#fff3ee;
+}
+
+div.show_calendar table.calendar td.sat{
+border-right:none;
+border-collapse:collapse;
+border-spacing:0;
+background-color:#f7f9fd;
+background-position:0 100%;
+}
+
+div.show_calendar table.calendar tr.last td.sat.none{
+background-position:0 0;
+}
+
+div.show_calendar table.calendar td.today{
+background-color:#fffcce;
+}
+
+div.show_calendar table.calendar th.sun{
+color:#d00;
+}
+
+div.show_calendar ttable.calendar .sun,
+div.show_calendar table.calendar .sun,
+div.show_calendar table.calendar td.holiday{
+color:#f00;
+}
+
+div.show_calendar table.calendar th.sat{
+color:#0085cc;
+border-right:none;
+background-position:0 0;
+}
+
+div.show_calendar table.calendar td.sat{
+color:#0000ff;
+background-position:left 100%;
+}
+
+div.show_calendar table.calendar tr.last td.sat.none{
+background-color:#fff;
+}
+
+div.show_calendar table.calendar td.rightSide{
+border-right:none;
+}
+
+div.show_calendar span.bestTemp{color:#f00;}
+div.show_calendar span.minTemp{color:#00f;}
+div.show_calendar span.precipitation{color:#390;}
+
+div.show_calendar ul.birthday li{
+background:url(images/i_bd.gif) no-repeat 0 0;
+}
+
+div.show_calendar ul.event li{
+background:url(images/calendar_event001.gif) no-repeat 2px 2px;
+}
+
+div.show_calendar ul.event li.join{
+background:url(images/calendar_event002.gif) no-repeat 2px 2px;
+}
+
+div.show_calendar ul.shedule li{
+background:url(images/calendar_schedule002.gif) no-repeat 1px 2px;
+}
+
+div.show_calendar div.confirmation{
+background:#f8f8f8;
+padding:9px 12px 10px;
+color:#666;
+border:1px solid #d6d6d6;
+border-top:none;
+}
+
+div.show_calendar span.bestTemper{color:#f00;}
+div.show_calendar span.minimumTemper{color:#00f;}
+div.show_calendar span.precipitation{color:#390;}
+
+div.add_schedule div.confirm01,
+div.edit_schedule div.confirm01{
+border-bottom:none;
+}
+
+div.delete_schedule ul.editContents,
+div.add_schedule ul.editContents.confirm,
+div.edit_schedule ul.editContents.confirm{
+border-top:1px solid #D0D0D1;
+}
+
+ul.scheduleView li{
+border-bottom:1px solid #D0D0D1;
+background:url(images/schedule_bg.gif) repeat-y 0 0;
+}
+
+div.delete_schedule div.confirm01{
+border-bottom:none;
+}
+
+/*---------------- newScheduleArea ----------------*/
+div.activityList ul.entryList01 li table td span.date{
+color:#999;
+}
+
+/*---------------- updateInfo ----------------*/
+div.updateInfo{
+background:url(images/bg_updateinfo001.gif) no-repeat left bottom;
+}
+
+div.updateInfo h3{
+background:url(images/title_updateinfo001.gif) no-repeat left top;
+}
+
+div.updateInfo div.contents{
+border:1px solid #D0D0D1;
+background:#fff url(images/bg_updateinfo_navi001.gif) repeat-y left top;
+}
+
+/*-------- updateInfoNavi --------*/
+div.updateInfo div.contents ul.updateInfoNavi li a{
+color:#333;
+}
+
+div.updateInfo div.contents ul.updateInfoNavi li.current a{
+background:url(images/bg_updateinfo_navi_on001.gif) no-repeat left top;
+}
+
+/*-------- updateInfoList --------*/
+div.updateInfo div.contents div.messageArea div.contents{
+border:none !important;
+background:#f9f9f9;
+}
+
+div.updateInfo div.contents div.updateInfoList ul li span.date{
+color:#999;
+}
+
+div.updateInfo div.contents div.updateInfoList ul.actionHistory li{
+background:url(images/schedule_comment001.gif) no-repeat left top;
+}
+
+div.updateInfo div.contents div.updateInfoList ul.actionHistory li span.date{
+color:#333;
+}
+
+div.updateInfo div.contents div.updateInfoList p.moreLink01{
+background:url(images/dotline_horizontal002.gif) repeat-x left top;
+}
+
+/*-------- calHeader --------*/
+div.calendarArea div.calHeader{
+background:url(images/bg_tab001.gif) no-repeat left bottom;
+}
+
+div.calendarArea div.calHeader p.settings a{
+background:url(images/change001.gif) no-repeat left top;
+}
+
+/*-------- contentsNavi --------*/
+div.calendarArea div.calHeader ul.contentsNavi li a{
+background:url(images/tab_left001.gif) no-repeat left top;
+color:#333;
+}
+
+div.calendarArea div.calHeader ul.contentsNavi li a span{
+background:url(images/tab_right001.gif) no-repeat right top;
+}
+
+div.calendarArea div.calHeader ul.contentsNavi li.current a{
+color:#333;
+background-image:url(images/tab_left_on001.gif);
+}
+
+div.calendarArea div.calHeader ul.contentsNavi li.current a span{
+background-image:url(images/tab_right_on001.gif);
+}
+
+/*-------- pageNavi --------*/
+div.calendarArea div.pageNavi{
+border-right:1px solid #dfdfdf;
+border-left:1px solid #dfdfdf;
+background:#FFFFFF url(images/bg_page_list03.gif) repeat-x left bottom;
+}
+
+/*-------- checkList --------*/
+div.calendarArea div.checkList{
+border:1px solid #dfdfdf;
+border-bottom:none;
+background:#e9e9e9;
+}
+
+div.calendarArea div.checkList ul li a{
+background-repeat:no-repeat;
+background-position:left bottom;
+}
+
+div.calendarArea div.checkList ul li.on a{
+background-position:left top;
+}
+
+div.calendarArea div.checkList ul li.you a{
+background-image:url(images/my_schedule001.gif);
+}
+
+div.calendarArea div.checkList ul li.friend a{
+background-image:url(images/schedule_friend001.gif);
+}
+
+div.calendarArea div.checkList ul li.community a{
+background-image:url(images/schedule_community001.gif);
+}
+
+/*-------- calendarTable --------*/
+div.calendarArea table.calendarTable{
+border-top:1px solid #dfdfdf;
+border-left:1px solid #dfdfdf;
+}
+
+div.calendarArea table.calendarTable th,
+div.calendarArea table.calendarTable td{
+border-right:1px solid #dfdfdf;
+border-bottom:1px solid #dfdfdf;
+}
+
+div.calendarArea table.calendarTable th{
+background:#f8f8f8;
+}
+
+div.calendarArea table.calendarTable th.holiday{
+color:#f00;
+}
+
+div.calendarArea table.calendarTable th.saturday{
+color:#00f;
+}
+
+div.calendarArea table.calendarTable td p.nationalHoliday{
+color:#f00;
+}
+
+div.calendarArea table.calendarTable td.saturday{
+background:#f7f9fd;
+}
+
+div.calendarArea table.calendarTable td.saturday span.date{
+color:#00f;
+}
+
+div.calendarArea table.calendarTable td.holiday{
+background:#fff3ee;
+}
+
+div.calendarArea table.calendarTable td.holiday span.date{
+color:#f00;
+}
+
+div.calendarArea table.calendarTable td.today{
+background:#fffcce;
+}
+
+div.calendarArea table.calendarTable td.otherMonth span.date{
+color:#999;
+}
+
+/*---- schedule ----*/
+div.calendarArea table.calendarTable td ul.schedule li.member{
+background:url(images/list_child001.gif) no-repeat scroll 5px 4px;
+}
+
+div.calendarArea table.calendarTable td ul.schedule li.birthday{
+background:url(images/i_bd.gif) no-repeat left 1px;
+}
+
+div.calendarArea table.calendarTable td ul.schedule li.joined{
+background:url(images/calendar_schedule004.gif) no-repeat left 2px;
+}
+
+div.calendarArea table.calendarTable td ul.schedule li.friend{
+background:url(images/calendar_schedule002.gif) no-repeat left 2px;
+}
+
+div.calendarArea table.calendarTable td ul.schedule li.community{
+background:url(images/calendar_event001.gif) no-repeat left 2px;
+}
+
+div.calendarArea table.calendarTable td ul.schedule li.communityJoined{
+background:url(images/calendar_event002.gif) no-repeat left 2px;
+}
+
+/*-------- iconEx --------*/
+div.calendarArea div.iconEx{
+border:1px solid #dfdfdf;
+background:#f8f8f8;
+}
+
+div.calendarArea div.iconEx ul.helpLink li{
+color:#666;
+}
+
+/*-------- unfixedList01 --------*/
+div.calendarArea ul.unfixedList01{
+border:1px solid #dfdfdf;
+}
+
+div.calendarArea ul.unfixedList01 li{
+background:#fff;
+}
+
+div.calendarArea ul.unfixedList01 li.odd{
+background:#f8f8f8;
+}
+
+div.calendarArea ul.unfixedList01 li p.title a{
+background-repeat:no-repeat;
+background-position:left top;
+}
+
+
+div.calendarArea ul.unfixedList01 li p.title a.you{
+background-image:url(images/calendar_schedule004.gif);
+}
+
+div.calendarArea ul.unfixedList01 li p.title a.friend{
+background-image:url(images/calendar_schedule002.gif);
+}
+
+div.calendarArea ul.unfixedList01 li p.title span.member{
+background:url(images/list_child001.gif) no-repeat scroll 5px 4px;
+}
+
+/*---------------- scheduleTable01 ----------------*/
+div.scheduleTable01{
+border:1px solid #D0D0D1;
+border-bottom:none;
+}
+
+div.scheduleTable01 table{
+background-color:#fff;
+}
+
+div.scheduleTable01 table th,
+div.scheduleTable01 table td{
+border-bottom:1px solid #D0D0D1;
+border-right:1px solid #D0D0D1;
+}
+
+div.scheduleTable01 table th.selected,
+div.scheduleTable01 table td.selected{
+background-color:#fff3e1 !important;
+}
+
+/*-------- scheduleTotal --------*/
+div.scheduleTotal table tr.date th,
+div.scheduleTotal table tr.date td{
+background-color:#ededed;
+}
+
+div.scheduleTotal table tr.number th,
+div.scheduleTotal table tr.number td{
+border-bottom:none;
+background-color:#f8f8f8;
+}
+
+/*-------- scheduleMembers --------*/
+div.scheduleMembers{
+border-bottom:1px solid #D0D0D1;
+}
+
+div.scheduleMembers table tr.listItemBottom th,
+div.scheduleMembers table tr.listItemBottom td{
+background-image:none;
+}
+
+div.scheduleMembers table th,
+div.scheduleMembers table td{
+border-bottom:none;
+background-image:url(images/dotline_horizontal001.gif);
+background-repeat:repeat-x;
+background-position:left bottom;
+}
+
+div.scheduleMembers table th.you{
+background-color:#fffcce;
+}
+
+/*-------- scheduleSelect --------*/
+div.scheduleSelect{
+border-top:none;
+border-bottom:1px solid #D0D0D1;
+}
+
+div.scheduleSelect table th,
+div.scheduleSelect table td{
+border-bottom:none;
+background-color:#f8f8f8;
+}
+
+div.scheduleSelect table td input{
+border:none;
+background:none;
+}
+
+/*-------- scheduleReply --------*/
+div.scheduleReply{
+border-top:none;
+border-bottom:1px solid #D0D0D1;
+}
+
+div.scheduleReply table th,
+div.scheduleReply table td{
+border-bottom:none;
+background-color:#f8f8f8;
+}
+
+div.scheduleReply table td input{
+border:none;
+background:none;
+}
+
+
+/*---- deleteScheduleComment:コメント削除確認 ----*/
+.deleteScheduleComment div.commentListArea ul li{
+border-bottom:1px solid #DEDEDE;
+background:none;
+}
+
+.deleteScheduleComment div.commentListArea ul li.last{
+border-bottom:none;
+}
+
+
+/*---- scheduleCommentContents:コメント入力確認 ----*/
+#editList01 div.contents p.scheduleCommentContents{
+border:1px solid #D0D0D1;
+border-top:none;
+}
+
+
+/*---------------- viewSchedule ----------------*/
+/*-------- viewScheduleBox --------*/
+.viewScheduleBox{
+border-bottom:none !important;
+}
+
+
+/*---- actionLink01 ----*/
+.viewSchedule .actionLink01{
+color:#999;
+}
+
+.viewSchedule .actionLink01 a.iine{
+background:url(images/like001.gif) no-repeat left top;
+}
+
+.viewSchedule .actionLink01 span.iine{
+background:url(images/like_done001.gif) no-repeat left top;
+}
+
+.viewSchedule .actionLink01 a.comment{
+background:url(images/voice_reply001.gif) no-repeat left top;
+}
+
+.viewSchedule .actionLink01 span.comment{
+background:url(images/reply_off001.gif) no-repeat left top;
+}
+
+
+/*---- iineList ----*/
+.viewSchedule dl.iineList{
+background:url(images/border_dot_horizontal001.gif) repeat-x left top;
+}
+
+.viewSchedule dl.iineList dt {
+background:url(images/like001.gif) no-repeat left top;
+color:#666;
+}
+
+
+/*-------- scheduleEnquete --------*/
+#editList01 ul.scheduleEnquete{
+border-bottom:1px solid #D0D0D1;
+background-position:-30px 0;
+}
+
+#editList01 ul.scheduleEnquete li{
+border-top:1px solid #D0D0D1;
+border-bottom:none;
+}
+
+#editList01 ul.scheduleEnquete .scheduleEnqueteLink01 a{
+background:url(images/arrow001.gif) no-repeat 4px center;
+}
+
+#editList01 ul.scheduleEnquete .scheduleEnqueteLink01{
+color:#dedede;
+}
+
+#editList01 ul.scheduleEnquete .scheduleEnqueteLink01 a.message{
+background:url(images/message_new.gif) no-repeat left center;
+}
+
+#editList01 ul.scheduleEnquete .scheduleEnqueteLink01 a.invite{
+background:url(images/invite001.gif) no-repeat left center;
+}
+
+/*---- scheduleEnqueteNoMember ----*/
+#editList01 ul.scheduleEnqueteNoMember{
+border-bottom:1px solid #D0D0D1;
+}
+
+/*---- scheduleEnqueteContents ----*/
+#editList01 ul.scheduleEnquete dd.scheduleEnqueteContents{
+background:url(images/dotline_horizontal001.gif) repeat-x left top;
+}
+
+#editList01 ul.scheduleEnquete dd.scheduleEnqueteContents dl dt{
+background:url(images/leader001.gif) no-repeat 222px 6px;
+*background-position:222px 7px;
+}
+
+#editList01 ul.scheduleEnquete dd.scheduleEnqueteContents dl dd{
+background:url(images/enquete_graph001.gif) no-repeat right 1px;
+}
+
+/*-------- pageNavigation01 --------*/
+div.viewSchedule div.pageNavigation01 div.pageList01 ul.pages li{
+color:#FFCD8F;
+}
+
+/*-------- iconList03 --------*/
+div.viewSchedule div.iconList03{
+border-top:none;
+}
+
+/*-------- scheduleConfirmForm --------*/
+div.viewSchedule div.formButtons01 p span.scheduleConfirmForm{
+color:#666;
+}
+
+
+/*---------------- viewSchedule(color) ----------------*/
+/*-------- viewScheduleBox --------*/
+.viewScheduleBox{
+border:1px solid #D0D0D1;
+border-top:none;
+}
+
+.viewScheduleBox div.deleteScheduleConfirm{
+border-bottom:1px solid #D0D0D1;
+}
+
+/*-------- listScheduleTitle --------*/
+.listScheduleTitle{
+background:#EDECEC;
+border-bottom:1px solid #D0D0D1;
+}
+
+.listScheduleTitle dd{
+color:#535353;
+}
+
+/*-------- viewerFriendList --------*/
+.viewerFriendList{ 
+border-bottom:1px solid #D0D0D1; 
+background:url(images/viewer_friend_bg.gif) repeat-x;
+}
+
+.viewerFriendList p a{
+background: url(images/viewer_friend_list.gif) no-repeat;
+}
+
+.viewerFriendList p a:hover {
+background: url(images/viewer_friend_list_on.gif) no-repeat;
+}
+
+.groupMemberPop{
+border:1px solid #D0D0D1;
+background-color:#F9F8F8;
+}
+
+/*---------------- addScheduleList ----------------*/
+#editList01 ul.addScheduleList{
+background-position:-22px top;
+}
+
+#editList01 ul.addScheduleList li.date dl dd ul.supplement01 li{
+padding:0 !important;
+}
+
+#editList01 ul.addScheduleList li.invite dl dd dl.inviteFriendList{
+background:url(images/dotline_horizontal001.gif) repeat-x left top;
+}
+
+#editList01 li dd ul.inviteMemberList li div{
+color:#686868;
+}
+
+#editList01 li dd ul.inviteMemberList li div.unavailable{
+color:#979797;
+}
+
+#editList01 li dd ul.inviteMemberList li div span{
+color:#D0D0D1;
+}

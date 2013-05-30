@@ -1,0 +1,128 @@
+
+
+
+
+<!--[BodyArea]-->
+<div id="bodyArea" class="search">
+<!--[BodyMainArea]-->
+<div id="bodyMainArea">
+<div class="pageTitle homeTitle002">
+<h2>搜索朋友</h2>
+</div>
+
+<div id="searchCategoryArea">
+
+<ul class="categoryListo18 clearfix">
+
+<li class="emailRequest"><a href="{$base}/search_friend_mail">通过邮件地址检索</a></li>
+<li class="schoolSearch"><a href="{$base}/search_school">通过学校名称检索</a></li>
+<li class="companySearch"><a href="{$base}/search_company">通过公司名称检索</a></li>
+<li class="profileSearch"><a href="{$base}/search_profile">通过个人信息检索</a></li>
+<li class="addressSearch"><a href="{$base}/list_contacts">根据邮件地址簿检索</a></li>
+<li class="keywordSearch"><a href="{$base}/search_mykeyword">通过关键字检索</a></li>
+</ul>
+
+<!--/searchCategoryArea--></div>
+
+
+
+
+
+
+
+
+
+<!--/bodyMainArea--></div>
+<!--/[BodyMainArea]-->
+
+
+
+<!--[bodySub]-->
+<div id="bodySub">
+
+
+<!--[AdBanner]-->
+<div id="adBanner">
+
+<!--/#AdBanner--></div>
+<!--/[AdBanner]-->
+
+<!-- use_ssl -->
+<div id="prContentsArea" class="bodySubSection">
+
+<div class="heading01"><h2>推荐信息</h2></div>
+<div class="prContents">
+
+<div class="megaContents precedingMegaContents">
+
+<script type="text/javascript" language="JavaScript">
+if (typeof(impAads[0]) !='undefined' && impAads[0] !="") document.write(impAads[0]);
+</script><dl><dt><a target="_blank" 
+href=""><img
+ alt="" 
+src="{$base}/images/a0ee55bb4a4d1987c306c0732ba27103b3403ddf.gif" 
+width="72" height="72"></a></dt><dd><img alt="PR" 
+src="{$base}/images/pr_ico9.gif" width="21" height="9"><div><a 
+target="_blank" 
+href="">二手汽车<br>请赶快行动<br>过了此村没有下店♪</a></div></dd></dl>
+
+</div>
+
+
+<div class="megaContents succeedingMegaContents">
+
+<script type="text/javascript" language="JavaScript">
+if (typeof(impAads[1]) !='undefined' && impAads[1] !="") document.write(impAads[1]);
+</script><dl><dt><a target="_blank" 
+href=""><img
+ alt="" 
+src="{$base}/images/c6e3bc0fb7f9b8fe5a53080f89fd607c2fd17003.gif" 
+width="72" height="72"></a></dt><dd><img alt="PR" 
+src="{$base}/images/pr_ico9.gif" width="21" height="9"><div><a 
+target="_blank" 
+href="">使用美容肥皂<img src="{$base}/images/76.gif" alt="" 　height="16" 
+class="emoji" width="16" border="0"><br>多用多益<img 
+src="{$base}/images/49.gif" alt="" 　height="16" class="emoji" 
+width="16" border="0"><br>高品质的好商品</a></div></dd></dl>
+</div>
+</div>
+</div>
+<!--[ActivityFeed]-->
+<div id="activityFeed" class="bodySubSection">
+<div class="heading01">
+<h2>{$nick_name}最近的博客</h2>
+</div>
+<div class="contents">
+<ul class="activityFeedList01">
+
+{foreach from=$newblogs|smarty:nodefaults item="item"}
+<li class="diary">
+
+<a href="{$base}/{$smarty.session.myApp.owner}/viewblog?bid={$item.bid}">{$item.title}</a></li>
+{/foreach}
+</ul>
+</div>
+<!--/activityFeed--></div>
+<!--/[ActivityFeed]-->
+
+<!--[help]-->
+<div class="bodySubSection" id="help">
+<div class="heading01">
+<h2>当您遇到困难时</h2>
+</div>
+<div class="contents">
+<ul class="helpList04">
+<li><a href="{$base}/help">帮助首页</a></li>
+<li><a href="{$base}/help?mode=list&amp;category=3">使用上的注意</a></li>
+<li><a id="JS_supportReportLink" 
+href="{$base}/support_report?mode=disable">违反网站规定的通报</a></li>
+</ul>
+</div>
+<!--/help--></div>
+<!--/[help]-->
+
+<!--/bodySub--></div>
+<!--/[BodySub]-->
+
+<!--/bodyArea--></div>
+<!--/[BodyArea]-->

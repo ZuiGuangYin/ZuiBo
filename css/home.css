@@ -1,0 +1,3774 @@
+@charset "utf-8";
+
+/*---- setting ----*/
+em,strong{
+font-style:normal;
+font-weight:normal;
+font-size:100%;
+}
+
+
+/*---- profilePhoto:プロフ画像 ----*/
+#profilePhoto{
+margin-bottom:10px;
+}
+
+#profilePhoto div.heading02 h2{
+width:500px;
+}
+
+#profilePhoto div.heading02 p{
+width:174px;
+text-align:right;
+}
+
+#profilePhoto .heading02 p a{
+margin-right:10px;
+padding-left:15px;
+text-align:right;
+}
+
+#profilePhoto ul.showPhotoList{
+text-align:center;
+}
+
+#profilePhoto ul.showPhotoList li{
+display:inline-block;
+*display:inline;
+zoom:1;
+margin:10px 25px;
+}
+
+#profilePhoto ul.showPhotoList li div{
+width:190px;
+height:190px;
+margin-bottom:5px;
+text-indent:-9999px;
+}
+
+
+/*---- photoUploadForm:プロフ画像アップ ----*/
+#photoUploadForm{
+position:relative;
+margin-bottom:10px;
+padding:10px 20px;
+}
+
+#photoUploadForm h2{
+margin-bottom:7px;
+font-weight:bold;
+}
+
+#photoUploadForm ul{
+position:absolute;
+top:10px;
+right:20px;
+}
+
+#photoUploadForm li{
+display:inline;
+}
+
+#photoUploadForm li a{
+margin-left:5px;
+}
+
+#photoUploadForm li.photo a{
+padding:0 0 0 17px;
+}
+
+#photoUploadForm li.mobile a{
+padding:2px 0 0 15px;
+}
+
+#photoUploadForm p.formArea{
+margin:5px 0;
+}
+
+#photoUploadForm p.formArea textarea{
+width:580px;
+height:16px;
+overflow:auto;
+margin:2px 0;
+}
+
+#photoUploadForm p.formArea textarea.open{
+height:45px;
+}
+
+#photoUploadForm p.formArea span.error{
+display:block;
+padding:0 0 2px 20px;
+color:#F00;
+font-weight:bold;
+font-size:83%;
+}
+
+
+/*---- profilePhotoFeed:プロフ画像更新情報 ----*/
+#profilePhotoFeed{
+margin:0 10px 10px;
+padding:8px 15px 6px;
+}
+
+#profilePhotoFeed li{
+padding-left:15px;
+}
+
+#profilePhotoFeed li span{
+margin-right:10px;
+}
+
+
+/*---- profilePhotoList:プロフ画像リスト ----*/
+#profilePhotoList{
+margin-bottom:10px;
+}
+
+#profilePhotoList .confirm01 p.sort{
+font-weight:normal;
+}
+
+#profilePhotoList .confirm01 p.sort span{
+font-size:83%;
+}
+
+#profilePhotoList .photoList{
+padding:0 0 10px 0;
+text-align:center;
+}
+
+#profilePhotoList .photoList li.unit{
+display:inline-block;
+*display:inline;
+zoom:1;
+width:192px;
+vertical-align:top;
+margin:10px 15px 0;
+text-align:left;
+}
+
+#profilePhotoList li.unit div.photo{
+width:190px;
+height:190px;
+margin-bottom:3px;
+text-indent:-9999px;
+}
+
+#profilePhotoList li.unit p.setting{
+margin-bottom:4px;
+}
+
+#profilePhotoList li.unit p.setting img{
+vertical-align:middle;
+}
+
+#profilePhotoList li.unit p.setting span{
+margin-left:5px;
+}
+
+#profilePhotoList li.unit p.from{
+margin-bottom:3px;
+font-size:83%;
+word-wrap:break-word;
+}
+
+#profilePhotoList li.unit p.from a{
+padding-left:10px;
+}
+
+#profilePhotoList li.unit div.messageArea p.thumbnail{
+float:left;
+padding:10px 5px 3px 10px;
+}
+
+#profilePhotoList li.unit div.messageArea p.message{
+padding:10px 10px 0;
+word-wrap:break-word;
+}
+
+#profilePhotoList li.unit div.messageArea p.message span.date{
+display:block;
+}
+
+#profilePhotoList li.unit div.messageArea ul.action{
+clear:both;
+padding:0 10px 8px;
+font-size:83%;
+text-align:right;
+}
+
+#profilePhotoList .unit div.messageArea ul.action a{
+padding-left:8px;
+}
+
+
+/*---- photoConfirm:フォトから追加確認 ----*/
+#photoConfirm .addConfirm{
+padding:15px 30px;
+width:654px;
+}
+
+#photoConfirm .addConfirm p.photo{
+float:left;
+width:240px;
+text-align:center;
+}
+
+#photoConfirm .addConfirm p.confirm{
+float:left;
+width:384px;
+padding-left:30px;
+}
+
+#photoConfirm .addConfirm p.confirm span.supplement01{
+display:block;
+margin-top:20px;
+}
+
+
+/*---- mobileUpload:携帯プロフ写真追加 ----*/
+#mobileUpload{
+width:362px;
+padding:10px;
+text-align:left;
+}
+
+#mobileUpload h1{
+margin-bottom:15px;
+}
+
+#mobileUpload div.confirm{
+padding-top:5px;
+}
+
+
+/*---- photoUploadNote ----*/
+#mobileUpload div.confirm p{
+padding:5px 10px 10px;
+font-weight:bold;
+}
+
+#mobileUpload div.qrCode{
+margin:18px;
+text-align:center;
+}
+
+#mobileUpload p.info{
+margin:0 10px;
+}
+
+#mobileUpload p.closeWindow{
+margin:60px 0 40px;
+text-align:center;
+}
+
+
+/*---- editList01:設定入力系 ----*/
+#editList01 ul.editContents li{
+clear:both;
+text-align:left;
+}
+
+#editList01 ul.editContents li dl dt,
+#editList01 ul.editContents li dl dd{
+padding:5px 10px;
+}
+
+#editList01 ul.editContents li dl dt{
+float:left;
+width:120px;
+}
+
+#editList01 ul.editContents li dl dt p.editEx01{
+padding-top:3px;
+text-align:right;
+}
+
+#editList01 ul.editContents li dl dd{
+float:left;
+width:554px;
+overflow:hidden;
+word-break:break-all;
+}
+
+#editList01 ul.editContents li dl dd p.checkbox{
+padding-top:4px;
+}
+
+#editList01 ul.editContents li dl dd p.checkbox input{
+margin-top:1px;
+vertical-align:top;
+*margin-top:0;
+*vertical-align:middle;
+}
+
+#editList01 ul.editContents li dl dd ul.loginMailList span{
+margin-left:10px;
+}
+
+#editList01 ul.editContents li dl dd ul.loginMailList span img{
+vertical-align:middle;
+}
+
+#editList01 ul.editContents li dl dd dl.inputList01 dt,
+#editList01 ul.editContents li dl dd dl.inputList01 dd{
+padding:0 0 5px;
+}
+
+#editList01 ul.editContents li dl dd dl.inputList01 dt{
+width:auto;
+}
+
+#editList01 ul.editContents li dl dd dl.inputList01 dd{
+width:400px;
+}
+
+#editList01 ul.editContents li dl dd.mailaddressList{
+width:574px;
+padding:0;
+}
+
+#editList01 ul.editContents li dl dd.mailaddressList p.inputAlert02{
+margin:5px 10px;
+}
+
+#editList01 ul.editContents li dl dd.mailaddressList ul.editNote{
+padding:0 10px 5px;
+}
+
+#editList01 ul.editContents li dl dd.mailaddressList dl.inputList01{
+padding:5px 10px 0;
+}
+
+#editList01 ul.editContents li dl dd.mailaddressList dl.inputList01 dt{
+width:69px;
+padding-top:2px;
+}
+
+#editList01 ul.editContents li dl dd.mailaddressList div.mobileAddress {
+padding-top:6px;
+}
+
+#editList01 ul.editContents li dl dd.mailaddressList div.mobileAddress p.inputAlert02{
+margin-top:0;
+}
+
+#editList01 ul.editContents li dl dd.passwordList dl.inputList01 dt{
+width:122px;
+}
+
+#editList01 ul.editContents li dl dd.passwordList dl.inputList01 dt input{
+vertical-align:middle;
+width:115px;
+}
+
+#editList01 ul.editContents li dl dd.passwordList dl.inputList01 dd{
+padding-top:2px;
+*width:400px;
+*float:right;
+}
+
+#editList01 ul.editContents li dl dd.logMail dl.inputList01 dt,
+#editList01 ul.editContents li dl dd.logMail dl.inputList01 dd{
+padding-top:5px;
+}
+
+#editList01 ul.editContents li dl dd.logMail dl.inputList01 dt,
+#editList01 ul.editContents li dl dd.messageMailList dl.inputList01 dt,
+#editList01 ul.editContents li dl dd.communityNewsList dl.inputList01 dt{
+width:85px;
+}
+
+#editList01 ul.editContents li dl dd.logMail dl.inputList01 dd span,
+#editList01 ul.editContents li dl dd.messageMailList dl.inputList01 dd span,
+#editList01 ul.editContents li dl dd.communityNewsList dl.inputList01 dd span{
+padding-right:10px;
+}
+
+#editList01 ul.editContents li dl dd.logMail dl.inputList01 dd span input,
+#editList01 ul.editContents li dl dd.messageMailList dl.inputList01 dd span input,
+#editList01 ul.editContents li dl dd.communityNewsList dl.inputList01 dd span input{
+margin-right:3px;
+vertical-align:middle;
+}
+
+#editList01 ul.editContents li dl dd p.editIntroPhoto{
+width:80px;
+text-align:center;
+}
+
+#editList01 ul.editContents li dl dd p.editIntroRelation{
+padding-bottom:5px;
+}
+
+#editList01 ul.editContents li dl dd table.loginMailAddress01 td{
+padding-right:5px;
+}
+
+#editList01 ul.editContents li dl dd table.loginMailAddress01 td input.changeAddress{
+padding:0;
+}
+
+#editList01 ul.editContents li dl dd input,
+#editList01 ul.editContents li dl dd select{
+vertical-align:middle;
+}
+
+#editList01 ul.editContents li dl dd select{
+margin-right:3px;
+}
+
+#editList01 ul.editContents li dl dd textarea{
+margin-top:5px;
+}
+
+#editList01 ul.editContents li dl dd dl.inputName dt,
+#editList01 ul.editContents li dl dd dl.inputName dd{
+display:inline;
+float:none;
+width:auto;
+padding:0;
+text-align:left;
+}
+
+#editList01 ul.editContents li dl dd dl.inputName dd{
+margin:0 10px 0 3px;
+}
+
+#editList01 ul.editContents li dl dd ul.checkList01 li{
+display:inline;
+margin-right:5px;
+}
+
+#editList01 ul.editContents li dl dd ul.checkList01 li input{
+margin-right:3px;
+}
+
+.editNote{
+font-size:83%;
+}
+
+#editList01 ul.editContents li dl dd .editNote{
+clear:both;
+padding-top:5px;
+}
+
+#editList01 ul.editContents li dl dd div.editItem01{
+float:left;
+width:398px;
+_padding-bottom:1px;
+}
+
+#editList01 ul.editContents li dl dd p.openRange{
+float:right;
+width:150px;
+_padding-bottom:1px;
+text-align:right;
+}
+
+#editList01 ul.editContents li dl dd img.openRange{
+margin-left:3px;
+vertical-align:middle;
+}
+
+#editList01 ul.editContents li dl dd strong.email{
+font-size:16px;
+font-weight:bold;
+}
+
+#editList01 ul.editContents li dl.diarySelect dd div.editItem01{
+width:250px;
+}
+
+#editList01 ul.editContents li dl.diarySelect dd p.openRange{
+width:300px;
+}
+
+
+/*---- editGroup01 ----*/
+#editList01 ul.editContents dd.editGroup01{
+padding:5px 10px;
+_padding-bottom:0;
+}
+
+#editList01 ul.editContents dd.editGroup01 dt{
+display:inline;
+float:none;
+width:auto;
+padding:0 10px 0 0;
+text-align:left;
+}
+
+#editList01 ul.editContents dd.editGroup01 dd{
+display:inline;
+float:none;
+width:auto;
+position:static;
+padding:0;
+}
+
+#editList01 ul.editContents dd.editGroup01 dd ul{
+text-align:right;
+}
+
+#editList01 ul.editContents dd.editGroup01 dl.editCommunityGroup dt{
+float:left;
+width:203px;
+}
+
+#editList01 ul.editContents dd.editGroup01 dl.editCommunityGroup dd{
+float:right;
+width:340px;
+}
+
+#editList01 ul.editContents dd.editGroup01 dl.editGroupList01 dt{
+float:left;
+}
+
+#editList01 ul.editContents dd.editGroup01 dl.editGroupList01 dd{
+float:right;
+}
+
+#editList01 ul.editContents dd.editGroup01 dd ul li{
+display:inline;
+margin-left:3px;
+padding-left:5px;
+}
+
+#editList01 ul.editContents dd.editGroup01 dd ul li.leftside{
+margin-left:0;
+}
+
+div.memoList01 ul li dl.buddy dd input,
+div#editList01 ul li dl.buddy dd input{
+margin-right:5px;
+vertical-align: middle;
+}
+
+div.memoList01 ul li dl.buddy dd span,
+div#editList01 ul li dl.buddy dd span{
+margin-left:5px;
+}
+
+
+/*---- addGroup01 ----*/
+#editList01 ul.editContents dd.addGroup01 input{
+margin-right:5px;
+}
+
+#editList01 ul.editContents dd.addGroup01 .supplement01{
+padding-top:5px;
+}
+
+
+/*---- confirmation ----*/
+#editList01 p.confirmation{
+padding:8px 20px;
+}
+
+
+/*---- memoList01:メモ情報 ----*/
+div.memoList01 p.memoListPhoto{
+float:left;
+width:96px;
+padding:10px 0;
+text-align:center;
+}
+
+div.memoList01 ul.memoListContent{
+float:left;
+width:618px;
+}
+
+div.memoList01 ul.editMemoForm{
+padding-top:5px;
+}
+
+div.memoList01 ul.editMemoForm li{
+display:inline;
+margin-right:5px;
+}
+
+div.editMemoForm p textarea{
+margin-bottom:5px;
+}
+
+div.memoList01 ul.memoListContent li{
+clear:both;
+}
+
+div.memoList01 ul.memoListContent li dl dt{
+float:left;
+width:122px;
+padding:10px;
+}
+
+div.memoList01 ul.memoListContent li dl dt span.supplement01{
+display:block;
+}
+
+div.memoList01 ul.memoListContent li dl dd{
+float:left;
+width:456px;
+padding:10px;
+}
+
+div.memoList01 ul.memoListContent li dl dd input.formBt01,
+div.memoList01 ul.memoListContent li dl dd input.formBt02{
+_padding:0 5px;
+}
+
+div.memoList01 ul.memoListContent li dl dd p{
+padding-top:5px;
+}
+
+div.memoList01 ul.memoListContent li dl dd p.selectGroup{
+padding-top:0px;
+}
+
+
+div.memoList01 ul.memoListContent li dl dd p input,
+div.memoList01 ul.memoListContent li dl dd p select{
+margin-right:5px;
+}
+
+div.memoList01 ul.memoListContent li dl dd dl dt{
+float:none;
+width:auto;
+padding:0;
+text-align:left;
+}
+
+div.memoList01 ul.memoListContent li dl dd dl dd{
+float:none;
+width:auto;
+padding:0;
+}
+
+p.editMemoLink{
+text-align:right;
+}
+
+
+/*---- manageGroupList01 ----*/
+div.memoList01 ul.memoListContent li dl dd dl.manageGroupList01{
+padding-bottom:5px;
+}
+
+div.memoList01 ul.memoListContent li dl dd dl.manageGroupList01 dt{
+float:left;
+width:256px;
+}
+
+div.memoList01 ul.memoListContent li dl dd dl.manageGroupList01 dd{
+float:left;
+width:200px;
+}
+
+
+/*---- groupList01: コミュニティ一覧----*/
+div.groupList01{
+clear:both;
+width:696px;
+overflow:hidden;
+padding:8px 10px;
+}
+
+div.groupList01 div.groupListTitle{
+position:relative;
+width:694px;
+_height:1px;
+}
+
+div.groupList01 div.groupListTitle h3{
+padding:0 0 8px 13px;
+font-weight:bold;
+}
+
+div.groupList01 div.groupListTitle p{
+position:absolute;
+top:0;
+right:0;
+}
+
+div.groupList01 div.groupListTitle p a{
+padding-left:18px;
+}
+
+div.groupList01 dl{
+padding:6px 10px 8px 18px;
+}
+
+div.groupList01 dl dt,
+div.groupList01 dl dd{
+padding-left:21px;
+}
+
+div.groupList01 dl dd ul{
+padding-top:5px;
+}
+
+div.groupList01 dl dd ul li{
+float:left;
+margin-right:13px;
+padding-left:18px;
+white-space:nowrap;
+}
+
+div.groupList01 dl dd ul li a{
+padding:2px 0;
+}
+
+div.groupList01 p.utilityLinks04{
+margin-top:5px;
+padding:0 0 0 18px;
+text-align:left;
+}
+
+
+/*---- introList01:紹介文一覧 ----*/
+div.introList01 ul.introListContents{
+padding:17px 33px 2px;
+}
+
+div.introList01 ul.introListContents li{
+padding-bottom:10px;
+}
+
+div.introList01 ul.introListContents li dl dt{
+display:block;
+float:left;
+clear:both;
+width:76px;
+padding-bottom:2.5em;
+text-align:center;
+word-break:break-all;
+}
+
+div.introList01 span.name{
+position:relative;
+display:block;
+text-align:left;
+}
+
+div.introList01 span.name a{
+position:absolute;
+display:block;
+width:76px;
+text-align:center;
+}
+
+div.introList01 ul.introListContents li dl dd{
+float:right;
+width:572px;
+margin-bottom:10px;
+padding:8px 0 0;
+}
+
+div.introList01 ul.introListContents li dl dd div{
+min-height:46px;
+_height:46px;
+margin-left:18px;
+padding:0 16px 10px;
+}
+
+div.introList01 ul.introListContents li dl dd div ul{
+padding-top:5px;
+text-align:right;
+}
+
+div.introList01 ul.introListContents li dl dd div ul li{
+display:inline-block;
+*display:inline;
+padding-bottom:0;
+}
+
+div.introList01 ul.introListContents li dl dd div ul li.leftside{
+margin-right:5px;
+padding-right:5px;
+}
+
+div.introList01 ul.formButtons01{
+padding-bottom:10px;
+}
+
+
+/*---- friendList01:マイミク一覧 ----*/
+ul.friendBlock{
+width:714px;
+margin-top:-1px;
+}
+
+ul.friendBlock li{
+width:714px;
+}
+
+ul.friendBlock li p{
+width:76px;
+float:left;
+padding:10px;
+text-align:center;
+min-height:46px;
+_height:auto;
+}
+
+dl.friendList01{
+width:617px;
+float:right;
+}
+
+dl.friendList01 dt.friendName{
+position:relative;
+*height:32px;
+margin:0;
+padding-left:20px;
+padding-right:35%;
+font-size:116.7%;
+line-height:2;
+}
+
+dl.friendList01 dd.friendProfile{
+width:617px;
+float:right;
+text-align:center;
+}
+
+dl.friendList01 dd.friendProfile p{
+width:597px;
+float:none;
+margin:0 auto;
+padding:10px 0;
+overflow:hidden;
+text-align:left;
+}
+
+div.confirm01 p.bottomBorder01 {
+clear:both;
+padding:8px 20px;
+}
+
+div.friendListTab ul{
+text-align:left;
+}
+
+/*---- common_component:ホーム共通モジュール ----*/
+ul.list li{
+clear:both;
+margin:0 auto;
+float:left;
+clear:both;
+width:100%;
+position:relative;
+}
+
+ul.list div.listIcon{
+padding:8px 20px;
+float:left;
+width:76px;
+text-align:center;
+}
+
+ul.list div.listContents{
+float:right;
+}
+
+ul.list div.heading{
+padding:5px 15px;
+}
+
+ul.list p.description{
+padding:10px 20px 7px;
+word-break:break-all;
+overflow:hidden;
+}
+
+ul.list div.heading p.userName a.name{
+font-size:125%;
+}
+
+ul.list div.listContents p.userInfo{
+padding:7px 20px 6px;
+}
+
+ul.list div.listContents p.userInfo span{
+margin-right:1em;
+}
+
+
+/*---- search:友人検索 ----*/
+div.search div.messageArea,
+div.search #editList01,
+div.search #editList02,
+div.search #recommendArea{
+margin-bottom:15px;
+}
+
+div.search #editList01 ul.editContents{
+line-height:1.4;
+}
+
+div.search #editList01 ul.editContents li dl dt{
+width:160px;
+}
+
+div.search #editList01 ul.editContents li dl dd{
+width:514px;
+}
+
+div.search #editList01 ul.editContents li dl dd select{
+margin-right:13px;
+}
+
+div.search #editList01 ul.editContents li dl dd select.searchFocus{
+width:140px;
+}
+
+div.search input#keyword{
+width:246px;
+}
+
+div.search input#from_age,
+div.search input#to_age{
+width:46px;
+}
+
+div.search ul.list div.listIcon{
+width:76px;
+}
+
+div.search ul.list div.listContents{
+width:597px;
+}
+
+div.search div.pageList01 div.pageList04{
+float:left;
+width:514px;
+padding-left:100px;
+}
+
+div.search div.pageList01 div.sortFriend{
+float:left;
+width:97px;
+padding:1px 3px 0 0;
+text-align:right;
+}
+
+div.search div.pageList01 div.sortFriend select{
+width:93px;
+}
+
+div.search #searchCategoryArea{
+margin:5px 0 8px;
+}
+
+div.search #searchCategoryArea ul li{
+float:left;
+text-indent:-9999px;
+}
+
+div.search #searchCategoryArea ul li a{
+display:block;
+overflow:hidden;
+}
+
+div.search #searchCategoryArea ul.categoryListu18{
+margin-left:10px;
+}
+
+div.search #searchCategoryArea ul.categoryListu18 li{
+margin:0 8px 12px;
+}
+
+div.search #searchCategoryArea ul.categoryListu18 li a{
+width:332px;
+height:91px;
+}
+
+div.search #searchCategoryArea ul.categoryListo18 li{
+margin-bottom:12px;
+}
+
+div.search #searchCategoryArea ul.categoryListo18 li a{
+width:232px;
+height:121px;
+}
+
+div.search #searchCategoryArea ul.categoryListo18 li.schoolSearch,
+div.search #searchCategoryArea ul.categoryListo18 li.addressSearch{
+margin:0 10px;
+}
+
+
+/*---- search_nomatch ----*/
+div.search .messageArea ul.searchMenu{
+padding:0 30px 5px 40px;
+}
+
+div.search .messageArea ul.searchMenu li{
+display:inline;
+padding:0 8px 3px 0;
+}
+
+div.search .messageArea p.inviteFriend{
+padding:0 40px;
+}
+
+
+/*---- recommend:あなたの友人かも ----*/
+div.recommend div.contentBox div.contentLeft{
+position: relative;
+float:left;
+width:357px;
+}
+
+div.recommend div.contentBox div.contentRight{
+position: relative;
+float:right;
+width:356px;
+}
+
+div.recommend div.contentBox div.thumb{
+float:left;
+width:100px;
+margin:7px 0;
+text-align:center;
+}
+
+div.recommend div.contentLeft div.contentList{
+float:right;
+width:256px;
+}
+
+div.recommend div.contentRight div.contentList{
+float:right;
+width:255px;
+}
+
+div.recommend div.contentBox div.heading{
+padding:4px 5px 4px 10px;
+}
+
+div.recommend div.contentBox div.heading p.nickname{
+float:left;
+width:218px;
+overflow:hidden;
+word-break:break-all;
+}
+
+div.recommend div.contentBox div.heading p.function{
+position:relative;
+float:right;
+width:15px;
+height:15px;
+margin-top:2px;
+}
+
+div.recommend div.contentBox div.heading p.function img{
+display:block;
+}
+
+div.recommend div.contentBox div.heading p.function a{
+outline:none;
+}
+
+div.recommend div.contentBox div.heading p.function a.tooltip01:hover{
+line-height:1.3;
+text-decoration:none;
+}
+
+div.recommend div.contentBox div.heading p.function a.tooltip01 span{
+display:none; 
+width:90px;
+padding:5px 7px;
+font-size:12px;
+text-align:center;
+}
+
+div.recommend div.contentBox div.heading p.function a.tooltip01:hover span{
+display:inline; 
+position:absolute; 
+top:-32px;
+left:-90px; 
+z-index:1;
+}
+
+div.recommend div.contentBox div.contentList ul{
+padding:7px 10px; 
+}
+
+div.recommend div.contentBox div.contentList ul li.participant,
+div.recommend div.contentBox div.contentList ul li.commonCount{
+display:inline;
+margin-right:5px;
+font-size:83%; 
+} 
+
+div.recommend div.contentBox div.contentList ul li.addMymixi{
+margin-top:5px; 
+} 
+
+div.recommend div.contentBox div.contentList ul li.addMyList{ 
+padding-left:32px; 
+} 
+
+div.bottomUtility01{
+position:relative;
+clear:both;
+height:17px;
+padding:5px 10px;
+}
+
+div.bottomUtility01 p.extraLink{
+position:absolute;
+left:10px;
+top:5px;
+padding-left:13px;
+}
+
+/*---- recommendFriend:マイミク申請完了 ----*/
+#recommendFriend{
+margin-top:15px;
+}
+
+#recommendFriend h3.heading{
+padding:10px 0 5px 21px;
+font-weight:bold;
+}
+
+#recommendFriend p.lead{
+padding:0 0 7px 21px;
+}
+
+#recommendFriend div.recommend{
+margin:0 10px;
+}
+
+#recommendFriend div.recommend div.contentLeft{
+width:347px;
+}
+
+#recommendFriend div.recommend div.contentRight{
+width:346px;
+}
+
+#recommendFriend div.recommend div.contentLeft div.contentList{
+width:246px;
+}
+
+#recommendFriend div.recommend div.contentRight div.contentList{
+width:245px;
+}
+
+#recommendFriend div.recommend div.contentBox div.thumb{
+width:101px;
+min-height:98px;
+_height:98px;
+margin:0;
+padding:7px 0;
+}
+
+#recommendFriend p.moreLink01{
+padding:5px 10px 6px;
+}
+
+
+/*---- show_log:足あと ----*/
+div.show_log .extraWrap02{
+clear:both;
+}
+
+div.show_log .extraWrap02 .selectTab01 li a{
+width:110px;
+}
+
+div.show_log div.confirm{
+padding:6px 15px 5px;
+line-height:1.6;
+font-size:12px;
+font-weight:bold;
+}
+
+div.show_log div.pageNavigation01{
+width:694px;
+margin:0 auto;
+font-size:12px;
+}
+
+div.show_log div.pageNavigation01.top{
+height:27px;
+}
+
+div.show_log div.pageNavigation01 div.pageList02{
+height:21px;
+}
+
+div.show_log div.logListArea{
+margin:0 auto;
+padding:5px 21px;
+font-size:12px;
+*font-size:100%;
+}
+
+div.show_log div.logListArea div.logContents{
+padding-bottom:20px;
+}
+
+div.show_log div#footprintjack{
+width:115px;
+float:left;
+padding-top:20px;
+padding-left:15px;
+}
+
+div.show_log div#footprintjack02{
+width:115px;
+float:left;
+padding-top:20px;
+}
+
+div.show_log div.logListCenter{
+width:370px;
+float:left;
+padding:20px 10px 0;
+}
+
+div.show_log div.logListCenter p{
+text-align:center;
+margin-bottom:12px;
+}
+
+div.show_log div.logListCenter p img{
+vertical-align: text-top;
+}
+
+div.show_log ul.logList01{
+padding-left:30px;
+}
+
+div.show_log ul.logList02{
+padding-left:10px;
+}
+
+div.show_log div.logListCenter strong,
+div.show_log div.logListCenter em{
+font-weight:bold;
+}
+
+div.show_log div.logListCenter li{
+clear:both;
+line-height:1.9;
+*layout-grid-line:1%;
+}
+
+div.show_log div.logListCenter li span.date{
+padding-right:10px;
+display:block;
+float:left;
+width:110px;
+text-align:right;
+}
+
+div.show_log div.logListCenter li span.name{
+padding-right:5px;
+display:block;
+float:left;
+width:185px;
+overflow:hidden;
+word-break:break-all;
+}
+
+div.show_log div.logListCenter li span.name img{
+margin-left:4px;
+vertical-align: middle;
+}
+
+div.show_log div.logListCenter ul.logList02 li span.delete{
+display:block;
+float:left;
+width:16px;
+text-align:right;
+}
+
+div.show_log div.logListCenter ul.logList02 li span.delete img{
+margin-top:6px;
+*margin-top:2px;
+}
+
+div.show_log div.iconInfo{
+text-indent:-9999px;
+height:33px;
+}
+
+div.show_log div.iconInfo li{
+display:inline;
+}
+
+div.show_log div.extraWrap02 p.supplement01{
+padding:0 3px;
+}
+
+
+/*---- search_diary:日記検索 ----*/
+div.search_diary input#keyword{
+width:297px;
+}
+
+div.search_diary span.name{
+display:block;
+text-align:center;
+}
+
+div.search_diary ul.list div.listContents{
+width:597px;
+}
+
+div.search_diary ul.list div.listContents div.heading{
+position:relative;
+padding-right:185px;
+width:397px;
+}
+
+div.search_diary ul.list div.listContents div.heading span.date{
+position:absolute;
+top:7px;
+right:10px;
+display:block;
+width:150px;
+text-align:right;
+}
+
+div.search_diary div#editList01{
+margin-bottom:5px;
+}
+
+
+/*---- invite:友人を招待 ----*/
+div.invite div.messageArea,
+div.invite #editList01 div.contents{
+margin-bottom:15px;
+}
+
+div.invite div.confirm02{
+clear:both;
+}
+
+div.invite #editList01 ul.editContents li dl dt{
+width:160px;
+}
+
+div.invite #editList01 ul.editContents li dl dd{
+width:514px;
+}
+
+div.invite #editList01 div.formButtons01 p.supplement01{
+text-align:left;
+}
+
+div.invite #editList01 ul.editContents li.emailArea{
+padding:15px 0;
+}
+
+div.invite #editList01 ul.editContents li dl.waiting{
+line-height:2;
+layout-grid-line:1px;
+}
+
+div.invite textarea#message{
+width:98%;
+}
+
+div.invite #editList01 ul.editContents li dl dd div.captcha{
+margin-bottom:5px;
+}
+
+div#addInviteFriend div#bodyMainArea{
+padding-left:0;
+}
+
+div#addInviteFriend div#bodyMainArea p.utilityLinks03{
+margin-bottom:25px;
+}
+
+div#addInviteFriend p.extraLink{
+padding:5px; 
+text-align:center; 
+}
+
+div.invite #editList01 ul.editContents div.selectLinkArea{
+padding-top:7px;
+margin:5px 0;
+}
+
+div.invite #editList01 ul.editContents div.selectLinkArea div{
+padding:4px 10px 10px;
+}
+
+div.invite #editList01 ul.editContents div.selectLinkArea p.leftSide{
+float:left;
+width:300px;
+font-weight:bold;
+padding-top:5px;
+_padding-top:8px;
+}
+
+div.invite #editList01 ul.editContents div.selectLinkArea p.leftSide img{
+vertical-align:middle;
+margin-right:5px;
+}
+
+div.invite #editList01 ul.editContents div.selectLinkArea p.rightSide{
+float:right;
+width:180px;
+}
+
+div.invite #editList01 ul.editContents div.selectLinkArea p.notice{
+font-size:83%;
+font-weight:bold;
+padding-left:23px;
+}
+
+div.invite #editList01 ul.editContents div.selectLinkArea p.notice span{
+display:block;
+font-weight:normal;
+}
+
+div.invite #editList01 ul.editContents ul.friendList01 li{
+clear:both;
+padding:5px 0 10px;
+}
+
+div.invite #editList01 ul.editContents ul.friendList01 p.sumb{
+float:left;
+width:76px;
+text-align:center;
+}
+
+div.invite #editList01 ul.editContents ul.friendList01 div{
+float:right;
+width:428px;
+}
+
+div.invite #editList01 ul.editContents ul.friendList01 p.nickname{
+float:left;
+width:325px;
+}
+
+div.invite #editList01 ul.editContents ul.friendList01 p.deleteList{
+float:right;
+text-align:right;
+width:100px;
+}
+
+div.invite #editList01 ul.editContents ul.friendList01 p.limitInfo{
+padding-left:23px;
+margin-bottom:3px;
+clear:both;
+font-weight:bold;
+font-size:83%;
+}
+
+div.invite #editList01 ul.editContents ul.friendList01 textarea{
+clear:both;
+margin:0;
+width:422px;
+height:50px;
+}
+
+div.invite #editList01 ul.editContents ul.friendList01 p.introduce{
+clear:left;
+line-height:1.3;
+padding-top:5px;
+overflow:hidden;
+word-break:break-all;
+}
+
+
+/*---- importContacts:アドレス帳友人招待 ----*/
+.importContacts .contents{
+padding:10px 14px;
+}
+
+.importContacts .contents p{
+position:relative;
+height:55px;
+line-height:55px;
+padding-left:30px;
+font-weight:bold;
+}
+
+.importContacts .contents p span{
+position:absolute;
+top:10px;
+right:30px;
+}
+
+
+/*---- serviceListArea:サービス一覧 ----*/
+div.service_list{
+padding-top:0 !important;
+}
+
+#serviceListArea{
+padding:5px 0 0;
+}
+
+#serviceListArea ul.serviceList01{
+padding-bottom:11px;
+}
+
+#serviceListArea ul.serviceList01 li{
+float:left;
+width:307px;
+padding:0 4px 8px 4px;
+}
+
+#serviceListArea ul.serviceList01 li div.contents{
+height:182px;
+padding-right:21px;
+}
+
+#serviceListArea ul.serviceList01 li div.contents h2,
+#serviceListArea ul.serviceList01 li div.contents p.intro{
+position:absolute;
+top:-9999px;
+left:-9999px;
+}
+
+#serviceListArea ul.serviceList01 li div.contents p.helpLink01{
+padding-top:15px;
+text-align:right;
+}
+
+#serviceListArea ul.serviceList01 li div.contents p.moreLinkBt{
+padding:95px 0 0 116px;
+}
+
+#serviceListArea ul.serviceList01 li div.contents p.moreLinkBt a{
+display:block;
+width:170px;
+height:32px;
+text-indent:-9999px;
+outline:none;
+}
+
+
+/*---- serviceList02:サービス一覧サブ ----*/
+#serviceListArea div.serviceList02{
+padding-top:1px;
+margin-right:9px;
+margin-left:10px;
+}
+
+#serviceListArea div.serviceList02 div.contents{
+padding-left:1px;
+}
+
+#serviceListArea div.serviceList02 table td{
+width:282px;
+padding:15px;
+vertical-align:top;
+}
+
+#serviceListArea div.serviceList02 table td h3{
+padding-bottom:4px;
+}
+
+#serviceListArea div.serviceList02 table td h3 a{
+padding-left:15px;
+font-size:116%;
+font-weight:bold;
+}
+
+#serviceListArea div.serviceList02 table td h3 img{
+vertical-align:middle;
+}
+
+#serviceListArea div.serviceList02 table td h3.end{
+padding-left:15px;
+font-size:116%;
+font-weight:bold;
+}
+
+
+/*---- settingListArea:設定変更 ----*/
+#settingListArea{
+clear:both;
+padding:5px 4px;
+*padding:5px 9px;
+}
+
+#settingListArea .section{
+display:inline-block;
+*display:inline;
+zoom:1;
+width:289px;
+line-height:1;
+vertical-align:top;
+margin:0 10px 10px;
+}
+
+#settingListArea .section h2{
+line-height:24px;
+margin-bottom:14px;
+padding-left:15px;
+}
+
+#settingListArea .section h3{
+margin:0 15px 10px;
+}
+
+#settingListArea .section ul{
+margin:0 15px 15px;
+}
+
+#settingListArea .section li{
+margin-bottom:7px;
+padding-left:15px;
+}
+
+
+/*---- add_friend/list_request/reply_request：マイミク追加リクエスト ----*/
+div.addFriend div#editList01 div.formButtons01 p.supplement01{
+text-align:left;
+}
+
+div.request div#editList01 li.formButtons01 p.supplement01.insert{
+margin-bottom:10px;
+}
+
+div.addFriend .formButtons01,
+div.request div.pageNavigation01,
+div.request .formButtons01,
+div.detailList01,
+div.detailList01 ul.detailListContent li{
+clear:both;
+}
+
+div.detailList01 p.detailListPhoto{
+width:96px;
+float:left;
+text-align:center;
+padding:7px 0;
+}
+
+div.detailList01 ul.detailListContent{
+width:618px;
+float:right;
+overflow:hidden;
+word-break:break-all;
+}
+
+div.detailList01 ul.detailListContent li dl dt{
+float:left;
+width:130px;
+padding:5px 10px;
+}
+
+div.detailList01 ul.detailListContent li dl dt span.supplement01{
+display:block;
+}
+
+div.detailList01 ul.detailListContent li dl dd{
+float:right;
+width:447px;
+padding:5px 10px;
+}
+
+div.request div.detailList01 ul.detailListContent li dl dd textarea,
+div.addFriend #editList01 ul.editContents li dl dd textarea{
+margin-top:5px;
+width:98%;
+height:100px;
+}
+
+div.addFriend div.detailList01 ul.detailListContent li dl dd textarea{
+margin-top:5px;
+width:98%;
+height:16px;
+}
+
+div.addFriend div.detailList01 ul.detailListContent li dl dd textarea.open{
+height:50px;
+}
+
+div.detailList01 ul.detailListContent li dl dd.viewPastDiary p{
+padding:2px 0;
+}
+
+div.detailList01 ul.detailListContent li p.moreLink01{
+padding:5px 7px;
+}
+
+div.detailList01 ul.detailListContent li.information01{
+padding:5px 10px;
+font-weight:bold;
+}
+
+div.detailList01 ul.detailListContent li.information01 span{
+display:block;
+}
+
+div.detailList01 ul.detailListContent li.information02{
+padding:5px 10px;
+}
+
+div.detailList01 ul.detailListContent .formButtons01{
+width:617px;
+}
+
+div.request div.detailList01 ul.detailListContent li.formButtons01 li{
+*zoom:1;
+}
+
+div.request div.messageArea{
+margin-bottom:15px;
+}
+
+div.addFriend .utilityLinks03,
+div.request .utilityLinks03{
+clear:both;
+}
+
+div.detailList01 ul.detailListContent li.nomessage{
+padding:15px 0;
+}
+
+
+/*---- mixiKeyword:mixiキーワード ----*/
+div.myKeyword div#editList01.searchTopArea{
+margin-bottom:10px;
+}
+
+div.myKeyword div#editList01 dl dd.inputMyKeyword dl.inputList01 dt{
+width:auto;
+padding-bottom:0;
+}
+
+div.myKeyword div#editList01 dl dd.inputMyKeyword dl.inputList01 dt input{
+width:280px;
+}
+
+div.myKeyword div#editList01 dl dd.inputMyKeyword dl.inputList01 dd{
+width:auto;
+margin-left:5px;
+padding-bottom:0;
+}
+
+div.myKeyword div#editList01 dl dd.inputMyKeyword p.noChange span{
+margin-left:10px;
+}
+
+div.myKeyword div#editList01 dl dd.showMyKeyword span{
+margin-right:15px;
+} 
+
+div.myKeyword div#editList01 dl dd.showMyKeyword input{
+margin-right:3px;
+} 
+
+div.myKeyword div.editConfirm01{
+padding-top:15px;
+}
+
+div.myKeyword div.editConfirm01 p.formButtons01{
+text-align:center;
+}
+
+div.myKeyword div#editList01 li.myKeywordSearch input{
+width:280px;
+}
+
+div.myKeyword div.detailList01 ul.detailListContent li.addFriend dl dt{
+width:380px;
+}
+
+div.myKeyword div.detailList01 ul.detailListContent li.addFriend dl dt strong{
+font-weight:bold;
+}
+
+div.myKeyword div.detailList01 ul.detailListContent li.addFriend dl dd{
+width:197px;
+text-align:right;
+}
+
+div.myKeyword div.detailList01 ul.detailListContent li.addFriend dl dt span{
+display:block;
+margin-top:2px;
+font-size:86%;
+}
+
+div.myKeyword div.detailList01 ul.detailListContent li.addFriend dl dd span{
+display:block;
+margin-top:2px;
+}
+
+div.myKeyword div.detailList01 ul.detailListContent li.addFriend dl dd span.addmylist{
+padding-top:5px;
+}
+
+div.myKeyword div.detailList01 ul.detailListContent li.addFriend dl dd span.addmylist a{
+padding:3px 0 3px 20px;
+}
+
+
+/*---- birthday ----*/
+p.birthday{
+padding-bottom:10px;
+}
+
+
+/*---- マイミク追加 友人紹介 ----*/
+#addMyMixi,
+#friends{
+width:687px;
+padding:0 12px 10px;
+}
+
+#addMyMixi p,
+#friends p{
+float:left;
+width:387px;
+padding:18px 0 0;
+}
+
+#addMyMixi p.official{
+padding:11px 0 0;
+}
+
+#addMyMixi ul,
+#friends ul{
+float:left;
+width:300px;
+padding:12px 0;
+text-align:right;
+}
+
+#addMyMixi ul li,
+#friends ul li{
+display:inline;
+padding-left:10px;
+}
+
+#addMyMixi ul li a img,
+#friends ul li a img{
+vertical-align:bottom;
+}
+
+
+/*---- profileEdit:プロフ編集 ----*/
+#profileEdit{
+margin-bottom:10px;
+padding-bottom:5px;
+}
+
+#profileEdit div.contents{
+min-height:52px;
+_height:52px;
+padding:10px 12px 0;
+}
+
+#profileEdit div.contents strong{
+font-weight:bold;
+}
+
+#profileEdit div.contents p select{
+margin-right:8px;
+}
+
+#profileEdit div.contents dl{
+padding-top:13px;
+width:692px;
+}
+
+#profileEdit div.contents dl a{
+padding-left:7px;
+}
+
+#profileEdit div.contents dl dt{
+float:left;
+width:80px;
+}
+
+#profileEdit div.contents dl dd{
+float:left;
+width:612px;
+}
+
+#profileEdit div.contents dl dd ul li{
+display:inline-block;
+*display:inline;
+zoom:1;
+margin:0 15px 3px 0;
+white-space:nowrap;
+}
+
+
+/*---- myArea ----*/
+#myArea{
+width:260px;
+padding:4px;
+}
+
+
+/*---- profilePhoto ----*/
+#myArea div.profilePhoto{
+padding-bottom:4px;
+}
+
+#myArea div.profilePhoto h2{
+height:4px;
+line-height:4px;
+text-indent:-999999px;
+}
+
+#myArea div.profilePhoto div.contents{
+padding:7px 10px;
+}
+
+#myArea div.profilePhoto div.contents p{
+text-align:center;
+}
+
+#myArea div.profilePhoto div.contents p.extraIcon{
+margin-top:5px;
+}
+
+#myArea div.profilePhoto div.contents p.photo{
+padding:7px 0 9px;
+}
+
+#myArea div.profilePhoto div.contents p.photo span.moreLink01{
+display:block;
+padding-top:9px;
+text-align:center;
+}
+
+#myArea div.profilePhoto div.contents p.name{
+padding-top:9px;
+}
+
+#myArea div.profilePhoto div.contents p.name span.loginTime{
+display:block;
+padding-bottom:7px;
+font-size:83%;
+text-align:center;
+}
+
+
+/*---- bodySideSection01 ----*/
+div.bodySideSection01 div.sectionBody div.utility02{
+padding:7px 8px 6px 0;
+}
+
+
+/*---- mutualMyMixi:共通マイミク ----*/
+div.bodySideSection01 div.mutualMyMixi{
+width:254px;
+margin:0 auto 10px;
+padding-bottom:6px;
+}
+
+div.bodySideSection01 div.mutualMyMixi h3{
+padding:15px 13px 2px;
+}
+
+div.bodySideSection01 div.mutualMyMixi ul li{
+padding:0 13px 1px;
+}
+
+
+/*---- iconListTable01 ----*/
+div.bodySideSection01 div.sectionBody table.iconListTable01 tr.iconListTableTop td{
+padding-top:0;
+}
+
+
+/*---- friendUtilityLink ----*/
+ul.friendUtilityLink{
+padding:4px 7px;
+text-align:right;
+margin-bottom:10px;
+}
+
+ul.friendUtilityLink li{
+display:inline;
+padding-left:15px;
+}
+
+ul.friendUtilityLink li a{
+padding:2px 0 2px 10px;
+}
+
+ul.friendUtilityLink li a.myListIcon{
+padding-left:20px;
+}
+
+
+/*---- personalInfo:友人更新情報 ----*/
+#personalInfo{
+margin-bottom:10px;
+}
+
+#personalInfo dl{
+width:403px;
+padding:5px 13px 10px;
+}
+
+#personalInfo dl dt,
+#personalInfo dl dd{
+float:left;
+}
+
+#personalInfo dl dt{
+clear:left;
+width:60px;
+margin-top:6px;
+padding-left:19px;
+}
+
+#personalInfo dl dt.birthday{
+padding-left:18px;
+}
+
+#personalInfo dl dt img{
+vertical-align:middle;
+}
+
+#personalInfo dl dd{
+width:306px;
+margin-top:6px;
+padding-left:18px;
+}
+
+
+/*---- photoFeed:フォトFeed ----*/
+div.section01 ul.photoLinkList{
+padding:12px 14px 32px 14px;
+}
+
+div.section01 ul.photoLinkList li a{
+padding-left:25px;
+}
+
+
+/*---- activityStream:homeアクティビティ ----*/
+#activityStream .sectionBody{
+padding-top:10px;
+}
+
+#activityStream h3{
+line-height:1;
+padding-left:10px;
+font-weight:bold;
+}
+
+
+/*---- newFeedList:フィード共通 ----*/
+.newFeedList li.commentRow{
+*display:inline;
+clear:both;
+}
+
+.newFeedList li p.thumbArea{
+float:left;
+width:40px;
+padding:8px 15px;
+text-align:center;
+}
+
+.newFeedList li div.feedContents{
+float:right;
+width:375px;
+line-height:1.3;
+padding:8px 5px 6px;
+word-wrap:break-word;
+word-break:break-all;
+}
+
+.newFeedList li .feedContents p.voiced .emoji,
+.newFeedList li .feedContents p.checked .emoji{
+vertical-align:text-bottom;
+}
+
+.newFeedList li .feedContents div.utility{
+width:100%;
+line-height:1.5;
+margin-top:3px;
+font-size:83%;
+}
+
+.newFeedList li .feedContents div.utility p{
+float:left;
+width:40%;
+}
+
+.newFeedList li .feedContents div.utility p span.source{
+margin-left:5px;
+}
+
+.newFeedList li .feedContents div.utility p img.voicePhoto{
+margin-left:5px;
+vertical-align:middle;
+}
+
+.newFeedList li .feedContents div.utility ul{
+float:right;
+width:59%;
+text-align:right;
+}
+
+.newFeedList li .feedContents div.utility ul li{
+display:inline;
+margin-left:3px;
+}
+
+.newFeedList li .feedContents div.utility ul li a,
+.newFeedList li .feedContents div.utility ul li span{
+padding:3px 0;
+}
+
+.newFeedList li .feedContents div.utility ul li a.likeIcon,
+.newFeedList li .feedContents div.utility ul li span.likedIcon{
+padding-left:13px;
+}
+
+.newFeedList li .feedContents div.utility ul li a.commIcon{
+padding-left:21px;
+}
+
+.newFeedList li .feedContents div.feedContentsBody{
+float:left;
+padding-top:2px;
+}
+
+.newFeedList li .feedContents div.thumbnail{
+float:left;
+width:56px;
+padding:2px 10px 2px 0;
+}
+
+.newFeedList li .feedContents div.thumbnail p a{
+display:block;
+padding:2px;
+text-align:center;
+}
+
+.newFeedList li .feedContents .title01{
+width:375px;
+}
+
+.newFeedList li .feedContents .title02{
+width:309px;
+}
+
+.newFeedList li .feedContents .title01 a,
+.newFeedList li .feedContents .title02 a{
+padding:2px 0 2px 19px;
+}
+
+.newFeedList li .feedContents p.checked{
+width:355px;
+padding:1px 0 1px 20px;
+}
+
+.newFeedList li .feedContents p.checked .mobile{
+margin-left:5px;
+}
+
+.newFeedList li .feedContents p.checkText{
+margin-top:3px;
+font-size:83%;
+}
+
+.newFeedList li .feedContents p.friend,
+.newFeedList li .feedContents p.community{
+padding-left:20px;
+}
+
+.newFeedList li .feedContents .itemData{
+line-height:1.6;
+margin-top:3px;
+font-size:83%;
+}
+
+.newFeedList li .feedContents .itemData span{
+float:left;
+margin-right:8px;
+}
+
+.newFeedList li .feedContents .itemData .more{
+float:right;
+}
+
+.newFeedList li .feedContents .itemData .more a{
+padding-left:8px;
+}
+
+.newFeedList .resArea{
+clear:both;
+width:395px;
+margin:0 0 10px 55px;
+padding:0 0 6px;
+}
+
+.newFeedList .resArea .inputArea{
+padding:5px 6px 0;
+}
+
+.newFeedList .resArea .inputArea textarea{
+width:377px;
+height:43px;
+overflow:auto;
+}
+
+.newFeedList .resArea .inputArea p.control{
+position:relative;
+clear:both;
+width:100%;
+padding-top:2px;
+text-align:right;
+}
+
+.newFeedList .resArea .inputArea p.control input{
+padding:0;
+}
+
+.newFeedList .resArea .inputArea p.control span.error{
+position:absolute;
+top:2px;
+left:2px;
+padding:0 0 2px 20px;
+font-weight:bold;
+font-size:83%;
+}
+
+.newFeedList .resArea .officialNotify{
+padding:10px 10px 0;
+font-size:83%;
+}
+
+#voiceFeed .moreLink01 strong{
+font-weight:bold;
+}
+
+#bodyContents01 .newFeedList li div.feedContents{
+float:left;
+width:401px;
+padding:8px 15px 6px;
+}
+
+#bodyContents01 .newFeedList li .feedContents p.checked{
+width:381px;
+}
+
+#bodyContents01 .newFeedList li .feedContents .title01{
+width:401px;
+}
+
+#bodyContents01 #voiceFeed li .feedContents .voicePhoto{
+float:left;
+margin:0 10px 2px 0;
+padding:2px;
+}
+
+#bodyContents01 #voiceFeed li .feedContents .voicePhoto img{
+width:50px;
+height:50px;
+cursor:pointer;
+}
+
+#bodyContents01 #voiceFeed li .feedContents .utility{
+width:auto;
+}
+
+
+/*---- profile ----*/
+#profile{
+padding-bottom:0;
+}
+
+#profile div.sectionBody{
+padding:6px;
+}
+
+#profile div.profileListTable table{
+width:417px;
+table-layout:fixed;
+}
+
+/* safari only \*/
+@media screen and (-webkit-min-device-pixel-ratio:0){
+#profile div.profileListTable table{
+table-layout:inherit;
+}
+}
+
+#profile div.profileListTable table tr th{
+width:85px;
+}
+
+#profile div.profileListTable table tr th img{
+margin-left:2px;
+}
+
+#profile div.profileListTable table tr td{
+width:312px;
+}
+
+#profile div.profileListTable table tr td img.emoji{
+margin-left:2px;
+vertical-align:text-bottom;
+}
+
+#profile div.profileListTable table tr th,
+#profile div.profileListTable table tr td{
+padding:5px;
+vertical-align:top;
+overflow:hidden;
+word-break:break-all;
+}
+
+#profile p.moreLink01{
+padding:10px 0 0;
+}
+
+#profile p.moreLink01 a{
+padding-left:15px;
+}
+
+
+/*---- intro ----*/
+#intro div.sectionBody dl{
+width:401px;
+padding:12px 15px 0;
+}
+
+#intro div.sectionBody dl dt{
+float:left;
+width:76px;
+padding-right:7px;
+text-align:center;
+overflow:hidden;
+word-break:break-all;
+}
+
+#intro div.sectionBody dl dt span{
+display:block;
+}
+
+#intro div.sectionBody dl dd{
+float:right;
+width:316px;
+padding-bottom:8px;
+}
+
+#intro div.sectionBody dl dd div p{
+padding-top:8px;
+}
+
+#intro div.sectionBody dl dd span{
+display:block;
+overflow:hidden;
+}
+
+#intro div.sectionBody dl dd span.relation{
+padding:0 12px 7px 22px;
+}
+
+#intro div.sectionBody dl dd span.userInput{
+padding:0 12px 0 22px;
+}
+
+
+/*---- profilePhoto:home写真 ----*/
+#bodySide02 #myArea{
+width:210px;
+}
+
+#bodySide02 #myArea div.profilePhoto{
+padding-bottom:0;
+}
+
+#bodySide02 #myArea div.profilePhoto h2{
+height:6px;
+line-height:6px;
+}
+
+#bodySide02 #myArea div.profilePhoto div.contents{
+padding:0;
+}
+
+#bodySide02 #myArea div.profilePhoto p.photo{
+padding:4px 0 9px;
+}
+
+#bodySide02 #myArea div.profilePhoto p.premium{
+padding-bottom:3px;
+}
+
+#bodySide02 #myArea div.profilePhoto p.name{
+padding:0 0 3px;
+}
+
+#bodySide02 #myArea div.profilePhoto p.name span{
+padding:0 5px;
+}
+
+#bodySide02 #myArea div.profilePhoto p.name span.edit img{
+margin-bottom:1px;
+vertical-align:middle;
+}
+
+#bodySide02 #myArea div.profilePhoto p.moreLink01{
+margin-bottom:5px;
+}
+
+
+/*---- voice:ボイス ----*/
+#bodySide02 #myArea div.voice{
+width:210px;
+padding-bottom:7px;
+}
+
+#bodySide02 #myArea div.voice h2{
+position:absolute;
+top:-9999px;
+}
+
+#bodySide02 #myArea div.voice div.contents{
+padding:22px 10px 0;
+}
+
+#bodySide02 #myArea div.voice div.vForm{
+width:190px;
+}
+
+#bodySide02 #myArea div.voice div.vForm p.error{
+padding:0 0 2px 20px;
+font-size:83%;
+font-weight:bold;
+}
+
+#bodySide02 #myArea div.voice div.vForm p.input textarea{
+width:184px;
+height:40px;
+overflow:auto;
+font-size:12px;
+}
+
+#bodySide02 #myArea div.voice div.vForm p.input textarea.defaultText{
+width:164px;
+height:15px;
+overflow:hidden;
+padding:4px 2px 2px 22px;
+}
+
+#bodySide02 #myArea div.voice div.vForm p.selectPhoto input{
+width:180px;
+}
+
+#bodySide02 #myArea div.voice div.vForm div.option{
+float:left;
+width:130px;
+margin-top:2px;
+}
+
+#bodySide02 #myArea div.voice div.vForm div.option p.addPhoto a{
+padding-left:18px;
+font-size:83%;
+}
+
+#bodySide02 #myArea div.voice div.vForm div.option ul.transmit{
+margin-top:3px;
+}
+
+#bodySide02 #myArea div.voice div.vForm div.option ul.transmit input{
+margin-right:3px;
+}
+
+#bodySide02 #myArea div.voice div.vForm div.option ul.transmit li{
+display:inline;
+margin-right:7px;
+}
+
+#bodySide02 #myArea div.voice div.vForm p.submit{
+float:right;
+margin-top:2px;
+}
+
+#bodySide02 #myArea div.voice div.vForm p.submit input{
+padding:0;
+}
+
+#bodySide02 #myArea div.voice ul.moreLink01{
+clear:both;
+margin-top:5px;
+font-size:83%;
+}
+
+#bodySide02 #myArea div.voice ul.moreLink01 li{
+display:inline;
+padding-left:5px;
+}
+
+#bodySide02 #myArea div.voice ul.moreLink01 li.notice a{
+padding-left:24px;
+}
+
+#bodySide02 #myArea div.voice p.noFeed{
+padding:5px 0;
+text-align:center;
+}
+
+
+/*---- noticeIcon:home通知 ----*/
+#bodySide02 #myArea div.noticeIcon{
+margin-top:5px;
+}
+#bodySide02 #myArea div.noticeIcon ul.noticeList{
+width:210px;
+}
+
+#bodySide02 #myArea div.noticeIcon ul.noticeList li{
+float:left;
+width:51px;
+}
+
+#bodySide02 #myArea div.noticeIcon ul.noticeList li.iine{
+width:53px;
+}
+
+#bodySide02 #myArea div.noticeIcon ul.noticeList li.appliRequest{
+width:55px;
+}
+
+#bodySide02 #myArea div.noticeIcon ul.noticeList li a{
+display:block;
+height:35px;
+text-indent:-999999px;
+outline:none;
+}
+
+
+/*---- myAppli ----*/
+#bodySide02 #myArea div.myAppli{
+margin-top:4px;
+padding-top:4px;
+}
+
+#bodySide02 #myArea div.myAppli div.contents{
+padding:0 11px 8px;
+}
+
+#bodySide02 #myArea div.myAppli div.nomore{
+width:186px;
+padding:0 12px 4px;
+}
+
+#bodySide02 #myArea div.myAppli ul.actionList{
+width:186px;
+padding:6px 0 8px;
+}
+
+#bodySide02 #myArea div.myAppli ul.actionList li{
+float:left;
+}
+
+#bodySide02 #myArea div.myAppli ul.actionList li.diary{
+width:75px;
+padding:0 10px 0 2px;
+}
+
+#bodySide02 #myArea div.myAppli ul.actionList li.diary a{
+padding-left:17px;
+}
+
+#bodySide02 #myArea div.myAppli ul.actionList li.photo{
+width:86px;
+padding-left:10px;
+}
+
+#bodySide02 #myArea div.myAppli ul.actionList li.photo a{
+padding-left:18px;
+}
+
+#bodySide02 #myArea div.myAppli p.myAppliNone{
+margin:0 0 5px;
+}
+
+#bodySide02 #myArea div.myAppli h2{
+padding:14px 0 7px;
+}
+
+#bodySide02 #myArea div.myAppli ul.myAppliList li{
+margin-top:5px;
+padding-left:20px;
+}
+
+#bodySide02 #myArea div.myAppli ul.moreLink01{
+margin:8px 0 0;
+font-size:83%;
+text-align:right;
+}
+
+#bodySide02 #myArea div.myAppli ul.moreLink01 li{
+display:inline;
+padding-left:10px;
+}
+
+#bodySide02 p.myAppliOpen,
+#bodySide02 p.myAppliClose{
+text-indent:-9999px;
+}
+
+#bodySide02 p.myAppliOpen a,
+#bodySide02 p.myAppliClose a{
+display:block;
+height:17px;
+overflow:hidden;
+}
+
+
+/*---- myCommentHistory ----*/
+#bodySide02 #myArea div.myCommentHistory{
+width:210px;
+margin:4px 0 0;
+padding-bottom:4px;
+}
+
+#bodySide02 #myArea div.myCommentHistory h2{
+line-height:20px;
+text-indent:-999999px;
+}
+
+#bodySide02 #myArea div.myCommentHistory div.contents{
+padding:0 11px 4px;
+overflow:hidden;
+word-break:break-all;
+}
+
+#bodySide02 #myArea div.myCommentHistory ul.myCommentList{
+padding-top:7px;
+}
+
+#bodySide02 #myArea div.myCommentHistory ul.myCommentList li{
+margin-top:5px;
+padding-left:20px;
+}
+
+#bodySide02 #myArea div.myCommentHistory ul.myCommentList li a{
+margin-right:5px;
+}
+
+#bodySide02 #myArea div.myCommentHistory ul.myCommentList li img{
+margin-left:5px;
+}
+
+#bodySide02 #myArea div.myCommentHistory p.moreLink01{
+padding:10px 0 0;
+font-size:83%;
+}
+
+
+/*---- iconListTable01:ホーム ----*/
+#bodySide02 table.iconListTable01{
+width:218px;
+}
+
+#bodySide02 table.iconListTable01 td{
+width:99px;
+padding:7px 5px 5px;
+}
+
+#bodySide02 div.bodySideSection01 div.utility01{
+padding:6px 2px 4px;
+text-align:center;
+}
+
+#bodySide02 div.bodySideSection01 div.utility01 ul li{
+display:inline;
+padding:0 1px;
+}
+
+#bodySide02 div.bodySideSection01 div.utility01 ul li img{
+vertical-align:bottom;
+}
+
+#bodySide02 div.bodySideSection01 div.utility02{
+width:218px;
+padding:6px 0 5px;
+}
+
+#bodySide02 div.bodySideSection01 div.utility02 p{
+text-align:center;
+}
+
+#bodySide02 div.bodySideSection01 div.utility02 p a{
+padding:2px 0 2px 20px;
+}
+
+
+/*---- utility03:home系左カラム ----*/
+div.bodySideSection01 div.utility03{
+padding:6px 0 5px;
+text-align:center;
+}
+
+div.bodySideSection01 div.utility03 p.friends a{
+padding:2px 0 2px 27px;
+}
+
+
+/*---- communityList.beginners ----*/
+#bodySide02 #communityList div.beginners h3{
+padding:10px 10px 5px;
+}
+
+#bodySide02 #communityList div.beginners p{
+padding:0 10px 5px;
+}
+
+#bodySide02 #communityList div.beginners p.favLink01{
+padding:0;
+}
+
+
+/*---- mixiInfo ----*/
+#bodyContents02 #mixiInfo{
+min-height:32px;
+_height:32px;
+margin-bottom:15px;
+}
+
+#bodyContents02 #mixiInfo h2{
+position:absolute;
+top:-999999px;
+}
+
+#bodyContents02 #mixiInfo ul{
+padding:5px 0 6px 70px;
+}
+
+#bodyContents02 #mixiInfo ul li{
+margin-top:2px;
+}
+
+#bodyContents02 #mixiInfo ul li a{
+padding-left:10px;
+font-weight:bold;
+}
+
+#bodyContents02 #mixiInfo ul li.noEmphasis a{
+font-weight:normal;
+}
+
+
+/*---- contentsSort:homeタブ ----*/
+#bodyContents02 ul.contentsSort{
+width:455px;
+margin-bottom:10px;
+}
+
+#bodyContents02 ul.contentsSort li{
+float:left;
+width:115px;
+padding-top:3px;
+}
+
+#bodyContents02 ul.contentsSort li a{
+display:block;
+width:110px;
+height:25px;
+text-indent:-9999px;
+outline:none;
+}
+
+#bodyContents02 ul.contentsSort li.on{
+padding-top:0;
+}
+
+#bodyContents02 ul.contentsSort li.on a{
+height:28px;
+}
+
+
+/*---- section01 ----*/
+#bodyContents02 div.section01,
+#bodyContents02 div.sectionHead{
+position:relative;
+width:455px;
+}
+
+#bodyContents02 div.section01 div.sectionHead h2{
+float:left;
+width:361px;
+}
+
+#bodyContents02 div.section01 ul.sectionUtility{
+float:left;
+width:59px;
+}
+
+#bodyContents02 div.section01 ul.sectionUtility li{
+float:left;
+width:19px;
+}
+
+#bodyContents02 div.section01 ul.sectionUtility li a{
+display:block;
+width:15px;
+height:15px;
+margin-top:4px;
+text-indent:-9999px;
+outline:none;
+}
+
+
+/*---- sectionSize:開閉 ----*/
+ul.sectionUtility li.sectionSize{
+position:absolute;
+top:0px;
+}
+
+ul.sectionUtility li.open,
+ul.sectionUtility li.close,
+utility02 li.open,
+utility02 li.close{
+right:0;
+}
+
+ul.sectionUtility li.down{
+right:19px;
+}
+
+ul.sectionUtility li.up{
+right:38px;
+}
+
+
+/*---- sortFeedList:フィードソート ----*/
+#bodyContents02 dl.sortFeedList{
+padding:7px 15px;
+}
+
+#bodyContents02 dl.sortFeedList dt{
+display:inline;
+font-weight:bold;
+}
+
+#bodyContents02 dl.sortFeedList dd{
+display:inline;
+padding:0 1px 0 8px;
+}
+
+
+/*---- beginnersHome:初心者UI ----*/
+#beginnersHome .section01{
+padding-bottom:0;
+}
+
+#beginnersHome .sectionBody{
+clear:both;
+padding:9px 0;
+}
+
+#beginnersHome .supplement01{
+clear:both;
+padding:0 20px;
+}
+
+#beginnersHome #firstStep01 li{
+width:423px;
+margin:0 15px 8px;
+text-indent:-9999px;
+}
+
+#beginnersHome #firstStep01 li a{
+display:block;
+height:62px;
+overflow:hidden;
+}
+
+#beginnersHome #funMixi01 li{
+float:left;
+width:206px;
+padding:5px 10px;
+}
+
+#beginnersHome #funMixi01 li p{
+min-height:72px;
+*min-height:76px;
+_height:76px;
+padding-left:63px;
+}
+
+#beginnersHome #funMixi01 li p.btn{
+min-height:1px;
+_height:1px;
+padding:0;
+text-align:center;
+}
+
+#beginnersHome .guideLink{
+position:relative;
+margin-bottom:10px;
+text-indent:-9999px;
+}
+
+#beginnersHome .guideLink span{
+position:absolute;
+right:10px;
+bottom:7px;
+}
+
+#beginnersHome .guideLink span a{
+display:block;
+width:121px;
+height:23px;
+overflow:hidden;
+}
+
+#beginnersHome #firstStep01 p.guideArea01{
+height:80px;
+}
+
+#beginnersHome #funMixi01 p.guideArea02,
+#beginnersHome #funMixi01 p.guideArea03{
+height:40px;
+}
+
+#beginnersHome #firstStep02 ul{
+text-align:center;
+}
+
+#beginnersHome #firstStep02 li{
+display:inline;
+}
+
+#beginnersHome #firstStep02 li.invite,
+#beginnersHome #firstStep02 li.keyword{
+margin:0 5px;
+}
+
+#beginnersHome #firstStep02 li a{
+display:inline-block;
+margin-bottom:7px;
+}
+
+#beginnersHome .simpleUiInfo{
+margin-bottom:10px;
+padding:5px 10px 2px 32px;
+}
+
+#beginnersHome div.noMymixiNotice{
+padding:15px 25px 13px 70px;
+}
+
+#beginnersHome div.noMymixiNotice h2{
+margin-bottom:5px;
+font-weight:bold;
+}
+
+#beginnersHome div.noMymixiNotice p{
+font-size:91%;
+}
+
+#bodySide02 p.bodySideBtn01{
+text-align:center;
+padding:10px 0 5px;
+}
+
+#bodySide02 #recommendMember .sectionHead p.close{
+position:absolute;
+top:7px;
+right:7px;
+text-indent:-9999px;
+}
+
+#bodySide02 #recommendMember .sectionHead p.close a{
+display:block;
+width:7px;
+height:7px;
+overflow:hidden;
+}
+
+#bodySide02 #recommendMember div.recommendInfo{
+padding:5px 10px;
+}
+
+#bodySide02 #recommendMember div.utility02{
+padding:0;
+}
+
+#bodySide02 #recommendMember div.utility02 p.moreLink01{
+padding:5px;
+text-align:right;
+}
+
+#bodySide02 #recommendMember div.utility02 p.moreLink01 a{
+padding-left:12px;
+}
+
+
+/*---- newList:更新情報 ----*/
+.newList #bodyMainAreaMain div.contents{
+margin-bottom:10px;
+}
+
+.newList div.contents .moreLink01{
+clear:both;
+padding:3px 7px 5px;
+}
+
+.newList ul.entryList01 li dl dt{
+width:105px;
+}
+
+.newList ul.entryList01 li dl dd{
+width:559px;
+}
+
+.newList dl.feedList01{
+width:519px;
+padding:5px 10px 5px 15px;
+}
+
+.newList dl.feedList01 dt,
+.newList dl.feedList01 dd{
+float:left;
+margin-top:4px;
+overflow:hidden;
+word-break:break-all;
+}
+
+.newList dl.feedList01 dt{
+clear:left;
+width:105px;
+padding-left:20px;
+}
+
+.newList dl.feedList01 dd{
+width:385px;
+}
+
+.newList .newFeedList li{
+padding:0;
+}
+
+.newList .newFeedList li .feedContents,
+.newList .newFeedList li .feedContents .title01{
+width:464px;
+}
+
+.newList .newFeedList li .feedContents p.checked{
+width:444px;
+}
+
+.newList .newFeedList li .feedContents .title02{
+width:398px;
+}
+
+.newList div.newFriendScheduleBottom p.moreLink01{
+padding:5px 10px;
+text-align:right;
+}
+
+.newList div.newFriendScheduleBottom p.viewCalendar{
+padding:20px 0;
+text-align:center;
+}
+
+
+/*---- newPhotoList01:更新情報:マイミク最新フォト ----*/ 
+.newFriendPhoto div.newPhotoList01 ul.thumbnailList3col{
+width:544px;
+padding-bottom:8px;
+}
+
+.newFriendPhoto div.newPhotoList01 ul.thumbnailList3col li{
+float:left;
+width:160px;
+height:248px;
+padding:9px 1px 3px 16px;
+}
+
+.newFriendPhoto div.newPhotoList01 ul.thumbnailList3col li div.thumbnail{
+height:150px;
+padding:5px 5px 6px;
+}
+
+.newFriendPhoto div.newPhotoList01 ul.thumbnailList3col li div.thumbnail a{
+display:block;
+height:150px;
+overflow:hidden;
+text-indent:-9999px;
+}
+
+.newFriendPhoto div.newPhotoList01 ul.thumbnailList3col li p.photoName{
+width:155px;
+min-height:36px;
+*height:36px;
+overflow:hidden;
+padding:3px 0 0 5px;
+*letter-spacing:0;
+word-break:break-all;
+}
+
+.newFriendPhoto div.newPhotoList01 ul.thumbnailList3col li p.photoName a.photo{
+padding-left:17px;
+}
+
+.newFriendPhoto div.newPhotoList01 ul.thumbnailList3col li p.date, 
+.newFriendPhoto div.newPhotoList01 ul.thumbnailList3col li ul.reactions{
+padding-left:5px;
+font-size:83%;
+}
+
+.newFriendPhoto div.newPhotoList01 ul.thumbnailList3col li ul.reactions{
+width:155px;
+} 
+
+.newFriendPhoto div.newPhotoList01 ul.thumbnailList3col li ul.reactions li{
+display:inline;
+float:none;
+height:auto;
+margin-right:5px;
+padding:0;
+} 
+
+.newFriendPhoto div.newPhotoList01 ul.thumbnailList3col li ul.reactions li.exPhoto{
+display:block;
+width:auto;
+}
+
+
+/*---- ListSkin:ミクコレ一覧 ----*/
+div.listSkin div.currentSkin{
+margin-bottom:10px;
+}
+
+div.listSkin div.currentSkin div.contents{
+position:relative;
+width:702px;
+padding:8px 6px 5px;
+}
+
+div.listSkin div.currentSkin div.contents dl.currentSkin{
+padding-bottom:3px;
+}
+
+div.listSkin div.currentSkin dt{
+float:left;
+width:171px;
+padding:7px;
+text-align:center;
+}
+
+div.listSkin div.currentSkin dt img{
+padding:2px;
+vertical-align:bottom;
+}
+
+div.listSkin div.currentSkin dd{
+float:right;
+width:497px;
+padding:10px;
+}
+
+div.listSkin div.currentSkin dd p.skinName{
+font-size:116%;
+font-weight:bold;
+}
+
+div.listSkin div.currentSkin dd p.moreLink01{
+position:absolute;
+right:15px;
+bottom:10px;
+}
+
+div.listSkin ul.listCategory{
+width:674px;
+line-height:2;
+padding:5px 20px;
+}
+
+div.listSkin ul.listCategory li{
+display:inline-block;
+*display:inline;
+margin-right:12px;
+padding-left:12px;
+zoom:1;
+}
+
+div.listSkin ul.listCategory li img{
+vertical-align:middle;
+*padding:8px 0;
+}
+
+div.listSkin ul.listCategory li a{
+white-space:nowrap;
+}
+
+div.listSkin ul.listCategory li a.selected{
+padding:4px 2px 2px 4px;
+text-decoration:none;
+}
+
+div.listSkin div.skinList ul{
+padding:15px 25px;
+}
+
+div.listSkin div.skinList li{
+display:inline;
+float:left;
+width:136px;
+margin:0 15px;
+text-align:center;
+}
+
+div.listSkin div.skinList li p.thumb img{
+padding:2px;
+margin-bottom:5px;
+}
+
+div.listSkin div.skinList li p.skinName{
+line-height:1.3;
+}
+
+
+/*---- bookmark:お気に入りコミュ ----*/
+div.bookmarkList div.confirmation{
+padding:10px 20px 8px;
+font-size:91%;
+}
+
+div.bookmarkList ul.list div.listIcon{
+width:76px;
+}
+
+div.bookmarkList ul.list div.listContents{
+width:597px;
+}
+
+div.bookmarkList ul.list div.listContents div.heading{
+position:relative;
+min-height:17px;
+_height:17px;
+}
+
+div.bookmarkList ul.list div.listContents div.heading span{
+margin-left:10px;
+}
+
+div.bookmarkList ul.list div.listContents div.heading p.fncBtn{
+text-indent:-9999px;
+}
+
+div.bookmarkList ul.list div.listContents div.heading p.fncBtn a{
+display:block;
+position:absolute;
+right:7px;
+top:7px;
+width:15px;
+height:15px;
+overflow:hidden;
+}
+
+
+/*---- accessBlock:アクセスブロック ----*/
+div.accessBlockList ul.list div.listContents{
+width:427px;
+}
+
+div.accessBlockList ul.list div.listContents div.heading{
+min-height:17px;
+_height:17px;
+}
+
+div.accessBlockList ul.list div.listContents p.delete{
+padding:5px 10px 3px;
+text-align:right;
+}
+
+.accessBlock #editList01 ul.editContents li dl dd{
+width:384px;
+}
+
+.accessBlock #editList01 ul.editContents li dl dd input{
+width:150px;
+}
+
+
+/*---- myList:myリスト ----*/
+div.myList div.showMyList div.pageNavigation01 div.pageList02 p{
+text-indent:-9999px;
+}
+
+div.myList div.showMyList table{
+border-collapse:inherit;
+table-layout:fixed;
+}
+
+div.myList div.showMyList table th{
+padding:3px 0;
+text-align:center;
+}
+
+div.myList div.showMyList table td{
+height:50px;
+padding:5px 0;
+text-align:center;
+}
+
+div.myList div.showMyList table .check{
+width:53px;
+}
+
+div.myList div.showMyList table .thumb{
+width:40px;
+}
+
+div.myList div.showMyList table .name{
+width:265px;
+padding:0 5px 0 10px;
+text-align:left;
+}
+
+div.myList div.showMyList table th.name input{
+padding:0 5px;
+}
+
+div.myList div.showMyList table td.name span{
+margin:0 8px;
+font-size:83%;
+}
+
+div.myList div.showMyList table td.name img{
+vertical-align:middle;
+}
+
+div.myList div.showMyList table .admit{
+width:101px;
+}
+
+div.myList div.showMyList table td.admit a{
+display:block;
+width:65px;
+overflow:hidden;
+margin:0 auto;
+text-indent:-9999px;
+}
+
+div.myList div.showMyList table td.admit a.ok{
+height:16px;
+}
+
+div.myList div.showMyList table td.admit a.later{
+height:16px;
+}
+
+div.myList div.showMyList table .diary{
+width:101px;
+}
+
+div.myList div.showMyList table .date{
+width:139px;
+}
+
+div.myList div.iconInfo{
+height:35px;
+text-indent:-9999px;
+}
+
+div.myList div.iconInfo li{
+display:inline;
+}
+
+div.myList div.messageArea ul.checkList{
+padding:10px 40px 8px;
+}
+
+div.myList div.messageArea ul.checkList input{
+margin-right:5px;
+vertical-align:middle;
+}
+
+div.myList div.messageArea ul li{
+zoom:1;
+}
+
+div.myList div.myListNomatch{
+padding:10px;
+}
+
+div.myList div.myListNomatch span{
+display:block;
+margin:10px 0 10px;
+font-weight:bold;
+font-size:108%;
+}
+
+div.utilityWindow01 ul.myMixiOk{
+margin:10px 0;
+}
+
+div.utilityWindow01 ul.myMixiOk input{
+margin-right:5px;
+vertical-align:middle;
+}
+
+div.myList div.showMyList .formButtons02{
+padding:5px;
+}
+
+div.myList div.showMyList .formButtons02 input.formBt01{
+padding:0 6px;
+}
+
+
+/*---- myList:myリスト登録0件 ----*/
+#myListInfoArea{
+padding-bottom:7px;
+text-align:center;
+*height:1%;
+}
+
+#myListInfoArea p.note{
+text-align:left;
+margin-top:7px;
+}
+
+#mylistGuideArea{
+padding-top:7px;
+margin-top:25px;
+*height:1%;
+}
+
+#myListInfoArea p.pageLink01,
+#mylistGuideArea p.pageLink01{
+padding:20px 0 10px;
+}
+
+#mylistGuideArea p.pageLink02{
+margin:20px 0 50px;
+}
+
+#mylistGuideArea h4{
+margin:20px 0 10px;
+text-indent:-9999px;
+}
+
+#mylistGuideArea h3.title01{
+height:41px;
+text-indent:-9999px;
+}
+
+#mylistGuideArea h4.subTitle01,
+#mylistGuideArea h4.subTitle02,
+#mylistGuideArea h4.subTitle03{
+height:46px;
+}
+
+#mylistGuideArea h3.title02{
+height:58px;
+text-indent:-9999px;
+}
+
+#mylistGuideArea p.infoMylist01{
+height:113px;
+text-indent:-9999px;
+}
+
+
+/*---- newAppli:最新アプリ情報 ----*/
+.newAppli .selectTab02{
+padding-top:5px;
+}
+
+.newAppli ul.entryList01 li dl dt{
+width:125px;
+padding-left:0;
+}
+
+.newAppli ul.entryList01 li dl dt .thumb{
+display:block;
+float:left;
+width:45px;
+}
+
+.newAppli ul.entryList01 li dl dt .name{
+display:block;
+float:right;
+width:80px;
+}
+
+.newAppli ul.entryList01 li dl dd .appliPix li{
+float:left;
+margin-right:5px;
+padding:3px;
+}
+
+.newAppli ul.entryList01 li dl dd .appliPix li img{
+margin:0;
+}
+
+.newAppli ul.entryList01 li dl dd .appliFeed span{
+font-size:83%;
+}
+
+.newAppli ul.entryList01 li dl dd .appliName{
+clear:both;
+padding-top:8px;
+text-align:right;
+}
+
+.newAppli ul.entryList01 li dl dd .appliName img{
+vertical-align:middle;
+margin-right:3px;
+}
+
+
+/*---- listAppli:アプリ一覧/管理 ----*/
+.listAppli .extraWrap02 .selectTab01 li a{
+width:100px;
+}
+
+.listAppli .pageNavigation01{
+width:694px;
+}
+
+.listAppli table.listMain,
+.appliSimpleList01 table.listMain{
+width:100%;
+border-collapse:separate;
+}
+
+.appliSimpleList01 table.listMain tr td{
+width:30%;
+padding:7px;
+}
+
+.appliSimpleList01 table.listMain tr td p.appIcon{
+float:left;
+width:76px;
+}
+
+.appliSimpleList01 table.listMain tr td p.appName{
+width:120px;
+margin-left:86px;
+}
+
+.appliSimpleList01 table.listMain tr td p.appCategory{
+padding-top:0.5em;
+padding-left:86px;
+font-size:83%;
+}
+
+.appliCtrlPanel01 table.listMain tr th{
+vertical-alige:middle;
+}
+
+.appliCtrlPanel01 table.listMain tr td{
+vertical-align:top;
+}
+
+.appliCtrlPanel01 table.listMain tr .nameInfo{
+width:110px;
+padding:7px 10px;
+text-align:center;
+}
+
+.appliCtrlPanel01 table.listMain tr td.nameInfo p.appIcon{
+padding-bottom:5px;
+}
+
+.appliCtrlPanel01 table.listMain tr .settings{
+width:456px;
+padding:0;
+text-align:left;
+}
+
+.appliCtrlPanel01 table.listMain tr th.settings{
+text-align:center;
+}
+
+.appliCtrlPanel01 table.listMain tr .settings dl{
+clear:both;
+padding:10px 0 0;
+}
+
+.appliCtrlPanel01 table.listMain tr .settings dl dt{
+float:left;
+width:90px;
+padding-left:10px;
+}
+
+.appliCtrlPanel01 table.listMain tr .settings dl dd{
+float:left;
+width:346px;
+padding-left:10px;
+}
+
+.appliCtrlPanel01 table.listMain tr .settings dl dd p{
+margin-bottom:5px;
+}
+
+.appliCtrlPanel01 table.listMain tr .settings dl dd img{
+vertical-align:middle;
+padding-right:6px;
+*padding:4px 9px 4px 4px;
+}
+
+.appliCtrlPanel01 table.listMain tr .settings dl dd input{
+vertical-align:middle;
+margin-right:5px;
+}
+
+.appliCtrlPanel01 table.listMain tr .leaveOut{
+vertical-align:middle;
+text-align:center;
+}
+
+
+/*---- simpleprofile.guideArea:アプリガイドレイヤー ----*/
+#simpleprofile.guideArea .contentStage{
+padding:8px 10px;
+font-size:83%;
+}
+
+#simpleprofile.guideArea .contentStage h4{
+font-weight:bold;
+}
+
+#simpleprofile.guideArea .contentStage p{
+padding-top:10px;
+text-align:center;
+}
+
+#simpleprofile.guideArea .contentStage p.guide{
+padding-top:14px;
+text-align:left;
+}
+
+#simpleprofile.guideArea .contentStage p.guide strong{
+font-weight:normal;
+}
+
+
+/*---- appList01:招待アプリ一覧 ----*/
+.appList01 ul.itemList01 li.listItem div.itemImage{
+float:left;
+width:76px;
+padding:8px 20px;
+text-align:center;
+}
+
+.appList01 ul.itemList01 .listItem .itemInfo{
+width:598px;
+}
+
+.appList01 ul.itemList01 .listItem .itemInfo p{
+padding:7px 15px 5px;
+}
+
+.appList01 ul.itemList01 .listItem .itemInfo img{
+vertical-align:middle;
+}
+
+.appList01 ul.itemList01 .listItem .itemInfo p strong{
+font-weight:bold;
+}
+
+.appList01 ul.itemList01 .listItem .itemInfo ul{
+float:right;
+padding:7px 10px;
+}
+
+.appList01 ul.itemList01 .listItem .itemInfo ul li{
+float:left;
+width:auto;
+line-height:23px;
+}
+
+.appList01 ul.itemList01 .listItem .itemInfo ul li.leftside{
+margin-right:10px;
+padding-right:10px;
+}
+
+.appList01 ul.itemList01 .listItem .itemInfo .tempItems{
+padding:10px;
+}
+
+.appList01 ul.itemList01 .listItem .itemInfo .tempItems ul{
+float:left;
+padding:0 0 2px;
+padding-right:5px;
+*padding-right:0;
+}
+
+.appList01 ul.itemList01 .listItem .itemInfo .tempItems ul li{
+float:left;
+margin-right:5px;
+padding:3px;
+}
+
+.appList01 ul.itemList01 .listItem .itemInfo .tempItems ul li img{
+border:none;
+margin:0;
+vertical-align:bottom;
+}
+
+
+/*---- clearfix ----*/
+#editList01 ul.editContents li dl,
+#editList01 ul.editContents li dl dd ul.checkList02,
+#editList01 ul.editContents dd.editGroup01 dl.editGroupList01,
+div.memoList01,
+div.memoList01 ul.memoListContent li dl,
+div.memoList01 ul.memoListContent li dl dd dl.manageGroupList01,
+div.groupList01 dl dd ul,
+div.introList01 ul.introListContents li,
+ul.list div.heading,
+div.show_log div.logListCenter li,
+.newFeedList li.commentRow,
+.newFeedList li .feedContents div.utility,
+.newFeedList li .feedContents .itemData,
+#settingListArea ul{
+zoom:1;
+}
+
+#photoConfirm .addConfirm:after,
+#profileEdit div.contents dl:after,
+#editList01 ul.editContents li dl:after,
+#editList01 ul.editContents li dl dd ul.checkList02:after,
+#editList01 ul.editContents dd.editGroup01 dl.editGroupList01:after,
+div.memoList01:after,
+div.memoList01 ul.memoListContent li dl:after,
+div.memoList01 ul.memoListContent li dl dd dl.manageGroupList01:after,
+div.groupList01 dl dd ul:after,
+div.introList01 ul.introListContents li:after,
+ul.list div.heading:after,
+div.show_log div.logListCenter li:after,
+#addMyMixi:after,
+#friends:after,
+#personalInfo dl:after,
+#intro div.sectionBody dl:after,
+#bodySide02 #myArea div.myAppli ul.actionList:after,
+#bodySide02 #myArea div.noticeIcon ul.noticeList:after,
+#bodySide02 #myArea div.voice div.vForm:after,
+#bodyContents02 ul.contentsSort:after,
+#bodyContents02 ul.appliFeedNavigation:after,
+#bodyContents02 #mixiContents div.beginMixi:after,
+.newList dl.feedList01:after,
+.newFeedList li.commentRow:after,
+.newFeedList li .feedContents div.utility:after,
+.newFeedList li .feedContents .itemData:after,
+.newFriendPhoto div.newPhotoList01 ul.thumbnailList3col:after,
+#settingListArea ul:after{
+content:".";
+display:block;
+clear:both;
+height:0;
+visibility:hidden;
+}

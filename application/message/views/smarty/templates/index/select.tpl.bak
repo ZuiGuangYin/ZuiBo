@@ -1,0 +1,5 @@
+<span class="thumb"><a href="{$base}/{$info.uid}/profile"><img src="{$base}/{$info.img}" alt="{$info.nick_name}" /></a></span>
+<span class="nickname"><a href="{$base}/{$info.uid}/profile">{$info.nick_name}</a>
+<input name="uid" type="hidden" value="{$info.uid}">
+<a href="javascript:void(0);" id="friend_selector" class="switchBtn" onClick = "javascript:showSelectWindow();"><img src="{$base}/images/switch002.gif" alt="再選択" /></a>
+</span>

@@ -1,0 +1,2062 @@
+@charset "euc-jp";
+
+/*---------------- pageList01 ----------------*/
+div.pageList01 div.pageList04{
+float:left;
+width:284px;
+padding-left:130px;
+}
+
+div.pageList01 div.sortFriend{
+float:right;
+width:127px;
+padding:1px 3px 0 0;
+text-align:right;
+}
+
+div.pageList01 div.sortFriend select{
+width:123px;
+}
+
+/*---------------- editList01 ----------------*/
+div.messageArea div.contents #editList01,
+div.messageArea div.contents #editList01 div{
+padding:0;
+}
+
+div.messageArea div.contents #editList01{
+padding-top:10px;
+}
+
+#editList01 div.heading05{
+height:22px !important;
+line-height:22px !important;
+padding-left:10px !important;
+}
+
+div.messageArea div.contents #editList01 div.heading05 em{
+font-size:83%;
+}
+
+div.messageArea div.contents #editList01 div.contents ul.editContents li dl dd{
+width:512px;
+}
+
+div.messageArea div.contents #editList01 div.formButtons01{
+padding:10px !important;
+}
+
+#editList01 div.selectDestination{
+padding:5px 10px 0;
+}
+
+#editList01 div.selectDestination table{
+width:100%;
+height:50px;
+}
+
+#editList01 div.selectDestination table td{
+padding:0 10px;
+font-weight:bold;
+}
+
+#editList01 div.selectDestination table td.buttons{
+text-align:right;
+}
+
+#editList01 div.selectDestination table td.buttons img{
+margin-left:8px;
+}
+
+#editList01 p.noselect{
+padding:67px 0;
+text-align:center;
+font-weight:bold;
+}
+
+/*-------- selectPhoto --------*/
+#editList01 div.selectPhoto{
+padding:8px 20px;
+*padding-top:7px;
+zoom:1;
+}
+
+#editList01 div.selectPhoto:after{
+content:".";
+display:block;
+clear:both;
+height:0;
+visibility:hidden;
+}
+
+#editList01 div.selectPhoto div.message{
+float:left;
+width:492px;
+}
+
+#editList01 div.selectPhoto div.message p{
+padding:0 0 5px;
+*padding-bottom:2px;
+}
+
+#editList01 div.selectPhoto div.message ul.notes li{
+line-height:1.2;
+font-size:84%;
+font-weight:normal;
+}
+
+#editList01 div.selectPhoto div.button{
+float:left;
+width:182px;
+padding:9px 0 8px;
+*padding:10px 0 7px;
+}
+
+/*---------------- itemList01 ----------------*/
+ul.photoItemList01 li.listItem div.itemImage{
+width:76px;
+padding:8px 21px 0 20px;
+}
+
+ul.photoItemList01 li.listItem div.itemImage table.image td{
+width:76px;
+height:76px;
+}
+
+ul.photoItemList01 li.listItem div.itemInfo,
+ul.photoItemList01 li.listItem div.itemInfo table{
+width:597px;
+}
+
+ul.photoItemList01 li.listItem div.itemInfo table th.title{
+padding-bottom:6px;
+}
+
+ul.photoItemList01 li.listItem div.itemInfo table td.navigation{
+padding:6px 2px;
+*padding:5px 2px 0;
+}
+
+/*---------------- confirm03 ----------------*/
+div.confirm03 p.publicSetting{
+font-weight:normal;
+}
+
+div.confirm03 p.publicSetting span.level img{
+margin:0 10px 2px 5px;
+vertical-align:middle;
+}
+
+/*---------------- entryList01 ----------------*/
+#bodyMainAreaMain div.photoCommentList01 ul.entryList01 li dl{
+padding-right:5px;
+}
+
+#bodyMainAreaMain div.photoCommentList01 ul.entryList01 li dl dt{
+width:160px;
+}
+
+#bodyMainAreaMain div.photoCommentList01 ul.entryList01 li dl dd{
+width:344px;
+letter-spacing:0;
+}
+
+/*---------------- utilityLinks03 ----------------*/
+#bodyMainArea ul.utilityLinks03 li{
+*width:706px;
+word-break:break-all;
+}
+
+#bodyMainArea div.messageArea .utilityLinks03 li{
+*width:auto;
+}
+
+/*---------------- contentsTopNavi ----------------*/
+div.contentsTopNavi01{
+padding-bottom:6px;
+zoom:1;
+}
+
+div.contentsTopNavi01:after{
+content:".";
+display:block;
+clear:both;
+height:0;
+visibility:hidden;
+}
+
+div.contentsTopNavi01 p.topicPath{
+float:left;
+width:353px;
+padding-left:5px;
+}
+
+div.contentsTopNavi01 p.inform{
+float:right;
+width:353px;
+padding-right:5px;
+text-align:right;
+}
+
+div.contentsTopNavi01 p.inform a{
+padding-left:19px;
+}
+
+div.contentsTopNavi01 ul.pages{
+float:right;
+width:353px;
+text-align:right;
+}
+
+div.contentsTopNavi01 ul.pages li{
+display:inline;
+margin-right:6px;
+}
+
+div.contentsTopNavi01 p.photoView{
+float:right;
+}
+
+div.contentsTopNavi01 p.photoView a{
+padding:1px 0 1px 18px;
+}
+
+/*-------- viewPhotoNavi --------*/
+div.viewPhotoNavi p.topicPath{
+width:234px;
+word-break:break-all;
+}
+
+div.viewPhotoNavi ul.pages{
+float:left;
+width:238px;
+text-align:center;
+}
+
+div.viewPhotoNavi p.photoView{
+width:234px;
+padding-right:5px;
+text-align:right;
+}
+
+/*-------- viewAlbumNavi --------*/
+div.viewAlbumNavi p.topicPath{
+width:306px;
+}
+
+div.viewAlbumNavi p.inform{
+float:left;
+width:400px;
+}
+
+div.viewAlbumNavi p.inform span.photoView{
+margin-left:20px;
+}
+
+div.viewAlbumNavi p.inform span.photoView a{
+padding:1px 0 1px 18px;
+}
+
+/*---------------- albumArea ----------------*/
+div.albumArea{
+margin-bottom:10px;
+}
+
+/*-------- albumAreaHeader --------*/
+div.albumAreaHeader{
+padding:10px 10px 7px 13px;
+zoom:1;
+}
+
+div.albumArea div.albumAreaHeader{
+padding:10px 10px 10px 13px;
+}
+
+div.albumAreaHeader:after{
+content:".";
+display:block;
+clear:both;
+height:0;
+visibility:hidden;
+}
+
+/*---- cover ----*/
+div.albumAreaHeader div.cover{
+float:left;
+width:172px;
+height:179px;
+padding:13px 17px 0 0;
+}
+
+div.moveto div.cover{
+height:206px;
+}
+
+div.albumAreaHeader div.cover p.image{
+padding:0 25px;
+}
+
+div.albumAreaHeader div.cover p.image a{
+display:block;
+width:125px;
+height:125px;
+text-indent:-999999px;
+outline:none;
+}
+
+div.albumAreaHeader div.cover p.image div,
+div.albumAreaHeader div.cover p.image span{
+display:block;
+width:125px;
+height:125px;
+text-indent:-999999px;
+outline:none;
+}
+
+div.albumAreaHeader div.cover p.openRange{
+padding-top:7px;
+text-align:center;
+}
+
+div.albumAreaHeader div.cover p.openRange02{
+padding-top:16px;
+text-align:center;
+}
+
+div.albumAreaHeader div.cover p.albumTitle{
+padding:6px 13px 0 25px;
+}
+
+div.albumAreaHeader div.cover p.friends{
+padding-top:2px;
+text-align:center;
+}
+
+div.albumAreaHeader div.albumUpload{
+height:201px;
+}
+
+div.albumAreaHeader div.albumUpload p.editCover{
+padding-top:17px;
+text-align:center;
+}
+
+/*---- albumInfo ----*/
+div.albumAreaHeader div.albumInfo{
+float:left;
+width:501px;
+_width:499px;
+}
+
+div.albumAreaHeader div.albumInfo h3{
+padding:9px 0 12px;
+font-size:117%;
+font-weight:bold;
+word-break:break-all;
+}
+
+div.albumAreaHeader div.albumInfo p.date{
+padding:7px 0 6px;
+}
+
+div.albumAreaHeader div.albumInfo p.albumEx{
+padding-top:7px;
+word-break:break-all;
+}
+
+div.moveto div.albumInfo p.albumEx{
+padding-top:0;
+}
+
+div.albumAreaHeader div.albumInfo p.watchword{
+padding-top:14px;
+}
+
+div.albumArea div.albumAreaHeader div.albumInfo p.albumEx{
+min-height:87px; 
+*min-height:84px; 
+_height:84px; 
+word-break:break-all;
+}
+
+div.albumAreaHeader div.albumInfo ul.albumUtilityList{
+text-align:right;
+}
+
+div.albumAreaHeader div.albumInfo ul.albumUtilityList li{
+display:inline;
+}
+
+div.albumAreaHeader div.albumInfo ul.albumUtilityList li a{
+margin-left:5px;
+}
+
+div.albumAreaHeader div.albumInfo ul.albumUtilityList li a img{ 
+margin-right:3px; 
+vertical-align:middle; 
+} 
+
+
+/*-------- thumbnailList4col --------*/
+div.albumArea ul.thumbnailList4col{
+padding:5px 14px 2px 0;
+zoom:1;
+}
+
+div.albumArea ul.thumbnailList4col:after{
+content:".";
+display:block;
+clear:both;
+height:0;
+visibility:hidden;
+}
+
+div.albumArea ul.thumbnailList4col li{
+float:left;
+width:160px;
+height:208px;
+padding:5px 0 0 15px;
+}
+
+div.albumArea ul.thumbnailList4col li div.thumbnail{
+height:150px;
+padding:5px 5px 6px;
+}
+
+div.albumArea ul.thumbnailList4col li div.thumbnail a{
+display:block;
+height:150px;
+text-indent:-999999px;
+outline:none;
+}
+
+div.albumArea ul.thumbnailList4col li p.photoCaption{
+min-height:36px;
+*height:36px;
+padding-top:2px;
+overflow:hidden;
+word-break:break-all;
+}
+
+
+/*---------------- photoInfoAlert ----------------*/
+#bodyMainAreaMain div.photoInfoAlert{
+width:546px;
+min-height:60px;
+_height:60px;
+}
+
+#bodyMainAreaMain div.photoInfoAlert:after{
+content:".";
+display:block;
+clear:both;
+height:0;
+visibility:hidden;
+}
+
+#bodyMainAreaMain div.photoInfoAlert h3{
+float:left;
+width:111px;
+padding-top:19px;
+}
+
+#bodyMainAreaMain div.photoInfoAlert h3 img{
+margin-left:38px;
+}
+
+#bodyMainAreaMain div.photoInfoAlert p{
+float:left;
+width:435px;
+padding-top:8px;
+}
+
+/*---------------- bodyMainAreaMainSection01 ----------------*/
+#bodyMainAreaMain div.bodyMainAreaMainSection01{
+padding-bottom:13px;
+}
+
+#bodyMainAreaMain div.bodyMainAreaMainSection01 div.sectionTitle01{
+min-height:28px;
+_height:28px;
+}
+
+#bodyMainAreaMain div.bodyMainAreaMainSection01 div.sectionTitle01 h3{
+padding:5px 0 0 15px;
+font-weight:bold;
+}
+
+#bodyMainAreaMain div.bodyMainAreaMainSection01 p.moreLink01{
+padding-right:10px;
+}
+
+#bodyMainAreaMain div.bodyMainAreaMainSection01 div.mainContentsArea ul.thumbnailList3col{
+padding:0;
+}
+
+#bodyMainAreaMain div.bodyMainAreaMainSection01 div.introContents{
+padding-top:10px;
+text-align:center;
+}
+
+#bodyMainAreaMain div.albumList01 div.introContents,
+#bodyMainAreaMain div.simpleUploadPhotoList01 div.introContents{
+padding-bottom:20px;
+}
+
+#bodyMainAreaMain div.bodyMainAreaMainSection01 div.introContents img{
+vertical-align:bottom;
+}
+
+#bodyMainAreaMain div.bodyMainAreaMainSection01 div.introContents p{
+padding-top:16px;
+}
+
+#bodyMainAreaMain div.bodyMainAreaMainSection01 div.introContents p.noItem{
+padding:10px 0 4px;
+}
+
+#bodyMainAreaMain div.bodyMainAreaMainSection01 div.intro{ 
+width:526px; 
+padding:25px 0 20px 20px; 
+}
+
+#bodyMainAreaMain div.bodyMainAreaMainSection01 .introContents div.intro{  
+padding:25px 0 0 10px;  
+} 
+
+#bodyMainAreaMain div.bodyMainAreaMainSection01 div.intro:after{ 
+content:"."; 
+display:block; 
+clear:both; 
+height:0; 
+visibility:hidden; 
+} 
+
+#bodyMainAreaMain div.bodyMainAreaMainSection01 div.intro p.image{ 
+float:left; 
+width:170px; 
+} 
+
+#bodyMainAreaMain div.bodyMainAreaMainSection01 div.intro p.introBody{ 
+float:left; 
+width:356px; 
+padding-top:9px; 
+} 
+
+#bodyMainAreaMain div.bodyMainAreaMainSection01 div.intro p.introBody img{ 
+margin-bottom:15px; 
+} 
+
+#bodyMainAreaMain div.bodyMainAreaMainSection01 div.intro p.introBody a img{ 
+margin-bottom:0; 
+} 
+
+
+/*-------- thumbnailList3col --------*/
+div.bodyMainAreaMainSection01 ul.thumbnailList3col{
+zoom:1;
+}
+
+div.bodyMainAreaMainSection01 ul.thumbnailList3col:after{
+content:".";
+display:block;
+clear:both;
+height:0;
+visibility:hidden;
+}
+
+div.bodyMainAreaMainSection01 ul.thumbnailList3col li{
+float:left;
+}
+
+div.bodyMainAreaMainSection01 ul.thumbnailList3col li div.thumbnail a{
+display:block;
+text-indent:-999999px;
+}
+
+div.bodyMainAreaMainSection01 ul.thumbnailList3col li p.date,
+div.bodyMainAreaMainSection01 ul.thumbnailList3col li p.property{
+padding-left:5px;
+}
+
+div.bodyMainAreaMainSection01 ul.thumbnailList3col li p.property{
+width:155px;
+overflow:visible;
+_overflow:hidden;
+white-space:nowrap;
+}
+
+div.bodyMainAreaMainSection01 ul.thumbnailList3col li ul.reactions{
+width:158px;
+padding-left:5px;
+overflow:visible;
+}
+
+div.bodyMainAreaMainSection01 ul.thumbnailList3col li ul.reactions li{
+display:inline;
+float:none;
+padding:0 !important;
+letter-spacing:0;
+}
+
+div.albumList01 ul.thumbnailList3col li p.date,
+div.albumList01 ul.thumbnailList3col li ul.reactions{
+padding-left:14px;
+}
+
+div.bodyMainAreaMainSection01 ul.thumbnailList3col li ul.reactions li.comments{
+margin-left:4px;
+}
+
+/*---- simpleUploadPhotoList01 ----*/
+#bodyMainAreaMain div.simpleUploadPhotoList01 ul.thumbnailList3col li{
+width:160px;
+height:254px;
+padding:9px 1px 8px 16px;
+}
+
+#bodyMainAreaMain div.simpleUploadPhotoList01 ul.thumbnailList3col li div.thumbnail{
+height:150px;
+padding:5px 5px 6px;
+}
+
+#bodyMainAreaMain div.simpleUploadPhotoList01 ul.thumbnailList3col li div.thumbnail a{
+height:150px;
+outline:none;
+}
+
+#bodyMainAreaMain div.simpleUploadPhotoList01 ul.thumbnailList3col li p.photoName{
+width:155px;
+min-height:36px;
+*height:36px;
+_height:38px;
+overflow:hidden;
+padding-top:3px;
+padding-left:5px;
+*letter-spacing:0;
+word-break:break-all;
+}
+
+#bodyMainAreaMain div.simpleUploadPhotoList01 p.moreLink01{
+padding-top:7px;
+}
+
+/*---- albumList01 ----*/
+#bodyMainAreaMain div.albumList01 ul.thumbnailList3col{
+padding:0 8px 0 1px;
+}
+
+#bodyMainAreaMain div.albumList01 ul.thumbnailList3col li{
+width:172px;
+padding:11px 0 14px 7px;
+}
+
+#bodyMainAreaMain div.albumList01 ul.thumbnailList3col li div.thumbnail{
+height:181px;
+padding:13px 10px 0 16px;
+}
+
+#bodyMainAreaMain div.albumList01 ul.thumbnailList3col li div.thumbnail p.image{
+padding:0 12px 0 9px;
+}
+
+#bodyMainAreaMain div.albumList01 ul.thumbnailList3col li div.thumbnail p.image a{
+height:125px;
+outline:none;
+}
+
+#bodyMainAreaMain div.albumList01 ul.thumbnailList3col li div.thumbnail p.photoName{
+min-height:36px;
+*height:36px;
+_height:38px;
+padding:6px 13px 0 9px;
+letter-spacing:0;
+word-break:break-all;
+overflow:hidden;
+}
+
+#bodyMainAreaMain div.albumList01 ul.thumbnailList3col li div.thumbnail p.photoName a{
+display:inline;
+text-indent:0;
+}
+
+#bodyMainAreaMain div.albumList01 p.openRange{
+padding:5px 0 7px;
+text-align:center;
+}
+
+#bodyMainAreaMain div.albumList01 p.moreLink01{
+padding-top:11px;
+}
+
+/*---------------- bodyMainAreaSub ----------------*/
+/*-------- uploadButton --------*/
+#bodyMainAreaSub ul.uploadButton{
+padding-bottom:6px;
+}
+
+#bodyMainAreaSub ul.uploadButton li{
+padding-bottom:2px;
+}
+
+#bodyMainAreaSub ul.uploadButton li img{
+vertical-align:bottom;
+}
+
+/*-------- subSection01 --------*/
+#bodyMainAreaSub div.subSection01{
+margin-bottom:10px;
+padding-top:6px;
+}
+
+#bodyMainAreaSub div.subSection01 div.background{
+_height:1px;
+padding-bottom:6px;
+}
+
+/*---- contentsNavi01 ----*/
+#bodyMainAreaSub div.subSection01 ul.contentsNavi01{
+padding:5px 0 0 5px;
+}
+
+#bodyMainAreaSub div.subSection01 ul.contentsNavi01 li{
+margin-bottom:12px;
+letter-spacing:0;
+}
+
+#bodyMainAreaSub div.subSection01 ul.contentsNavi01 li a,
+#bodyMainAreaSub div.subSection01 ul.contentsNavi01 li span{
+padding-left:19px;
+}
+
+#bodyMainAreaSub div.subSection01 ul.contentsNavi01 li a.currentPage{
+font-weight:bold;
+}
+
+#bodyMainAreaSub div.subSection01 ul.contentsNavi01 li.simpleUpload a{
+padding:2px 0 1px 19px;
+}
+
+#bodyMainAreaSub div.subSection01 ul.reactionList li.comments{
+padding-top:8px;
+}
+
+#bodyMainAreaSub div.subSection01 ul.reactionList li.comments a{
+padding:2px 0 1px 19px;
+}
+
+#bodyMainAreaSub div.subSection01 ul.reactionList li.good{
+margin-bottom:0;
+}
+
+#bodyMainAreaSub div.subSection01 ul.reactionList li.good a{
+padding:1px 0 0 19px;
+}
+
+/*---- contentsSubNavi01 ----*/
+#bodyMainAreaSub div.subSection01 ul.contentsNavi01 li ul.contentsSubNavi01{
+padding-left:23px;
+}
+
+#bodyMainAreaSub div.subSection01 ul.contentsNavi01 li ul.contentsSubNavi01 li{
+margin-bottom:0;
+padding:4px 0 0 12px;
+}
+
+#bodyMainAreaSub div.subSection01 ul.contentsNavi01 li ul.contentsSubNavi01 li a{
+padding-left:0;
+}
+
+/*---- publishPhoto ----*/
+#bodyMainAreaSub div.publishPhoto dl{
+padding:3px 7px 0 12px;
+}
+
+#bodyMainAreaSub div.publishPhoto dl dt{
+padding-bottom:5px;
+}
+
+#bodyMainAreaSub div.publishPhoto dl dt a{
+padding-left:12px;
+}
+
+/*---- photoContentsNavigation ----*/
+#bodyMainAreaSub div.photoContentsNavigation div.contents{
+padding-bottom:7px;
+}
+
+/*---- mobileUpload ----*/
+#bodyMainAreaSub div.mobileUpload h3{
+margin-bottom:11px;
+padding-left:5px;
+}
+
+#bodyMainAreaSub div.mobileUpload p.qrCode{
+width:70px;
+margin:0 auto;
+padding:9px;
+}
+
+#bodyMainAreaSub div.mobileUpload p.mobileUploadIntro{
+margin:0 4px;
+padding:14px 0 10px;
+}
+
+#bodyMainAreaSub div.mobileUpload p.mobileUploadIntro img{
+margin-left:5px;
+}
+
+#bodyMainAreaSub div.mobileUpload h3.uploaderTitle{
+padding-top:11px;
+}
+
+#bodyMainAreaSub div.mobileUpload p.uploaderLink{
+margin:0 4px;
+padding:0 0 13px 10px;
+}
+
+#bodyMainAreaSub div.mobileUpload p.uploaderLink a{
+padding-left:10px;
+}
+
+#bodyMainAreaSub div.mobileUpload p.logo{
+text-align:center;
+}
+
+#bodyMainAreaSub div.mobileUpload p.logo img{
+margin:7px 0 5px;
+}
+
+/*---- viewOldPhoto ----*/
+#bodyMainAreaSub div.viewOldPhoto{
+margin-bottom:8px;
+text-align:center;
+}
+
+/*---------------- orderList01 ----------------*/
+ol.orderList01{
+margin-bottom:10px;
+padding:4px 0 11px;
+}
+
+ol.orderList01 li{
+display:inline;
+}
+
+ol.orderList01 li img{
+vertical-align:bottom;
+}
+
+ol.easyUploadOrder01,
+ol.addPhotoOrder01{
+padding-left:151px;
+}
+
+ol.albumUploadOrder01{
+padding-left:124px;
+}
+
+ol.publicPhotoOrder01{
+padding-left:136px;
+}
+
+ol.movePhotoOrder01{
+padding-left:174px;
+}
+
+/*---------------- confirm01 ----------------*/
+div.confirm01 div.confirmMessage{
+float:left;
+width:472px;
+padding:8px 20px;
+}
+
+div.confirm01 div.confirmMessage p{
+padding:0;
+}
+
+div.confirm01 div.confirmMessage ul.notes{
+padding-top:5px;
+font-size:83%;
+font-weight:normal;
+}
+
+div.confirm01 p.selectPhotoButton{
+width:714px;
+padding:17px 0 16px;
+text-align:center;
+}
+
+div.confirm01 p.selectPhotoButton:after{
+content:".";
+display:block;
+clear:both;
+height:0;
+visibility:hidden;
+}
+
+div.confirm01 p.selectPhotoButton span{
+display:block;
+padding-left:125px;
+text-align:left;
+font-weight:normal;
+}
+
+div.confirm01 p.selectPhotoButton span a.getFlashPlayer{
+display:block;
+float:left;
+width:160px;
+margin-right:10px;
+}
+
+div.confirm01 p span.addPhoto{
+font-weight:normal;
+}
+
+/*---------------- photoOpenRange ----------------*/
+#bodyMainArea #editList01 div.contents ul.photoOpenRange li dl dt{
+width:194px;
+padding:5px 0 5px 8px;
+*padding-bottom:2px;
+}
+
+#bodyMainArea #editList01 div.contents ul.photoOpenRange li dl dd{
+width:489px;
+padding:5px 8px;
+*padding-bottom:2px;
+}
+
+#bodyMainArea #editList01 div.contents ul.photoOpenRange li dl dd img{
+vertical-align:middle;
+margin-bottom:1px;
+_margin-bottom:0;
+}
+
+/*---------------- editContents ----------------*/
+div.editContents p.selectIntro{
+padding:41px 0 50px;
+text-align:center;
+}
+
+/*-------- radioCheckList01 --------*/
+ul.editContents li dl dd div.radioCheckList01 div p{
+padding-bottom:0;
+}
+
+ul.editContents li dl dd div.radioCheckList01 div p input{
+margin-right:4px;
+}
+
+ul.editContents li dl dd div.radioCheckList01 div p select{
+margin:5px 0 5px 15px;
+}
+
+ul.editContents li dl dd div.radioCheckList01 div p img{
+margin-left:10px;
+vertical-align:middle;
+}
+
+ul.editContents li dl dd p.selectRange{
+padding-top:10px;
+}
+
+ul.editContents li dl dd p.selectRange a{
+padding-left:14px;
+}
+
+ul.editContents li dl dd p.permissionHelp{
+padding-top:15px;
+}
+
+/*---------------- addAlbum ----------------*/
+div.addAlbum ul.editContents li dl dd input.input01{
+width:443px;
+}
+
+div.addAlbum ul.editContents li dl dd p.supplement01{
+padding-bottom:3px;
+}
+
+/*---------------- thumbnailList3col ----------------*/
+div.editContents ul.thumbnailList3col{
+padding:10px 24px 0 0;
+zoom:1;
+}
+
+div.editContents ul.thumbnailList3col:after{
+content:".";
+display:block;
+clear:both;
+height:0;
+visibility:hidden;
+}
+
+div.editContents ul.thumbnailList3col li{
+float:left;
+width:200px;
+min-height:311px;
+_height:311px;
+padding:5px 3px 0 27px;
+}
+
+div.editContents ul.thumbnailList3col li div.thumbnail{
+height:200px;
+text-indent:-999999px;
+}
+
+div.editContents ul.thumbnailList3col li div.rotateButton{
+zoom:1;
+}
+
+div.editContents ul.thumbnailList3col li div.rotateButton ul{
+float:right;
+width:62px;
+padding:5px 0 4px 0;
+zoom:1;
+}
+
+div.editContents ul.thumbnailList3col li div.rotateButton:after,
+div.editContents ul.thumbnailList3col li div.rotateButton ul:after{
+content:".";
+display:block;
+clear:both;
+height:0;
+visibility:hidden;
+}
+
+div.editContents ul.thumbnailList3col li div.rotateButton ul li{
+width:26px;
+height:27px;
+min-height:27px;
+padding:0 5px 0 0;
+}
+
+div.editContents ul.thumbnailList3col li textarea{
+width:194px;
+height:34px;
+*margin-top:2px;
+}
+
+div.editContents ul.thumbnailList3col li div.rotateButton p.selectPhoto{
+float:left;
+width:138px;
+padding-top:8px;
+letter-spacing:0;
+}
+
+div.editContents ul.thumbnailList3col li div.rotateButton p.selectPhoto input{
+margin-right:5px;
+vertical-align:middle;
+}
+
+div.editContents ul.thumbnailList3col li p.inputError{
+padding-left:21px;
+font-size:83%;
+font-weight:bold;
+}
+
+/*---------------- bodyMainAreaSection01 ----------------*/
+#bodyMainArea div.bodyMainAreaSection01{
+padding-bottom:13px;
+}
+
+#bodyMainArea div.bodyMainAreaSection01 div.sectionTitle01{
+min-height:28px;
+_height:28px;
+}
+
+#bodyMainArea div.bodyMainAreaSection01 div.sectionTitle01 h3{
+padding:5px 0 0 15px;
+font-weight:bold;
+}
+
+#bodyMainArea div.bodyMainAreaSection01 p.moreLink01{
+padding-right:10px;
+}
+
+#bodyMainArea div.bodyMainAreaSection01 div.mainContentsArea ul.thumbnailList4col{
+padding:0;
+}
+
+/*---------------- thumbnailList4col ----------------*/
+div.editContents ul.thumbnailList4col{
+padding:15px 14px 0 0;
+zoom:1;
+}
+
+div.editContents ul.thumbnailList4col:after{
+content:".";
+display:block;
+clear:both;
+height:0;
+visibility:hidden;
+}
+
+div.editContents ul.thumbnailList4col li{
+float:left;
+width:150px;
+min-height:202px;
+_height:202px;
+padding:0 5px 0 20px;
+}
+
+div.editContents ul.selectCover li{
+min-height:190px;
+_height:190px;
+}
+
+div.editContents ul.thumbnailList4col li div.thumbnail{
+height:150px;
+text-indent:-999999px;
+}
+
+div.editContents ul.thumbnailList4col li div.thumbnail span.currentCover{
+display:block;
+height:134px;
+}
+
+div.editContents ul.thumbnailList4col li span.photoExpl{
+display:block;
+min-height:36px;
+*height:36px;
+_height:38px;
+padding-top:2px;
+word-break:break-all;
+overflow:hidden;
+}
+
+div.editContents ul.thumbnailList4col li span.coverPhoto{
+display:block;
+padding-top:5px;
+text-align:center;
+}
+
+div.bodyMainAreaSection01 ul.thumbnailList4col{
+zoom:1;
+}
+
+div.bodyMainAreaSection01 ul.thumbnailList4col:after{
+content:".";
+display:block;
+clear:both;
+height:0;
+visibility:hidden;
+}
+
+div.bodyMainAreaSection01 ul.thumbnailList4col li{
+float:left;
+}
+
+div.bodyMainAreaSection01 ul.thumbnailList4col li div.thumbnail a{
+display:block;
+text-indent:-999999px;
+}
+
+div.bodyMainAreaSection01 ul.thumbnailList4col li p.date{
+padding-left:5px;
+}
+
+div.bodyMainAreaSection01 ul.thumbnailList4col li ul.reactions{
+padding-left:5px;
+white-space:nowrap;
+overflow:visible;
+}
+
+div.bodyMainAreaSection01 ul.thumbnailList4col li ul.reactions li{
+display:inline;
+float:none;
+padding:0 !important;
+letter-spacing:0;
+}
+
+div.albumList01 ul.thumbnailList4col li p.date,
+div.albumList01 ul.thumbnailList4col li ul.reactions{
+padding-left:14px;
+}
+
+div.bodyMainAreaSection01 ul.thumbnailList4col li ul.reactions li.comments{
+margin-left:4px;
+}
+
+/*---- simpleUploadPhotoList01 ----*/
+#bodyMainArea div.simpleUploadPhotoList01 ul.thumbnailList4col li{
+width:160px;
+padding:9px 0 8px 15px;
+}
+
+#bodyMainArea div.simpleUploadPhotoList01 ul.thumbnailList4col li div.thumbnail{
+height:150px;
+padding:5px 5px 6px;
+}
+
+#bodyMainArea div.simpleUploadPhotoList01 ul.thumbnailList4col li div.thumbnail a{
+height:150px;
+outline:none;
+}
+
+#bodyMainArea div.simpleUploadPhotoList01 ul.thumbnailList4col li p.photoName{
+min-height:36px;
+*height:36px;
+_height:38px;
+overflow:hidden;
+padding-top:3px;
+padding-left:5px;
+*letter-spacing:0;
+word-break:break-all;
+}
+
+#bodyMainArea div.simpleUploadPhotoList01 p.moreLink01{
+padding-top:7px;
+}
+
+/*---- albumList01 ----*/
+#bodyMainArea div.albumList01 ul.thumbnailList4col{
+padding:0;
+}
+
+#bodyMainArea div.albumList01 ul.thumbnailList4col li{
+width:172px;
+padding:11px 0 14px 5px;
+}
+
+#bodyMainArea div.albumList01 ul.thumbnailList4col li div.thumbnail{
+height:181px;
+padding:13px 10px 0 16px;
+}
+
+#bodyMainArea div.albumList01 ul.thumbnailList4col li div.thumbnail p.image{
+padding:0 12px 0 9px;
+}
+
+#bodyMainArea div.albumList01 ul.thumbnailList4col li div.thumbnail p.image a{
+height:125px;
+outline:none;
+}
+
+#bodyMainArea div.albumList01 ul.thumbnailList4col li div.thumbnail p.photoName{
+min-height:36px;
+*height:36px;
+_height:38px;
+padding:6px 13px 0 9px;
+letter-spacing:0;
+overflow:hidden;
+word-break:break-all;
+}
+
+#bodyMainArea div.albumList01 ul.thumbnailList4col li div.thumbnail p.photoName a{
+display:inline;
+text-indent:0;
+}
+
+#bodyMainArea div.albumList01 p.openRange{
+padding:5px 0 7px;
+text-align:center;
+}
+
+#bodyMainArea div.albumList01 p.moreLink01{
+padding-top:11px;
+}
+
+/*---------------- thumbnailList7col ----------------*/
+div.editContents ul.thumbnailList7col{
+padding:10px 32px 0 10px;;
+zoom:1;
+}
+
+div.editContents ul.thumbnailList7col:after{
+content:".";
+display:block;
+clear:both;
+height:0;
+visibility:hidden;
+}
+
+div.editContents ul.thumbnailList7col li{
+float:left;
+width:76px;
+min-height:111px;
+_height:111px;
+padding:5px 0 0 20px;
+}
+
+div.editContents ul.thumbnailList7col li div.thumbnail{
+height:76px;
+text-indent:-999999px;
+}
+
+div.editContents ul.thumbnailList7col li span.delete{
+display:block;
+padding-top:4px;
+text-align:center;
+}
+
+/*---------------- selectionView ----------------*/
+#editList01 div.selectionView table th,
+#editList01 div.selectionView table td{
+width:101px;
+text-align:center;
+}
+
+#editList01 div.selectionView table .rightmost{
+width:102px;
+}
+
+
+#editList01 div.selectionView table th{
+padding:10px 0 4px;
+}
+
+#editList01 div.selectionView table td{
+padding-bottom:10px;
+}
+
+/*-------- selectionConfirm --------*/
+#editList01 div.selectionConfirm div.selectionInfo{
+padding:8px 20px;
+}
+
+#editList01 div.selectionConfirm dl,
+#editList01 div.selectionConfirm dt,
+#editList01 div.selectionConfirm dd,
+#editList01 div.selectionConfirm ul,
+#editList01 div.selectionConfirm li{
+display:inline;
+font-weight:normal;
+}
+
+#editList01 div.selectionConfirm dl{
+padding-right:30px;
+}
+
+/*---------------- selectAlbum ----------------*/
+#editList01 div.selectAlbum table td{
+text-align:center;
+}
+
+#editList01 div.selectAlbum table td div.thumbnail{
+width:76px;
+min-height:76px;
+_height:76px;
+margin:6px 33px 2px;
+text-indent:-999999px;
+}
+
+#editList01 div.selectAlbum table td p.albumTitle{
+padding:0 10px 5px;
+}
+
+#editList01 div.selectAlbum table td p.openRange{
+padding-bottom:6px;
+}
+
+#editList01 div.selectAlbum table td p.selectAlbum{
+padding-bottom:7px;
+}
+
+/*---------------- moveAlbumConfirm ----------------*/
+#editList01 div.moveAlbumConfirm{
+padding:17px 106px 20px;
+zoom:1;
+}
+
+#editList01 div.moveAlbumConfirm:after{
+content:".";
+display:block;
+clear:both;
+height:0;
+visibility:hidden;
+}
+
+#editList01 div.moveSinglePhoto{
+padding-left:175px;
+}
+
+#editList01 div.moveAlbumConfirm dl{
+float:left;
+width:172px;
+}
+
+#editList01 div.moveAlbumConfirm dl.albumTo{
+padding-left:158px;
+}
+
+#editList01 div.moveAlbumConfirm dl dt{
+padding-bottom:5px;
+font-weight:bold;
+text-align:center;
+}
+
+#editList01 div.moveAlbumConfirm dl dd{
+height:208px;
+}
+
+#editList01 div.moveAlbumConfirm dl dd div.thumbnail{
+width:125px;
+padding:13px 23px 6px 25px;
+}
+
+#editList01 div.moveAlbumConfirm dl dd div.thumbnail span.image{
+display:block;
+height:125px;
+text-indent:-999999px;
+}
+
+#editList01 div.moveAlbumConfirm dl dd p.albumTitle{
+min-height:36px;
+*height:36px;
+_height:36px;
+padding:0 13px 0 25px;
+*letter-spacing:0;
+overflow:hidden;
+word-break:break-all;
+}
+
+#editList01 div.moveAlbumConfirm dl dd p.openRange{
+padding-top:17px;
+text-align:center;
+}
+
+/*---------------- selectedPhotoList ----------------*/
+div.selectedPhotoList ul.thumbnailList7col{
+padding:20px 0 0 14px;
+}
+
+div.selectedPhotoList ul.thumbnailList7col li{
+padding:0 19px 20px 5px;
+min-height:76px;
+}
+
+
+/*---- photoComment:コメントエリア ----*/
+#photoComment{
+margin-top:10px;
+}
+
+#photoComment div.heading02 h3{
+width:456px;
+}
+
+#photoComment div.heading02 p.utility03{
+width:189px;
+padding-right:15px;
+text-align:right;
+}
+
+#photoComment div.heading02 p.albumComment a,
+#photoComment div.heading02 p.photoComment a{
+padding:2px 0 2px 19px;
+}
+
+/*---- commentConfirm:コメント書込削除確認 ----*/
+div.commentConfirm{
+zoom:1;
+}
+
+div.commentConfirm:after{
+content:".";
+display:block;
+clear:both;
+height:0;
+visibility:hidden;
+}
+
+div.commentConfirm div.cover{
+float:left;
+width:172px;
+height:179px;
+padding:25px 17px 8px 16px;
+_padding-right:16px;
+}
+
+div.commentConfirm div.cover span.image,
+div.commentConfirm div.photo span.image{
+display:block;
+width:125px;
+height:125px;
+margin:0 23px 6px 25px;
+text-indent:-999999px;
+}
+
+div.commentConfirm div.cover p.title{
+min-height:36px;
+*height:36px;
+_height:38px;
+padding:0 13px 0 25px;
+*letter-spacing:0;
+word-break:break-all;
+overflow:hidden;
+}
+
+div.commentConfirm div.photo{
+float:left;
+width:150px;
+height:151px;
+padding:19px 27px 23px 28px;
+}
+
+div.commentConfirm div.photo span.image{
+width:150px;
+height:150px;
+margin:0;
+}
+
+div.commentConfirm div.commentListArea{
+float:left;
+width:508px;
+_width:507px;
+min-height:212px;
+_height:212px;
+}
+
+div.commentConfirm div.commentListArea p.commentBody{
+padding:12px 15px;
+*word-break:break-all;
+}
+
+.deletePhotoComment div.commentListArea ul{
+padding:0;
+}
+
+.deletePhotoComment div.commentListArea dl.comment{
+width:488px;
+padding:0 10px;
+}
+
+
+/*---------------- selectLinkArea ----------------*/
+#editList01 ul.editContents div.selectLinkArea{
+padding-top:7px !important;
+margin-bottom:4px;
+}
+
+#editList01 ul.editContents div.selectLinkArea div{
+padding:0 10px !important;
+}
+
+#editList01 ul.editContents div.selectLinkArea p.leftSide{
+float:left;
+width:300px;
+padding:0;
+font-weight:bold;
+}
+
+#editList01 ul.editContents div.selectLinkArea p.leftSide img{
+vertical-align:middle;
+margin-right:5px;
+}
+
+#editList01 ul.editContents div.selectLinkArea p.rightSide{
+float:right;
+width:180px;
+padding:3px 0 10px;
+}
+
+#editList01 ul.editContents div.selectLinkArea p span.notice{
+font-size:83%;
+font-weight:normal;
+}
+
+/*---------------- selectedMyMixiList ----------------*/
+#editList01 ul.selectedMyMixiList{
+padding:11px 12px 15px;
+zoom:1;
+}
+
+#editList01 ul.selectedMyMixiList:after{
+content:".";
+display:block;
+clear:both;
+height:0;
+visibility:hidden;
+}
+
+#editList01 ul.selectedMyMixiList li{
+float:left;
+clear:none;
+width:86px;
+padding:0 10px;
+text-align:center;
+}
+
+#editList01 ul.selectedMyMixiList li div.image a,
+#editList01 ul.selectedMyMixiList li div.image span{
+display:block;
+width:76px;
+height:76px;
+padding:0 5px;
+text-indent:-999999px;
+outline:none;
+}
+
+#editList01 ul.selectedMyMixiList li p{
+padding-top:2px;
+}
+
+#editList01 ul.selectedMyMixiList li p a img{
+margin-bottom:1px;
+*margin-bottom:0;
+vertical-align:middle;
+}
+
+div.messageArea #editList01 ul.selectedMyMixiList{
+padding:11px 11px 15px;
+}
+
+div.messageArea #editList01 ul.selectedMyMixiList li{
+padding:0 6px;
+}
+
+div.messageArea #editList01 ul.selectedMyMixiList li p{
+padding:2px 0 0;
+}
+
+/*---------------- albumMessage ----------------*/
+div.albumMessage{
+width:490px;
+padding-bottom:4px;
+}
+
+div.albumMessage h4.albumMessageTitle{
+height:52px;
+text-indent:-999999px;
+}
+
+div.albumMessage div.contents{
+margin-left:10px;
+padding-top:12px;
+zoom:1;
+}
+
+div.albumMessage div.contents:after{
+content:".";
+display:block;
+clear:both;
+height:0;
+visibility:hidden;
+}
+
+div.albumMessage div.contents div.cover{
+float:left;
+width:172px;
+height:179px;
+padding:13px 20px 7px 10px;
+}
+
+div.albumMessage div.contents div.cover a.image{
+display:block;
+width:125px;
+height:125px;
+margin:0 auto 6px;
+text-indent:-999999px;
+outline:none;
+}
+
+div.albumMessage div.contents div.cover p.title{
+padding:0 11px 0 23px;
+*letter-spacing:0;
+}
+
+div.albumMessage div.contents div.albumInfo{
+float:left;
+width:276px;
+}
+
+div.albumMessage div.contents div.albumInfo h5.albumInfoHeader{
+padding:6px 0 14px;
+font-size:116.7%;
+font-weight:bold;
+}
+
+p.watchword span img{
+margin-right:10px;
+vertical-align:middle;
+}
+
+div.albumMessage div.contents div.albumInfo p.note{
+padding-top:8px;
+font-size:83%;
+}
+
+div.albumMessage div.contents div.albumInfo p.viewAlbumBt{
+padding:27px 0 0 57px;
+}
+
+#editList01 div.albumMessage{
+margin-left:27px;
+}
+
+#editList01 li dl dd p.albumMessageBody{
+padding:7px 0 10px 38px;
+}
+
+/*---------------- itemList01 ----------------*/
+#bodyMainArea ul.itemList01 li.listItem div.itemImage{
+width:76px;
+padding:8px 21px 8px 20px;
+}
+
+#bodyMainArea ul.itemList01 li.listItem div.itemImage table.image td{
+width:76px;
+height:76px;
+}
+
+ul.itemList01 li.listItem div.itemInfo,
+ul.itemList01 li.listItem div.itemInfo table{
+width:597px;
+}
+
+ul.itemList01 li.listItem div.itemInfo table th.title ul li{
+float:none;
+width:auto;
+}
+
+ul.itemList01 li.listItem div.itemInfo table th.title img.good{
+margin-bottom:2px;
+margin-right:12px;
+vertical-align:middle;
+}
+
+ul.itemList01 li.listItem div.itemInfo table td.photoEx{
+padding:7px 10px 7px 15px;
+}
+
+ul.itemList01 li.listItem div.itemInfo table td.publisher{
+word-break:break-all;
+}
+
+/*---------------- recentIineList01 ----------------*/
+#bodyMainAreaMain ul.recentIineList01{
+padding:0 9px;
+}
+
+#bodyMainAreaMain ul.recentIineList01 li table th{
+width:76px;
+min-height:76px;
+_height:76px;
+padding:10px 15px 10px 1px;
+}
+
+#bodyMainAreaMain ul.recentIineList01 li table th img{
+vertical-align:middle;
+}
+
+#bodyMainAreaMain ul.recentIineList01 li table td a{
+padding:1px 0 1px 20px;
+*padding:2px 0 0 20px;
+}
+
+#bodyMainAreaMain ul.recentIineList01 li table td span.date{
+margin-left:7px;
+font-size:83%;
+letter-spacing:0;
+}
+
+/*---------------- editPhoto01 ----------------*/
+div.editPhoto01{
+width:714px;
+}
+
+div.editPhoto01:after{
+content:".";
+display:block;
+clear:both;
+height:0;
+visibility:hidden;
+}
+
+div.editPhoto01 div.editThumbnail{
+float:left;
+width:200px;
+padding:15px 30px;
+}
+
+div.editPhoto01 div.editThumbnail div.thumbnail{
+height:200px;
+text-indent:-999999px;
+}
+
+div.editPhoto01 div.editThumbnail div.rotateButton{
+zoom:1;
+}
+
+div.editPhoto01 div.editThumbnail div.rotateButton ul{
+float:right;
+width:62px;
+padding:5px 0 4px 0;
+zoom:1;
+}
+
+div.editPhoto01 div.editThumbnail div.rotateButton:after,
+div.editPhoto01 div.editThumbnail div.rotateButton ul:after{
+content:".";
+display:block;
+clear:both;
+height:0;
+visibility:hidden;
+}
+
+div.editPhoto01 div.editThumbnail div.rotateButton ul li{
+float:left;
+width:26px;
+height:27px;
+min-height:27px;
+padding:0 0 0 5px;
+}
+
+div.editPhoto01 div.editInfo{
+float:left;
+width:454px;
+padding-top:22px;
+}
+
+div.editPhoto01 div.editInfo dl{
+padding-bottom:15px;
+}
+
+div.editPhoto01 div.editInfo dl dt,
+div.editPhoto01 div.editInfo dl dd{
+display:inline;
+}
+
+div.editPhoto01 div.editInfo dl dd{
+word-break:break-all;
+}
+
+div.editPhoto01 div.editInfo dl dd textarea{
+width:398px;
+height:68px;
+padding:0;
+overflow-y:scroll;
+}
+
+div.editPhoto01 div.editInfo dl dd p.editEx{
+padding-top:8px;
+}
+
+div.editPhoto01 div.editInfo dl dd p.note{
+font-size:83%;
+}
+
+div.editConfirm div.editThumbnail{
+width:150px;
+}
+
+div.editConfirm div.editThumbnail div.thumbnail{
+height:150px;
+}
+
+div.editConfirm div.editInfo{
+width:504px;
+}
+
+/*---------------- deleteIconList ----------------*/
+ul.deleteIconList li dl dd{
+width:504px;
+}
+
+ul.deleteIconList li dl dd:after{
+content:".";
+display:block;
+clear:both;
+height:0;
+visibility:hidden;
+}
+
+ul.deleteIconList li dl dd p.name{
+float:left;
+width:204px;
+}
+
+ul.deleteIconList li dl dd p.delete{
+float:left;
+width:300px;
+}
+
+ul.deleteIconList li dl dd p.delete img{
+margin-top:3px;
+_margin-top:1px;
+}
+
+/*---------------- showPhotoArea ----------------*/
+div.showPhotoArea{
+padding:0 38px;
+}
+
+div.showPhotoArea p.photo{
+padding:9px 0 13px;
+text-align:center;
+}
+
+div.showPhotoArea p.souce{
+padding-bottom:13px;
+text-align:center;
+}
+
+div.showPhotoArea div.photoExContents{
+width:640px;
+padding-bottom:5px;
+}
+
+div.showPhotoArea div.photoExContents:after{
+content:".";
+display:block;
+clear:both;
+height:0;
+visibility:hidden;
+}
+
+div.showPhotoArea div.photoExContents div.photoInfo p.caption{
+padding:0 40px 5px 0;
+word-break:break-all;
+}
+
+div.showPhotoArea ul.date{
+float:left;
+margin-right:5px;
+padding:2px 0 0;
+}
+
+div.showPhotoArea ul.date li{
+display:inline;
+margin-right:6px;
+}
+
+div.showPhotoArea div.iine{
+float:left;
+width:70px;
+padding-top:1px;
+}
+
+div.showPhotoArea div.iine p a,
+div.showPhotoArea div.iine p span{
+display:block;
+min-height:20px;
+_height:20px;
+line-height:20px;
+padding:0 0 1px 22px;
+letter-spacing:0;
+}
+
+div.showPhotoArea div.iine p span{
+padding:1px 0 0 22px;
+}
+
+div.showPhotoArea p.iineLimit{
+clear:both;
+padding-top:5px;
+font-size:83%;
+}
+
+div.showPhotoArea ul.utility{
+clear:both;
+}
+
+div.showPhotoArea ul.utility li{
+display:inline;
+margin-right:8px;
+}
+
+div.showPhotoArea ul.utility li a.diary{
+padding-left:15px;
+}
+
+div.showPhotoArea ul.utility li a.profile{
+padding-left:15px;
+}
+
+div.showPhotoArea div.photoExContents p.goodBt{
+float:right;
+width:122px;
+padding:3px 0 8px;
+}
+
+div.showPhotoArea div.photoExContents p.goodBt img{
+vertical-align:bottom;
+}
+
+div.showPhotoArea div.goodSign{
+margin-top:5px;
+}
+
+div.showPhotoArea div.goodSign div.contents{
+padding-top:8px;
+}
+
+div.showPhotoArea div.goodSign dl.list{
+line-height:1.6;
+}
+
+div.showPhotoArea div.goodSign dl.list dt{
+display:inline;
+padding:3px 15px 0 14px;
+font-weight:bold;
+font-size:91%;
+}
+
+div.showPhotoArea div.goodSign dl.list dd{
+display:inline;
+}
+
+div.showPhotoArea div.goodSign dl.list dd ul{
+display:inline;
+}
+
+div.showPhotoArea div.goodSign dl.list dd ul li{
+display:inline;
+margin-right:10px;
+}
+
+div.showPhotoArea div.goodSign dl.list dd ul li a{
+white-space:nowrap;
+}
+
+div.showPhotoArea div.goodSign dl.list dd ul li a img{
+margin-left:3px;
+}
+
+/*---------------- PhotoRefer ----------------*/
+div.photoRefer{
+margin-top:15px;
+}
+
+div.photoRefer div.contents p.moreLink01{
+padding:12px 7px 7px;
+}
+
+/*---------------- groupMemberPop ----------------*/
+.groupMemberPop{
+width:148px;
+line-height:1.4;
+padding:5px 10px;
+filter: alpha(opacity=90);
+-moz-opacity:0.90;
+opacity:0.90;
+}
+
+.groupMemberBody{
+margin-bottom:5px;
+word-break:break-all;
+}
+
+.groupMemberBefore{
+display:block;
+float:left;
+width:49%;
+}
+
+.groupMemberNext{
+display:block;
+float:right;
+width:49%;
+text-align:right;
+}
+
+/*---------------- uploading ----------------*/
+div.uploading{
+padding-top:63px;
+text-align:center;
+}
+
+div.uploading span img{
+margin-top:28px;
+}

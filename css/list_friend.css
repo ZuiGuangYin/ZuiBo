@@ -1,0 +1,975 @@
+@charset "euc-jp";
+
+/*---- inlineLoading ----*/
+div.inlineLoading {
+padding:30px 0;
+text-align:center;
+}
+
+#tagListManager .inlineLoading{
+padding:5px 0 0;
+}
+
+#tagListManager .inlineLoading div{
+position:relative;
+bottom:-5px;
+padding:15px 0 25px;
+}
+
+#friendListLoadingFirst{
+padding:60px 0;
+}
+
+#friendListLoading{
+padding:60px 0;
+}
+
+.addMemberTag #friendListLoading,
+.editMemberTag #friendListLoading{
+padding:125px 0 0;
+}
+
+
+/*---- bodyMainArea ----*/
+div#bodyMainArea .pageTitle h2 img.mode {
+vertical-align:middle;
+margin-left:10px;
+*position:absolute;
+}
+
+
+/*---- MessageArea ----*/
+div.messageArea div.contents div ol{
+padding:7px 40px 5px;
+}
+
+/*---- TagList ----*/
+#subMenu {
+margin-top:42px;
+margin-bottom:0!important;
+}
+
+#subMenu li {
+word-break:break-all;
+}
+
+#buddy span{
+display:block;
+padding-bottom:2px;
+}
+
+#buddy {
+font-weight:bold;
+}
+
+.simple #subMenuTop {
+font-weight:bold;
+}
+
+#buddy a{
+padding:12px 5px 6px 28px;
+display:block;
+width:127px;
+}
+
+#subMenu p.message{
+padding:14px 8px 3px;
+}
+
+#tagList.sorting #tagall a,
+#tagList.sorting #tagunclassified a,
+#buddy.sorting a{
+text-decoration:none;
+cursor:default;
+}
+
+#tagList li#tagunclassified a {
+padding-bottom:11px!important;
+}
+
+#tagListManager .buttons{
+text-align:center;
+padding:12px 0;
+}
+
+#tagListManager .formBt01,
+#tagListManager .formBt02{
+*overflow:visible;
+padding-left:5px;
+padding-right:5px;
+margin:0 4px;
+}
+
+ul.sorting li.sortable:hover,
+ul.sorting li.sortable:active{
+cursor:move;
+}
+
+ul.sorting li.sortable a:hover,
+ul.sorting li.sortable a:active{
+cursor:move;
+}
+
+#tagActionList {
+margin-top:7px;
+width:154px;
+text-align:center;
+}
+
+#tagActionList #createTag{
+height:30px;
+padding-bottom:8px;
+}
+
+#tagActionList #sortTagList{
+padding-left:11px;
+}
+
+#promotionBanner {
+margin-top:10px;
+}
+
+#promotionBanner a{
+display:block;
+margin-left:3px;
+width:145px;
+}
+
+
+/*---- ModeList Tab ----*/
+div.extraWrap01 div.selectTab01 li.list a,
+div.extraWrap02 div.selectTab01 li.list a{
+width:100px;
+}
+
+div.extraWrap01 div.selectTab01 li.manage a,
+div.extraWrap02 div.selectTab01 li.manage a{
+width:100px;
+}
+
+/*---- navigationLink ----*/
+div.extraWrap01 div.navigationLink p.mylist{
+width:105px;
+padding:0 6px 0 0;
+}
+
+div.extraWrap01 div.navigationLink p.mylist a{
+display:block;
+height:24px;
+text-indent:-999999px;
+outline:none;
+}
+
+/*--- Head ---*/
+#friendListArea .heading{
+padding-left:11px;
+margin-bottom:15px;
+min-height:24px;
+_height:24px;
+}
+
+#friendListArea #tagTitle{
+overflow:hidden;
+width:535px;
+_height:auto;
+}
+
+.editMemberTag #friendListArea .heading,
+.addMemberTag #friendListArea .heading{
+padding:0 11px;
+margin-bottom:0;
+position:relative;
+}
+
+#friendListArea h3{
+font-weight:bold;
+margin:0 11px 5px 0;
+padding:0 2px!important;
+letter-spacing:0.1em;
+float:left;
+}
+
+.editMemberTag #friendListArea h3,
+.addMemberTag #friendListArea h3{
+padding-left:13px!important;
+float:none;
+margin:0;
+}
+
+#friendListArea #tagTitle h3{
+min-height:18px;
+_height:18px;
+}
+
+#friendListArea h3 img.emoji{
+margin-right:7px;
+}
+
+#friendListArea .leadNakayoshi{
+margin:9px 15px;
+}
+
+#editTag {
+float:left;
+padding-left:21px;
+padding-right:5px;
+white-space:nowrap;
+_width:8em;
+min-height:18px;
+_height:18px;
+zoom:1;
+}
+
+#writeDiary {
+float:right;
+}
+
+#friendListArea h4{
+margin-top:15px;
+}
+
+
+/*---- friendListArea/createGroupSection ----*/
+#friendListArea #createGroupSection{
+width:530px;
+height:38px;
+padding:5px 0;
+margin:7px 0;
+}
+
+#friendListArea #createGroupSection .emojiSelector{
+margin-left:144px;
+_margin-left:72px;
+}
+
+#friendListArea #createGroupSection p{
+margin:2px 0 0 182px;
+}
+
+#friendListArea #createGroupSection input{
+width:198px;
+}
+
+
+/*---- pageNavigation ----*/
+.contents div.pageNavigation01 div.pageList02 p img{
+margin-top:6px;
+}
+
+.contents .pageNavigation01{
+width:534px !important;
+position:relative;
+}
+
+.contents .pageNavigation01 .pageList01{
+position:relative;
+}
+
+.contents .pageNavigation01 .pageList01 div.sort{
+position:absolute;
+right:4px;
+top:3px;
+height:1.8em;
+line-height:1.8em;
+font-size:12px;
+}
+
+.simple .pageNavigation01 .pageList01 div.sort{
+position:static;
+float:right;
+margin-right:4px;
+}
+
+.contents .pageNavigation01 .pageList02Selection{
+position:absolute;
+right:0;
+top:0;
+padding:2px;
+}
+
+.simple .pageNavigation01 .formBt01{
+*overflow:visible;
+padding-left:5px;
+padding-right:5px;
+font-size:83%;
+}
+
+.contents div.pageNavigation01 div.pageList02 p{
+width:auto;
+}
+
+.contents div.pageNavigation01 div.pageList02 ul{
+width:auto;
+}
+
+
+/*---- offcialIconNote ----*/
+#officialIconNote{
+font-size:83%;
+padding:11px 0px 5px;
+}
+
+#officialIconNote img{
+vertical-align:middle;
+margin-right:20px;
+}
+
+
+/*---- footNote ----*/
+#footNote{
+margin:11px 0 11px 10px;
+}
+
+
+/*---- addMemberTagButton ----*/
+#addMemberTagButton{
+margin:14px 0 11px;
+text-align:center;
+position:relative;
+}
+
+#addMemberTagButton #expander{
+position:absolute;
+top:0;
+right:0;
+_right:10px;
+}
+
+
+/*---- deleteTag ---*/
+#deleteTag {
+padding-left:16px;
+
+top:0;
+right:11px;
+}
+
+
+/*---- friendList ----*/
+#friendList{
+width:534px;
+_position:relative;
+}
+
+#friendList .messageArea{
+margin-bottom:0;
+_position:relative;
+}
+
+#friendList .messageArea .contents{
+margin:0!important;
+padding:10px 20px;
+_position:relative;
+}
+
+#friendList .messageArea .contents div{
+padding-left:0;
+padding-right:0;
+}
+
+.empty .messageArea .contents div p.supplement01{
+margin-top:14px;
+}
+
+.addMemberTag #friendList .nothing,
+.editMemberTag #friendList .nothing{
+padding-top:135px;
+padding-bottom:145px;
+}
+
+.addMemberTag .expand .nothing,
+.editMemberTag .expand .nothing{
+padding-bottom:144px !important;
+}
+
+#friendList table{
+width:100%;
+table-layout:fixed;
+border-spacing:0;
+border-collapse:collapse;
+}
+
+#friendList td,
+#friendList th{
+word-break:break-all;
+}
+
+#friendList .wrapper{
+position:relative;
+_width:100%;
+}
+
+#friendList .officialIcon{
+position:absolute;
+left:1px;
+top:1px;
+}
+
+.thumbnail{
+display:block;
+width:76px;
+height:76px;
+margin-left:auto;
+margin-right:auto;
+margin-bottom:5px;
+text-indent:-9999px;
+outline:none;
+}
+
+
+/*---- friendList(thumbnailView) ----*/
+.thumbnailView{
+width:25%;
+width:535px !important;
+table-layout:fixed;
+}
+
+.thumbnailView td{
+text-align:center;
+vertical-align:top;
+padding:5px;
+}
+
+.thumbnailView .action{
+margin-top:7px;
+}
+
+.thumbnailView .action img{
+vertical-align:top;
+}
+
+.thumbnailView .action .settei{
+margin-right:7px;
+}
+
+.thumbnailView .action a.sendMessage{
+display:inline-block;
+width:20px;
+height:20px;
+text-indent:-9999px;
+}
+
+/* for ff2 */
+.thumbnailView .action a.sendMessage, x:-moz-any-link {
+vertical-align:top;
+display:-moz-inline-box;
+overflow:hidden;
+padding:20px 0 0;
+height:20px;
+}
+
+.thumbnailView .action a.sendMessage, x:-moz-any-link, x:default {
+padding:0;
+}
+
+.thumbnailView td.disabled .action{
+display:none;
+}
+
+
+/*---- friendList(adminView) ----*/
+.adminView th,
+.adminView td{
+padding:5px 7px;
+text-align:center;
+}
+
+.adminView tbody th{
+vertical-align:top;
+}
+
+.adminView .buttonRow th,
+.adminView .buttonRow td{
+vertical-align:bottom;
+padding-top:0;
+}
+
+.adminView .nickname{
+width:157px;
+}
+
+.adminView .viewRow td.hasTag{
+vertical-align:top;
+text-align:left;
+}
+
+.adminView thead th,
+.adminView tfoot th{
+padding:7px;
+}
+
+.adminView .disabled .action,
+.adminView .disabled .henkou{
+display:none !important;
+}
+
+.adminView .disabled .deleteFriend{
+/*display:none;*/
+}
+
+.adminView tbody th{
+text-align:center;
+}
+
+.adminView tbody th.nickname{
+text-align:left;
+}
+
+.adminView tbody td.nickname{
+text-align:right;
+}
+
+.adminView .thumbnail{
+width:40px;
+height:40px;
+float:left;
+margin-right:9px;
+}
+
+.adminView ul{
+text-align:left;
+}
+
+.adminView .newfrienddiary{
+/*width:101px;*/
+}
+
+.adminView .mymiku{
+/*width:98px;*/
+}
+
+.adminView th.newfrienddiary{
+white-space:nowrap;
+}
+
+.adminView .nakayoshi{
+width:155px;
+}
+
+#friendList.adminView .officialIcon{
+float:left;
+position:static;
+}
+
+
+/*---- friendList(selectionView) ----*/
+.selectionView{
+width:534px !important;
+height:331px;
+overflow:auto;
+overflow-y:scroll;
+}
+
+.selectionView.expand{
+height:auto;
+overflow-y:auto;
+}
+
+.selectionView table{
+*width:auto !important;
+}
+
+.selectionView .thumbnail{
+float:left;
+width:40px;
+height:40px;
+margin:0 4px 0 0;
+}
+.selectionView th{
+vertical-align:top;
+text-align:left;
+padding:5px 5px 0 5px;
+}
+
+.selectionView td{
+vertical-align:top;
+text-align:right;
+padding:0 5px 5px 5px;
+}
+
+.selectionView .nickname{
+padding-right:15px;
+}
+
+
+/*---- pageTab(only on selectionView) ----*/
+#pageTab{
+width:536px;
+height:31px;
+}
+
+#pageTab ul{
+list-style:none;
+margin:0;
+padding:0;
+text-align:center;
+vertical-align:top;
+}
+
+#pageTab li{
+display:inline;
+margin:0 2px 0 3px;
+}
+
+#pageTab li a{
+vertical-align:top;
+display:table-cell;
+display:inline-block;
+height:26px;
+}
+
+#pageTab li a span{
+cursor:pointer;
+display:block;
+_width:1px;
+word-break:keep-all;
+white-space:nowrap;
+height:26px;
+line-height:26px;
+margin-left:4px;
+padding-left:8px;
+padding-right:12px;
+}
+
+#pageTab li.focused a{
+height:27px;
+}
+
+#pageTab li.focused a span{
+height:27px;
+line-height:27px;
+}
+
+
+/*---- validateGuide01：初心者マイミク0人 ----*/
+.validateGuide01 #localErrorArea p{
+height:77px;
+text-indent:-9999px;
+}
+
+.validateGuide01 .contentsMain{
+padding:20px 10px 0;
+}
+
+.validateGuide01 .how2valid{
+clear:both;
+margin-bottom:30px;
+}
+
+.validateGuide01 .how2valid h3{
+margin-bottom:20px;
+text-indent:-9999px;
+}
+
+.validateGuide01 .searchFriend01 h3,
+.validateGuide01 .searchFriend02 h3{
+height:22px;
+}
+
+.validateGuide01 .searchFriend01 ul{
+width:542px;
+margin:0 auto;
+}
+
+.validateGuide01 .searchFriend02 ul{
+text-indent:-21px;
+}
+
+.validateGuide01 .searchFriend01 ul li{
+float:left;
+padding:3px;
+}
+
+.validateGuide01 .searchFriend02 ul li{
+display:inline;
+margin-left:21px;
+}
+
+.validateGuide01 .searchFriend01 ul img,
+.validateGuide01 .searchFriend02 ul img{
+vertical-align:bottom;
+}
+
+.validateGuide01 .useKeyword01 h3{
+height:32px;
+}
+
+.validateGuide01 .useKeyword01 p.intro{
+padding:0 335px 20px 0;
+}
+
+.validateGuide01 .useKeyword01 p.intro span{
+display:block;
+padding-top:0.7em;
+text-align:right;
+}
+
+.validateGuide01 .contentsFoot h3{
+height:22px;
+}
+
+.validateGuide01 .useKeyword01 p.footLink,
+.validateGuide01 .contentsFoot p{
+text-align:center;
+}
+
+.validateGuide01 .contentsFoot{
+padding:15px 0 10px;
+}
+
+
+/*---- suggestion:マイミクの紹介 ----*/
+.suggestion .pageNavigation01{
+width:714px !important;
+}
+
+.suggestion dl.mediateList{
+clear:both;
+}
+
+.suggestion dl.mediateList dt{
+position:relative;
+height:1%;
+padding:5px 5px 3px 15px;
+font-weight:bold;
+}
+
+.suggestion dl.mediateList dt span.date{
+margin-left:10px;
+font-weight:normal;
+font-size:83%;
+}
+
+.suggestion dl.mediateList dt span.delete{
+position:absolute;
+top:5px;
+right:5px;
+text-indent:-9999px;
+}
+
+.suggestion dl.mediateList dt span.delete a{
+display:block;
+width:15px;
+height:15px;
+overflow:hidden;
+}
+
+.suggestion dl.mediateList dt span.deleteOff{
+display:none;
+}
+
+.suggestion dl.mediateList dd p.thumb{
+float:left;
+width:76px;
+padding:10px;
+text-align:center;
+overflow:hidden;
+word-break:break-all;
+}
+
+.suggestion dl.mediateList dd div.listArea{
+float:right;
+width:608px;
+padding:10px 10px 10px 0;
+}
+
+.suggestion dl.mediateList dd p.message{
+margin-bottom:10px;
+overflow:hidden;
+word-break:break-all;
+}
+
+.suggestion dl.mediateList dd table{
+width:606px;
+table-layout:fixed;
+}
+
+.suggestion dl.mediateList dd table tr{
+clear:both;
+}
+
+.suggestion dl.mediateList dd table td{
+height:86px;
+vertical-align:top;
+}
+
+.suggestion dl.mediateList dd table td.status04{
+text-align:center;
+vertical-align:middle;
+}
+
+.suggestion dl.mediateList dd table td p.thumb{
+float:left;
+width:76px;
+padding:5px;
+}
+
+.suggestion dl.mediateList dd table td div{
+position:relative;
+float:right;
+width:204px;
+padding:5px;
+}
+
+.suggestion dl.mediateList dd table td div p.name{
+height:35px;
+padding:5px 20px 10px 0;
+}
+
+.suggestion dl.mediateList dd table td div p.name span{
+display:block;
+}
+
+.suggestion dl.mediateList dd table td div p.state{
+height:26px;
+font-size:83%;
+}
+
+.suggestion dl.mediateList dd table td div p.delete{
+position:absolute;
+top:5px;
+right:5px;
+text-indent:-9999px;
+}
+
+.suggestion dl.mediateList dd table td div p.delete a{
+display:block;
+width:15px;
+height:15px;
+outline:none;
+position:relative;
+}
+
+.suggestion dl.mediateList dd table td div p.delete a span{
+display:none;
+text-indent:-9999px;
+}
+
+.suggestion dl.mediateList dd table td div p.delete a:hover span{
+display:inline; 
+position:absolute;
+width:87px;
+height:33px;
+left:-68px; 
+top:-35px;
+z-index:1;
+}
+
+.suggestion dl.mediateList dd table td div p.delete a img{
+padding:5px;
+}
+
+.suggestion dl.mediateList dd table td div p.deleteOff{
+display:none;
+}
+
+
+/*---- 紹介マイミク選択 ----*/
+.suggestion #editList01 .to img{
+vertical-align:bottom;
+}
+
+.suggestion #editList01 .to span{
+display:table-cell;
+zoom:1;
+width:76px;
+vertical-align:middle;
+padding-right:10px;
+text-align:center;
+}
+
+.suggestion #editList01 .to span.nickname{
+width:80%;
+text-align:left;
+}
+
+.suggestion #editList01 .message textarea{
+width:548px;
+height:118px;
+}
+
+.suggestion #editList01 .selector .selectLinkArea{
+margin-bottom:4px;
+padding-top:7px;
+}
+
+.suggestion #editList01 .selector .selectLinkArea div{
+padding:0 10px;
+}
+
+.suggestion #editList01 .selector .selectLinkArea p.leftSide{
+float:left;
+width:300px;
+padding:0;
+font-weight:bold;
+}
+
+.suggestion #editList01 .selector .selectLinkArea p.rightSide{
+float:right;
+width:180px;
+padding:3px 0 10px;
+}
+
+.suggestion #editList01 .selector .selectedMymixi{
+width:530px;
+margin:15px 12px 0;
+}
+
+.suggestion #editList01 .selector .selectedMymixi li{
+display:inline-table;
+*display:inline;
+zoom:1;
+width:76px;
+height:140px;
+line-height:1.3;
+margin:0 15px;
+text-align:center;
+}
+
+.suggestion #editList01 .selector .selectedMymixi li .thumbnail a{
+display:block;
+width:76px;
+height:76px;
+overflow:hidden;
+}
+
+.suggestion #editList01 .selector .selectedMymixi li .name{
+display:block;
+width:76px;
+overflow:hidden;
+}
+
+.suggestion #editList01 .selector .selectedMymixi li .name a.delete{
+margin-left:2px;
+}
+
+.suggestion #editList01 .selector .selectedMymixi li .name a.delete img{
+vertical-align:middle;
+}
+
+
+/*---- utilityWindow02:list_friend.css配下対応 ----*/
+div#mymixiSelector.utilityWindow02 .contents .pageNavigation01{
+width:588px !important;
+}
+
+div#mymixiSelector.utilityWindow02 .selectionView{
+width:588px !important;
+overflow:hidden;
+}
+
+
+/*---- clearfix ----*/
+.suggestion dl.mediateList,
+.suggestion #editList01 .selector .selectLinkArea div{
+zoom:1;
+}
+
+.suggestion dl.mediateList:after,
+.suggestion #editList01 .selector .selectLinkArea div:after{
+content:".";
+display:block;
+clear:both;
+height:0;
+visibility:hidden;
+}

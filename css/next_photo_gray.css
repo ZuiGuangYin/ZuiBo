@@ -1,0 +1,696 @@
+@charset "euc-jp";
+
+/*---------------------------------------- component.css ----------------------------------------*/
+/*---------------- editList01 ----------------*/
+div.messageArea div.contents #editList01,
+div.messageArea div.contents #editList01 div{
+border:none;
+background:none;
+}
+
+#editList01 div.heading05{
+border:1px solid #D0D0D1 !important;
+border-top:none !important;
+background:#EDECEC !important;
+}
+
+#editList01 div.contents div.moveto{
+border:1px solid #D0D0D1;
+border-top:none;
+background-image:none;
+}
+
+div.messageArea div.contents #editList01 div.heading05{
+border-top:1px solid #D0D0D1 !important;
+}
+
+div.messageArea div.contents #editList01 div.contents{
+border:none !important;
+}
+
+div.messageArea div.contents #editList01 div.formButtons01{
+border:1px solid #D0D0D1;
+border-top:none;
+background:url(images/bg_stripe001.gif) repeat left top;
+}
+
+#editList01 div.selectDestination{
+border-right:1px solid #D0D0D1;
+border-left:1px solid #D0D0D1;
+}
+
+#editList01 div.selectDestination table{
+background:url(images/bg_select_destination001.gif) no-repeat left top;
+}
+
+#editList01 p.noselect{
+border:1px solid #D0D0D1;
+border-top:none;
+color:#999;
+}
+
+#editList01 div.pageNavigationColor01{
+border-bottom:1px solid #D0D0D1;
+}
+
+/*---------------- itemList01 ----------------*/
+ul.photoItemList01{
+background-position:116px top;
+*background-position:117px top;
+}
+
+ul.photoItemList01 li.listItem div.itemInfo table th.title{
+background:#EDECEC;
+}
+
+/*---------------- confirm03 ----------------*/
+div.confirm03 p.publicSetting{
+color:#333;
+}
+
+div.confirm03 p.error{
+color:#f00;
+}
+
+/*---------------- entryList01 ----------------*/
+#bodyMainAreaMain div.photoCommentList01 ul.entryList01 li dl dt.photoComment{
+background:url(images/photo_comment002.gif) no-repeat left top;
+}
+
+#bodyMainAreaMain div.photoCommentList01 ul.entryList01 li dl dt.albumComment{
+background:url(images/album_comment001.gif) no-repeat left top;
+}
+
+ul.entryList01 li dl dt.iconDiary{
+background:url(images/diary002.gif) no-repeat 2px 2px;
+}
+
+ul.entryList01 li dl dt.iconProfile{
+background:url(images/profile001.gif) no-repeat 2px 2px;
+}
+
+ul.entryList01 li dl dt.iconGood{
+background:url(images/good001.gif) no-repeat 1px 1px;
+}
+
+/*---------------------------------------- photo.css ----------------------------------------*/
+/*---------------- contentsTopNavi ----------------*/
+div.contentsTopNavi01 p.inform a{
+background:url(images/message_new.gif) no-repeat left center;
+}
+
+div.contentsTopNavi01 p.photoView a{
+background:url(images/photo_view001.gif) no-repeat left top;
+}
+
+/*-------- viewAlbumNavi --------*/
+div.viewAlbumNavi p.inform span.photoView a{
+background:url(images/photo_view001.gif) no-repeat left top;
+}
+
+/*---------------- albumArea ----------------*/
+div.albumArea{
+border:1px solid #dedede;
+}
+
+/*-------- albumAreaHeader --------*/
+div.albumAreaHeader{
+background:url(images/dotline_horizontal001.gif) repeat-x left bottom;
+}
+
+div.albumArea div.albumAreaHeader{
+background:url(images/dotline_horizontal002.gif) repeat-x left bottom;
+}
+
+/*---- cover ----*/
+div.albumAreaHeader div.cover{
+background:url(images/bg_album002.gif) no-repeat left top;
+}
+
+div.albumAreaHeader div.cover p.image a{
+background-repeat:no-repeat;
+background-position:center center;
+}
+
+div.albumAreaHeader div.cover p.image div,
+div.albumAreaHeader div.cover p.image span{
+background-repeat:no-repeat;
+background-position:center center;
+}
+
+/*---- albumInfo ----*/
+div.albumAreaHeader div.albumInfo h3{
+background:url(images/dotline_horizontal002.gif) repeat-x left bottom;
+}
+
+/*-------- thumbnailList4col --------*/
+div.albumArea ul.thumbnailList4col li div.thumbnail{
+background:url(images/bg_thumbnail001.gif) no-repeat left top;
+}
+
+div.albumArea ul.thumbnailList4col li div.thumbnail a{
+background-repeat:no-repeat;
+background-position:center;
+}
+
+/*---------------- photoInfoAlert ----------------*/
+#bodyMainAreaMain div.photoInfoAlert{
+background:url(images/bg_info_alert001.gif) no-repeat left top;
+}
+
+#bodyMainAreaMain div.photoInfoAlert h3{
+background-image:url(images/megaphone001.gif);
+background-repeat:no-repeat;
+background-position:13px 19px;
+}
+
+/*---------------- bodyMainAreaMainSection01 ----------------*/
+#bodyMainAreaMain div.bodyMainAreaMainSection01 div.sectionTitle01{
+border:1px solid #e0e0e0;
+background:url(images/bg_section_title001.gif) repeat-x left top;
+}
+
+#bodyMainAreaMain div.bodyMainAreaMainSection01 div.mainContentsArea{
+border:1px solid #dfdfdf;
+}
+
+#bodyMainAreaMain div.bodyMainAreaMainSection01 div.introContents{
+border:1px solid #D0D0D1;
+border-top:none;
+}
+
+/*-------- thumbnailList3col --------*/
+div.bodyMainAreaMainSection01 ul.thumbnailList3col li p.date,
+div.bodyMainAreaMainSection01 ul.thumbnailList3col li p.property{
+color:#666;
+}
+
+div.bodyMainAreaMainSection01 ul.thumbnailList3col li ul.reactions li{
+color:#666;
+}
+
+div.bodyMainAreaMainSection01 ul.thumbnailList3col li div.thumbnail a{
+background-repeat:no-repeat;
+background-position:center center;
+}
+
+/*---- simpleUploadPhotoList01 ----*/
+#bodyMainAreaMain div.simpleUploadPhotoList01 ul.thumbnailList3col li div.thumbnail{
+background:url(images/bg_thumbnail001.gif) no-repeat left top;
+}
+
+/*---- albumList01 ----*/
+#bodyMainAreaMain div.albumList01 ul.thumbnailList3col li div.thumbnail{
+background:url(images/bg_album002.gif) no-repeat left top;
+}
+
+/*---------------- bodyMainAreaSub ----------------*/
+/*-------- subSection01 --------*/
+#bodyMainAreaSub div.subSection01{
+background:url(images/bodymainareasub_section_top001.gif) no-repeat left top;
+}
+
+#bodyMainAreaSub div.subSection01 div.background{
+background:url(images/bodymainareasub_section_bottom001.gif) no-repeat left bottom;
+}
+
+#bodyMainAreaSub div.subSection01 div.contents{
+border-right:1px solid #dfdfdf;
+border-left:1px solid #dfdfdf;
+background:#fff;
+}
+
+/*---- contentsNavi01 ----*/
+#bodyMainAreaSub div.subSection01 ul.contentsNavi01 li span,
+#bodyMainAreaSub div.subSection01 ul.contentsNavi01 li a{
+background:url(images/list_arrow001.gif) no-repeat 9px 3px;
+}
+
+#bodyMainAreaSub div.subSection01 ul.contentsNavi01 li.photoTop a{
+background:url(images/photo003.gif) no-repeat 2px top;
+}
+
+#bodyMainAreaSub div.subSection01 ul.contentsNavi01 li.simpleUpload a{
+background:url(images/photo004.gif) no-repeat left top;
+}
+
+#bodyMainAreaSub div.subSection01 ul.contentsNavi01 li.album a{
+background:url(images/album001.gif) no-repeat left top;
+}
+
+#bodyMainAreaSub div.subSection01 ul.reactionList{
+background:url(images/dotline_horizontal002.gif) repeat-x left top;
+}
+
+#bodyMainAreaSub div.subSection01 ul.reactionList li.comments a{
+background:url(images/photo_comment001.gif) no-repeat left top;
+}
+
+#bodyMainAreaSub div.subSection01 ul.reactionList li.good a{
+background:url(images/good001.gif) no-repeat 3px top;
+}
+
+/*---- contentsSubNavi01 ----*/
+#bodyMainAreaSub div.subSection01 ul.contentsNavi01 li ul.contentsSubNavi01 li{
+background:url(images/list_child001.gif) no-repeat left 7px;
+}
+
+#bodyMainAreaSub div.subSection01 ul.contentsNavi01 li ul.contentsSubNavi01 li a{
+background:none;
+}
+
+/*---- publishPhoto ----*/
+#bodyMainAreaSub div.publishPhoto dl dt a{
+background:url(images/list_arrow001.gif) no-repeat 2px 3px;
+}
+
+#bodyMainAreaSub div.publishPhoto dl dd{
+color:#999;
+}
+
+/*---- mobileUpload ----*/
+#bodyMainAreaSub div.mobileUpload p.qrCode{
+border:1px solid #ccc;
+}
+
+#bodyMainAreaSub div.mobileUpload p.mobileUploadIntro,
+#bodyMainAreaSub div.mobileUpload p.uploaderLink{
+background:url(images/dotline_horizontal002.gif) repeat-x left bottom;
+}
+
+#bodyMainAreaSub div.mobileUpload p.uploaderLink a{
+background:url(images/list_arrow001.gif) no-repeat left 4px;
+letter-spacing:0;
+}
+
+/*---------------- orderList01 ----------------*/
+ol.orderList01{
+background:url(images/dotline_horizontal002.gif) repeat-x left bottom;
+}
+
+/*---------------- easyUploadIntro ----------------*/
+div.easyUploadIntro{
+background:url(images/easy_upload_intro001.gif) no-repeat 14px 5px;
+}
+
+
+/*---------------- albumUploadIntro ----------------*/
+div.albumUploadIntro p.introduction{
+background:url(images/album_upload_intro001.gif) no-repeat left top;
+}
+
+/*---------------- photoOpenRange ----------------*/
+#bodyMainArea #editList01 div.contents ul.photoOpenRange{
+background:#fff url(images/bg_edit_list002.gif) repeat-y -497px 0%;
+}
+
+/*---------------- editContents ----------------*/
+div.editContents{
+border:1px solid #D0D0D1;
+border-top:none;
+}
+
+/*-------- radioCheckList01 --------*/
+ul.editContents li dl dd p.selectRange a{
+background:url(images/plus001.gif) no-repeat left 1px;
+}
+
+ul.editContents li dl dd div.radioCheckList01 div p input{
+*border:none;
+*background:none;
+}
+
+/*---------------- thumbnailList3col ----------------*/
+div.editContents ul.thumbnailList3col li div.thumbnail{
+background-color:#dfdfdf;
+background-repeat:no-repeat;
+background-position:center;
+}
+
+div.editContents ul.thumbnailList3col li textarea.inputError{
+border-color:#F7B4B4;
+background-color:#FEEDED;
+}
+
+div.editContents ul.thumbnailList3col li textarea.defaultText{
+color:#999;
+}
+
+div.editContents ul.thumbnailList3col li p.inputError{
+background:url(images/simplealert_alert001.gif) no-repeat left top;
+color:#f00;
+}
+
+/*---------------- bodyMainAreaSection01 ----------------*/
+#bodyMainArea div.bodyMainAreaSection01 div.sectionTitle01{
+border:1px solid #e0e0e0;
+background:url(images/bg_section_title001.gif) repeat-x left top;
+}
+
+#bodyMainArea div.bodyMainAreaSection01 div.mainContentsArea{
+border:1px solid #dfdfdf;
+}
+
+/*---------------- thumbnailList4col ----------------*/
+div.editContents ul.thumbnailList4col li div.thumbnail{
+background-color:#dfdfdf;
+background-repeat: no-repeat;
+background-position:center;
+}
+
+div.editContents ul.thumbnailList4col li div.thumbnail span.currentCover{
+border:8px solid #D0D0D1;
+background:transparent;
+}
+
+div.bodyMainAreaSection01 ul.thumbnailList4col li p.date{
+color:#666;
+}
+
+div.bodyMainAreaSection01 ul.thumbnailList4col li ul.reactions li{
+color:#666;
+}
+
+div.bodyMainAreaSection01 ul.thumbnailList4col li div.thumbnail a{
+background-repeat:no-repeat;
+background-position:center center;
+}
+
+/*---- simpleUploadPhotoList01 ----*/
+#bodyMainArea div.simpleUploadPhotoList01 ul.thumbnailList4col li div.thumbnail{
+background:url(images/bg_thumbnail001.gif) no-repeat left top;
+}
+
+/*---- albumList01 ----*/
+#bodyMainArea div.albumList01 ul.thumbnailList4col li div.thumbnail{
+background:url(images/bg_album002.gif) no-repeat left top;
+}
+
+/*---------------- thumbnailList7col ----------------*/
+div.editContents ul.thumbnailList7col li div.thumbnail{
+background-repeat:no-repeat;
+background-position:center;
+}
+
+/*---------------- selectionView ----------------*/
+#editList01 div.selectionView{
+border:1px solid #D0D0D1;
+border-top:none;
+}
+
+#editList01 div.selectionView table th,
+#editList01 div.selectionView table td{
+border-right:1px solid #D0D0D1;
+}
+
+#editList01 div.selectionView table .rightmost{
+border-right:none;
+}
+
+#editList01 div.selectionView table th.selected{
+background:#D2EBF5;
+}
+
+#editList01 div.selectionView table td{
+border-bottom:1px solid #D0D0D1;
+}
+
+#editList01 div.selectionView table td.selected{
+background:#D2EBF5 url(images/selected_bg001.gif) no-repeat scroll right top;
+}
+
+#editList01 div.selectionView table td.last{
+border-bottom:none;
+}
+
+/*-------- selectionConfirm --------*/
+#editList01 div.selectionConfirm{
+background:#f8f8f8;
+}
+
+#editList01 div.selectionConfirm p{
+border-bottom:1px solid #d6d6d6;}
+
+/*---------------- selectAlbum ----------------*/
+#editList01 div.selectAlbum{
+border:1px solid #D0D0D1;
+border-bottom:none;
+}
+
+#editList01 div.selectAlbum table td{
+border-right:1px solid #D0D0D1;
+border-bottom:1px solid #D0D0D1;
+}
+
+#editList01 div.selectAlbum table td.rightside{
+border-right:none;
+}
+
+#editList01 div.selectAlbum table td div.thumbnail{
+background-repeat:no-repeat;
+background-position:center;
+}
+
+/*---------------- moveAlbumConfirm ----------------*/
+#editList01 div.moveAlbumConfirm{
+border:1px solid #D0D0D1;
+border-top:none;
+}
+
+#editList01 div.moveAlbumConfirm dl.albumTo{
+background:url(images/bg_move_album_confirm001.gif) no-repeat 37px 63px;
+}
+
+#editList01 div.moveAlbumConfirm dl dt{
+color:#666;
+}
+
+#editList01 div.moveAlbumConfirm dl dd{
+background:url(images/bg_album002.gif) no-repeat left top;
+}
+
+#editList01 div.moveAlbumConfirm dl dd div.thumbnail span.image{
+background-repeat:no-repeat;
+background-position:center;
+}
+
+/*---------------- selectedPhotoList ----------------*/
+div.selectedPhotoList{
+border:1px solid #D0D0D1;
+border-top:none;
+}
+
+
+/*---- photoComment:コメントエリア ----*/
+#photoComment div.heading02 p.utility03{
+background:url(images/checkmobile_bg001.gif) no-repeat 100% 0;
+}
+
+#photoComment div.heading02 p.albumComment a{
+background:url(images/album_comment001.gif) no-repeat 0 50%;
+}
+
+#photoComment div.heading02 p.photoComment a{
+background:url(images/photo_comment002.gif) no-repeat 0 50%;
+}
+
+
+/*---- commentConfirm:コメント書込削除確認 ----*/
+div.commentConfirm{
+border:1px solid #dedede;
+border-top:none;
+}
+
+div.commentConfirm div.cover{
+background:url(images/bg_album002.gif) no-repeat 16px 12px;
+}
+
+div.commentConfirm div.photo{
+background:url(images/bg_thumbnail001.gif) no-repeat 23px 14px;
+}
+
+div.commentConfirm div.cover span.image,
+div.commentConfirm div.photo span.image{
+background-repeat:no-repeat;
+background-position:center;
+}
+
+div.commentConfirm div.commentListArea{
+border-left:1px solid #dedede;
+border-right:none;
+}
+
+.deletePhotoComment div.commentListArea ul li{
+border-bottom:1px solid #DEDEDE;
+background:none;
+}
+
+.deletePhotoComment div.commentListArea ul li.last{
+border-bottom:none;
+}
+
+
+/*---------------- selectLinkArea ----------------*/
+#editList01 ul.editContents div.selectLinkArea p span.notice{
+color:#666;
+}
+
+#editList01 ul.editContents div.selectLinkArea{
+background:url(images/bg_editlist_top001.gif) no-repeat 0 0 !important;
+}
+
+#editList01 ul.editContents div.selectLinkArea div{
+background:url(images/bg_editlist_bottom001.gif) no-repeat 0 100%;
+}
+
+div.messageArea #editList01 ul.editContents div.selectLinkArea{
+background:url(images/bg_editlist_top002.gif) no-repeat 0 0 !important;
+}
+
+div.messageArea #editList01 ul.editContents div.selectLinkArea div{
+background:url(images/bg_editlist_bottom002.gif) no-repeat 0 100%;
+}
+
+#editList01 ul.editContents div.selectLinkArea p.notice{
+background:url(images/simplealert_alert002.gif) no-repeat;
+}
+
+/*---------------- selectedMyMixiList ----------------*/
+#editList01 ul.selectedMyMixiList li div.image a,
+#editList01 ul.selectedMyMixiList li div.image span{
+background-repeat:no-repeat;
+background-position:center;
+}
+
+/*---------------- albumMessage ----------------*/
+div.albumMessage{
+background:url(images/bg_album_message_bottom001.gif) no-repeat right bottom;
+}
+
+div.albumMessage h4.albumMessageTitle{
+background:url(images/album_message_title001.gif) no-repeat left top;
+}
+
+div.albumMessage div.contents{
+border-right:1px solid #dfdfdf;
+border-left:1px solid #dfdfdf;
+}
+
+div.albumMessage div.contents div.cover{
+background:url(images/bg_album002.gif) no-repeat 10px top;
+}
+
+div.albumMessage div.contents div.cover a.image{
+background-repeat:no-repeat;
+background-position:center;
+}
+
+div.albumMessage div.contents div.albumInfo p.note{
+color:#666;
+}
+
+/*---------------- itemList01 ----------------*/
+ul.itemList01{
+background-position:116px top;
+*background-position:117px top;
+}
+
+/*---------------- recentIineList01 ----------------*/
+#bodyMainAreaMain ul.recentIineList01{
+border:1px solid #dedede;
+}
+
+#bodyMainAreaMain ul.recentIineList01 li{
+background:url(images/dotline_horizontal005.gif) repeat-x left bottom;
+}
+
+#bodyMainAreaMain ul.recentIineList01 li.listItemBottom{
+background:none;
+}
+
+#bodyMainAreaMain ul.recentIineList01 li table td a{
+background:url(images/good001.gif) no-repeat left center;
+}
+
+#bodyMainAreaMain ul.recentIineList01 li table td span.date{
+color:#999;
+}
+
+/*---------------- editPhoto01 ----------------*/
+div.editPhoto01{
+border:1px solid #D0D0D1;
+border-top:none;
+}
+
+div.editPhoto01 div.editThumbnail div.thumbnail{
+background-color:#dfdfdf;
+background-repeat:no-repeat;
+background-position:center;
+}
+
+div.editPhoto01 div.editInfo dl dd p.note{
+color:#666;
+}
+
+/*---------------- showPhotoArea ----------------*/
+div.showPhotoArea{
+border-top:1px solid #dedede;
+}
+
+div.showPhotoArea p.iineLimit{
+color:#999;
+}
+
+div.showPhotoArea ul.date{
+color:#666;
+}
+
+div.showPhotoArea ul.utility li a.diary{
+background:url(images/diary002.gif) no-repeat left top;
+}
+
+div.showPhotoArea ul.utility li a.profile{
+background:url(images/profile001.gif) no-repeat left top;
+}
+
+div.showPhotoArea div.iine{
+background:url(images/bg_iine_top001.gif) no-repeat left top;
+}
+
+div.showPhotoArea div.iine p{
+background:url(images/bg_iine_bottom001.gif) no-repeat left bottom;
+}
+
+div.showPhotoArea div.iine p a{
+background:url(images/good001.gif) no-repeat 7px 2px;
+}
+
+div.showPhotoArea div.iine p span{
+color:#999;
+background:url(images/iine_disable001.gif) no-repeat 7px 2px;
+}
+
+div.showPhotoArea div.goodSign{
+background:url(images/border_dot_horizontal001.gif) repeat-x left top;
+}
+
+div.showPhotoArea div.goodSign dl.list dt{
+background:url(images/iine001.gif) no-repeat left top;
+color:#666;
+}
+
+/*---------------- PhotoRefer ----------------*/
+div.photoRefer div.contents{
+border:1px solid #dedede;
+border-top:none;
+}
+
+div.photoRefer div.contents ul.entryList01{
+border:none;
+}
+
+/*---------------- groupMemberPop ----------------*/
+.groupMemberPop{
+border:1px solid #D0D0D1;
+background-color:#F9F8F8;
+}

@@ -1,0 +1,50 @@
+		<div class=" greenbox">
+			<div class="title">
+				<h1>最新更新情况</h1>
+			</div>
+			<div class="entry"> 
+				{foreach from=$newcontents|smarty:nodefaults item="item"}
+				<li>[{$item.pdat|date_format:"%Y 年 %m月 %d日"}] <a href="{$item.url|escape:html}">{$item.title}</a></li>
+				{/foreach}
+			</div>
+
+		</div>
+		<div class=" greenbox">
+			<div class="title">
+				<h1>最新出版物</h1>
+			</div>
+			{foreach from=$newbooks|smarty:nodefaults item="item"}
+			<div class="entry"> <img src="/website/images/{$item.cover}" alt="" width="120" height="120" class="left" />
+			    <p><a href="/website/item?ISBN={$item.ISBN}">{$item.name}</a></p>
+				<p>{$item.introduce}</p>
+				<table width="335" height="163" border="0">
+				  <tr>
+				    <td width="87">作者：</td>
+				    <td width="238">{$item.writer}</td>
+				  </tr>
+				  <tr>
+				    <td>出版社：</td>
+				    <td>{$item.company}</td>
+				  </tr>
+				  <tr>
+				    <td>ISBN：</td>
+				    <td>{$item.ISBN}</td>
+				  </tr>
+				  <tr>
+				    <td>出版日期：</td>
+				    <td>{$item.pubdate|date_format:"%Y 年 %m月"}</td>
+				  </tr>
+				  <tr>
+				    <td>规格：</td>
+				    <td>{$item.page_kind}纸 {$item.total}页</td>
+				  </tr>
+				  <tr>
+				    <td>定价：</td>
+				    <td>{$item.price}元 </td>
+				  </tr>
+				</table>
+			</div>
+			<hr/>
+			{/foreach}
+			
+		</div>

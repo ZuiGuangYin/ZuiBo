@@ -1,0 +1,477 @@
+@charset "euc-jp";
+
+/*---- inlineLoading ----*/
+#tagListManager .inlineLoading{
+background:transparent url(images/bg_sub_top001.gif) no-repeat left top;
+}
+
+#tagListManager .inlineLoading div{
+background:transparent url(images/bg_sub_bottom001.gif) no-repeat left bottom;
+}
+
+#friendListLoading{
+background:#fff;
+border:1px solid #D0D0D1;
+}
+
+.addMemberTag #friendListLoading,
+.editMemberTag #friendListLoading{
+border:none;
+}
+
+
+/*---- TagList ----*/
+#subMenu li a {
+background:transparent no-repeat 7px 8px;
+}
+
+#buddy span{
+background:transparent url(images/group_nakayoshi_bg_001.gif) no-repeat left bottom;
+}
+
+#buddy {
+background:url(images/bg_sub_top001.gif) 0 0;
+}
+
+#buddy.on{
+background-image:url(images/bg_sub_top_on001.gif);
+}
+
+#buddy a{
+background:transparent no-repeat 6px 11px;
+}
+
+#subMenu p.message{
+background:transparent url(images/bg_sub_middle001.gif) repeat-y left top;
+}
+
+#tagList.sorting li.sortable {
+background-image:url(images/taglist_sortable_bg001.gif)!important;
+background-position:left top!important;
+}
+
+#tagList.sorting #tagall a,
+#tagList.sorting #tagunclassified a,
+#buddy.sorting a{
+color:#258fb8;
+}
+
+#tagList li#tagunclassified{
+background:url(images/bg_sub_bottom001.gif) 0 bottom!important;
+}
+
+#tagList li#tagunclassified.on{
+background-image:url(images/bg_sub_bottom_on001.gif)!important;
+}
+
+#tagList li#tagunclassified a {
+padding-bottom:11px!important;
+}
+
+#tagList.sorting li#tagall.on,
+#tagList.sorting li#tagunclassified {
+background-image:url(images/bg_sub_middle001.gif)!important;
+}
+
+#tagListManager .buttons{
+background:url(images/bg_sub_bottom001.gif) 0 bottom!important;
+}
+
+#tagActionList #sortTagList{
+background:url(images/sort001.png) no-repeat left center;
+}
+
+
+/*---- ModeList Tab ----*/
+div.extraWrap01 div.selectTab01 li.list a,
+div.extraWrap02 div.selectTab01 li.list a{
+background:url(images/tab.gif) no-repeat 0 bottom; 
+}
+
+div.extraWrap01 div.selectTab01 li.list a:hover{
+background:url(images/tab.gif) no-repeat 0 -32px;
+}
+
+div.extraWrap01 div.selectTab01 li.list a.on,
+div.extraWrap01 div.selectTab01 li.list a.on:hover{
+background:url(images/tab.gif) no-repeat 0 top;
+}
+
+div.extraWrap01 div.selectTab01 li.manage a,
+div.extraWrap02 div.selectTab01 li.manage a{
+background:url(images/tab.gif) no-repeat right bottom; 
+}
+
+div.extraWrap01 div.selectTab01 li.manage a:hover{
+background:url(images/tab.gif) no-repeat right -32px;
+}
+
+div.extraWrap01 div.selectTab01 li.manage a.on,
+div.extraWrap01 div.selectTab01 li.manage a.on:hover{
+background:url(images/tab.gif) no-repeat right top;
+}
+
+/*---- navigationLink ----*/
+div.extraWrap01 div.navigationLink p.mylist a{
+background:url(images/mylist001.gif) no-repeat left top;
+}
+
+div.extraWrap01 div.navigationLink p.mylist a:hover{
+background-position:left bottom;
+}
+
+/*--- Head ---*/
+#friendListArea h3{
+background:none;
+}
+
+.editMemberTag #friendListArea h3,
+.addMemberTag #friendListArea h3{
+background:url(images/selection_title_head001.gif) no-repeat left center;
+}
+
+#editTag {
+background:url(images/change001.gif) no-repeat left top;
+}
+
+
+/*---- friendListArea/createGroupSection ----*/
+#friendListArea #createGroupSection{
+background:url(images/addmembertag_creategroup_bg001.gif) no-repeat left top;
+}
+
+#friendListArea #createGroupSection input{
+background-color:#fff;
+border:1px solid #ccc;
+}
+
+#friendListArea #createGroupSection input.hungry{
+color:#999;
+}
+
+
+/*---- pageNavigation ----*/
+#friendListArea .top {
+border-top:1px solid #d6d6d6;
+}
+
+.contents .pageNavigation01 .pageList02Selection .separator{
+color:#D0D0D1;
+}
+
+
+/*---- offcialIconNote ----*/
+#officialIconNote{
+color:#666;
+}
+
+
+/*---- deleteTag ---*/
+#deleteTag {
+background:url(images/listfriend_trash001.gif) no-repeat left center;
+}
+
+
+/*---- friendList ----*/
+div.extraInner div.contents {
+border-bottom:1px solid #f2f2f2; /* for IE6 rendering bug */
+}
+
+#friendList{
+border:1px solid #D0D0D1;
+}
+
+div.empty{
+border-color:#ccc !important;
+}
+
+#friendList .messageArea .contents{
+border-left:none!important;
+border-top:none!important;
+background:#EDECEC;
+}
+
+.empty .messageArea .contents{
+background:#EEE !important;
+border-color:#ccc !important;
+}
+
+#friendList.adminView .messageArea .contents{
+border-right:none;
+border-bottom:none;
+}
+
+.empty .messageArea .contents div{
+border-color:#ccc !important;
+}
+
+.addMemberTag .expand .nothing,
+.editMemberTag .expand .nothing{
+border-bottom:1px solid #ccc;
+}
+
+.thumbnail{
+background-repeat:no-repeat;
+background-position:center center;
+}
+
+
+/*---- friendList(thumbnailView) ----*/
+.thumbnailView{
+border-right:none !important;
+border-bottom:none !important;
+}
+
+.thumbnailView td{
+border:1px solid #D0D0D1;
+border-left:none;
+border-top:none;
+background:#fff;
+}
+
+.thumbnailView .action a.sendMessage{
+background:transparent url(/img/basic/button/send_message_iconsize-.gif) no-repeat 0px 0px;
+}
+
+.thumbnailView .action a.sendMessage:hover{
+background-position:-20px 0px;
+}
+
+.thumbnailView td.iconState03{
+background:#ffd8a7;
+}
+
+.thumbnailView td.iconState02{
+background:#fee7c6;
+}
+
+.thumbnailView td.iconState01{
+background:#fff;
+}
+
+.thumbnailView td.disabled{
+background:#f2f2f2 !important;
+color:#999;
+}
+
+
+/*---- friendList(adminView) ----*/
+.adminView th,
+.adminView td{
+border-top:1px solid #D0D0D1;
+background:#fff;
+}
+
+.adminView .buttonRow th,
+.adminView .buttonRow td{
+border-top:none;
+}
+
+.adminView thead th,
+.adminView thead td{
+border-top:none;
+}
+
+.adminView thead th,
+.adminView tfoot th{
+background-color:#F9F8F8;
+}
+
+.adminView td,
+.adminView th{
+background-image:url(images/dotline_vertical001.gif);
+background-repeat:repeat-y;
+background-position:right top;
+}
+
+.adminView .disabled td,
+.adminView .disabled th{
+background-color:#f2f2f2 !important;
+color:#999 !important;
+}
+
+.adminView .mymiku{
+background-image:none;
+}
+
+.adminView td.hihyoji{
+background-color:#f2f2f2;
+}
+
+.adminView td.undeletable{
+background-color:#f2f2f2;
+}
+
+
+/*---- friendList(selectionView) ----*/
+.selectionView{
+border:none !important;
+border-left:1px solid #ccc !important;
+border-bottom:1px solid #ccc !important;
+background:#fff;
+}
+
+.selectionView.expand{
+border-right:1px solid #ccc !important;
+border-bottom:none !important;
+}
+
+.selectionView th{
+border-right:1px solid #ccc;
+background:#fff;
+}
+
+.selectionView td{
+border-bottom:1px solid #ccc;
+border-right:1px solid #ccc;
+background:#fff;
+}
+
+.selectionView .selected{
+background:#d2ebf5 url(images/selected_bg001.gif) no-repeat right top;
+}
+
+.selectionView td.rightmost,
+.selectionView th.rightmost{
+border-right:none;
+}
+
+
+/*---- pageTab(only on selectionView) ----*/
+#pageTab{
+background:url(images/tab_base2.gif) no-repeat left bottom;
+}
+
+#pageTab li a{
+background:url(images/tab_normal_left.gif) no-repeat left top;
+color:#333;
+}
+
+#pageTab li a span{
+background:url(images/tab_normal_right.gif) no-repeat right top;
+}
+
+#pageTab li.focused a{
+background-image:url(images/tab_focused_left.gif);
+color:#333;
+}
+
+#pageTab li.focused a span{
+background-image:url(images/tab_focused_right.gif);
+}
+
+
+/*---- validateGuide01：初心者マイミク0人 ----*/
+.validateGuide01 #localErrorArea p.listFriend{
+background:url(images/beginner_zero_alert001.gif) no-repeat 0 -77px;
+}
+
+.validateGuide01 .how2valid h3{
+background:url(images/beginner_zero_title002.gif) no-repeat;
+}
+
+.validateGuide01 .searchFriend01 h3,
+.validateGuide01 .searchFriend02 h3{
+background-position:0 0;
+}
+
+.validateGuide01 .useKeyword01 h3{
+background-position:0 -25px;
+}
+
+.validateGuide01 .useKeyword01 p.intro{
+background:url(images/beginner_zero_img001.gif) no-repeat 100% 0;
+}
+
+.validateGuide01 .contentsFoot h3{
+background-position:10px -60px;
+}
+
+.validateGuide01 .contentsFoot{
+border-top:1px solid #D2D2D2;
+}
+
+
+/*---- suggestion:マイミクの紹介 ----*/
+.suggestion .confirm01{
+border-bottom:none;
+}
+
+.suggestion .pageNavigation01.top{
+border-top:1px solid #D6D6D6;
+}
+
+.suggestion .mediateArea{
+border-bottom:1px solid #D0D0D1;
+}
+
+.suggestion dl.mediateList{
+border:1px solid #D0D0D1;
+border-bottom:none;
+}
+
+.suggestion dl.mediateList dt{
+border-bottom:1px solid #D0D0D1;
+background:#EDECEC;
+}
+
+.suggestion dl.mediateList dt span.date{
+color:#666;
+}
+
+.suggestion dl.mediateList dt span.delete{
+background:url(images/close_home001.gif) no-repeat 50% 50%;
+}
+
+.suggestion dl.mediateList dd table{
+border-top:1px solid #d6d6d6;
+border-left:1px solid #d6d6d6;
+}
+
+.suggestion dl.mediateList dd table td{
+border-right:1px solid #d6d6d6;
+border-bottom:1px solid #d6d6d6;
+color:#999;
+}
+
+.suggestion dl.mediateList dd table td.status02{
+background:#FEE7C6 url(images/selected_bg002.gif) no-repeat 100% 0;
+}
+
+.suggestion dl.mediateList dd table td.status03,
+.suggestion dl.mediateList dd table td.status04{
+background-color:#f2f2f2;
+}
+
+.suggestion dl.mediateList dd table td div p.delete,
+.suggestion dl.mediateList dd table td div p.delete a:hover{
+background:url(images/function_delete002.gif) no-repeat 50% 50%;
+}
+
+.suggestion dl.mediateList dd table td div p.delete a:hover span{
+background:url(images/deleteInfo001.gif);
+}
+
+
+/*---- 紹介マイミク選択 ----*/
+.suggestion #editList01 .confirm01{
+border-bottom:1px solid #D0D0D1;
+}
+
+.suggestion #editList01 .selector .selectLinkArea{
+background:url(images/bg_editlist_top001.gif) no-repeat 0 0;
+}
+
+.suggestion #editList01 .selector .selectLinkArea div{
+background:url(images/bg_editlist_bottom001.gif) no-repeat 0 100%;
+}
+
+.suggestion #editList01 .selector .selectedMymixi li .thumbnail a{
+background:no-repeat 50% 50%;
+}
+
+
+/*---- utilityWindow02:list_friend.css配下対応 ----*/
+div#mymixiSelector.utilityWindow02 .messageArea .contents{
+border:none !important;
+}

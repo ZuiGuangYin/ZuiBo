@@ -1,0 +1,573 @@
+@charset "utf-8";
+/*
+Design by Free CSS Templates
+http://www.freecsstemplates.org
+Released for free under a Creative Commons Attribution 2.5 License
+*/
+
+body {
+	margin: 0;
+	padding: 0;
+	background: #FFFFFF url(images/img01.gif) repeat-x;
+	font-size: 12px;
+
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	color: #666666;
+}
+
+h1, h2, h3 {
+	margin-top: 0;
+}
+
+h1 {
+	font-size: 2em;
+}
+
+h2 {
+	font-size: 1.6em;
+}
+
+h3 {
+	font-size: 1em;
+}
+
+ul {
+	list-style-image: url(images/img07.gif);
+}
+
+a {
+	text-decoration: none;
+	border-bottom: 1px dotted #CCCCCC;
+	color: #D56E22;
+}
+
+a:hover {
+	border-bottom: none;
+}
+
+a img {
+	border: none;
+}
+
+img.left {
+	float: left;
+	margin: 0 20px 0 0;
+}
+
+img.right {
+	float: right;
+	margin: 0 0 0 20px;
+}
+
+/* Header */
+#header {
+	width: 880px;
+	height: 88px;
+	margin: 0 auto;
+}
+
+#logo {
+	width: 400px;
+	height: 88px;
+	margin: 0 auto;
+	padding: 0 10px;
+	float: left;
+}
+
+#logo h1, #logo p {
+	float: left;
+	margin: 0;
+	color: #FFFFFF;
+}
+
+#logo h1 {
+	padding: 30px 0 0 0;
+	font-size: 3em;
+}
+
+#logo p {
+	padding: 52px 0 0 3px;
+	margin-bottom:0px;
+	margin-top:40px;
+}
+
+#logo a {
+	border: none;
+	text-decoration: none;
+	color: #FFFFFF;
+}
+#logo ul	{font-size: 1em;float:right;
+	margin-left: 0px;
+	padding-left: 0px;
+	margin-bottom: 0px;
+	padding-bottom: 0px;}
+
+#logo ul li	{list-style-type: none;
+	display: inline}
+
+#logo ul li a	{text-decoration: none;
+	padding: 3px 5px;color: #FFFFFF;}
+/* Menu */
+
+#menu {
+	width: 880px;
+	height: 32px;
+	margin: 0 auto;
+	padding: 0 10px;
+}
+
+#menu ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+#menu li {
+	display: inline;
+}
+
+#menu a {
+	display: block;
+	float: left;
+	height: 22px;
+	margin: 0 1px 0 0;
+	padding: 10px 20px 0 20px;
+	border: none;
+	text-decoration: none;
+	font-size: 12px;
+	font-weight: bold;
+	color: #FFFFFF;
+}
+
+#menu a:hover {
+	background: #DD8B4E;
+}
+#function a:hover {
+	background: #DD8B4E;
+}
+#top a:hover {
+	background: #DD8B4E;
+}
+
+#menu .current_page_item a {
+	background: url(images/img02.gif) repeat-x;
+	color: #D56E22;
+}
+
+/* Page */
+
+#page {
+	width: 880px;
+	margin: 0 auto;
+	padding: 30px 0;
+	
+}
+
+#page-bg {
+	padding: 11px 24px;
+	background: url(images/img03.jpg) no-repeat;
+}
+
+/* Latest Post */
+
+#latest-post {
+	padding: 20px;
+	border: 1px solid #E7E7E7;
+}
+
+/* Content */
+
+#content {
+	float: left;
+	width: 438px;
+}
+
+.post {
+	margin-bottom: 20px;
+	padding-bottom: 15px;
+	border-bottom: 1px solid #F2F2F2;
+	line-height: 200%;
+}
+
+.title {
+	margin: 0;
+}
+
+.title a {
+	border-bottom: none;
+}
+
+.title a:hover {
+	border-bottom: 1px dotted #CCCCCC;
+}
+
+.byline {
+	margin: 0 0 20px 0;
+}
+
+.entry {
+	padding: 0 20px;
+}
+
+.links {
+	padding-top: 10px;
+	text-align: right;
+	font-weight: bold;
+}
+
+.links a {
+	padding-left: 15px;
+	background: url(images/img04.gif) no-repeat left center;
+	border: none;
+}
+
+.links a:hover {
+	border-bottom: 1px dotted #CCCCCC;
+}
+
+/* Sidebars */
+
+.sidebar {
+	float: left;
+	width: 200px;
+	padding: 0 0 0 21px;
+}
+
+.sidebar ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.sidebar li {
+	padding: 0 0 20px 0;
+}
+.sidebar li.big {
+	border: 1px solid #F2F2F2;
+	margin-bottom:5px;
+}
+
+.sidebar li ul {
+}
+
+.sidebar li li {
+	padding: 5px 0 5px 25px;
+	background: url(images/img04.gif) no-repeat 10px 9px;
+}
+
+.sidebar li h2 {
+	margin: 0 0 10px 0;
+	padding: 5px 10px;
+	background: url(images/img02.gif) repeat-x;
+	border: 1px solid #F2F2F2;
+	font-size: 12px;
+}
+
+/* Search */
+
+#searchform {
+	margin: 0;
+	padding: 0;
+}
+
+#searchform br {
+	display: none;
+}
+
+/* Calendar */
+
+#calendar_wrap {
+	padding: 0 0 0 20px;
+	text-align: center;
+}
+
+#calendar_wrap table {
+	width: 90%;
+}
+
+#calendar_wrap th {
+	border-bottom: 1px solid #CCCCCC;
+}
+
+#calendar_wrap td {
+	border-bottom: 1px solid #F2F2F2;
+}
+
+#calendar_wrap tfoot td {
+	border: none;
+}
+
+#calendar_wrap tfoot td#prev {
+	text-align: left;
+	font-weight: bold;
+	border: none;
+}
+
+#calendar_wrap tfoot td#prev a {
+	border: none;
+}
+
+#calendar_wrap tfoot td#next {
+	text-align: right;
+	font-weight: bold;
+	border: none;
+}
+
+#calendar_wrap tfoot td#next a {
+	border: none;
+}
+
+/* Footer */
+
+#footer {
+	padding: 30px 0 50px 0;
+	background: #D56E22 url(images/img05.gif) repeat-x;
+}
+
+#footer p {
+	margin: 0;
+	text-align: center;
+	font-size: smaller;
+	color: #FFFFFF;
+}
+
+#footer a {
+	color: #FFFFFF;
+}
+
+#search {
+	float: right;
+	width: 400px;
+	text-align:right;
+	padding:0 auto;
+}
+#search ul	{font-size: 1.25em;float:right;
+	margin-left: 0px;
+	padding-left: 0px;}
+
+#search ul li	{list-style-type: none;
+	display: inline}
+
+#search ul li a	{text-decoration: none;
+	padding: 3px 5px;color: #FFFFFF;}
+
+.pall ul	{font-size: 1.25em;float:right;
+	margin-left: 0px;
+	padding-left: 0px;}
+
+.pall ul li	{list-style-type: none;
+	display: inline}
+
+.pall ul li a	{text-decoration: none;
+	padding: 3px 5px;color: #FFFFFF;}
+	
+ ul.actionList{
+	width:186px;
+	padding:6px 0 8px;
+	clear:both;
+}
+
+ ul.actionList li{
+	float:left;
+}
+
+ul.actionList li.diary{
+width:75px;
+padding:0 10px 0 2px;
+}
+
+ul.actionList li.diary a{
+padding-left:17px;
+}
+
+ul.actionList li.photo{
+width:86px;
+padding-left:10px;
+}
+
+ul.actionList li.photo a{
+padding-left:18px;
+}
+/*---- beginnersHome:³õÐÄÕßUI ----*/
+#beginnersHome .section01{
+padding-bottom:0;
+}
+
+#beginnersHome .sectionBody{
+clear:both;
+padding:9px 0;
+}
+
+#beginnersHome .supplement01{
+clear:both;
+padding:0 20px;
+}
+
+#beginnersHome #firstStep01 li{
+width:423px;
+margin:0 15px 8px;
+text-indent:-9999px;
+}
+
+#beginnersHome #firstStep01 li a{
+display:block;
+height:62px;
+overflow:hidden;
+}
+
+#beginnersHome #funMixi01 li{
+float:left;
+width:206px;
+padding:5px 10px;
+}
+
+#beginnersHome #funMixi01 li p{
+min-height:72px;
+*min-height:76px;
+_height:76px;
+padding-left:63px;
+}
+
+#beginnersHome #funMixi01 li p.btn{
+min-height:1px;
+_height:1px;
+padding:0;
+text-align:center;
+}
+
+#beginnersHome .guideLink{
+position:relative;
+margin-bottom:10px;
+text-indent:-9999px;
+}
+
+#beginnersHome .guideLink span{
+position:absolute;
+right:10px;
+bottom:7px;
+}
+
+#beginnersHome .guideLink span a{
+display:block;
+width:121px;
+height:23px;
+overflow:hidden;
+}
+
+#beginnersHome #firstStep01 p.guideArea01{
+height:80px;
+}
+
+#beginnersHome #funMixi01 p.guideArea02,
+#beginnersHome #funMixi01 p.guideArea03{
+height:40px;
+}
+
+#beginnersHome #firstStep02 ul{
+text-align:center;
+}
+
+#beginnersHome #firstStep02 li{
+display:inline;
+}
+
+#beginnersHome #firstStep02 li.invite,
+#beginnersHome #firstStep02 li.keyword{
+margin:0 5px;
+}
+
+#beginnersHome #firstStep02 li a{
+display:inline-block;
+margin-bottom:7px;
+}
+
+#beginnersHome .simpleUiInfo{
+margin-bottom:10px;
+padding:5px 10px 2px 32px;
+}
+
+#beginnersHome div.noMymixiNotice{
+padding:15px 25px 13px 70px;
+}
+
+#beginnersHome div.noMymixiNotice h2{
+margin-bottom:5px;
+font-weight:bold;
+}
+
+#beginnersHome div.noMymixiNotice p{
+font-size:91%;
+}
+#beginnersHome .sectionBody{
+border:1px solid #D0D0D1;
+border-top:none;
+}
+
+#beginnersHome #firstStep01 li a{
+	background-image: url(images/find_friend_006.gif);
+	background-repeat: no-repeat;
+}
+
+#beginnersHome #firstStep01 li.mymixi a{ background-position:0 0;}
+#beginnersHome #firstStep01 li.email a{ background-position:0 -62px;}
+#beginnersHome #firstStep01 li.school a{ background-position:0 -124px;}
+#beginnersHome #firstStep01 li.company a{ background-position:0 -186px;} 
+#beginnersHome #firstStep01 li.profile a{ background-position:0 -248px;}
+#beginnersHome #firstStep01 li.invite a{ background-position:0 -310px;}
+#beginnersHome #firstStep01 li.keyword a{ background-position:0 100%;}
+
+#beginnersHome #firstStep01 li.mymixi a:hover{ background-position:100% 0;}
+#beginnersHome #firstStep01 li.email a:hover{ background-position:100% -62px;}
+#beginnersHome #firstStep01 li.school a:hover{ background-position:100% -124px;}
+#beginnersHome #firstStep01 li.company a:hover{ background-position:100% -186px;} 
+#beginnersHome #firstStep01 li.profile a:hover{ background-position:100% -248px;}
+#beginnersHome #firstStep01 li.invite a:hover{ background-position:100% -310px;}
+#beginnersHome #firstStep01 li.keyword a:hover{ background-position:100% 100%;}
+
+#beginnersHome #funMixi01 li p{
+background:url(images/service_image002.gif) no-repeat;
+}
+
+#beginnersHome #funMixi01 li.diary p{ background-position:0 0;}
+#beginnersHome #funMixi01 li.voice p{ background-position:0 -160px;}
+#beginnersHome #funMixi01 li.photo p{ background-position:0 -320px;}
+#beginnersHome #funMixi01 li.schedule p{ background-position:0 -480px;}
+#beginnersHome #funMixi01 li.appli p{ background-position:0 -640px;}
+#beginnersHome #funMixi01 li.profile p{ background-position:0 -800px;}
+
+#beginnersHome #funMixi01 li p.btn{
+background:none;
+}
+
+#beginnersHome .guideLink{
+border-bottom:1px solid #D0D0D1;
+}
+
+#beginnersHome .guideLink span a{
+background:url(images/mixi_guide_Link001.gif) no-repeat 0 0;
+}
+
+#beginnersHome .guideLink span a:hover{
+background-position:0 100%;
+}
+
+#beginnersHome #firstStep01 p.guideArea01{
+background:url(images/beginnerHomeInfo001.gif) no-repeat 17px 0;
+}
+
+#beginnersHome #funMixi01 p.guideArea02{
+background:url(images/beginnerHomeInfo003.gif) no-repeat 17px 0;
+}
+
+#beginnersHome #funMixi01 p.guideArea03{
+background:url(images/beginnerHomeInfo002.gif) no-repeat 17px 0;
+}
+
+#beginnersHome .simpleUiInfo{
+background:#FFF url(images/wakaba001.gif) no-repeat 10px 5px;
+}
+
+#beginnersHome div.noMymixiNotice{
+border:1px solid #DEDEDE;
+background:#f8f8f8 url(images/message_area002.gif) no-repeat 25px 15px;
+}

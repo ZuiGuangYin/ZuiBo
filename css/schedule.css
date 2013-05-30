@@ -1,0 +1,1036 @@
+@charset "euc-jp";
+
+/*---------------- newScheduleArea ----------------*/
+div.newScheduleArea ul.entryList01 li dl dd{
+width:532px;
+}
+
+/*-------- activityList --------*/
+div.activityList ul.entryList01 li table th,
+div.activityList ul.entryList01 li table td{
+min-height:51px;
+_height:51px;
+vertical-align:middle;
+}
+
+div.activityList ul.entryList01 li table th{
+width:70px;
+text-align:center;
+}
+
+div.activityList ul.entryList01 li table td span.date{
+margin-left:1px;
+font-size:83%;
+}
+
+/*---------------- updateInfo ----------------*/
+div.updateInfo{
+margin-bottom:12px;
+padding-bottom:5px;
+}
+
+div.updateInfo h3{
+height:22px;
+line-height:22px;
+text-indent:-999999px;
+}
+
+div.updateInfo div.contents{
+margin:0 5px;
+zoom:1;
+}
+
+div.updateInfo div.contents:after{
+content:".";
+display:block;
+clear:both;
+height:0;
+visibility:hidden;
+}
+
+
+/*-------- updateInfoNavi --------*/
+div.updateInfo div.contents ul.updateInfoNavi{
+float:left;
+width:229px;
+}
+
+div.updateInfo div.contents ul.updateInfoNavi li a{
+display:block;
+height:23px;
+padding:6px 0 0 10px;
+text-decoration:none;
+}
+
+div.updateInfo div.contents ul.updateInfoNavi li.current a{
+font-weight:bold;
+}
+
+/*-------- updateInfoList --------*/
+div.updateInfo div.contents div.messageArea div.contents{
+margin:0;
+}
+
+div.updateInfo div.contents div.updateInfoList,
+div.updateInfo div.contents div.messageArea{
+float:left;
+width:704px;
+margin-bottom:0;
+}
+
+div.updateInfo div.contents div.updateInfoList ul{
+padding:7px 10px 5px 16px;
+}
+
+div.updateInfo div.contents div.updateInfoList ul li{
+padding-bottom:3px;
+}
+
+
+div.updateInfo div.contents div.updateInfoList ul li span.date{
+font-size:83%;
+}
+
+div.updateInfo div.contents div.updateInfoList ul.actionHistory li{
+padding-left:23px;
+}
+
+div.updateInfo div.contents div.updateInfoList ul.actionHistory li span.date{
+margin-right:28px;
+font-size:100%;
+}
+
+div.updateInfo div.contents div.updateInfoList ul.actionHistory li span.name{
+margin-left:5px;
+}
+
+div.updateInfo div.contents div.updateInfoList p.moreLink01{
+padding:6px 10px 4px 0;
+}
+
+div.updateInfo div.contents div.updateInfoList p.noItem{
+padding:8px 0;
+text-align:center;
+}
+
+/*---------------- calendarArea ----------------*/
+div.calendarArea div.messageArea{
+margin-bottom:0;
+}
+
+div.calendarArea div.messageArea div.contents div{
+padding-top:45px;
+padding-bottom:67px;
+}
+
+
+/*-------- calHeader --------*/
+div.calendarArea div.calHeader{
+padding-bottom:4px;
+zoom:1;
+}
+
+div.calendarArea div.calHeader:after{
+content:".";
+display:block;
+clear:both;
+height:0;
+visibility:hidden;
+}
+
+div.calendarArea div.calHeader p.settings{
+float:left;
+width:450px;
+padding-top:16px;
+}
+
+div.calendarArea div.calHeader p.settings a{
+padding-left:23px;
+}
+
+div.calendarArea div.calHeader p.calHeaderBt{
+float:right;
+width:135px;
+padding-right:15px;
+text-align:right;
+}
+
+/*-------- contentsNavi --------*/
+div.calendarArea div.calHeader ul.contentsNavi{
+float:left;
+width:244px;
+padding-top:8px;
+zoom:1;
+}
+
+div.calendarArea div.calHeader ul.contentsNavi:after{
+content:".";
+display:block;
+clear:both;
+height:0;
+visibility:hidden;
+}
+
+div.calendarArea div.calHeader ul.contentsNavi li{
+float:left;
+padding-right:5px;
+}
+
+div.calendarArea div.calHeader ul.contentsNavi li.monthly,
+div.calendarArea div.calHeader ul.contentsNavi li.weekly{
+width:60px;
+}
+
+div.calendarArea div.calHeader ul.contentsNavi li.unfixed{
+width:100px;
+}
+
+div.calendarArea div.calHeader ul.contentsNavi li a{
+display:block;
+padding-left:5px;
+}
+
+div.calendarArea div.calHeader ul.contentsNavi li a span{
+display:block;
+height:26px;
+padding:10px 5px 0 0;
+text-align:center;
+cursor:pointer;
+}
+
+/*-------- pageNavi --------*/
+div.calendarArea div.pageNavi{
+height:28px;
+zoom:1;
+}
+
+div.calendarArea div.pageNavi:after{
+content:".";
+display:block;
+clear:both;
+height:0;
+visibility:hidden;
+}
+
+div.calendarArea div.pageNavi h3{
+float:left;
+width:426px;
+padding:5px 0 0 17px;
+font-weight:bold;
+}
+
+div.calendarArea div.pageNavi ul{
+float:right;
+width:496px;
+padding:5px 4px 0 0;
+text-align:right;
+}
+
+div.calendarArea div.pageNavi ul li{
+display:inline;
+}
+
+div.calendarArea div.pageNavi ul li a{
+margin:0 5px;
+}
+
+/*-------- checkList --------*/
+div.calendarArea div.checkList{
+padding:8px 15px;
+zoom:1;
+}
+
+div.calendarArea div.checkList:after{
+content:".";
+display:block;
+clear:both;
+height:0;
+visibility:hidden;
+}
+
+div.calendarArea div.checkList ul{
+float:left;
+width:895px;
+}
+
+div.calendarArea div.checkList ul li{
+float:left;
+padding-right:5px;
+}
+
+div.calendarArea div.checkList ul li a{
+display:block;
+height:28px;
+text-indent:-999999px;
+outline:none;
+}
+
+div.calendarArea div.checkList ul li.you{
+width:98px;
+}
+
+div.calendarArea div.checkList ul li.friend{
+width:119px;
+}
+
+div.calendarArea div.checkList ul li.community{
+width:160px;
+}
+
+div.calendarArea div.checkList div.loading{
+float:left;
+width:18px;
+padding-top:5px;
+}
+
+/*-------- calendarTable --------*/
+div.calendarArea table.calendarTable{
+width:945px;
+table-layout:fixed;
+border-collapse:separate;
+*border-collapse:collapse;
+border-spacing:0;
+}
+
+div.calendarArea table.calendarTable th,
+div.calendarArea table.calendarTable td{
+vertical-align:top;
+}
+
+div.calendarArea table.calendarTable th{
+text-align:center;
+}
+
+div.calendarArea table.calendarTable td{
+height:85px;
+*height:64px;
+padding:6px 0 12px 6px;
+}
+
+div.calendarArea table.calendarTable td span.add img{
+margin:0 0 1px 8px;
+vertical-align:middle;
+}
+
+/*---- weekly ----*/
+div.calendarArea table.weekly td{
+height:432px;
+*height:414px;
+}
+
+/*---- schedule ----*/
+div.calendarArea table.calendarTable td ul.schedule li{
+white-space:nowrap;
+overflow:hidden;
+padding:0 0 1px 18px;
+}
+
+div.calendarArea table.calendarTable td ul.schedule li.date{
+padding:3px 0 0;
+}
+
+div.calendarArea table.calendarTable td ul.schedule li.member{
+white-space:normal;
+padding-bottom:2px;
+}
+
+/*-------- iconEx --------*/
+div.calendarArea div.iconEx ul.iconList{
+padding:10px 0 10px 15px;
+}
+
+div.calendarArea div.iconEx ul.iconList li{
+display:inline;
+}
+
+div.calendarArea div.iconEx ul.iconList li.add{
+display:block;
+padding-top:9px;
+}
+
+div.calendarArea div.iconEx ul.iconList li img{
+vertical-align:bottom;
+}
+
+div.calendarArea div.iconEx ul.helpLink{
+padding:0 15px 10px;
+}
+
+div.calendarArea div.iconEx ul.helpLink li{
+font-size:83%;
+}
+
+/*-------- unfixedList01 --------*/
+div.calendarArea ul.unfixedList01 li{
+width:928px;
+padding:7px 0 6px 15px;
+}
+
+div.calendarArea ul.unfixedList01 li:after{
+content:".";
+display:block;
+clear:both;
+height:0;
+visibility:hidden;
+}
+
+div.calendarArea ul.unfixedList01 li p.title{
+float:left;
+width:793px;
+overflow-x:hidden;
+}
+
+div.calendarArea ul.unfixedList01 li p.title a{
+padding-left:21px;
+}
+
+div.calendarArea ul.unfixedList01 li p.title span.member{
+display:block;
+padding-left:21px;
+}
+
+div.calendarArea ul.unfixedList01 li p.date{
+float:right;
+width:135px;
+}
+
+/*---------------- scheduleTable01 ----------------*/
+div.scheduleTable01{
+overflow-y:scroll;
+}
+
+div.scheduleTable01 table{
+width:100%;
+*width:697px;
+}
+
+div.scheduleTable01 table th,
+div.scheduleTable01 table td{
+vertical-align:middle;
+overflow-y:hidden;
+}
+
+div.scheduleTable01 table th{
+padding-left:17px;
+}
+
+div.scheduleTable01 table td{
+width:108px;
+text-align:center;
+}
+
+div.scheduleTable01 table td.most{
+font-weight:bold;
+}
+
+div.scheduleTable01 table th.selected,
+div.scheduleTable01 table td.selected{
+font-weight:bold;
+}
+
+/*-------- scheduleTotal --------*/
+div.scheduleTotal table tr.date th,
+div.scheduleTotal table tr.date td{
+height:45px;
+*height:44px;
+}
+
+div.scheduleTotal table tr.number th,
+div.scheduleTotal table tr.number td{
+height:35px;
+*height:34px;
+}
+
+/*-------- scheduleMembers --------*/
+div.scheduleMembers{
+max-height:251px;
+*max-height:250px;
+}
+
+* html div#tableScroll{
+height:expression(document.all('tableScroll').scrollHeight > 249? '250px':'auto');
+}
+
+div.scheduleMembers table{
+table-layout:fixed;
+max-height:252px;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0){
+div.scheduleMembers table{
+table-layout:inherit;
+}
+}
+
+div.scheduleMembers table th,
+div.scheduleMembers table td{
+height:36px;
+*height:35px;
+overflow-x:hidden;
+word-break:break-all;
+}
+
+/*-------- scheduleSelect --------*/
+div.scheduleSelect table th,
+div.scheduleSelect table td{
+height:35px;
+*height:34px;
+}
+
+/*-------- scheduleReply --------*/
+div.scheduleReply table{
+table-layout:fixed;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0){div.scheduleReply table{
+table-layout:inherit;
+}
+}
+
+div.scheduleReply table th,
+div.scheduleReply table td{
+height:46px;
+*height:45px;
+overflow-x:hidden;
+word-break:break-all;
+}
+
+
+/*---- scheduleComment:コメントエリア ----*/
+div#scheduleComment{
+margin-top:20px;
+}
+
+
+/*---- deleteScheduleComment:コメント削除確認 ----*/
+.deleteScheduleComment div.commentListArea ul{
+padding:0;
+}
+
+.deleteScheduleComment div.commentListArea dl.comment{
+width:694px;
+padding:0 10px;
+}
+
+
+/*---- scheduleCommentContents:コメント書込確認 ----*/
+#editList01 div.contents p.scheduleCommentContents{
+padding:13px 20px;
+}
+
+
+/*---------------- viewSchedule ----------------*/
+/*-------- viewScheduleBox --------*/
+.viewScheduleBox{
+clear:both;
+width:714px;
+border-bottom:none !important;
+overflow:visible;
+word-break:break-all;
+}
+
+/*-------- listScheduleTitle --------*/
+.listScheduleTitle{
+width:694px;
+overflow:hidden;
+padding:5px 10px 5px 10px;
+}
+
+.listScheduleTitle input{
+margin-right:5px;
+}
+
+.listScheduleTitle dl{
+clear:both;
+}
+
+.listScheduleTitle dt{
+float:left;
+width:540px;
+font-size:116%;
+}
+
+.listScheduleTitle dt span{
+margin-left:20px;
+font-size:86% !important;
+white-space:nowrap;
+}
+
+.listScheduleTitle dd{
+float:right;
+width:150px;
+text-align:right;
+}
+
+.listScheduleTitle span{
+margin-left:1em;
+font-size:0.8em;
+}
+
+.listScheduleTitle img{
+vertical-align:-1px;
+margin-left:10px;
+}
+
+.listScheduleTitle p{
+font-size:116%;
+}
+
+/*-------- viewerFriendList --------*/
+.viewerFriendList{ 
+position:relative;
+clear:both;
+height:21px; 
+}
+
+.viewerFriendList p{ 
+float:right;
+}
+
+.viewerFriendList p a{
+display: block;
+width: 144px;
+height: 21px;
+text-indent:-999999px;
+outline: none;
+}
+
+.groupMemberPop{
+position:absolute;
+width:148px;
+line-height:1.4;
+padding:5px 10px;
+filter: alpha(opacity=90);
+-moz-opacity:0.90;
+opacity:0.90;
+}
+
+.groupMemberBody{
+margin-bottom:5px;
+word-break:break-all;
+}
+
+.groupMemberBody ul li{
+overflow:hidden;
+}
+
+.groupMemberBefore{
+display:block;
+float:left;
+width:49%; 
+}
+
+.groupMemberNext{
+display:block;
+float:right;
+width:49%; 
+text-align:right;
+}
+
+/*-------- txtConfirmArea --------*/
+.txtconfirmArea{
+clear:both;
+width:674px;
+padding:20px;
+text-align:left;
+overflow:visible;
+word-break:break-all;
+}
+
+/*  \*/.txtconfirmArea{overflow:hidden;}/*  */
+
+/*  \*//*/ .txtconfirmArea{width:480px;} /*  */
+
+.txtconfirmArea p{
+margin-bottom:1em;
+}
+
+.txtconfirmArea .large{
+font-size:2em !important;
+}
+
+.txtconfirmArea .medium{
+font-size:1em !important;
+}
+
+.txtconfirmArea .small{
+font-size:83% !important;
+}
+
+.txtconfirmArea span{
+font-size:1em !important;
+}
+
+.txtconfirmArea strong{
+font-weight:bold !important;
+}
+
+.txtconfirmArea em{
+font-style:italic !important;
+}
+
+.txtconfirmArea u{
+text-decoration:underline !important;
+}
+
+.txtconfirmArea del{
+text-decoration:line-through !important;
+}
+
+.txtconfirmArea blockquote{
+display:block;
+width:620px;
+padding:15px;
+margin:20px auto;
+}
+
+
+/*---- actionLink01 ----*/
+.viewSchedule .actionLink01{
+padding:0 20px 6px;
+font-size:83%;
+text-align:right;
+}
+
+.viewSchedule .actionLink01 a,
+.viewSchedule .actionLink01 span{
+margin-left:3px;
+padding:3px 0;
+}
+
+.viewSchedule .actionLink01 .iine{
+padding-left:13px;
+}
+
+.viewSchedule .actionLink01 .comment{
+padding-left:21px;
+}
+
+
+/*---- iineList ----*/
+.viewSchedule dl.iineList{
+margin:0 20px;
+padding:11px 0 10px;
+width:674px;
+}
+
+.viewSchedule dl.iineList:after{
+clear:both;
+content:".";
+display:block;
+height:0;
+visibility:hidden;
+}
+
+.viewSchedule dl.iineList dt{
+display:inline;
+padding:3px 5px 0 14px;
+font-size:83%;
+font-weight:bold;
+}
+
+.viewSchedule dl.iineList dt span.total{
+font-weight:normal;
+}
+
+.viewSchedule dl.iineList dd{
+display:inline;
+margin-right:9px;
+}
+
+.viewSchedule dl.iineList dd a{
+white-space:nowrap;
+}
+
+.viewSchedule dl.iineList dd a img{
+margin-left:3px;
+}
+
+
+/*-------- scheduleEnquete --------*/
+#editList01 ul.scheduleEnquete li dl dt,
+#editList01 ul.scheduleEnquete li dl dd{
+padding:10px;
+}
+
+#editList01 ul.scheduleEnquete li dl dt{
+width:90px;
+}
+
+#editList01 ul.scheduleEnquete li dl dd{
+width:584px;
+}
+
+#editList01 ul.scheduleEnquete .scheduleEnqueteState01{
+float:left;
+width:304px;
+}
+
+#editList01 ul.scheduleEnquete .scheduleEnqueteLink01{
+float:right;
+width:280px;
+text-align:right;
+}
+
+#editList01 ul.scheduleEnquete .scheduleEnqueteLink01 li{
+display:inline;
+}
+
+#editList01 ul.scheduleEnquete .scheduleEnqueteLink01 a{
+padding-left:12px;
+}
+
+#editList01 ul.scheduleEnquete .scheduleEnqueteLink01 a.message{
+padding-left:22px;
+}
+
+#editList01 ul.scheduleEnquete .scheduleEnqueteLink01 a.invite{
+padding-left:17px;
+}
+
+/*---- scheduleEnqueteContents ----*/
+#editList01 ul.scheduleEnquete dd.scheduleEnqueteContents{
+margin-left:110px;
+_margin-left:55px;
+padding-bottom:4px;
+}
+
+#editList01 ul.scheduleEnquete dd.scheduleEnqueteContents dl{
+width:584px;
+}
+
+#editList01 ul.scheduleEnquete dd.scheduleEnqueteContents dl:after{
+content:".";
+display:block;
+clear:both;
+height:0;
+visibility:hidden;
+}
+
+#editList01 ul.scheduleEnquete dd.scheduleEnqueteContents dl dt,
+#editList01 ul.scheduleEnquete dd.scheduleEnqueteContents dl dd{
+padding:0 0 3px !important;
+*padding:0 0 1px !important;
+}
+
+#editList01 ul.scheduleEnquete dd.scheduleEnqueteContents dl dt{
+clear:left;
+float:left;
+width:242px;
+}
+
+#editList01 ul.scheduleEnquete dd.scheduleEnqueteContents dl dt img{
+vertical-align:bottom;
+*vertical-align:middle;
+margin-right:12px;
+margin-bottom:3px;
+*margin-bottom:2px;
+}
+
+#editList01 ul.scheduleEnquete dd.scheduleEnqueteContents dl dd{
+float:left;
+width:339px;
+padding-left:3px !important;
+}
+
+#editList01 dd.scheduleEnqueteContents ul.enqueteList01{
+padding-bottom:5px;
+}
+
+#editList01 ul.scheduleEnquete dd.scheduleEnqueteContents ul.enqueteList01{
+padding-bottom:0;
+}
+
+#editList01 ul.scheduleEnquete dd.scheduleEnqueteContents ul.enqueteList01|{
+padding-bottom:0;
+}
+
+#editList01 dd.scheduleEnqueteContents ul.enqueteList01 li{
+padding-bottom:3px !important;
+}
+
+#editList01 dd.scheduleEnqueteContents ul.enqueteList01 li img{
+vertical-align:middle;
+margin-right:12px;
+margin-bottom:3px;
+}
+
+#editList01 dd.scheduleEnqueteContents ul.enqueteList01 li a.callCalendar img{
+margin-right:0;
+}
+
+/*-------- pageNavigation01 --------*/
+div.viewSchedule div.pageNavigation01 div.pageList01{
+width:714px;
+position:relative;
+}
+
+div.viewSchedule div.pageNavigation01 div.pageList01 ul.pages{
+position:absolute;
+top:2px;
+right:0;
+}
+
+/*-------- iconList03 --------*/
+div.iconList03 ul li div.iconState01,
+div.iconList03 ul li div.iconState02,
+div.iconList03 ul li div.iconState03{
+min-height:138px;
+_height:138px;
+}
+
+div.iconList03 ul li div p.removeBt{
+padding-top:1px;
+}
+
+div.iconList03 ul li div p a img{
+vertical-align:bottom;
+}
+
+/*-------- scheduleConfirmForm --------*/
+div.viewSchedule div.formButtons01 p.scheduleConfirmForm{
+text-align:right;
+}
+
+div.viewSchedule div.formButtons01 p span.scheduleConfirmForm{
+font-weight:bold;
+}
+
+
+/*---------------- addScheduleList ----------------*/
+#editList01 ul.addScheduleList li dl dt,
+#editList01 ul.addScheduleList li dl dd{
+padding:10px;
+}
+
+#editList01 ul.addScheduleList li dl dt{
+width:98px;
+*letter-spacing:0;
+}
+
+#editList01 ul.addScheduleList li dl dd{
+width:576px;
+}
+
+#editList01 ul.addScheduleList li dl dd img{
+vertical-align:middle;
+}
+
+#editList01 ul.addScheduleList li.title dl dd input{
+width:378px;
+}
+
+#editList01 ul.addScheduleList li.date dl dd{
+position:relative;
+padding-bottom:0;
+}
+
+#editList01 ul.addScheduleList li.date dl dd ul li{
+padding-bottom:10px;
+}
+
+#editList01 ul.addScheduleList li.date dl dd ul li a.callCalendar{
+margin-right:10px;
+}
+
+#editList01 ul.addScheduleList li.date dl dd ul li a.deleteDate{
+margin-left:10px;
+}
+
+#editList01 ul.addScheduleList li.date dl dd ul li select{
+margin-right:5px;
+}
+
+#editList01 ul.addScheduleList li.date dl dd p.addDate{
+width:576px;
+padding-bottom:10px;
+}
+
+#editList01 ul.addScheduleList li.date dl dd p.addDate:after{
+content:".";
+display:block;
+clear:both;
+height:0;
+visibility:hidden;
+}
+
+#editList01 ul.addScheduleList li.date dl dd p.addDate span{
+display:block;
+float:left;
+}
+
+#editList01 ul.addScheduleList li.date dl dd p.addDate span.add{
+width:112px;
+}
+
+#editList01 ul.addScheduleList li.date dl dd p.addDate span.reset{
+width:116px;
+}
+
+#editList01 ul.addScheduleList li.date dl dd ul li img.number{
+margin-right:10px;
+}
+
+#editList01 ul.addScheduleList li.date dl dd div.calendar{
+position:absolute;
+width:170px;
+z-index:10;
+}
+
+#editList01 ul.addScheduleList li.date dl dd ul.supplement01{
+padding-bottom:10px;
+}
+
+#editList01 ul.addScheduleList li.date dl dd ul.supplement01 li{
+padding:0 !important;
+}
+
+#editList01 ul.addScheduleList li.invite dl dd{
+width:596px;
+padding:10px 0;
+}
+
+#editList01 ul.addScheduleList li.invite dl dd dl.inviteFriendList{
+padding:10px 0 0 11px;
+}
+
+#editList01 ul.addScheduleList li.invite dl dd dl.inviteFriendList dt,
+#editList01 ul.addScheduleList li.invite dl dd dl.inviteFriendList dd{
+padding:0;
+}
+
+#editList01 ul.addScheduleList li.invite dl dd dl.inviteFriendList dt{
+width:260px;
+}
+
+#editList01 ul.addScheduleList li.invite dl dd dl.inviteFriendList dd{
+width:315px;
+}
+
+#editList01 ul.addScheduleList li.invite dl dd p{
+padding:0 0 10px 10px;
+}
+
+#editList01 ul.addScheduleList li dl dd p span.cancellation{
+margin-left:10px;
+}
+
+#editList01 li dd ul.inviteMemberList li input{
+margin-right:4px;
+margin-bottom:1px;
+}
+
+#editList01 li dd ul.inviteMemberList li div{
+display:inline;
+margin-left:20px;
+}
+
+#editList01 li dd ul.inviteMemberList li div p{
+display:inline;
+margin-left:3px;
+font-size:83%;
+}
+
+#editList01 li dd ul.inviteMemberList li div span{
+margin:0 5px;
+}

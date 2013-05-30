@@ -1,0 +1,178 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="robots" content="nofollow,noindex">
+<title>{$smarty.session.myApp.title}</title>
+<meta name="keywords" content="{$smarty.session.myApp.keywords}" />
+<meta name="description" content="{$smarty.session.myApp.description}" />
+<link rel="shortcut icon" href="{$base}/images/favicon.jpg"/>
+<link rel="stylesheet" type="text/css" href="{$base}/css/common.css">
+<link rel="stylesheet" type="text/css" href="{$base}/css/mixicollection.css">
+<link rel="stylesheet" type="text/css" href="{$base}/css/header_classic.css">
+<link rel="stylesheet" type="text/css" href="{$base}/css/footer_classic.css">
+<link rel="stylesheet" type="text/css" href="{$base}/css/sidebar_classic.css">
+<link rel="stylesheet" type="text/css" href="{$base}/css/component_classic.css">
+<link rel="stylesheet" type="text/css" href="{$base}/css/join.css">   
+
+<link rel="stylesheet" type="text/css" href="{$base}/css/jquery-ui-1.8.4.custom.css" media="all" />
+<link rel="stylesheet" type="text/css" href="{$base}/css/validator.css" media="all" />
+<script type="text/javascript" charset="utf-8" src="{$base}/js/jquery-1.4.2.min.js"></script>
+<script type="text/javascript" charset="utf-8" src="{$base}/js/jquery-ui-1.8.4.custom.min.js"></script>
+<script type="text/javascript" charset="utf-8" src="{$base}/js/jquery.validator-0.3.3.min.js"></script>
+<script type="text/javascript" charset="utf-8" src="{$base}/js/default.js"></script>
+<script type="text/javascript" charset="utf-8" src="{$base}/js/CheckUtil.js"></script>
+</head>
+<body class="logout">
+
+<div id="page" class="regist">
+
+<!--[HeaderArea]-->
+<div id="headerArea">
+<h1 id="pagetop" name="pagetop"><img src="{$base}/images/logo_pc_large001.gif" alt="Tobu" width="150" height="45"></h1>
+<!--/headerArea--></div>
+<!--/[HeaderArea]-->
+
+<!--[BodyArea]-->
+<div id="bodyArea">
+
+
+<div class="registStep">
+<h2 class="step02">STEP2 用户信息登录</h2>
+</div>
+
+
+<!--[RegistrationArea]-->
+<div id="registrationArea">
+
+<form action="{$base}/register2" method="post">
+<div id="editList01">
+
+
+<div class="heading16">
+<h2>确认输入信息</h2>
+</div>
+
+<div class="contents">
+
+<div class="confirm01">
+<p>请确认您输入的个人信息。</p>
+</div>
+
+<ul class="editContents">
+<li>
+<dl>
+<dt>昵称</dt>
+<dd>{$info.nickname}</dd>
+</dl>
+</li>
+
+<li>
+<dl>
+<dt>姓名</dt>
+<dd>{$info.last_name} {$info.first_name} （{$info.name_level_name}）</dd>
+</dl>
+</li>
+
+<li>
+<dl>
+<dt>现在住址</dt>
+<dd>{$info.location_pref_name}{$info.location_area_name}（{$info.location_level_name}）</dd>
+</dl>
+</li>
+
+<li>
+<dl>
+<dt>性別</dt>
+<dd>{$info.sex_name}（{$info.sex_level_name}）</dd>
+</dl>
+</li>
+
+<li>
+<dl>
+<dt>生日</dt>
+<dd>{$info.month}月{$info.day}日（{$info.birthday_level_name}）</dd>
+</dl>
+</li>
+
+
+<li>
+<dl>
+<dt>出生年份</dt>
+<dd>{$info.year}年（{$info.age_level_name}）</dd>
+</dl>
+</li>
+</ul>
+
+<!--/contents--></div>
+
+
+
+<div class="contents">
+
+<div class="confirm01">
+<p>请确认输入的登录相关信息。</p>
+</div>
+
+<ul class="editContents">
+<li>
+<dl>
+<dt>登录邮件地址</dt>
+<dd>{$info.email}</dd>
+</dl>
+</li>
+
+<li>
+<dl>
+<dt>登录密码</dt>
+<dd>********</dd>
+</dl>
+</li>
+</ul>
+
+
+<div class="formButtons01">
+<ul>
+<li><input  name="submit_ok" value="下一步" type="submit"></li>
+<li><input  name="submit_no" value="修改" type="button" onclick="history.go(-1);"></li>
+</ul>
+</div>
+
+<!--/contents--></div>
+
+<!--/#editList01--></div>
+<input name="last_name" value="{$info.last_name}" type="hidden">
+<input name="first_name" value="{$info.first_name}" type="hidden">
+<input name="name_level" value="{$info.name_level}" type="hidden">
+<input name="nickname" value="{$info.nickname}" type="hidden">
+<input name="location_pref" value="{$info.location_pref}" type="hidden">
+<input name="location_area" value="{$info.location_area}" type="hidden">
+<input name="location_level" value="{$info.location_level}" type="hidden">
+<input name="email" value="{$info.email}" type="hidden">
+<input name="sex" value="{$info.sex}" type="hidden">
+<input name="sex_level" value="{$info.sex_level}" type="hidden">
+<input name="password1" value="{$info.password1}" type="hidden">
+<input name="password2" value="{$info.password2}" type="hidden">
+<input name="year" value="{$info.year}" type="hidden">
+<input name="month" value="{$info.month}" type="hidden">
+<input name="day" value="{$info.day}" type="hidden">
+<input name="birthday_level" value="{$info.birthday_level}" type="hidden">
+<input name="age_level" value="{$info.age_level}" type="hidden">
+</form>
+
+<!--/registrationArea--></div>
+<!--/[RegistrationArea]-->
+
+<!--/bodyArea--></div> 
+<!--/[BodyArea]--> 
+
+<!--[FooterArea]-->
+<div id="footerArea">
+<div class="footerMain">
+<p>&copy;2011 All Rights Reserved. &nbsp;&bull;&nbsp; Design by <a href="http://www.softechallenger.com/">王志刚工作室</a>.</p>
+</div>
+<!--/footerArea--></div>
+<!--/[FooterArea]-->
+
+</div><!--/page-->
+</body></html>

@@ -1,0 +1,593 @@
+@charset "euc-jp";
+
+#bodyMainArea div.heading03{
+background:url(images/body_diary001.gif) no-repeat 0 0;
+}
+
+#bodyMainArea div.heading03 h3{
+color:#333;
+}
+
+
+/*---- diaryTitle ----*/
+div.diaryTitle{
+background:url(images/title_home003.gif) no-repeat 0 0;
+}
+
+div.diaryTitle p{
+background:url(images/diary002.gif) no-repeat 63% 2px;
+}
+
+div.diaryTitleFriend{
+background:url(images/title_friend003.gif) no-repeat 0 0;
+}
+
+div.diaryTitleFriend p a{
+background:url(images/mikukore001.gif) no-repeat 0 0;
+}
+
+
+/*---- DiaryMainArea ----*/
+div.diaryMainArea03,
+div.diaryMainArea04{
+border:1px solid #D0D0D1;
+border-top:none;
+}
+
+div.diaryMainArea04s{
+border-left:1px solid #D0D0D1;
+border-right:1px solid #D0D0D1;
+}
+
+div.diaryMainArea04 .necessaryItem,
+div.diaryMainArea04s .necessaryItem{
+color:#FF0000;
+}
+
+.diarymessageArea{
+border-bottom:1px solid #D0D0D1;
+}
+
+
+/*---- editBlock03:日記作成・編集 ----*/
+ul.editBlock03{
+background:#FFF url(images/bg_edit_list001.gif) -30px 0 repeat-y; 
+}
+
+ul.editBlock03 li{
+border-bottom:solid 1px #D0D0D1;
+}
+
+ul.editBlock03 li.bottomBlock{
+border-bottom:none;
+}
+
+ul.editBlock03 li dt,
+ul.editBlock03 li dd{
+border:none;
+}
+
+ul.editBlock03 li span{
+color:#666;
+}
+
+.txtEditArea{
+background:#FFF url(images/dotline_horizontal001.gif) repeat-x; 
+}
+
+.commuInfo{ 
+background:url(images/community_info_bg002.gif); 
+}
+
+.commuInfoDiary{
+border-top:1px solid #D0D0D1;
+color:#666 !important;
+}
+
+
+/*---- friendSlect:日記公開範囲 ----*/
+ul.friendSelect li dl dd a,
+ul.friendSelect li dl dd input{
+border:none;
+background:none;
+}
+
+dl.diaryViewLimit dd p.moreSelect a{
+background:url(images/add001.gif) no-repeat 0 0;
+}
+
+dl.diaryViewLimit select.disabledSelect{
+color:#CCC;
+}
+
+span.selectFriendNote{
+color:#F00 !important;
+}
+
+ul.friendSelect li span.limitTitle,
+ul.friendSelect li span.limitNomalText{
+color:#333;
+}
+
+
+/*---- 日記詳細 日記削除 ----*/
+ul#editBlock04{
+background:#FFF url(images/bg_edit001.gif) repeat-y; 
+border:none;
+}
+
+ul#editBlock04 li{
+border-bottom:solid 1px #D0D0D1;
+}
+
+ul#editBlock04 li.bottomBlock{
+border-bottom:none;
+}
+
+ul#editBlock04 li dt,
+ul#editBlock04 li dd{
+border:none;
+}
+
+ul#editBlock04 li dd span.notice{
+color:#F00;
+font-size:100%;
+}
+
+.txtconfirmArea{
+background:#FFF;
+}
+
+.deleteDiary .diaryBody blockquote,
+.txtconfirmArea blockquote{
+background:#F9F8F8;
+}
+
+div.insertMap span a,
+div.insertMap span a:visited{
+color:#258FB8;
+}
+
+.editEndBd{
+border-top:1px solid #D0D0D1;
+}
+
+.confirmTitle{
+background:#EDECEC;
+border-top:none;
+border-bottom:1px solid #D0D0D1;
+}
+
+.deleteDiary dd{
+color:#535353;
+}
+
+.deletediaryTitleTop{
+background:#EDECEC;
+border-top:none;
+border-bottom:1px solid #D0D0D1;
+}
+
+.deletediaryTitle dl{
+background:#EDECEC;
+border-top:1px solid #D0D0D1;
+border-bottom:1px solid #D0D0D1;
+}
+
+
+/*---- 日記詳細：デコメ ----*/
+.deleteDiary hr,
+.txtconfirmArea hr{
+border:1px solid;
+}
+
+
+/*---- list_diary:日記一覧 ----*/
+.messageArea02{
+border:1px solid #D0D0D1;
+border-top:none;
+}
+
+.alertArea02{
+background:url(images/community_info_bg002.gif); 
+}
+
+.listDiaryBlock{
+border:1px solid #D0D0D1;
+border-bottom:none;
+}
+
+.listDiaryBlockLast{
+border:1px solid #D0D0D1;
+}
+
+.listDiaryTitle{
+background:#EDECEC;
+border-bottom:1px solid #D0D0D1;
+}
+
+.listDiaryTitle dd{
+color:#535353;
+}
+
+.diaryEditMenu{
+background:url(images/border_dot_horizontal001.gif) repeat-x 0 0;
+}
+
+.diaryEditMenu span{
+color:#DEDEDE;
+}
+
+.listEndBd{
+border:1px solid #D0D0D1;
+}
+
+.pageList03{
+background:#FFF url(images/bg_page_list03.gif) repeat-x 0% 100%;
+}
+
+.pageList04{
+border-top:none;
+}
+
+.diaryTitleCell p.checkMobile{
+background:url(images/checkmobile_bg001.gif) no-repeat 6px 2px;
+}
+
+.diaryTitleCell p.checkMobile a{
+background:url(images/mobile001.gif) no-repeat 0 0;
+}
+
+
+/*---- viewdiary:日記詳細 ----*/
+.diaryPaging01 .diaryPagingRight{
+color:#dedede;
+}
+
+.viewDiaryBox{
+border:1px solid #D0D0D1;
+}
+
+
+/*---- actionLink01:イイネ！コメントボタン ----*/ 
+.viewDiaryBox .actionLink01{ 
+color:#999; 
+} 
+
+.viewDiaryBox .actionLink01 a.iine{ 
+background:url(images/like001.gif) no-repeat left top; 
+} 
+
+.viewDiaryBox .actionLink01 span.iine{ 
+background:url(images/like_done001.gif) no-repeat left top; 
+} 
+ 
+.viewDiaryBox .actionLink01 a.comment{ 
+background:url(images/voice_reply001.gif) no-repeat left top; 
+} 
+ 
+.viewDiaryBox .actionLink01 span.comment{ 
+background:url(images/reply_off001.gif) no-repeat left top; 
+} 
+
+
+/*---- iineList:イイネ！した人 ----*/ 
+.viewDiaryBox dl.iineList{ 
+background:url(images/border_dot_horizontal001.gif) repeat-x left top; 
+} 
+ 
+.viewDiaryBox dl.iineList dt { 
+background:url(images/like001.gif) no-repeat left top; 
+color:#666666; 
+}
+
+
+/*---- utilityWindow01 likeList:イイネ！一覧 ----*/ 
+div.utilityWindow01 div.pageArea{ 
+border:1px solid #D0D0D1; 
+border-top:none; 
+background:#FFF; 
+}
+
+
+/*---- diaryComment:コメント ----*/
+.commentListArea{
+border-right:1px solid #DEDEDE;
+border-left:1px solid #DEDEDE;
+}
+
+.commentListArea ul li{
+background:url(images/border_dot_horizontal001.gif) repeat-x 0 100%;
+}
+
+.commentListArea ul li.last{
+background:none;
+}
+
+.commentListArea ul li.fromPublicAccount{
+background-color:#FFEFEF;
+}
+
+.commentListArea dl.comment dt span.date{
+color:#666;
+}
+
+#diaryComment div.pageNavigation01.bottom{
+border-bottom:none;
+}
+
+#diaryComment div.pageNavigation01.bottom .pageList01{
+border-top:1px solid #D6D6D6;
+border-bottom:none;
+}
+
+#diaryComment div.pageNavigation01.bottom .pageList02{
+border-top:1px solid #D6D6D6;
+}
+
+#diaryComment div.deleteCheckedComment{
+border:1px solid #D6D6D6;
+border-bottom:none;
+}
+
+
+/*---- delete_comment:コメント削除確認 ----*/
+.delete_comment .confirm01,
+.delete_comment_friend .confirm01{
+border-bottom:1px solid #DEDEDE;
+}
+
+.delete_comment .commentListArea ul li,
+.delete_comment_friend .commentListArea ul li{
+background:none;
+border-bottom:1px solid #DEDEDE;
+}
+
+.delete_comment .formButtons01,
+.delete_comment_friend .formButtons01{
+border:1px solid #DEDEDE;
+border-top:none;
+}
+
+
+/*---- commentInputArea:コメントを書く ----*/
+.commentInputArea{
+border:1px solid #DEDEDE;
+}
+
+.commentInputArea dt{
+border-bottom:1px solid #DEDEDE;
+background:#F2EEE8;
+color:#333;
+}
+
+.commentInputArea span{
+color:#666;
+}
+
+.commentInputArea .formButtons01{
+border-top:1px solid #DEDEDE;
+}
+
+.commentInputError{
+border:1px solid #DEDEDE;
+background:url(images/community_info_bg002.gif);
+}
+
+.commentInputError dt{
+border-bottom:1px solid #DEDEDE;
+background:#F2EEE8;
+}
+
+.commentInputError dd{
+background:url(images/message_area002.gif) no-repeat 0 0;
+}
+
+
+/*---- BodyMainAreaSub:左カラム ----*/
+#bodyMainAreaSub .heading{
+background:url(images/diary_sub001.gif) no-repeat;
+}
+
+#bodyMainAreaSub .heading h3{
+color:#333;
+}
+
+#bodyMainAreaSub .contents{
+border:1px solid #D0D0D1;
+border-top:none;
+}
+
+
+/*---- diaryVolume:使用状況 ----*/
+#diaryVolume{
+background:url(images/volumeframe.gif) no-repeat;
+}
+
+#diaryVolume h3{
+color:#333;
+}
+
+#diaryVolume em{
+color:#DD0000;
+}
+
+
+/*---- listCommentArea:最近のコメント ----*/
+.listCommentArea img{
+border:none;
+}
+
+.listCommentArea .entryList01,
+.listCommentFriendArea .entryList01{
+border-top:none !important;
+}
+
+.listCommentArea .entryList01 dt,
+.listCommentFriendArea .entryList01 dt{
+background:url(images/comment002.gif) no-repeat 0 2px; 
+}
+
+
+/*---- newDiary:最近の日記 ----*/
+.contentsListDiary li{
+background:url(images/diary002.gif) 0 4px no-repeat;
+}
+
+
+/*---- SeeContentsList:最近のコメント ----*/
+.seeContentsList{
+background:url(images/link001.gif) 3px 5px no-repeat;
+}
+
+
+/*---- diaryHistory:過去の日記 ----*/
+.diaryHistory p,
+.diaryHistory dd{
+background:#FFF url(images/border_dot_horizontal001.gif) repeat-x 0 100%; 
+}
+
+.diaryHistory dd{
+color:#999;
+}
+
+.diaryHistory dd.last{
+border:none;
+background:none;
+}
+
+
+/*---- viewerFriendList:公開している友人一覧 ----*/
+.viewerFriendList{ 
+border-bottom:1px solid #D0D0D1; 
+background:url(images/viewer_friend_bg.gif) repeat-x;
+}
+
+.viewerFriendList p a{
+background: url(images/viewer_friend_list.gif) no-repeat;
+}
+
+.viewerFriendList p a:hover {
+background: url(images/viewer_friend_list_on.gif) no-repeat;
+}
+
+.groupMemberPop{
+border:1px solid #D0D0D1;
+background-color:#F9F8F8;
+}
+
+
+/*---- setting_list:過去日記の設定履歴 ----*/
+.setting_list div.pageNavigation01.top{ 
+border-top:1px solid #d6d6d6;
+}
+
+.setting_list div.archiveList{
+border:1px solid #D0D0D1; 
+border-bottom:none; 
+}
+
+.setting_list div.archiveList tr.odd{
+background:#FFF;
+}
+
+.setting_list div.archiveList tr.even{
+background:#F9F8F8;
+}
+
+.setting_list div.archiveList td{
+border-bottom:1px solid #D0D0D1;
+}
+
+.setting_list div.archiveList td.nickname{
+background-image:url(images/dotline_vertical001.gif); 
+background-repeat:repeat-y; 
+background-position:right;
+}
+
+
+/*---- keyword_ranking:キーワードランキング ----*/
+ol.rankingList{
+border:1px solid #D0D0D1;
+border-top:none;
+background-color:#F9F8F8;
+}
+
+ol.rankingList li.topRank div.heading{
+background:url(images/keywordRanking_best3.gif) no-repeat;
+}
+
+ol.rankingList li.topRank.rank1 div.heading{background-position:0 0;}
+ol.rankingList li.topRank.rank2 div.heading{background-position:0 50%;}
+ol.rankingList li.topRank.rank3 div.heading{background-position:0 100%;}
+
+ol.rankingList p.descripttion{
+border-bottom:1px solid #D0D0D1;
+background:url(images/bg_stripe001.gif) repeat 0% 0%;
+color:#666;
+}
+
+ol.rankingList ul.diaryList li{
+background:url(images/diary002.gif) no-repeat 0 0;
+}
+
+ol.rankingList p.moreLink01{
+background:transparent;
+}
+
+ol.rankingList div.topRankBottom{
+background:url(images/dotline_horizontal003.gif) repeat-x 0% 0%;
+color:#666;
+}
+
+ol.rankingList li input,
+div.rankingkBottom input{
+border:none;
+background:none;
+}
+
+ol.rankingList span.point{
+color:#666;
+}
+
+ol.rankingList li.topRank{
+background:url(images/topRank_bg.gif) no-repeat left bottom;
+}
+
+ol.rankingList li{
+background:url(images/keywordRanking_number.gif) no-repeat;
+}
+
+ol.rankingList li.rank4{background-position:15px 0; background-color:#fff;}
+ol.rankingList li.rank5{background-position:15px -28px;}
+ol.rankingList li.rank6{background-position:15px -56px; background-color:#fff;}
+ol.rankingList li.rank7{background-position:15px -84px;}
+ol.rankingList li.rank8{background-position:15px -112px; background-color:#fff;}
+ol.rankingList li.rank9{background-position:15px -140px;}
+ol.rankingList li.rank10{background-position:15px -168px; background-color:#fff;}
+ol.rankingList li.rank11{background-position:15px -196px;}
+ol.rankingList li.rank12{background-position:15px -224px; background-color:#fff;}
+ol.rankingList li.rank13{background-position:15px -252px;}
+ol.rankingList li.rank14{background-position:15px -280px; background-color:#fff;}
+ol.rankingList li.rank15{background-position:15px -308px;}
+ol.rankingList li.rank16{background-position:15px -336px; background-color:#fff;}
+ol.rankingList li.rank17{background-position:15px -364px;}
+ol.rankingList li.rank18{background-position:15px -392px; background-color:#fff;}
+ol.rankingList li.rank19{background-position:15px -420px;}
+ol.rankingList li.rank20{background-position:15px -448px; background-color:#fff;}
+ol.rankingList li.rank21{background-position:15px -476px;}
+ol.rankingList li.rank22{background-position:15px -504px; background-color:#fff;}
+ol.rankingList li.rank23{background-position:15px -532px;}
+ol.rankingList li.rank24{background-position:15px -560px; background-color:#fff;}
+ol.rankingList li.rank25{background-position:15px -588px;}
+ol.rankingList li.rank26{background-position:15px -616px; background-color:#fff;}
+ol.rankingList li.rank27{background-position:15px -644px;}
+ol.rankingList li.rank28{background-position:15px -672px; background-color:#fff;}
+ol.rankingList li.rank29{background-position:15px -700px;}
+ol.rankingList li.rank30{background-position:15px -728px; background-color:#fff;}
+
+div.rankingkBottom{
+border:1px solid #D0D0D1;
+border-top:none;
+color:#666;
+}

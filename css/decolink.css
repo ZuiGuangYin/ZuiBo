@@ -1,0 +1,307 @@
+@charset "EUC-JP";
+
+div.f_box{
+background:url(images/deco_top.gif) no-repeat top;
+padding:2px 0px 0px 0px;
+margin:1em auto;
+width:375px;
+font-size:10pt;
+color:#333333;
+text-align:left;
+word-wrap: break-word;
+}
+
+div.f_box p{
+margin-bottom:0;
+}
+
+p.f_title{
+background:url(images/deco_titlebg.gif) repeat-y;
+border-bottom:solid 1px #dadada;
+display:block;
+margin:0px;
+padding:3px 5px;
+zoom:1;
+}
+
+p.f_title:after{
+content:".";
+display:block;
+clear:both;
+height:0;
+visibility:hidden;
+}
+
+p.f_title span.f_headline{
+float:left;
+width:320px;
+height:23px;
+line-height:23px;
+}
+
+p.f_title a.f_help{
+display:block;
+float:right;
+width:15px;
+height:15px;
+padding:4px 2px 4px 0;
+}
+
+div.f_section{
+width:375px;
+background:url(images/deco_bg.gif) repeat-y;
+}
+
+div.f_area{
+background:url(images/deco_bottom.gif) no-repeat bottom;
+width:375px;
+padding-bottom:2px;
+}
+
+p.f_img{
+padding:5px 0px 5px 0px;
+margin:0px;
+float:left;
+width:85px;
+text-align:center;
+}
+
+p.f_img02{
+padding:5px 7px 5px 0px;
+margin:0px;
+float:left;
+width:60px;
+text-align:center;
+}
+
+p.f_img03{
+padding:5px 12px 5px 5px;
+margin:0px;
+float:left;
+width:100px;
+text-align:center;
+}
+
+
+div.f_right{
+margin-top:5px;
+float:left;
+width:285px;
+}
+
+div.f_right02{
+margin-top:5px;
+float:left;
+width:303px;
+}
+
+div.f_right03{
+margin-top:5px;
+float:left;
+width:253px;
+}
+
+p.text_info{
+padding:5px 6px;
+}
+
+p.f_text{
+padding:5px 0px;
+margin:0px;
+}
+
+p.f_text span.f_limited{
+margin-left:0.5em;
+color:#f00;
+font-weight:bold;
+}
+
+p.f_text_b{
+border-top:dashed 1px #c0c0c0;
+padding:5px 0px 3px 0px;
+margin:0px;
+}
+
+p.f_text_sp{
+padding:8px 0 0;
+text-align:right;
+}
+
+p.f_more{
+margin:3px 0px 0px 0px;
+padding-top:9px;
+text-align:right;
+border-top:dashed 1px #c0c0c0;
+}
+
+p.f_more img{
+margin:0px;
+padding:0px;
+vertical-align:middle;
+}
+
+.f_icon{float:right;
+margin:0px;
+}
+
+p.f_block img{
+margin-right:5px;
+}
+
+span.f_icon img{
+margin:0px 0px 0px 5px;
+}
+
+div.f_border{
+border-top:dashed 1px #c0c0c0;
+margin:0px;
+padding:4px 0px 0px 0px;
+}
+
+p.f_block{
+margin:0px;
+padding:2px 0px;
+text-align:left;
+}
+
+.arrow{
+vertical-align:middle;
+}
+
+
+
+/*----- GiftSong -----*/
+.contentClear{
+zoom:1;
+}
+
+.contentClear:after{
+content:".";
+display:block;
+clear:both;
+height:0;
+visibility:hidden;
+overflow:hidden;
+}
+
+div.giftSong div,
+div.giftSong h3,
+div.giftSong p,
+div.giftSong dl,
+div.giftSong dt,
+div.giftSong dd{
+margin:0;
+padding:0;
+}
+
+div.giftSong{
+width:460px;
+margin:0 auto;
+padding-bottom:5px;
+background:url(images/deco_bottom460.gif) no-repeat left bottom;
+}
+
+div.giftSong h3{
+text-indent:-9999px;
+height:31px;
+background:url(images/giftsong_heading.gif) no-repeat;
+}
+
+div.giftSong div.giftSongContents{
+border:1px solid #cccccc;
+border-bottom:none;
+padding:16px 14px 2px 17px;
+}
+
+div.giftSong div.image{
+width:160px;
+float:left;
+text-align:center;
+padding-bottom:10px;
+}
+
+div.giftSong div.image img{
+display:block;
+}
+
+div.giftSong div.detail{
+width:252px;
+float:right;
+padding-bottom:10px;
+overflow:hidden;
+word-break:break-all;
+text-align:left;
+}
+
+div.giftSong div.detail dl.songTitle{
+padding:1px 0 8px !important;
+background:url(images/dotline_horizontal002.gif) repeat-x left bottom;
+margin-bottom:7px !important;
+font-size:116%;
+font-weight:bold;
+}
+
+div.giftSong div.detail dl.category{
+padding:2px 0 5px 0 !important;
+background:url(images/dotline_horizontal002.gif) repeat-x left bottom;
+margin-bottom:7px !important;
+}
+
+div.giftSong div.detail dt{
+clear:left;
+float:left;
+width:65px !important;
+padding:0 !important;
+}
+
+div.giftSong div.detail dt img{
+vertical-align: text-bottom;
+}
+
+div.giftSong div.detail dd{
+float:right;
+width:180px !important;
+padding:0 !important;
+}
+
+div.giftSong div.detail p.notice{
+color:#FF0000;
+font-size:86%;
+line-height:1.3;
+clear:both;
+}
+
+div.giftSong div.detail p.listen{
+margin:15px 0 16px 48px;
+}
+
+div.giftSong div.detail div.extraLink{
+text-align:right;
+}
+
+div.giftSong div.detail div.extraLink p{
+display:inline;
+padding-left:10px;
+background:url(images/arrow002.gif) no-repeat 0 55%;
+}
+
+div.giftSong dl.guide{
+clear:both;
+padding-top:1px;
+background:url(images/dotline_horizontal002.gif) repeat-x left top;
+}
+
+div.giftSong dl.guide dt{
+float:left;
+width:78px !important;
+padding:14px 0 0 !important;
+}
+
+div.giftSong dl.guide dd{
+background:url(images/dotline_vertical002.gif) repeat-y left top;
+float:right;
+width:327px !important;
+padding:12px 0 3px 12px !important;
+}
+
+
