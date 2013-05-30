@@ -28,3 +28,8 @@ $front->registerPlugin(new AuthPlugin());
 $front->registerPlugin(new MetaPlugin());
 $front->setParam('noViewRenderer', TRUE);
 $front->dispatch();
+
+
+
+
+
