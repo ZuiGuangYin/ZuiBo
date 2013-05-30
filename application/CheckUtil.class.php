@@ -138,3 +138,4 @@ class CheckUtil {
 		$logger->log($str, Zend_Log::DEBUG);
 	}
 }
+
