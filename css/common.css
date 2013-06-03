@@ -1,6 +1,5 @@
 @charset "utf-8";
 
-/* CSS Document 20100824 001 */
 
 
 
@@ -1628,7 +1627,7 @@ margin-top:5px;
 }
 
 
-/*---- itemInfo:¥ì¥Ó¥å¡¼¾ðÊó ----*/
+/*---- itemInfo:ï¿½ï¿½ï¿½Ó¥å¡¼ï¿½ï¿½ï¿½ï¿½ ----*/
 ul.itemList01 li.listItem div.itemInfo{
 float:left;
 width:537px;
@@ -2191,7 +2190,7 @@ display:inline;
 }
 
 
-/*---- sponsorList:¸¡º÷Ï¢Æ° ----*/
+/*---- sponsorList:ï¿½ï¿½ï¿½ï¿½Ï¢Æ° ----*/
 div.sponsorList01{
 clear:both;
 margin-top:20px;
@@ -2266,7 +2265,7 @@ margin-top:0;
 }
 
 
-/*---- sponsorListSide:web¸¡º÷Ï¢Æ° ----*/
+/*---- sponsorListSide:webï¿½ï¿½ï¿½ï¿½Ï¢Æ° ----*/
 div#sponsorListSide{
 padding-left:10px;
 padding-top:115px;
@@ -2298,7 +2297,7 @@ margin-bottom:23px;
 }
 
 
-/*---- contentsMatchAd01:¥³¥ó¥Æ¥ó¥Ä¥Þ¥Ã¥Á ----*/
+/*---- contentsMatchAd01:ï¿½ï¿½ï¿½ï¿½ï¿½Æ¥ï¿½ï¿½Ä¥Þ¥Ã¥ï¿½ ----*/
 div.contentsMatchAd01{
 clear:both;
 margin-top:20px;
@@ -2387,7 +2386,7 @@ margin:0px auto;
 }
 
 
-/*---- bottomSpaceAd:Æüµ­¥Õ¥Ã¥¿¹­¹ð ----*/
+/*---- bottomSpaceAd:ï¿½ï¿½ï¿½ï¿½ï¿½Õ¥Ã¥ï¿½ï¿½ï¿½ï¿½ï¿½ ----*/
 .bottomSpaceAd{
 clear:both;
 padding-top:15px;
@@ -3181,14 +3180,14 @@ text-align:center;
 }
 
 
-/*---- reportLink01:ÄÌÊó ----*/
+/*---- reportLink01:ï¿½ï¿½ï¿½ï¿½ ----*/
 .reportLink01{
 padding:7px !important;
 text-align:right !important;
 }
 
 
-/*---- commentListArea:¥³¥á¥ó¥È°ìÍ÷ ----*/
+/*---- commentListArea:ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½È°ï¿½ï¿½ï¿½ ----*/
 div.commentListArea ul{
 padding:0 10px;
 }
@@ -3242,7 +3241,7 @@ word-wrap:break-word;
 }
 
 
-/*---- commentInputArea:¥³¥á¥ó¥È¤ò½ñ¤¯ ----*/
+/*---- commentInputArea:ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½È¤ï¿½ï¿½ï¿½ï¿½ï¿½ ----*/
 div.commentInputArea{
 height:1%;
 }
@@ -3350,7 +3349,7 @@ visibility:hidden;
 
 
 /* *****************************************************
- * ¥í¥°¥¤¥ó
+ * ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
  * ***************************************************** */
 	
 /*---- headerArea ----*/
@@ -3654,7 +3653,7 @@ visibility:hidden;
 
 
 /* *****************************************************
- * ¥í¥°¥¢¥¦¥È
+ * ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
  * ***************************************************** */
 
 /*---- headerArea ----*/
@@ -3736,7 +3735,7 @@ line-height:0; /*For Opera*/
 }
 
 /* *****************************************************
- * ¥í¥°¥¤¥ó
+ * ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
  * ***************************************************** */
 
 /*---- footerArea ----*/
@@ -3795,10 +3794,10 @@ padding-top:6px;
 
 
 /* *****************************************************
- * ¥í¥°¥¢¥¦¥È
+ * ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
  * ***************************************************** */
 
-/*---- body.loginForm footerArea/¥í¥°¥¤¥ó²èÌÌ ----*/
+/*---- body.loginForm footerArea/ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ----*/
 body.loginForm div#footerArea{
 padding-top:0;
 }
@@ -4197,7 +4196,7 @@ padding:4px 0 0 3px;
 }
 
 
-/*---- RelatedNews:´ØÏ¢¥Ë¥å¡¼¥¹ ----*/
+/*---- RelatedNews:ï¿½ï¿½Ï¢ï¿½Ë¥å¡¼ï¿½ï¿½ ----*/
 div#relatedNews ul{
 padding:5px 5px 1px 7px;
 }
@@ -4212,7 +4211,7 @@ padding:0 5px 5px;
 }
 
 
-/* ----- recommend:¥á¥ó¥Ð¡¼¤Î»²²Ã¥³¥ß¥å ----- */
+/* ----- recommend:ï¿½ï¿½ï¿½ï¿½ï¿½Ð¡ï¿½ï¿½Î»ï¿½ï¿½Ã¥ï¿½ï¿½ß¥ï¿½ ----- */
 div#recommend div.contents{
 padding:0;
 }
@@ -4259,13 +4258,13 @@ padding:0 5px 5px;
 }
 
 
-/* ----- OfficialMembers:¸øÇ§ ----- */
+/* ----- OfficialMembers:ï¿½ï¿½Ç§ ----- */
 div#officialMembers{
 padding:0;
 }
 
 
-/*---- sideRankingByMymixi:¥é¥ó¥­¥ó¥° ---- */
+/*---- sideRankingByMymixi:ï¿½ï¿½ï¿½ó¥­¥ï¿½ï¿½ï¿½ ---- */
 #sideRankingByMymixi .contents{
 padding:0;
 }
@@ -4342,7 +4341,7 @@ padding:5px 0;
 }
 
 
-/*---- userSchoolList:³Ø¹» ----*/
+/*---- userSchoolList:ï¿½Ø¹ï¿½ ----*/
 #userSchoolList div.contents{
 padding:5px 5px 5px 10px;
 }
@@ -4353,7 +4352,7 @@ padding-left:42px;
 }
 
 
-/*---- activityFeed:¥Õ¥£¡¼¥É ----*/
+/*---- activityFeed:ï¿½Õ¥ï¿½ï¿½ï¿½ï¿½ï¿½ ----*/
 #activityFeed .heading01 h2{
 width:214px;
 overflow:hidden;
@@ -4386,13 +4385,13 @@ padding:2px;
 }
 
 
-/*---- voice:¥Ü¥¤¥¹ÀßÄê ----*/
+/*---- voice:ï¿½Ü¥ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ----*/
 #bodySub #voice.bodySubSection{
 padding:0;
 }
 
 
-/*---- recommendSide:¤¢¤Ê¤¿¤ÎÍ§¿Í¤«¤â ----*/
+/*---- recommendSide:ï¿½ï¿½ï¿½Ê¤ï¿½ï¿½ï¿½Í§ï¿½Í¤ï¿½ï¿½ï¿½ ----*/
 #recommendSide .recommendMember{
 width:228px;
 padding:5px 0 6px;
@@ -4435,7 +4434,7 @@ padding:2px 0;
 }
 
 
-/*--- lPopularOne:¿Íµ¤¥¢¥×¥ê1·ï¾Ò²ð ---*/
+/*--- lPopularOne:ï¿½Íµï¿½ï¿½ï¿½ï¿½×¥ï¿½1ï¿½ï¿½ï¿½Ò²ï¿½ ---*/
 #mixiAppliArea .lPopularOne .appliOutline{
 margin:0 0 8px;
 padding:10px 0 15px;
@@ -4525,7 +4524,7 @@ padding-left:0.5em;
 font-size:83%;
 }
 
-/*--- lLatestOnes:¿·Ãå¥¢¥×¥êÎóµó ---*/
+/*--- lLatestOnes:ï¿½ï¿½ï¿½å¥¢ï¿½×¥ï¿½ï¿½ï¿½ï¿½ï¿½ ---*/
 #mixiAppliArea .lLatestOnes .contents ul{
 padding:10px 1px 8px;
 }
@@ -4534,7 +4533,7 @@ padding:10px 1px 8px;
 padding:0 0 0.4em;
 }
 
-/*--- ¿Íµ¤¥¢¥×¥ê¥é¥ó¥­¥ó¥° ---*/
+/*--- ï¿½Íµï¿½ï¿½ï¿½ï¿½×¥ï¿½ï¿½ï¿½ï¿½ó¥­¥ï¿½ï¿½ï¿½ ---*/
 #mixiAppliArea .lPopularityRanking .contents dl{
 padding:10px 0 8px;
 zoom:1;
@@ -4557,7 +4556,7 @@ _text-indent:-3px;
 }
 
 
-/*---- picupCommunity:ÃíÌÜ¤Î¥³¥ß¥å¥Ë¥Æ¥£ ----*/
+/*---- picupCommunity:ï¿½ï¿½ï¿½Ü¤Î¥ï¿½ï¿½ß¥ï¿½ï¿½Ë¥Æ¥ï¿½ ----*/
 #picupCommunity .contents ul{
 margin-bottom:7px;
 padding:10px 0 9px;
@@ -4586,7 +4585,7 @@ padding-top:15px;
 }
 
 
-/*---- picupReview:ÃíÌÜ¤Î¥ì¥Ó¥å¡¼ ----*/
+/*---- picupReview:ï¿½ï¿½ï¿½Ü¤Î¥ï¿½ï¿½Ó¥å¡¼ ----*/
 #picupReview .contents ul{
 margin-bottom:7px;
 padding-top:10px;
@@ -4648,7 +4647,7 @@ font-size:83%;
 }
 
 
-/*---- utilityWindow01:¥ì¥¤¥ä¡¼¡Ê300¡Ë ----*/
+/*---- utilityWindow01:ï¿½ì¥¤ï¿½ä¡¼ï¿½ï¿½300ï¿½ï¿½ ----*/
 /* used at message, school, show_log, appli, add_friend, simpleProfile, error, mylist, common_friend, photo */
 div.utilityWindow01{
 display: none;
@@ -4958,7 +4957,7 @@ text-align:right;
 }
 
 
-/*---- likeList:¥¤¥¤¥Í°ìÍ÷ ----*/
+/*---- likeList:ï¿½ï¿½ï¿½ï¿½ï¿½Í°ï¿½ï¿½ï¿½ ----*/
 div.utilityWindow01 ul.likeList{
 line-height:1.6;
 overflow:hidden;
@@ -4991,7 +4990,7 @@ text-align:right;
 
 
 
-/*---- utilityWindow02:¥ì¥¤¥ä¡¼¡Ê600¡Ë ----*/
+/*---- utilityWindow02:ï¿½ì¥¤ï¿½ä¡¼ï¿½ï¿½600ï¿½ï¿½ ----*/
 /* used at message, school, list_friend, invite, appli */
 div.utilityWindow02{
 clear:both;
@@ -5769,7 +5768,7 @@ text-align:left;
 }
 
 
-/*---- utilityWindow03:¥ì¥¤¥ä¡¼¡Ê682¡Ë ----*/
+/*---- utilityWindow03:ï¿½ì¥¤ï¿½ä¡¼ï¿½ï¿½682ï¿½ï¿½ ----*/
 /* used at photo voice */
 div.utilityWindow03{
 clear:both;
@@ -5919,7 +5918,7 @@ padding-bottom:10px;
 }
 
 
-/*---- editListPopup01:ÀßÄêÆþÎÏ·Ï ----*/
+/*---- editListPopup01:ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ï·ï¿½ ----*/
 .editListPopup01 ul.editContents {
 border-right:1px solid #FFC356;
 border-left:1px solid #FFC356;
